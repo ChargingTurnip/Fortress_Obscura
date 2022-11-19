@@ -1,0 +1,34 @@
+"LightmappedGeneric"
+{
+	"%tooltexture" "dev/tfwater_normal"
+	"%keywords" "tf"
+	"%compilewater" "1"
+	"%compileKeepLight" 1
+
+
+	"$basetexture" "water/water_hydro_base"
+	"$bumpmap" "water/dx80_tfwater001_normal"
+	"$normalmap" "water/dx80_tfwater001_normal"
+	"$surfaceprop" "water"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+//	"$envmapcontrast" ".5"
+
+	"$abovewater" "1"
+
+
+	"$bottommaterial" "water/water_well_beneath.vmt"
+//	"$normalmapalphaenvmapmask" "1"
+	"$bumpframe" "0"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}
+

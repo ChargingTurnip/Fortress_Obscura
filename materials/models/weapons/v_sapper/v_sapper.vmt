@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_sapper/v_sapper"
+
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "1.5"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"vm_invis"
+		{
+		}
+	}
+}

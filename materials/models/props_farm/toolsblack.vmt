@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Tools/toolsblack"
+	"%keywords" "tf"
+}

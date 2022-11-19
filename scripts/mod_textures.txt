@@ -1,0 +1,1465 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		"whiteAdditive"
+		{
+				"file"		"vgui/white_additive"
+				"x"		"0"
+				"y"		"0"
+				"width"		"1"
+				"height"	"1"
+		}
+
+		"plus_sign"
+		{
+				"font"		"Icons"
+				"character"	"+"
+		}
+		
+		"minus_sign"
+		{
+				"font"		"Icons"
+				"character"	"-"
+		}
+		
+		"dollar_sign"
+		{
+				"font"		"Icons"
+				"character"	"$"
+		}
+		
+		"health_icon"
+		{
+				"font"		"Icons"
+				"character"	"b"
+		}
+		
+		"timer_icon"
+		{
+				"font"		"Icons"
+				"character"	"e"
+		}
+		
+		"shield_kevlar_bright"
+		{
+				"font"		"Icons"
+				"character"	"l"
+		}
+		
+		"shield_kevlar"
+		{
+				"font"		"Icons"
+				"character"	"l"
+		}
+		
+		"shield_bright"
+		{
+				"font"		"Icons"
+				"character"	"a"
+		}
+		
+		"shield"
+		{
+				"font"		"Icons"
+				"character"	"a"
+		}
+		
+		"number_0"
+		{
+				"font"		"Icons"
+				"character"	"0"
+		}
+
+		"number_1"
+		{
+				"font"		"Icons"
+				"character"	"1"
+		}
+
+		"number_2"
+		{
+				"font"		"Icons"
+				"character"	"2"
+		}
+
+		"number_3"
+		{
+				"font"		"Icons"
+				"character"	"3"
+		}
+
+		"number_4"
+		{
+				"font"		"Icons"
+				"character"	"4"
+		}
+
+		"number_5"
+		{
+				"font"		"Icons"
+				"character"	"5"
+		}
+
+		"number_6"
+		{
+				"font"		"Icons"
+				"character"	"6"
+		}
+
+		"number_7"
+		{
+				"font"		"Icons"
+				"character"	"7"
+		}
+
+		"number_8"
+		{
+				"font"		"Icons"
+				"character"	"8"
+		}
+
+		"number_9"
+		{
+				"font"		"Icons"
+				"character"	"9"
+		}
+		
+		"ammo_45"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"182"
+				"y"		"0"
+				"width"		"26"
+				"height"	"24"
+		}
+		
+		"ammo_357"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"208"
+				"y"		"0"
+				"width"		"24"
+				"height"	"24"
+		}
+		
+		"ammo_c4"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"182"
+				"y"		"24"
+				"width"		"26"
+				"height"	"24"
+		}
+		
+		"ammo_57"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"208"
+				"y"		"24"
+				"width"		"24"
+				"height"	"24"
+		}
+		
+		"ammo_sg"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"232"
+				"y"		"24"
+				"width"		"24"
+				"height"	"24"
+		}
+		
+		"ammo_12g"
+		{
+				"font"		"TFTypeDeath"
+				"character"	"J"
+		}
+		
+		"ammo_50"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"182"
+				"y"		"48"
+				"width"		"26"
+				"height"	"26"
+		}
+		
+		"ammo_9mm"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"208"
+				"y"		"48"
+				"width"		"24"
+				"height"	"26"
+		}
+		
+		"ammo_762"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"232"
+				"y"		"48"
+				"width"		"24"
+				"height"	"26"
+		}
+		
+		"ammo_556"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"157"
+				"y"		"74"
+				"width"		"25"
+				"height"	"24"
+		}
+		
+		"ammo_338"
+		{
+				"file"		"sprites/640hud1"
+				"x"		"182"
+				"y"		"74"
+				"width"		"26"
+				"height"	"24"
+		}
+		
+		"item_healthkit"
+		{
+				"font"		"TFTypeDeath"
+				"character"	"F"
+		}
+
+		"item_armor"
+		{
+				"font"		"TFTypeDeath"
+				"character"	"E"
+		}
+
+		"item_grenadepack"
+		{
+				"font"		"TFTypeDeath"
+				"character"	"h"
+		}
+
+		"item_ammopack"
+		{
+				"font"		"TFTypeDeath"
+				"character"	"R"
+		}
+		"d_skull_tf"
+		{
+				"file"	"HUD/d_images"
+				"x"		"116"
+				"y"		"288"
+				"width"		"52"
+				"height"	"32"
+		}
+		"dneg_skull_tf"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"116"
+				"y"		"288"
+				"width"		"52"
+				"height"	"32"
+		}
+		"obj_attachment_sapper"
+		{
+				"file"		"sprites/bucket_sapper"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"	"128"
+		}
+		
+		"d_obj_sentrygun"
+		{
+				"file"	"HUD/d_images"
+				"x"		"96"
+				"y"		"160"
+				"width"		"64"
+				"height"	"32"
+		}
+		"dneg_obj_sentrygun"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"160"
+				"width"		"64"
+				"height"	"32"
+		}
+		"voice_self"
+		{
+			"file"		"voice/icntlk_local"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"voice_player"
+		{
+			"file"		"voice/icntlk_sv"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+
+		"d_bat"
+		{
+				"file"	"HUD/d_images"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_pistol"
+		{
+				"file"	"HUD/d_images"
+				"x"		"0"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_pistol_scout"
+		{
+				"file"	"HUD/d_images"
+				"x"		"0"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_nailgun"
+		{
+				"file"	"HUD/d_images"
+				"x"		"0"
+				"y"		"64"
+				"width"		"64"
+				"height"	"32"
+		}
+		"d_sniperrifle"
+		{
+				"file"	"HUD/d_images"
+				"x"		"16"
+				"y"		"96"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_smg"
+		{
+				"file"	"HUD/d_images"
+				"x"		"0"
+				"y"		"128"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_club"
+		{
+				"file"	"HUD/d_images"
+				"x"		"0"
+				"y"		"160"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_shovel"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"192"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_tf_projectile_rocket"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"224"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_shotgun_primary"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_shotgun_soldier"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_shotgun_hwg"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_shotgun_pyro"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_tf_projectile_pipe"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"288"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_bottle"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"320"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_syringegun_medic"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"352"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_minigun"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"384"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_pipe"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"448"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_flamethrower"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"416"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_fists"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"448"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_fireaxe"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"480"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_bonesaw"
+		{
+				"file"	"HUD/d_images"
+				"x"		"96"
+				"y"		"128"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_knife"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"96"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_revolver"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"96"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_wrench"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"96"
+				"y"		"96"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_scattergun"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"96"
+				"y"		"192"
+				"width"		"96"
+				"height"	"32"
+		}		
+		"d_tf_projectile_pipe_remote"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"96"
+				"y"		"224"
+				"width"		"96"
+				"height"	"32"
+		}		
+		"d_vehicle"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"96"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_skull"
+		{
+				"file"	"HUD/d_images"
+				"x"		"96"
+				"y"		"288"
+				"width"		"96"
+				"height"	"32"
+		}
+		"d_headshot"
+		{
+				"file"	"HUD/d_images"
+				"x"		"120"
+				"y"		"352"
+				"width"		"42"
+				"height"	"32"
+		}
+		"d_backstab"
+		{
+				"file"	"HUD/d_images"
+				"x"		"116"
+				"y"		"384"
+				"width"		"48"
+				"height"	"32"
+		}
+		"d_bluedefend"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"194"
+				"y"		"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_bluecapture"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"194"
+				"y"		"32"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_reddefend"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"226"
+				"y"		"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_redcapture"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"226"
+				"y"		"32"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_obj_attachment_sapper"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"0"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
+// ***********************************************************negative
+		"dneg_bat"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_pistol"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_pistol_scout"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_nailgun"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"64"
+				"width"		"64"
+				"height"	"32"
+		}
+		"dneg_sniperrifle"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"16"
+				"y"		"96"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_smg"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"128"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_club"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"160"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_shovel"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"192"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_tf_projectile_rocket"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"224"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_shotgun_primary"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_shotgun_soldier"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_shotgun_hwg"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_shotgun_pyro"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_tf_projectile_pipe"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"288"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_bottle"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"320"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_syringegun_medic"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"352"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_minigun"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"384"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_pipe"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"448"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_flamethrower"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"416"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_fists"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"448"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_fireaxe"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"480"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_bonesaw"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"128"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_knife"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_revolver"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_wrench"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"96"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_scattergun"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"192"
+				"width"		"96"
+				"height"	"32"
+		}		
+		"dneg_tf_projectile_pipe_remote"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"224"
+				"width"		"96"
+				"height"	"32"
+		}		
+		"dneg_vehicle"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_skull"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"288"
+				"width"		"96"
+				"height"	"32"
+		}
+		"dneg_headshot"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"120"
+				"y"		"352"
+				"width"		"42"
+				"height"	"32"
+		}
+		"dneg_backstab"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"116"
+				"y"		"384"
+				"width"		"48"
+				"height"	"32"
+		}
+		"dneg_bluedefend"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"194"
+				"y"		"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_bluecapture"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"194"
+				"y"		"32"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_reddefend"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"226"
+				"y"		"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_redcapture"
+		{
+				"file"	"HUD/dneg_images"
+				"x"		"226"
+				"y"		"32"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_obj_attachment_sapper"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"0"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
+// *************************************************************endnegative
+		"obj_status_sentrygun_1"
+		{
+			"file"	"HUD/hud_obj_status_sentry_1"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"obj_status_sentrygun_2"
+		{
+			"file"	"HUD/hud_obj_status_sentry_2"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"obj_status_sentrygun_3"
+		{
+			"file"	"HUD/hud_obj_status_sentry_3"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"obj_status_dispenser"
+		{
+			"file"	"HUD/hud_obj_status_dispenser"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"obj_status_tele_entrance"
+		{
+			"file"	"HUD/hud_obj_status_tele_entrance"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"obj_status_tele_exit"
+		{
+			"file"	"HUD/hud_obj_status_tele_exit"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"obj_status_sapper"
+		{
+			"file"	"HUD/hud_obj_status_sapper"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		"cappoint_progressbar_teardrop"
+		{
+			"file"		"vgui/progress_bar_pointer"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"155"
+		}
+
+		"cappoint_progressbar_teardrop_left"
+		{
+			"file"		"vgui/progress_bar_pointer_left"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"cappoint_progressbar_teardrop_right"
+		{
+			"file"		"vgui/progress_bar_pointer_right"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+				
+		"obj_status_background_blue"
+		{
+			"file"		"HUD/eng_status_area_tele_blue"
+			"x"			"0"
+			"y"			"0"
+			"width"		"243"
+			"height"	"64"
+		}
+
+		"obj_status_background_red"
+		{
+			"file"		"HUD/eng_status_area_tele_red"
+			"x"			"0"
+			"y"			"0"
+			"width"		"243"
+			"height"	"64"
+		}
+		
+		"obj_status_background_disabled"
+		{
+			"file"		"HUD/eng_status_area_tele_disabled"
+			"x"			"0"
+			"y"			"0"
+			"width"		"243"
+			"height"	"64"
+		}
+
+		"obj_status_background_tall_blue"	
+		{
+			"file"		"HUD/eng_status_area_sentry_blue"
+			"x"		"0"
+			"y"		"0"
+			"width"		"243"
+			"height"	"110"
+		}
+
+		"obj_status_background_tall_red"	
+		{
+			"file"		"HUD/eng_status_area_sentry_red"
+			"x"		"0"
+			"y"		"0"
+			"width"		"243"
+			"height"	"110"
+		}
+		
+		"obj_status_background_tall_disabled"
+		{
+			"file"		"HUD/eng_status_area_sentry_disabled"
+			"x"			"0"
+			"y"			"0"
+			"width"		"243"
+			"height"	"110"
+		}
+		
+		"cappoint_progressbar_blocked"
+		{
+			"file"		"vgui/progress_bar_noCap"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"crosshair_default"
+		{
+			"file"  "sprites/crosshairs"
+			"x"   "32"
+			"y"   "0"
+			"width"  "32"
+			"height" "32"
+		}	
+
+		"obj_status_alert_background"
+		{
+			"file"		"HUD/eng_status_area_tele_alrt"
+			"x"			"0"
+			"y"			"0"
+			"width"		"80"
+			"height"	"64"
+		}
+		
+		"obj_status_alert_background_tall"
+		{
+			"file"		"HUD/eng_status_area_sentry_alrt"
+			"x"			"0"
+			"y"			"0"
+			"width"		"80"
+			"height"	"110"
+		}
+		
+		"obj_status_icon_wrench"
+		{
+			"file"		"HUD/eng_status_alert_ico_wrench"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+			
+		"obj_status_icon_sapper"
+		{
+			"file"		"HUD/hud_obj_status_sapper"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		"progress_bar_blu"
+		{
+			"file"		"vgui/progress_bar_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}				
+		"progress_bar_red"
+		{
+			"file"		"vgui/progress_bar_red"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}				
+
+		"dispenser_meter_bg_blue"
+		{
+			"file"		"vgui/dispenser_meter_bg_blue"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		
+		"dispenser_meter_bg_red"
+		{
+			"file"		"vgui/dispenser_meter_bg_red"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+
+		"leaderboard_dominated"
+		{
+			"file"		"hud/leaderboard_dominated"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}	
+		
+		"hud_menu_bg"
+		{
+			"file"		"hud/eng_build_bg"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"13"
+		}
+		
+		"hud_menu_item_bg"
+		{
+			"file"		"hud/eng_build_item"	
+			"x"		"1"
+			"y"		"1"
+			"width"		"14"
+			"height"	"15"
+		}
+		
+		"hud_menu_item_bg_outline"
+		{
+			"file"		"hud/eng_sel_item_active"	
+			"x"		"1"
+			"y"		"1"
+			"width"		"14"
+			"height"	"15"
+		}
+		"hud_menu_item_bg_active"
+		{
+			"file"		"hud/eng_sel_item_active"	
+			"x"		"1"
+			"y"		"1"
+			"width"		"14"
+			"height"	"15"
+		}
+		"hud_menu_scout_red"
+		{
+			"file"		"vgui/class_sel_sm_scout_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_soldier_red"
+		{
+			"file"		"vgui/class_sel_sm_soldier_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_pyro_red"
+		{
+			"file"		"vgui/class_sel_sm_pyro_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_demoman_red"
+		{
+			"file"		"vgui/class_sel_sm_demo_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_heavy_red"
+		{
+			"file"		"vgui/class_sel_sm_heavy_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_engineer_red"
+		{
+			"file"		"vgui/class_sel_sm_engineer_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_medic_red"
+		{
+			"file"		"vgui/class_sel_sm_medic_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_sniper_red"
+		{
+			"file"		"vgui/class_sel_sm_sniper_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_spy_red"
+		{
+			"file"		"vgui/class_sel_sm_spy_red"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}	
+				
+		"hud_menu_scout_blu"
+		{
+			"file"		"vgui/class_sel_sm_scout_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_soldier_blu"
+		{
+			"file"		"vgui/class_sel_sm_soldier_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_pyro_blu"
+		{
+			"file"		"vgui/class_sel_sm_pyro_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_demoman_blu"
+		{
+			"file"		"vgui/class_sel_sm_demo_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_heavy_blu"
+		{
+			"file"		"vgui/class_sel_sm_heavy_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_engineer_blu"
+		{
+			"file"		"vgui/class_sel_sm_engineer_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_medic_blu"
+		{
+			"file"		"vgui/class_sel_sm_medic_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_sniper_blu"
+		{
+			"file"		"vgui/class_sel_sm_sniper_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}
+		
+		"hud_menu_spy_blu"
+		{
+			"file"		"vgui/class_sel_sm_spy_blu"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height" "256"
+		}				
+		
+		"hud_menu_sentry_build"
+		{
+			"file"		"hud/eng_build_sentry_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"hud_menu_dispenser_build"
+		{
+			"file"		"hud/eng_build_dispenser_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"hud_menu_tele_entrance_build"
+		{
+			"file"		"hud/eng_build_tele_entrance_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"hud_menu_tele_exit_build"
+		{
+			"file"		"hud/eng_build_tele_exit_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"ico_metal"
+		{	
+			"file"		"hud/ico_metal_mask"
+			"x"		"0"
+			"y"		"0"
+			"width"	"128"
+			"height"	"128"
+		}
+		
+		"ico_demolish"
+		{
+			"file"		"hud/ico_demolish"
+			"x"		"0"
+			"y"		"0"
+			"width"	"256"
+			"height"	"256"
+		}
+		
+		"ico_build"
+		{
+			"file"		"hud/ico_build"
+			"x"		"0"
+			"y"		"0"
+			"width"	"256"
+			"height"	"256"
+		}
+		
+		"ico_key_blank"
+		{
+			"file"		"hud/ico_key_blank"
+			"x"		"0"
+			"y"		"0"
+			"width"	"64"
+			"height"	"64"
+		}
+		
+		"ico_notify_sixty_seconds"
+		{
+			"file"		"hud/ico_time_60"
+			"x"		"0"
+			"y"		"0"
+			"width"	"64"
+			"height"	"64"
+		}
+		
+		"ico_notify_thirty_seconds"
+		{
+			"file"		"hud/ico_time_30"
+			"x"		"0"
+			"y"		"0"
+			"width"	"64"
+			"height"	"64"
+		}
+		
+		"ico_notify_ten_seconds"
+		{
+			"file"		"hud/ico_time_10"
+			"x"		"0"
+			"y"		"0"
+			"width"	"64"
+			"height"	"64"
+		}
+		
+		"ico_notify_team_switch"
+		{
+			"file"		"hud/ico_teamswitch"
+			"x"		"0"
+			"y"		"0"
+			"width"	"64"
+			"height"	"64"
+		}
+		
+		"ico_notify_flag_dropped"
+		{
+			"file"		"hud/objectives_flagpanel_ico_flag_dropped"
+			"x"		"0"
+			"y"		"0"
+			"width"	"256"
+			"height"	"256"
+		}
+		
+		"ico_notify_flag_home"
+		{
+			"file"		"hud/objectives_flagpanel_ico_flag_home"
+			"x"		"0"
+			"y"		"0"
+			"width"	"256"
+			"height"	"256"
+		}
+		
+		"ico_notify_flag_moving"
+		{
+			"file"		"hud/objectives_flagpanel_ico_flag_moving"
+			"x"		"0"
+			"y"		"0"
+			"width"	"256"
+			"height"	"256"
+		}
+		
+		"ico_notify_on_fire"
+		{
+			"file"		"hud/ico_fire"
+			"x"		"0"
+			"y"		"0"
+			"width"	"64"
+			"height"	"64"
+		}
+	}	
+}

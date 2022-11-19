@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/red/carpettestlogo"
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$decal" 1
+	"%keywords" "tf"
+}

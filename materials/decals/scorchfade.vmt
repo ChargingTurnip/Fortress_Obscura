@@ -1,0 +1,9 @@
+"DecalModulate"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/scorch1"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$decalfadeduration" 10.00
+	"$decalfadetime" 0.00
+}

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\w_syringegun\w_syringegun_glass"
+	"$translucent" "1"
+	"$additive" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+	}
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/vgui/filmscreen_base"
+	"$model" "1"
+//	"$translucent" "1"
+}

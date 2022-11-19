@@ -1,0 +1,56 @@
+"Water"
+{
+	"%keywords" "tf"
+	"$forceexpensive" 1
+
+	"$abovewater" 0
+	"%compilewater" 1
+	"$CHEAPWATERSTARTDISTANCE" 500.0
+	"$CHEAPWATERENDDISTANCE" 1000.0
+	// bottom materials shouldn't use $envmap!!!  They won't work if they do.
+
+	"%tooltexture" "dev/water_normal"
+	"$refractamount" "0.6"
+	"$refracttint" "{184 191 208}"
+
+	"$refracttexture" "_rt_WaterRefraction"
+
+
+	"$scale" "[1 1]"
+
+	"$blurrefract" "1"
+	"$bumpmap" "water/dx80_tfwater001_dudv"
+	"$normalmap" "water/dx80_tfwater001_normal"
+
+//	 $underwateroverlay "effects/water_warp_well"
+	"$surfaceprop" "water"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+//	"$fogcolor" "{0 0 0}"
+	"$fogcolor" "{24 38 53}"
+	"$fogstart" -350
+	"$fogend" 1550.00
+
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+
+		"WaterLOD"
+		{
+		}
+	}
+}

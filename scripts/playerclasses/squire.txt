@@ -1,0 +1,46 @@
+//
+// Team Fortress -  Squire Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"squire"
+	"model"			"models/player/squire.mdl"
+	"model_hwm"		"models/player/squire.mdl"
+	"localize_name"		"TF_Class_Name_Squire"
+	"speed_max"		"320"
+	"health_max"		"200"
+	"armor_max"		"0"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_NONE"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_SHOTGUN_PRIMARY"
+	"weapon2"		""
+	"weapon3"		"TF_WEAPON_CLUB"
+	
+	"DontDoAirwalk"	"0"
+	"DontDoNewJump"	"0"
+
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"96"
+		"tf_ammo_secondary"	"96"
+		"tf_ammo_metal"		"100"
+		"tf_ammo_grenades1"	"3"
+		"tf_ammo_grenades2"	"0"
+	}	
+
+	// Death Sounds
+	"sound_death"				"squire_painsharp01"
+	"sound_crit_death"			"squire_painsharp01"
+	"sound_melee_death"			"squire_painsharp01"
+	"sound_explosion_death"			"squire_painsharp01"	
+}

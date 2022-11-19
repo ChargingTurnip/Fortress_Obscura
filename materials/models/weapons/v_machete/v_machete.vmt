@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_machete\v_machete"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.35 .35 .35]"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "10"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "1"
+
+}

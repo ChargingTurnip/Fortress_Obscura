@@ -1,0 +1,824 @@
+//--------------------------------------------------------------------------------------------------------------
+// Automaton Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Criterion "AutomatonIsNotStillonFire" "AutomatonOnFire" "!=1" "required" weight 0
+Criterion "AutomatonIsStillonFire" "AutomatonOnFire" "1" "required" weight 0
+Criterion "AutomatonNotKillSpeech" "AutomatonKillSpeech" "!=1" "required" weight 0
+Criterion "AutomatonNotKillSpeechMelee" "AutomatonKillSpeechMelee" "!=1" "required" weight 0
+Criterion "AutomatonNotSaidHealThanks" "AutomatonSaidHealThanks" "!=1" "required"
+Criterion "IsHelpCapAutomaton" "AutomatonHelpCap" "1" "required" weight 0
+
+
+Response PlayerCloakedSpyDemomanAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify05.vcd" 
+}
+Rule PlayerCloakedSpyDemomanAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnDemoman
+	Response PlayerCloakedSpyDemomanAutomaton
+}
+
+Response PlayerCloakedSpyAutomatonAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify08.vcd" 
+}
+Rule PlayerCloakedSpyAutomatonAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnAutomaton
+	Response PlayerCloakedSpyAutomatonAutomaton
+}
+
+Response PlayerCloakedSpyHeavyAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify03.vcd" 
+}
+Rule PlayerCloakedSpyHeavyAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnHeavy
+	Response PlayerCloakedSpyHeavyAutomaton
+}
+
+Response PlayerCloakedSpyMedicAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify07.vcd" 
+}
+Rule PlayerCloakedSpyMedicAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnMedic
+	Response PlayerCloakedSpyMedicAutomaton
+}
+
+Response PlayerCloakedSpyPyroAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify04.vcd" 
+}
+Rule PlayerCloakedSpyPyroAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnPyro
+	Response PlayerCloakedSpyPyroAutomaton
+}
+
+Response PlayerCloakedSpySniperAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify09.vcd" 
+}
+Rule PlayerCloakedSpySniperAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnSniper
+	Response PlayerCloakedSpySniperAutomaton
+}
+
+Response PlayerCloakedSpySoldierAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify02.vcd" 
+}
+Rule PlayerCloakedSpySoldierAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnSoldier
+	Response PlayerCloakedSpySoldierAutomaton
+}
+
+Response PlayerCloakedSpySpyAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify06.vcd" 
+	scene "scenes/Player/Automaton/low/CloakedSpyIdentify10.vcd" 
+}
+Rule PlayerCloakedSpySpyAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton IsOnSpy
+	Response PlayerCloakedSpySpyAutomaton
+}
+
+Response PlayerDispenserDownAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoDestroyedDispenser01.vcd" 
+}
+Rule PlayerDispenserDownAutomaton
+{
+	criteria ConceptLostObject IsDispenser IsAutomaton
+	Response PlayerDispenserDownAutomaton
+}
+
+Response PlayerSentryDownAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoDestroyedSentry01.vcd" 
+}
+Rule PlayerSentryDownAutomaton
+{
+	criteria ConceptLostObject IsSentryGun IsAutomaton
+	Response PlayerSentryDownAutomaton
+}
+
+Response PlayerTeleporterDownAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoDestroyedTeleporter01.vcd" 
+}
+Rule PlayerTeleporterDownAutomaton
+{
+	criteria ConceptLostObject IsTeleporterEntrance IsAutomaton
+	Response PlayerTeleporterDownAutomaton
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksAutomaton
+{
+	scene "scenes/Player/Automaton/low/ThanksForTheHeal01.vcd" 
+	scene "scenes/Player/Automaton/low/ThanksForTheHeal02.vcd" 
+}
+Rule HealThanksAutomaton
+{
+	criteria ConceptMedicChargeStopped IsAutomaton SuperHighHealthContext AutomatonNotSaidHealThanks 50PercentChance
+	ApplyContext "AutomatonSaidHealThanks:1:20"
+	Response HealThanksAutomaton
+}
+
+Response PlayerRoundStartAutomaton
+{
+	scene "scenes/Player/Automaton/low/BattleCry01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Automaton/low/BattleCry03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Automaton/low/BattleCry04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Automaton/low/BattleCry05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Automaton/low/BattleCry06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Automaton/low/BattleCry07.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartAutomaton
+{
+	criteria ConceptPlayerRoundStart IsAutomaton
+	Response PlayerRoundStartAutomaton
+}
+
+Response PlayerCappedIntelligenceAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoCappedIntelligence01.vcd" 
+	scene "scenes/Player/Automaton/low/AutoCappedIntelligence02.vcd" 
+	scene "scenes/Player/Automaton/low/AutoCappedIntelligence03.vcd" 
+}
+Rule PlayerCappedIntelligenceAutomaton
+{
+	criteria ConceptPlayerCapturedIntelligence IsAutomaton
+	Response PlayerCappedIntelligenceAutomaton
+}
+
+Response PlayerCapturedPointAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoCappedControlPoint01.vcd" 
+	scene "scenes/Player/Automaton/low/AutoCappedControlPoint02.vcd" 
+	scene "scenes/Player/Automaton/low/AutoCappedControlPoint03.vcd" 
+}
+Rule PlayerCapturedPointAutomaton
+{
+	criteria ConceptPlayerCapturedPoint IsAutomaton
+	Response PlayerCapturedPointAutomaton
+}
+
+Response PlayerSuddenDeathAutomaton
+{
+	scene "scenes/Player/Automaton/low/Jeers01.vcd" 
+	scene "scenes/Player/Automaton/low/Jeers02.vcd" 
+	scene "scenes/Player/Automaton/low/Jeers03.vcd" 
+	scene "scenes/Player/Automaton/low/Jeers04.vcd" 
+}
+Rule PlayerSuddenDeathAutomaton
+{
+	criteria ConceptPlayerSuddenDeathStart IsAutomaton
+	Response PlayerSuddenDeathAutomaton
+}
+
+Response PlayerStalemateAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoDejectedTie01.vcd" 
+	scene "scenes/Player/Automaton/low/AutoDejectedTie02.vcd" 
+	scene "scenes/Player/Automaton/low/AutoDejectedTie03.vcd" 
+}
+Rule PlayerStalemateAutomaton
+{
+	criteria ConceptPlayerStalemate IsAutomaton
+	Response PlayerStalemateAutomaton
+}
+
+Response PlayerTeleporterThanksAutomaton
+{
+	scene "scenes/Player/Automaton/low/ThanksForTheTeleporter01.vcd" 
+	scene "scenes/Player/Automaton/low/ThanksForTheTeleporter02.vcd" 
+}
+Rule PlayerTeleporterThanksAutomaton
+{
+	criteria ConceptTeleported IsNotAutomaton IsAutomaton 30PercentChance
+	Response PlayerTeleporterThanksAutomaton
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response KillTauntsAutomatonSpecial
+{
+	scene "scenes/Player/Automaton/low/SpecialCompleted02.vcd" 
+	scene "scenes/Player/Automaton/low/SpecialCompleted06.vcd" 
+	scene "scenes/Player/Automaton/low/SpecialCompleted08.vcd" 
+	scene "scenes/Player/Automaton/low/SpecialCompleted09.vcd" 
+}
+Rule KillTauntsAutomatonSpecial
+{
+	criteria ConceptKilledPlayer IsManyRecentKills WeaponIsSentrygun KilledPlayerDelay AutomatonNotKillSpeech IsAutomaton 30PercentChance
+	ApplyContext "AutomatonKillSpeech:1:10"
+	applycontexttoworld
+	Response KillTauntsAutomatonSpecial
+}
+
+Response KilledPlayerManyAutomaton
+{
+	scene "scenes/Player/Automaton/low/SpecialCompleted05.vcd" 
+	scene "scenes/Player/Automaton/low/SpecialCompleted10.vcd" 
+	scene "scenes/Player/Automaton/low/SpecialCompleted11.vcd" 
+}
+Rule KilledPlayerManyAutomaton
+{
+	criteria ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponPrimary KilledPlayerDelay AutomatonNotKillSpeech IsAutomaton
+	ApplyContext "AutomatonKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerManyAutomaton
+}
+
+Response KilledPlayerMeleeAutomatonAutomaton
+{
+	scene "scenes/Player/Automaton/low/SpecialCompleted07.vcd" 
+}
+Rule KilledPlayerMeleeAutomatonAutomaton
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee AutomatonNotKillSpeechMelee IsAutomaton WeaponIsNotSentrygun
+	ApplyContext "AutomatonKillSpeechMelee:1:10"
+	applycontexttoworld
+	Response KilledPlayerMeleeAutomatonAutomaton
+}
+
+Response KilledPlayerVeryManyAutomaton
+{
+	scene "scenes/Player/Automaton/low/SpecialCompleted01.vcd" 
+}
+Rule KilledPlayerVeryManyAutomaton
+{
+	criteria ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance IsWeaponPrimary KilledPlayerDelay AutomatonNotKillSpeech IsAutomaton
+	ApplyContext "AutomatonKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerVeryManyAutomaton
+}
+
+Response PlayerKilledCapperAutomaton
+{
+	scene "scenes/Player/Automaton/low/BattleCry06.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers02.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers03.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers04.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers05.vcd" 
+}
+Rule PlayerKilledCapperAutomaton
+{
+	criteria ConceptCapBlocked IsAutomaton
+	ApplyContext "AutomatonKillSpeech:1:10"
+	Response PlayerKilledCapperAutomaton
+}
+
+Response PlayerKilledDominatingAutomaton
+{
+	scene "scenes/Player/Automaton/low/Cheers01.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/Cheers06.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/Jeers04.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughEvil01.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughEvil02.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughEvil05.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughEvil06.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughHappy01.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughHappy02.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughHappy03.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/LaughLong01.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/SpecialCompleted03.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/Taunts02.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/Taunts04.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingAutomaton
+{
+	criteria ConceptKilledPlayer IsAutomaton IsDominated
+	ApplyContext "AutomatonKillSpeech:1:10"
+	Response PlayerKilledDominatingAutomaton
+}
+
+Response PlayerKilledForRevengeAutomaton
+{
+	scene "scenes/Player/Automaton/low/BattleCry07.vcd" predelay "2.5"
+	scene "scenes/Player/Automaton/low/Cheers07.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeAutomaton
+{
+	criteria ConceptKilledPlayer IsAutomaton IsRevenge
+	ApplyContext "AutomatonKillSpeech:1:10"
+	Response PlayerKilledForRevengeAutomaton
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Automaton
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBuildingDispenserAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoBuildingDispenser01.vcd" 
+	scene "scenes/Player/Automaton/low/AutoBuildingDispenser02.vcd" 
+}
+Rule PlayerBuildingDispenserAutomaton
+{
+	criteria ConceptPlayerBuildingObject IsDispenser IsAutomaton
+	Response PlayerBuildingDispenserAutomaton
+}
+
+Response PlayerBuildingSentryAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoBuildingSentry01.vcd" 
+	scene "scenes/Player/Automaton/low/AutoBuildingSentry02.vcd" 
+}
+Rule PlayerBuildingSentryAutomaton
+{
+	criteria ConceptPlayerBuildingObject IsSentryGun IsAutomaton
+	Response PlayerBuildingSentryAutomaton
+}
+
+Response PlayerBuildingTeleporterAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoBuildingTeleporter01.vcd" 
+	scene "scenes/Player/Automaton/low/AutoBuildingTeleporter02.vcd" 
+}
+Rule PlayerBuildingTeleporterAutomaton
+{
+	criteria ConceptPlayerBuildingObject IsTeleporterEntrance IsAutomaton
+	Response PlayerBuildingTeleporterAutomaton
+}
+
+Response PlayerDispenserSappedAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoAttackedBySpy02.vcd" 
+}
+Rule PlayerDispenserSappedAutomaton
+{
+	criteria ConceptSpySapping IsAutomaton IsDispenser
+	Response PlayerDispenserSappedAutomaton
+}
+
+Response PlayerSentrySappedAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoAttackedBySpy03.vcd" 
+}
+Rule PlayerSentrySappedAutomaton
+{
+	criteria ConceptSpySapping IsAutomaton IsSentryGun
+	Response PlayerSentrySappedAutomaton
+}
+
+Response PlayerTeleporterEntranceSappedAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoAttackedBySpy01.vcd" 
+}
+Rule PlayerTeleporterEntranceSappedAutomaton
+{
+	criteria ConceptSpySapping IsAutomaton IsTeleporterEntrance
+	Response PlayerTeleporterEntranceSappedAutomaton
+}
+
+Response PlayerTeleporterExitSappedAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoAttackedBySpy01.vcd" 
+}
+Rule PlayerTeleporterExitSappedAutomaton
+{
+	criteria ConceptSpySapping IsAutomaton IsTeleporterExit
+	Response PlayerTeleporterExitSappedAutomaton
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainAutomaton
+{
+	scene "scenes/Player/Automaton/low/PainSevere01.vcd" 
+	scene "scenes/Player/Automaton/low/PainSevere02.vcd" 
+	scene "scenes/Player/Automaton/low/PainSevere03.vcd" 
+	scene "scenes/Player/Automaton/low/PainSevere04.vcd" 
+	scene "scenes/Player/Automaton/low/PainSevere05.vcd" 
+	scene "scenes/Player/Automaton/low/PainSevere06.vcd" 
+	scene "scenes/Player/Automaton/low/PainSevere07.vcd" 
+}
+Rule PlayerAttackerPainAutomaton
+{
+	criteria ConceptAttackerPain IsAutomaton
+	Response PlayerAttackerPainAutomaton
+}
+
+Response PlayerOnFireAutomaton
+{
+	scene "scenes/Player/Automaton/low/AutoOnFire01.vcd" 
+	scene "scenes/Player/Automaton/low/AutoOnFire02.vcd" 
+	scene "scenes/Player/Automaton/low/AutoOnFire03.vcd" 
+}
+Rule PlayerOnFireAutomaton
+{
+	criteria ConceptFire IsAutomaton AutomatonIsNotStillonFire
+	ApplyContext "AutomatonOnFire:1:7"
+	Response PlayerOnFireAutomaton
+}
+
+Response PlayerPainAutomaton
+{
+	scene "scenes/Player/Automaton/low/PainSharp01.vcd" 
+	scene "scenes/Player/Automaton/low/PainSharp02.vcd" 
+	scene "scenes/Player/Automaton/low/PainSharp03.vcd" 
+	scene "scenes/Player/Automaton/low/PainSharp04.vcd" 
+	scene "scenes/Player/Automaton/low/PainSharp05.vcd" 
+	scene "scenes/Player/Automaton/low/PainSharp06.vcd" 
+	scene "scenes/Player/Automaton/low/PainSharp07.vcd" 
+	scene "scenes/Player/Automaton/low/PainSharp08.vcd" 
+}
+Rule PlayerPainAutomaton
+{
+	criteria ConceptPain IsAutomaton
+	Response PlayerPainAutomaton
+}
+
+Response PlayerStillOnFireAutomaton
+{
+	scene "scenes/Player/Automaton/low/autoonfiresecondary01.vcd" 
+}
+Rule PlayerStillOnFireAutomaton
+{
+	criteria ConceptFire IsAutomaton  AutomatonIsStillonFire
+	ApplyContext "AutomatonOnFire:1:7"
+	Response PlayerStillOnFireAutomaton
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoAutomaton
+{
+	scene "scenes/Player/Automaton/low/Go01.vcd" 
+	scene "scenes/Player/Automaton/low/Go02.vcd" 
+	scene "scenes/Player/Automaton/low/Go03.vcd" 
+}
+Rule PlayerGoAutomaton
+{
+	criteria ConceptPlayerGo IsAutomaton
+	Response PlayerGoAutomaton
+}
+
+Response PlayerHeadLeftAutomaton
+{
+	scene "scenes/Player/Automaton/low/HeadLeft01.vcd" 
+	scene "scenes/Player/Automaton/low/HeadLeft02.vcd" 
+}
+Rule PlayerHeadLeftAutomaton
+{
+	criteria ConceptPlayerLeft  IsAutomaton
+	Response PlayerHeadLeftAutomaton
+}
+
+Response PlayerHeadRightAutomaton
+{
+	scene "scenes/Player/Automaton/low/HeadRight01.vcd" 
+	scene "scenes/Player/Automaton/low/HeadRight02.vcd" 
+	scene "scenes/Player/Automaton/low/HeadRight03.vcd" 
+}
+Rule PlayerHeadRightAutomaton
+{
+	criteria ConceptPlayerRight  IsAutomaton
+	Response PlayerHeadRightAutomaton
+}
+
+Response PlayerHelpAutomaton
+{
+	scene "scenes/Player/Automaton/low/HelpMe01.vcd" 
+	scene "scenes/Player/Automaton/low/HelpMe02.vcd" 
+	scene "scenes/Player/Automaton/low/HelpMe03.vcd" 
+}
+Rule PlayerHelpAutomaton
+{
+	criteria ConceptPlayerHelp IsAutomaton
+	Response PlayerHelpAutomaton
+}
+
+Response PlayerHelpCaptureAutomaton
+{
+	scene "scenes/Player/Automaton/low/HelpMeCapture01.vcd" 
+	scene "scenes/Player/Automaton/low/HelpMeCapture02.vcd" 
+	scene "scenes/Player/Automaton/low/HelpMeCapture03.vcd" 
+}
+Rule PlayerHelpCaptureAutomaton
+{
+	criteria ConceptPlayerHelp IsAutomaton IsOnCappableControlPoint
+	ApplyContext "AutomatonHelpCap:1:10"
+	Response PlayerHelpCaptureAutomaton
+}
+
+Response PlayerHelpCapture2Automaton
+{
+	scene "scenes/Player/Automaton/low/StandOnThePoint01.vcd" 
+	scene "scenes/Player/Automaton/low/StandOnThePoint02.vcd" 
+}
+Rule PlayerHelpCapture2Automaton
+{
+	criteria ConceptPlayerHelp IsAutomaton IsOnCappableControlPoint IsHelpCapAutomaton
+	Response PlayerHelpCapture2Automaton
+}
+
+Response PlayerHelpDefendAutomaton
+{
+	scene "scenes/Player/Automaton/low/HelpMeDefend01.vcd" 
+	scene "scenes/Player/Automaton/low/HelpMeDefend02.vcd" 
+	scene "scenes/Player/Automaton/low/HelpMeDefend03.vcd" 
+}
+Rule PlayerHelpDefendAutomaton
+{
+	criteria ConceptPlayerHelp IsAutomaton IsOnFriendlyControlPoint
+	Response PlayerHelpDefendAutomaton
+}
+
+Response PlayerMedicAutomaton
+{
+	scene "scenes/Player/Automaton/low/Medic01.vcd" 
+	scene "scenes/Player/Automaton/low/Medic02.vcd" 
+	scene "scenes/Player/Automaton/low/Medic03.vcd" 
+}
+Rule PlayerMedicAutomaton
+{
+	criteria ConceptPlayerMedic IsAutomaton
+	Response PlayerMedicAutomaton
+}
+
+Response PlayerMoveUpAutomaton
+{
+	scene "scenes/Player/Automaton/low/MoveUp01.vcd" 
+}
+Rule PlayerMoveUpAutomaton
+{
+	criteria ConceptPlayerMoveUp  IsAutomaton
+	Response PlayerMoveUpAutomaton
+}
+
+Response PlayerNoAutomaton
+{
+	scene "scenes/Player/Automaton/low/No01.vcd" 
+	scene "scenes/Player/Automaton/low/No02.vcd" 
+	scene "scenes/Player/Automaton/low/No03.vcd" 
+}
+Rule PlayerNoAutomaton
+{
+	criteria ConceptPlayerNo  IsAutomaton
+	Response PlayerNoAutomaton
+}
+
+Response PlayerThanksAutomaton
+{
+	scene "scenes/Player/Automaton/low/Thanks01.vcd" 
+}
+Rule PlayerThanksAutomaton
+{
+	criteria ConceptPlayerThanks IsAutomaton
+	Response PlayerThanksAutomaton
+}
+
+Response PlayerYesAutomaton
+{
+	scene "scenes/Player/Automaton/low/Yes01.vcd" 
+	scene "scenes/Player/Automaton/low/Yes02.vcd" 
+	scene "scenes/Player/Automaton/low/Yes03.vcd" 
+}
+Rule PlayerYesAutomaton
+{
+	criteria ConceptPlayerYes  IsAutomaton
+	Response PlayerYesAutomaton
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeAutomaton
+{
+	scene "scenes/Player/Automaton/low/ActivateCharge01.vcd" 
+	scene "scenes/Player/Automaton/low/ActivateCharge02.vcd" 
+	scene "scenes/Player/Automaton/low/ActivateCharge03.vcd" 
+}
+Rule PlayerActivateChargeAutomaton
+{
+	criteria ConceptPlayerActivateCharge IsAutomaton
+	Response PlayerActivateChargeAutomaton
+}
+
+Response PlayerCloakedSpyAutomaton
+{
+	scene "scenes/Player/Automaton/low/CloakedSpy01.vcd" 
+	scene "scenes/Player/Automaton/low/CloakedSpy02.vcd" 
+	scene "scenes/Player/Automaton/low/CloakedSpy03.vcd" 
+}
+Rule PlayerCloakedSpyAutomaton
+{
+	criteria ConceptPlayerCloakedSpy IsAutomaton
+	Response PlayerCloakedSpyAutomaton
+}
+
+Response PlayerDispenserHereAutomaton
+{
+	scene "scenes/Player/Automaton/low/NeedDispenser01.vcd" 
+}
+Rule PlayerDispenserHereAutomaton
+{
+	criteria ConceptPlayerDispenserHere IsAutomaton
+	Response PlayerDispenserHereAutomaton
+}
+
+Response PlayerIncomingAutomaton
+{
+	scene "scenes/Player/Automaton/low/Incoming01.vcd" 
+	scene "scenes/Player/Automaton/low/Incoming02.vcd" 
+	scene "scenes/Player/Automaton/low/Incoming03.vcd" 
+}
+Rule PlayerIncomingAutomaton
+{
+	criteria ConceptPlayerIncoming IsAutomaton
+	Response PlayerIncomingAutomaton
+}
+
+Response PlayerSentryAheadAutomaton
+{
+	scene "scenes/Player/Automaton/low/SentryAhead01.vcd" 
+	scene "scenes/Player/Automaton/low/SentryAhead02.vcd" 
+}
+Rule PlayerSentryAheadAutomaton
+{
+	criteria ConceptPlayerSentryAhead IsAutomaton
+	Response PlayerSentryAheadAutomaton
+}
+
+Response PlayerSentryHereAutomaton
+{
+	scene "scenes/Player/Automaton/low/NeedSentry01.vcd" 
+}
+Rule PlayerSentryHereAutomaton
+{
+	criteria ConceptPlayerSentryHere IsAutomaton
+	Response PlayerSentryHereAutomaton
+}
+
+Response PlayerTeleporterHereAutomaton
+{
+	scene "scenes/Player/Automaton/low/NeedTeleporter01.vcd" 
+	scene "scenes/Player/Automaton/low/NeedTeleporter02.vcd" 
+}
+Rule PlayerTeleporterHereAutomaton
+{
+	criteria ConceptPlayerTeleporterHere IsAutomaton
+	Response PlayerTeleporterHereAutomaton
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryAutomaton
+{
+	scene "scenes/Player/Automaton/low/BattleCry01.vcd" 
+	scene "scenes/Player/Automaton/low/BattleCry03.vcd" 
+	scene "scenes/Player/Automaton/low/BattleCry04.vcd" 
+	scene "scenes/Player/Automaton/low/BattleCry05.vcd" 
+	scene "scenes/Player/Automaton/low/BattleCry06.vcd" 
+	scene "scenes/Player/Automaton/low/BattleCry07.vcd" 
+}
+Rule PlayerBattleCryAutomaton
+{
+	criteria ConceptPlayerBattleCry IsAutomaton
+	Response PlayerBattleCryAutomaton
+}
+
+Response PlayerCheersAutomaton
+{
+	scene "scenes/Player/Automaton/low/Cheers01.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers02.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers03.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers04.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers05.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers06.vcd" 
+	scene "scenes/Player/Automaton/low/Cheers07.vcd" 
+}
+Rule PlayerCheersAutomaton
+{
+	criteria ConceptPlayerCheers IsAutomaton
+	Response PlayerCheersAutomaton
+}
+
+Response PlayerGoodJobAutomaton
+{
+	scene "scenes/Player/Automaton/low/GoodJob01.vcd" 
+	scene "scenes/Player/Automaton/low/GoodJob02.vcd" 
+	scene "scenes/Player/Automaton/low/GoodJob03.vcd" 
+}
+Rule PlayerGoodJobAutomaton
+{
+	criteria ConceptPlayerGoodJob IsAutomaton
+	Response PlayerGoodJobAutomaton
+}
+
+Response PlayerJeersAutomaton
+{
+	scene "scenes/Player/Automaton/low/Jeers01.vcd" 
+	scene "scenes/Player/Automaton/low/Jeers02.vcd" 
+	scene "scenes/Player/Automaton/low/Jeers03.vcd" 
+	scene "scenes/Player/Automaton/low/Jeers04.vcd" 
+}
+Rule PlayerJeersAutomaton
+{
+	criteria ConceptPlayerJeers IsAutomaton
+	Response PlayerJeersAutomaton
+}
+
+Response PlayerLostPointAutomaton
+{
+	scene "scenes/Player/Automaton/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization04.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization05.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization06.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization07.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization08.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization09.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization10.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization11.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization12.vcd" 
+}
+Rule PlayerLostPointAutomaton
+{
+	criteria ConceptPlayerLostPoint IsAutomaton
+	Response PlayerLostPointAutomaton
+}
+
+Response PlayerNegativeAutomaton
+{
+	scene "scenes/Player/Automaton/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization04.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization05.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization06.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization07.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization08.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization09.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization10.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization11.vcd" 
+	scene "scenes/Player/Automaton/low/NegativeVocalization12.vcd" 
+}
+Rule PlayerNegativeAutomaton
+{
+	criteria ConceptPlayerNegative IsAutomaton
+	Response PlayerNegativeAutomaton
+}
+
+Response PlayerNiceShotAutomaton
+{
+	scene "scenes/Player/Automaton/low/NiceShot01.vcd" 
+	scene "scenes/Player/Automaton/low/NiceShot02.vcd" 
+	scene "scenes/Player/Automaton/low/NiceShot03.vcd" 
+}
+Rule PlayerNiceShotAutomaton
+{
+	criteria ConceptPlayerNiceShot IsAutomaton
+	Response PlayerNiceShotAutomaton
+}
+
+Response PlayerPositiveAutomaton
+{
+	scene "scenes/Player/Automaton/low/PositiveVocalization01.vcd" 
+}
+Rule PlayerPositiveAutomaton
+{
+	criteria ConceptPlayerPositive IsAutomaton
+	Response PlayerPositiveAutomaton
+}
+
+Response PlayerTauntsAutomaton
+{
+	scene "scenes/Player/Automaton/low/LaughEvil03.vcd" 
+	scene "scenes/Player/Automaton/low/LaughEvil04.vcd" 
+	scene "scenes/Player/Automaton/low/LaughShort01.vcd" 
+	scene "scenes/Player/Automaton/low/LaughShort02.vcd" 
+	scene "scenes/Player/Automaton/low/LaughShort03.vcd" 
+	scene "scenes/Player/Automaton/low/LaughShort04.vcd" 
+}
+Rule PlayerTauntsAutomaton
+{
+	criteria ConceptPlayerTaunts IsAutomaton
+	Response PlayerTauntsAutomaton
+}
+

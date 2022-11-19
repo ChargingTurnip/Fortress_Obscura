@@ -1,0 +1,880 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.vmf
+Map revision 4394
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/dom_6hydro/nature/blendrockground006_wvt_patch
+Patching WVT material: maps/dom_6hydro/nature/blendrockground004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Occluder "occ_BLUE1" straddles multiple areas. This is invalid!
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 2316 detail faces...done (1)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (2)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (3) (2517327 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 14360 texinfos to 7616
+Reduced 371 texdatas to 299 (14329 bytes to 10849)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.bsp
+Wrote ZIP buffer, estimated size 20885316, actual size 20792910
+20 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.prt
+2867 portalclusters
+7290 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 325996 visible clusters (0.00%)
+Total clusters visible: 2077906
+Average clusters visible: 724
+Building PAS...
+Average clusters audible: 2293
+visdatasize:1490201  compressed from 2064240
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+Loaded alpha texture materials\models\props_foliage\bramble01a.vtf
+Loaded alpha texture materials\models\props_foliage\deadtree01.vtf
+20651 faces
+2644358 square feet [380787616.00 square inches]
+1688 Displacements
+605358 Square Feet [87171560.00 Square Inches]
+20651 patches before subdivision
+190635 patches after subdivision
+765 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9.
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.vmf
+Map revision 4397
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/dom_6hydro/nature/blendrockground006_wvt_patch
+Patching WVT material: maps/dom_6hydro/nature/blendrockground004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 2316 detail faces...done (2)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (2)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (2) (2517327 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 14358 texinfos to 7616
+Reduced 371 texdatas to 299 (14329 bytes to 10849)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.bsp
+Wrote ZIP buffer, estimated size 20885316, actual size 20792910
+19 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.prt
+2867 portalclusters
+7290 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 325996 visible clusters (0.00%)
+Total clusters visible: 2077906
+Average clusters visible: 724
+Building PAS...
+Average clusters audible: 2293
+visdatasize:1490201  compressed from 2064240
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+Loaded alpha texture materials\models\props_foliage\bramble01a.vtf
+Loaded alpha texture materials\models\props_foliage\deadtree01.vtf
+20651 faces
+2644358 square feet [380787616.00 square inches]
+1688 Displacements
+605358 Square Feet [87171560.00 Square Inches]
+20651 patches before subdivision
+190635 patches after subdivision
+765 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16052210, max 666
+transfer lists: 122.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(983336, 741774, 669081)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(256053, 172511, 131513)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(71738, 45242, 30399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(23128, 13591, 7996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7757, 4294, 2265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2769, 1444, 685)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1019, 502, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(390, 182, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(153, 68, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(62, 26, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0602 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+270 of 417 (64% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 155/4096         7440/196608   ( 3.8%) 
+brushes               7294/32768       87528/393216   (22.3%) 
+brushsides           53589/65536      428712/524288   (81.8%) VERY FULL!
+planes               22862/65536      457240/1310720  (34.9%) 
+vertexes             39076/65536      468912/786432   (59.6%) 
+nodes                 7782/65536      249024/2097152  (11.9%) 
+texinfos              7616/12288      548352/884736   (62.0%) 
+texdata                299/2048         9568/65536    (14.6%) 
+dispinfos             1688/0          297088/0        ( 0.0%) 
+disp_verts           42368/0          847360/0        ( 0.0%) 
+disp_tris            54304/0          108608/0        ( 0.0%) 
+disp_lmsamples     1285580/0         1285580/0        ( 0.0%) 
+faces                20651/65536     1156456/3670016  (31.5%) 
+hdr faces            20651/65536     1156456/3670016  (31.5%) 
+origfaces            17268/65536      967008/3670016  (26.3%) 
+leaves                7938/65536      254016/2097152  (12.1%) 
+leaffaces            23614/65536       47228/131072   (36.0%) 
+leafbrushes          16448/65536       32896/131072   (25.1%) 
+areas                   69/1024          552/8192     ( 6.7%) 
+surfedges           170108/512000     680432/2048000  (33.2%) 
+edges               112097/256000     448388/1024000  (43.8%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        765/16384       67320/1441792  ( 4.7%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           2376/131072      23760/1310720  ( 1.8%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         44883/131072      89766/262144   (34.2%) 
+cubemapsamples         238/1024         3808/16384    (23.2%) 
+overlays               388/1024       136576/360448   (37.9%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    11522476/0        ( 0.0%) 
+visdata               [variable]     1490201/16777216 ( 8.9%) 
+entdata               [variable]      398107/393216   (101.2%) VERY FULL!
+LDR ambient table     7938/65536       31752/262144   (12.1%) 
+HDR ambient table     7938/65536       31752/262144   (12.1%) 
+LDR leaf ambient      7938/65536      222264/1835008  (12.1%) 
+HDR leaf ambient     45284/65536     1267952/1835008  (69.1%) 
+occluders               22/0             880/0        ( 0.0%) 
+occluder polygons       50/0             600/0        ( 0.0%) 
+occluder vert ind      219/0             876/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/225022   ( 0.0%) 
+pakfile               [variable]    32370026/0        ( 0.0%) 
+physics               [variable]     2517327/4194304  (60.0%) 
+physics terrain       [variable]      274168/1048576  (26.1%) 
+
+Level flags = 2
+
+Total triangle count: 59562
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+3 minutes, 49 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.vmf
+Map revision 4398
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/dom_6hydro/nature/blendrockground006_wvt_patch
+Patching WVT material: maps/dom_6hydro/nature/blendrockground004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_AtoD1" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD3" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Occluder "occ_BtoD2" straddles multiple areas. This is invalid!
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 2290 detail faces...done (1)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (2)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (2) (2506182 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 14248 texinfos to 7581
+Reduced 373 texdatas to 298 (14432 bytes to 10797)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_6hydro.bsp
+Wrote ZIP buffer, estimated size 20886259, actual size 20793585
+23 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.prt
+2871 portalclusters
+7315 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 330735 visible clusters (0.00%)
+Total clusters visible: 2092617
+Average clusters visible: 728
+Building PAS...
+Average clusters audible: 2301
+visdatasize:1489921  compressed from 2067120
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+Loaded alpha texture materials\models\props_foliage\bramble01a.vtf
+Loaded alpha texture materials\models\props_foliage\deadtree01.vtf
+20571 faces
+1 degenerate faces
+2641343 square feet [380353440.00 square inches]
+1688 Displacements
+605358 Square Feet [87171560.00 Square Inches]
+20570 patches before subdivision
+20570 patches after subdivision
+450 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1901819, max 659
+transfer lists:  14.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(148553, 119633, 107053)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35224, 24766, 19080)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(9543, 6178, 4175)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2858, 1697, 1011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(918, 508, 270)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(311, 161, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(111, 54, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 19, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(17, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0847 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+44 of 102 (43% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 141/4096         6768/196608   ( 3.4%) 
+brushes               7273/32768       87276/393216   (22.2%) 
+brushsides           53457/65536      427656/524288   (81.6%) VERY FULL!
+planes               22800/65536      456000/1310720  (34.8%) 
+vertexes             38956/65536      467472/786432   (59.4%) 
+nodes                 7660/65536      245120/2097152  (11.7%) 
+texinfos              7581/12288      545832/884736   (61.7%) 
+texdata                298/2048         9536/65536    (14.6%) 
+dispinfos             1688/0          297088/0        ( 0.0%) 
+disp_verts           42368/0          847360/0        ( 0.0%) 
+disp_tris            54304/0          108608/0        ( 0.0%) 
+disp_lmsamples     1285580/0         1285580/0        ( 0.0%) 
+faces                20571/65536     1151976/3670016  (31.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            17218/65536      964208/3670016  (26.3%) 
+leaves                7802/65536      249664/2097152  (11.9%) 
+leaffaces            23545/65536       47090/131072   (35.9%) 
+leafbrushes          16401/65536       32802/131072   (25.0%) 
+areas                   69/1024          552/8192     ( 6.7%) 
+surfedges           169487/512000     677948/2048000  (33.1%) 
+edges               111688/256000     446752/1024000  (43.6%) 
+LDR worldlights        450/16384       39600/1441792  ( 2.7%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           2356/131072      23560/1310720  ( 1.8%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         44499/131072      88998/262144   (34.0%) 
+cubemapsamples         238/1024         3808/16384    (23.2%) 
+overlays               388/1024       136576/360448   (37.9%) 
+LDR lightdata         [variable]    11557440/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1489921/16777216 ( 8.9%) 
+entdata               [variable]      392990/393216   (99.9%) VERY FULL!
+LDR ambient table     7802/65536       31208/262144   (11.9%) 
+HDR ambient table     7802/65536       31208/262144   (11.9%) 
+LDR leaf ambient     44452/65536     1244656/1835008  (67.8%) 
+HDR leaf ambient      7802/65536      218456/1835008  (11.9%) 
+occluders               22/0             880/0        ( 0.0%) 
+occluder polygons       50/0             600/0        ( 0.0%) 
+occluder vert ind      219/0             876/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/225010   ( 0.0%) 
+pakfile               [variable]    20793585/0        ( 0.0%) 
+physics               [variable]     2506182/4194304  (59.8%) 
+physics terrain       [variable]      274168/1048576  (26.1%) 
+
+Level flags = 1
+
+Total triangle count: 59312
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+3 minutes, 24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+Loaded alpha texture materials\models\props_foliage\bramble01a.vtf
+Loaded alpha texture materials\models\props_foliage\deadtree01.vtf
+20571 faces
+1 degenerate faces
+2641343 square feet [380353440.00 square inches]
+1688 Displacements
+605358 Square Feet [87171560.00 Square Inches]
+20570 patches before subdivision
+20570 patches after subdivision
+450 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1901819, max 659
+transfer lists:  14.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(143231, 114240, 102259)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(33811, 23535, 18167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(9109, 5846, 3964)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2721, 1607, 963)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(871, 481, 257)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(295, 152, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 51, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(39, 18, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+44 of 102 (43% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 141/4096         6768/196608   ( 3.4%) 
+brushes               7273/32768       87276/393216   (22.2%) 
+brushsides           53457/65536      427656/524288   (81.6%) VERY FULL!
+planes               22800/65536      456000/1310720  (34.8%) 
+vertexes             38956/65536      467472/786432   (59.4%) 
+nodes                 7660/65536      245120/2097152  (11.7%) 
+texinfos              7581/12288      545832/884736   (61.7%) 
+texdata                298/2048         9536/65536    (14.6%) 
+dispinfos             1688/0          297088/0        ( 0.0%) 
+disp_verts           42368/0          847360/0        ( 0.0%) 
+disp_tris            54304/0          108608/0        ( 0.0%) 
+disp_lmsamples     1285580/0         1285580/0        ( 0.0%) 
+faces                20571/65536     1151976/3670016  (31.4%) 
+hdr faces            20571/65536     1151976/3670016  (31.4%) 
+origfaces            17218/65536      964208/3670016  (26.3%) 
+leaves                7802/65536      249664/2097152  (11.9%) 
+leaffaces            23545/65536       47090/131072   (35.9%) 
+leafbrushes          16401/65536       32802/131072   (25.0%) 
+areas                   69/1024          552/8192     ( 6.7%) 
+surfedges           169487/512000     677948/2048000  (33.1%) 
+edges               111688/256000     446752/1024000  (43.6%) 
+LDR worldlights        450/16384       39600/1441792  ( 2.7%) 
+HDR worldlights        450/16384       39600/1441792  ( 2.7%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           2356/131072      23560/1310720  ( 1.8%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         44499/131072      88998/262144   (34.0%) 
+cubemapsamples         238/1024         3808/16384    (23.2%) 
+overlays               388/1024       136576/360448   (37.9%) 
+LDR lightdata         [variable]    11557440/0        ( 0.0%) 
+HDR lightdata         [variable]    11557440/0        ( 0.0%) 
+visdata               [variable]     1489921/16777216 ( 8.9%) 
+entdata               [variable]      392990/393216   (99.9%) VERY FULL!
+LDR ambient table     7802/65536       31208/262144   (11.9%) 
+HDR ambient table     7802/65536       31208/262144   (11.9%) 
+LDR leaf ambient     44452/65536     1244656/1835008  (67.8%) 
+HDR leaf ambient     44446/65536     1244488/1835008  (67.8%) 
+occluders               22/0             880/0        ( 0.0%) 
+occluder polygons       50/0             600/0        ( 0.0%) 
+occluder vert ind      219/0             876/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/225010   ( 0.0%) 
+pakfile               [variable]    20793585/0        ( 0.0%) 
+physics               [variable]     2506182/4194304  (59.8%) 
+physics terrain       [variable]      274168/1048576  (26.1%) 
+
+Level flags = 3
+
+Total triangle count: 59312
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_6hydro.bsp
+3 minutes, 9 seconds elapsed

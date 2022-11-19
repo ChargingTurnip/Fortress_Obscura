@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_mining/factory_pipe001"
+	"$nocull" "1"
+}

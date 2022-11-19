@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\flag\tfsymbol"
+	"Proxies"
+	{
+		"TeamTexture"
+		{
+		}
+	}
+}

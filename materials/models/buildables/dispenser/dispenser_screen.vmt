@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/buildables/dispenser/dispenser_screen"
+	"$surfaceprop"	"default"
+}

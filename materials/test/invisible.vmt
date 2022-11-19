@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "test/Invisible"
+
+	//"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	//"$envmapmask" "glass/glasswindow017a_mask"
+	"$translucent" 1
+}

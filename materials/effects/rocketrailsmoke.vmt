@@ -1,0 +1,7 @@
+"SpriteCard"
+{
+	"$basetexture" "effects/smoke/smokelit"
+	"$translucent" "1"
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+}

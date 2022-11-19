@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	
+	"$basetexture"	"models/props_hydro/construction_light_on"
+	"$selfillum"	"1"
+
+	
+}

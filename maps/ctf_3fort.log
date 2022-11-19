@@ -1,0 +1,1239 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 3
+Could not locate 'GameData' key in d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2692 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 4
+Reduced 2 texdatas to 2 (39 bytes to 39)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.bsp
+Wrote ZIP buffer, estimated size 86960, actual size 86746
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+ 112 portalclusters
+ 220 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 12544
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 112
+visdatasize:4036  compressed from 3584
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+256 faces
+1666616 square feet [239992832.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+256 patches before subdivision
+256 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1920, max 8
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  7/32768          84/393216   ( 0.0%) 
+brushsides              42/65536         336/524288   ( 0.1%) 
+planes                 172/65536        3440/1310720  ( 0.3%) 
+vertexes               277/65536        3324/786432   ( 0.4%) 
+nodes                  392/65536       12544/2097152  ( 0.6%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  256/65536       14336/3670016  ( 0.4%) 
+hdr faces              256/65536       14336/3670016  ( 0.4%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+leaves                 394/65536       12608/2097152  ( 0.6%) 
+leaffaces              264/65536         528/131072   ( 0.4%) 
+leafbrushes            365/65536         730/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1072/512000       4288/2048000  ( 0.2%) 
+edges                  549/256000       2196/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/131072          0/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices             0/131072          0/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]        1664/0        ( 0.0%) 
+visdata               [variable]        4036/16777216 ( 0.0%) 
+entdata               [variable]        1006/393216   ( 0.3%) 
+LDR ambient table      394/65536        1576/262144   ( 0.6%) 
+HDR ambient table      394/65536        1576/262144   ( 0.6%) 
+LDR leaf ambient       394/65536       11032/1835008  ( 0.6%) 
+HDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86746/0        ( 0.0%) 
+physics               [variable]        2692/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 512
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 4
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-406.5 1024.0 120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 32920: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-239.6 1024.0 120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 32920: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-591.2 1024.0 120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 32920: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-756.3 994.0 120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 32920: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -9.2 120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 16823: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -194.0 120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 16823: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1251.0 0.0 120.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 16823: 
+
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-406.5 1024.0 120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 32920: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (1)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 528 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (782638 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1163 texinfos to 727
+Reduced 13 texdatas to 12 (285 bytes to 264)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.bsp
+Wrote ZIP buffer, estimated size 87429, actual size 87081
+6 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+2522 portalclusters
+7991 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 337227 visible clusters (0.00%)
+Total clusters visible: 4159351
+Average clusters visible: 1649
+Building PAS...
+Average clusters audible: 2443
+visdatasize:1512449  compressed from 1614080
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+11276 faces
+1 degenerate faces
+2950291 square feet [424842016.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+11275 patches before subdivision
+11275 patches after subdivision
+68 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 850199, max 885
+transfer lists:   6.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(125336, 120771, 103726)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(32234, 30824, 26224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8716, 8306, 7041)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2426, 2303, 1945)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(706, 669, 563)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(207, 195, 165)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 60, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(19, 18, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0461 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  31/4096         1488/196608   ( 0.8%) 
+brushes               2143/32768       25716/393216   ( 6.5%) 
+brushsides           20853/65536      166824/524288   (31.8%) 
+planes               12562/65536      251240/1310720  (19.2%) 
+vertexes             14817/65536      177804/786432   (22.6%) 
+nodes                 4885/65536      156320/2097152  ( 7.5%) 
+texinfos               727/12288       52344/884736   ( 5.9%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                11276/65536      631456/3670016  (17.2%) 
+hdr faces            11276/65536      631456/3670016  (17.2%) 
+origfaces             7389/65536      413784/3670016  (11.3%) 
+leaves                4917/65536      157344/2097152  ( 7.5%) 
+leaffaces            13344/65536       26688/131072   (20.4%) 
+leafbrushes           4233/65536        8466/131072   ( 6.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            83638/512000     334552/2048000  (16.3%) 
+edges                49681/256000     198724/1024000  (19.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         68/16384        5984/1441792  ( 0.4%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1001/131072      10010/1310720  ( 0.8%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         16467/131072      32934/262144   (12.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3885124/0        ( 0.0%) 
+visdata               [variable]     1512449/16777216 ( 9.0%) 
+entdata               [variable]       60724/393216   (15.4%) 
+LDR ambient table     4917/65536       19668/262144   ( 7.5%) 
+HDR ambient table     4917/65536       19668/262144   ( 7.5%) 
+LDR leaf ambient      4917/65536      137676/1835008  ( 7.5%) 
+HDR leaf ambient     34597/65536      968716/1835008  (52.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9626     ( 0.0%) 
+pakfile               [variable]       87081/0        ( 0.0%) 
+physics               [variable]      782638/4194304  (18.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 31616
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+37 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 12
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 528 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (833586 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1254 texinfos to 776
+Reduced 25 texdatas to 23 (600 bytes to 527)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.bsp
+Wrote ZIP buffer, estimated size 87883, actual size 87401
+6 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+2699 portalclusters
+8596 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 335682 visible clusters (0.00%)
+Total clusters visible: 3600695
+Average clusters visible: 1334
+Building PAS...
+Average clusters audible: 2546
+visdatasize:1625661  compressed from 1856912
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+12052 faces
+5 degenerate faces
+3018623 square feet [434681728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12047 patches before subdivision
+12047 patches after subdivision
+233 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 886840, max 942
+transfer lists:   6.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(204117, 197141, 197633)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57360, 53579, 56640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(17973, 15984, 17910)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5917, 4902, 5881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2029, 1547, 2007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(724, 503, 708)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(264, 165, 255)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(99, 56, 95)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(38, 19, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(15, 7, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(6, 2, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0676 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  88/4096         4224/196608   ( 2.1%) 
+brushes               2242/32768       26904/393216   ( 6.8%) 
+brushsides           21588/65536      172704/524288   (32.9%) 
+planes               12856/65536      257120/1310720  (19.6%) 
+vertexes             16020/65536      192240/786432   (24.4%) 
+nodes                 5589/65536      178848/2097152  ( 8.5%) 
+texinfos               776/12288       55872/884736   ( 6.3%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                12052/65536      674912/3670016  (18.4%) 
+hdr faces            12052/65536      674912/3670016  (18.4%) 
+origfaces             7799/65536      436744/3670016  (11.9%) 
+leaves                5678/65536      181696/2097152  ( 8.7%) 
+leaffaces            14371/65536       28742/131072   (21.9%) 
+leafbrushes           4691/65536        9382/131072   ( 7.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            88678/512000     354712/2048000  (17.3%) 
+edges                52471/256000     209884/1024000  (20.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        233/16384       20504/1441792  ( 1.4%) 
+leafwaterdata            6/32768          72/393216   ( 0.0%) 
+waterstrips           1027/131072      10270/1310720  ( 0.8%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         16671/131072      33342/262144   (12.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                63/1024        22176/360448   ( 6.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4139396/0        ( 0.0%) 
+visdata               [variable]     1625661/16777216 ( 9.7%) 
+entdata               [variable]      131681/393216   (33.5%) 
+LDR ambient table     5678/65536       22712/262144   ( 8.7%) 
+HDR ambient table     5678/65536       22712/262144   ( 8.7%) 
+LDR leaf ambient      5678/65536      158984/1835008  ( 8.7%) 
+HDR leaf ambient     40242/65536     1126776/1835008  (61.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4612     ( 0.0%) 
+pakfile               [variable]       87401/0        ( 0.0%) 
+physics               [variable]      833586/4194304  (19.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 33440
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+1 minute, 20 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 23
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-865.68 -91.40 268.00) leaked!
+--- MAP LEAKED ---
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 23
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-865.68 -91.40 268.00) leaked!
+--- MAP LEAKED ---
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 24
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (1042.21 1266.83 -32.00) leaked!
+--- MAP LEAKED ---
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 24
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (3015.30 281.34 144.00) leaked!
+--- MAP LEAKED ---
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 24
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 528 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (854614 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1345 texinfos to 701
+Reduced 26 texdatas to 23 (616 bytes to 521)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.bsp
+Wrote ZIP buffer, estimated size 87883, actual size 87401
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+ 998 portalclusters
+2416 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 48746 visible clusters (0.00%)
+Total clusters visible: 433680
+Average clusters visible: 434
+Building PAS...
+Average clusters audible: 807
+visdatasize:216481  compressed from 255488
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+7500 faces
+7 degenerate faces
+824174 square feet [118681144.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7493 patches before subdivision
+7493 patches after subdivision
+233 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 505291, max 534
+transfer lists:   3.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(170443, 165969, 167361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(51694, 48381, 51566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(17274, 15426, 17402)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5921, 4960, 5972)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2108, 1645, 2122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(771, 558, 772)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(287, 192, 286)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 68, 108)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 24, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 9, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 3, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 1, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0265 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  88/4096         4224/196608   ( 2.1%) 
+brushes               2284/32768       27408/393216   ( 7.0%) 
+brushsides           21976/65536      175808/524288   (33.5%) 
+planes               12904/65536      258080/1310720  (19.7%) 
+vertexes             11830/65536      141960/786432   (18.1%) 
+nodes                 2930/65536       93760/2097152  ( 4.5%) 
+texinfos               701/12288       50472/884736   ( 5.7%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7500/65536      420000/3670016  (11.4%) 
+hdr faces             7500/65536      420000/3670016  (11.4%) 
+origfaces             5400/65536      302400/3670016  ( 8.2%) 
+leaves                3019/65536       96608/2097152  ( 4.6%) 
+leaffaces             9109/65536       18218/131072   (13.9%) 
+leafbrushes           4757/65536        9514/131072   ( 7.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57356/512000     229424/2048000  (11.2%) 
+edges                36597/256000     146388/1024000  (14.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        233/16384       20504/1441792  ( 1.4%) 
+leafwaterdata            7/32768          84/393216   ( 0.0%) 
+waterstrips            546/131072       5460/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9462/131072      18924/262144   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                63/1024        22176/360448   ( 6.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2594624/0        ( 0.0%) 
+visdata               [variable]      216481/16777216 ( 1.3%) 
+entdata               [variable]      131681/393216   (33.5%) 
+LDR ambient table     3019/65536       12076/262144   ( 4.6%) 
+HDR ambient table     3019/65536       12076/262144   ( 4.6%) 
+LDR leaf ambient      3019/65536       84532/1835008  ( 4.6%) 
+HDR leaf ambient     16751/65536      469028/1835008  (25.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4592     ( 0.0%) 
+pakfile               [variable]       87401/0        ( 0.0%) 
+physics               [variable]      854614/4194304  (20.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 20867
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+53 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 25
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 528 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (858142 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1378 texinfos to 716
+Reduced 27 texdatas to 24 (636 bytes to 541)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.bsp
+Wrote ZIP buffer, estimated size 87883, actual size 87401
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+1003 portalclusters
+2418 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 49806 visible clusters (0.00%)
+Total clusters visible: 438489
+Average clusters visible: 437
+Building PAS...
+Average clusters audible: 812
+visdatasize:219547  compressed from 256768
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+7510 faces
+7 degenerate faces
+823912 square feet [118643336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7503 patches before subdivision
+7503 patches after subdivision
+233 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 515579, max 555
+transfer lists:   3.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(163775, 160393, 161736)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(49331, 46490, 49800)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(16361, 14682, 16688)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5544, 4651, 5672)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1956, 1521, 1999)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(705, 503, 718)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(260, 170, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(98, 58, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(37, 20, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(14, 7, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(6, 3, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0254 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  88/4096         4224/196608   ( 2.1%) 
+brushes               2293/32768       27516/393216   ( 7.0%) 
+brushsides           22056/65536      176448/524288   (33.7%) 
+planes               12984/65536      259680/1310720  (19.8%) 
+vertexes             11852/65536      142224/786432   (18.1%) 
+nodes                 2944/65536       94208/2097152  ( 4.5%) 
+texinfos               716/12288       51552/884736   ( 5.8%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7510/65536      420560/3670016  (11.5%) 
+hdr faces             7510/65536      420560/3670016  (11.5%) 
+origfaces             5405/65536      302680/3670016  ( 8.2%) 
+leaves                3033/65536       97056/2097152  ( 4.6%) 
+leaffaces             9121/65536       18242/131072   (13.9%) 
+leafbrushes           4782/65536        9564/131072   ( 7.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57454/512000     229816/2048000  (11.2%) 
+edges                36657/256000     146628/1024000  (14.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        233/16384       20504/1441792  ( 1.4%) 
+leafwaterdata            7/32768          84/393216   ( 0.0%) 
+waterstrips            556/131072       5560/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9654/131072      19308/262144   ( 7.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                63/1024        22176/360448   ( 6.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2592912/0        ( 0.0%) 
+visdata               [variable]      219547/16777216 ( 1.3%) 
+entdata               [variable]      131681/393216   (33.5%) 
+LDR ambient table     3033/65536       12132/262144   ( 4.6%) 
+HDR ambient table     3033/65536       12132/262144   ( 4.6%) 
+LDR leaf ambient      3033/65536       84924/1835008  ( 4.6%) 
+HDR leaf ambient     16770/65536      469560/1835008  (25.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4576     ( 0.0%) 
+pakfile               [variable]       87401/0        ( 0.0%) 
+physics               [variable]      858142/4194304  (20.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 20925
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+48 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 26
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 528 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (854614 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1365 texinfos to 702
+Reduced 27 texdatas to 24 (636 bytes to 541)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.bsp
+Wrote ZIP buffer, estimated size 87883, actual size 87401
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+ 998 portalclusters
+2416 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 48746 visible clusters (0.00%)
+Total clusters visible: 433680
+Average clusters visible: 434
+Building PAS...
+Average clusters audible: 807
+visdatasize:216481  compressed from 255488
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+7500 faces
+7 degenerate faces
+824174 square feet [118681144.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7493 patches before subdivision
+7493 patches after subdivision
+233 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 505291, max 534
+transfer lists:   3.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(170443, 165969, 167361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(51694, 48381, 51566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(17274, 15426, 17402)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5921, 4960, 5972)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2108, 1645, 2122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(771, 558, 772)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(287, 192, 286)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 68, 108)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 24, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 9, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 3, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 1, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0255 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  88/4096         4224/196608   ( 2.1%) 
+brushes               2293/32768       27516/393216   ( 7.0%) 
+brushsides           22040/65536      176320/524288   (33.6%) 
+planes               12944/65536      258880/1310720  (19.8%) 
+vertexes             11896/65536      142752/786432   (18.2%) 
+nodes                 2930/65536       93760/2097152  ( 4.5%) 
+texinfos               702/12288       50544/884736   ( 5.7%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7500/65536      420000/3670016  (11.4%) 
+hdr faces             7500/65536      420000/3670016  (11.4%) 
+origfaces             5400/65536      302400/3670016  ( 8.2%) 
+leaves                3019/65536       96608/2097152  ( 4.6%) 
+leaffaces             9109/65536       18218/131072   (13.9%) 
+leafbrushes           4757/65536        9514/131072   ( 7.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57356/512000     229424/2048000  (11.2%) 
+edges                36597/256000     146388/1024000  (14.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        233/16384       20504/1441792  ( 1.4%) 
+leafwaterdata            7/32768          84/393216   ( 0.0%) 
+waterstrips            546/131072       5460/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9462/131072      18924/262144   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                63/1024        22176/360448   ( 6.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2594624/0        ( 0.0%) 
+visdata               [variable]      216481/16777216 ( 1.3%) 
+entdata               [variable]      132777/393216   (33.8%) 
+LDR ambient table     3019/65536       12076/262144   ( 4.6%) 
+HDR ambient table     3019/65536       12076/262144   ( 4.6%) 
+LDR leaf ambient      3019/65536       84532/1835008  ( 4.6%) 
+HDR leaf ambient     16751/65536      469028/1835008  (25.6%) 
+occluders                9/0             360/0        ( 0.0%) 
+occluder polygons       45/0             540/0        ( 0.0%) 
+occluder vert ind      218/0             872/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4592     ( 0.0%) 
+pakfile               [variable]       87401/0        ( 0.0%) 
+physics               [variable]      854614/4194304  (20.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 20867
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+47 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.vmf
+Map revision 26
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/ctf_3fort/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 528 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (854614 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1368 texinfos to 702
+Reduced 27 texdatas to 24 (636 bytes to 541)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_3fort.bsp
+Wrote ZIP buffer, estimated size 87883, actual size 87401
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.prt
+ 999 portalclusters
+2413 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 48754 visible clusters (0.00%)
+Total clusters visible: 435105
+Average clusters visible: 435
+Building PAS...
+Average clusters audible: 808
+visdatasize:216372  compressed from 255744
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+7500 faces
+5 degenerate faces
+824175 square feet [118681304.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7495 patches before subdivision
+7495 patches after subdivision
+233 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 508572, max 534
+transfer lists:   3.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(170509, 166065, 167355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(51702, 48409, 51471)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(17276, 15440, 17352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5921, 4966, 5948)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2108, 1648, 2112)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(771, 559, 768)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(287, 192, 284)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 68, 108)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 24, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 9, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 3, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 1, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0309 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  88/4096         4224/196608   ( 2.1%) 
+brushes               2293/32768       27516/393216   ( 7.0%) 
+brushsides           22040/65536      176320/524288   (33.6%) 
+planes               12946/65536      258920/1310720  (19.8%) 
+vertexes             11890/65536      142680/786432   (18.1%) 
+nodes                 2933/65536       93856/2097152  ( 4.5%) 
+texinfos               702/12288       50544/884736   ( 5.7%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7500/65536      420000/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5397/65536      302232/3670016  ( 8.2%) 
+leaves                3022/65536       96704/2097152  ( 4.6%) 
+leaffaces             9110/65536       18220/131072   (13.9%) 
+leafbrushes           4753/65536        9506/131072   ( 7.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57343/512000     229372/2048000  (11.2%) 
+edges                36594/256000     146376/1024000  (14.3%) 
+LDR worldlights        233/16384       20504/1441792  ( 1.4%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            7/32768          84/393216   ( 0.0%) 
+waterstrips            547/131072       5470/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9480/131072      18960/262144   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                63/1024        22176/360448   ( 6.2%) 
+LDR lightdata         [variable]     2595704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      216372/16777216 ( 1.3%) 
+entdata               [variable]      132777/393216   (33.8%) 
+LDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+HDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+LDR leaf ambient     16800/65536      470400/1835008  (25.6%) 
+HDR leaf ambient      3022/65536       84616/1835008  ( 4.6%) 
+occluders                9/0             360/0        ( 0.0%) 
+occluder polygons       45/0             540/0        ( 0.0%) 
+occluder vert ind      218/0             872/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4588     ( 0.0%) 
+pakfile               [variable]       87401/0        ( 0.0%) 
+physics               [variable]      854614/4194304  (20.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 20866
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+55 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+7500 faces
+5 degenerate faces
+824175 square feet [118681304.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7495 patches before subdivision
+7495 patches after subdivision
+233 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 508572, max 534
+transfer lists:   3.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(170509, 166065, 167355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(51702, 48409, 51471)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(17276, 15440, 17352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5921, 4966, 5948)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2108, 1648, 2112)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(771, 559, 768)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(287, 192, 284)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 68, 108)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 24, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 9, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 3, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 1, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0393 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  88/4096         4224/196608   ( 2.1%) 
+brushes               2293/32768       27516/393216   ( 7.0%) 
+brushsides           22040/65536      176320/524288   (33.6%) 
+planes               12946/65536      258920/1310720  (19.8%) 
+vertexes             11890/65536      142680/786432   (18.1%) 
+nodes                 2933/65536       93856/2097152  ( 4.5%) 
+texinfos               702/12288       50544/884736   ( 5.7%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7500/65536      420000/3670016  (11.4%) 
+hdr faces             7500/65536      420000/3670016  (11.4%) 
+origfaces             5397/65536      302232/3670016  ( 8.2%) 
+leaves                3022/65536       96704/2097152  ( 4.6%) 
+leaffaces             9110/65536       18220/131072   (13.9%) 
+leafbrushes           4753/65536        9506/131072   ( 7.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57343/512000     229372/2048000  (11.2%) 
+edges                36594/256000     146376/1024000  (14.3%) 
+LDR worldlights        233/16384       20504/1441792  ( 1.4%) 
+HDR worldlights        233/16384       20504/1441792  ( 1.4%) 
+leafwaterdata            7/32768          84/393216   ( 0.0%) 
+waterstrips            547/131072       5470/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9480/131072      18960/262144   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                63/1024        22176/360448   ( 6.2%) 
+LDR lightdata         [variable]     2595704/0        ( 0.0%) 
+HDR lightdata         [variable]     2595704/0        ( 0.0%) 
+visdata               [variable]      216372/16777216 ( 1.3%) 
+entdata               [variable]      132777/393216   (33.8%) 
+LDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+HDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+LDR leaf ambient     16800/65536      470400/1835008  (25.6%) 
+HDR leaf ambient     16800/65536      470400/1835008  (25.6%) 
+occluders                9/0             360/0        ( 0.0%) 
+occluder polygons       45/0             540/0        ( 0.0%) 
+occluder vert ind      218/0             872/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4588     ( 0.0%) 
+pakfile               [variable]       87401/0        ( 0.0%) 
+physics               [variable]      854614/4194304  (20.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 20866
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_3fort.bsp
+55 seconds elapsed

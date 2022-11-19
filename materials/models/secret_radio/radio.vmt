@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/secret_radio/radio"
+	//"$envmapmask" "models/secret_radio/radio_texture_spec"
+	"$surfaceprop" "Metal"
+	"%keywords" "tf prop props model"
+}

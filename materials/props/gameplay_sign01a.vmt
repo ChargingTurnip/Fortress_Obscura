@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"Props/gameplay_sign01a"
+	"$surfaceprop"	"default"
+	"$selfillum"	1
+	"%keywords" "tf"
+}

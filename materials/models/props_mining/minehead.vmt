@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_mining/minehead"
+//	"$alphatest"	1
+//	"$translucent" 1
+
+}

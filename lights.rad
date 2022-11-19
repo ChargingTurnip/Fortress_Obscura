@@ -1,0 +1,46 @@
+lights/blue001	 		107 116 116 50
+lights/blue002	 		107 116 116 100
+lights/blue003 			107 116 116 200
+lights/blue004 			151 165 204 50
+
+lights/white001			150 150 150 50
+lights/white002 		150 150 150 100
+lights/white003 		150 150 150 200
+
+
+
+lights/white_fill		150 150 150 5
+
+
+
+lights/fluorescentcool001a	189 231 232 350
+lights/fluorescentcool001b	236 255 182 350
+lights/fluorescentcool002a	189 231 232 400
+lights/fluorescentcool002b	236 255 182 400
+lights/fluorescentcool003a	189 231 232 300
+lights/fluorescentwarm001a	239 216 193 350
+lights/fluorescentwarm002a	239 216 193 400
+lights/fluorescentwhite001a	245 245 245 350
+lights/fluorescentwhite002a	245 245 245 400
+
+lights/hazzardred001a		228 37 0 300
+lights/hazzardyellow001a	250 215 74 300
+
+lights/HIDcool001a		145 222 172 650
+lights/HIDcool001b		205 232 255 650
+lights/HIDwarm001a		255 201 116 650
+
+lights/white004			170 228 247 425
+lights/white005			234 235 220 375
+lights/white006			234 235 220 100
+lights/white007			255 255 255 50
+
+lights/white001_nochop	250 240 205 100
+lights/white002_nochop	189 233 247 425
+lights/white003_nochop	232 246 190 350
+lights/white004_nochop	170 228 247 425
+lights/white005_nochop	234 235 220 375
+lights/white006_nochop	234 235 220 100
+
+lights/incandescentcool001a	235 235 235 300
+lights/incandescentwarm001a	250 226 129 300

@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_grenadelauncher/v_grenadelauncher"
+	"$bumpmap" "models/weapons\v_grenadelauncher\v_grenadelauncher_normal"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "3"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "1.5"
+
+	"$color2" "[ 0.6 0.6 0.6 ]"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+	}
+}

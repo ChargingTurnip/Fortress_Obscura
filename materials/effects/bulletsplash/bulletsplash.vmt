@@ -1,0 +1,5 @@
+"SpriteCard"
+{
+	"$basetexture" "effects/bulletsplash/bulletsplash"
+	"$translucent" "1"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Wood/wall015"
+	//"$bumpmap" "Wood/wall015_normal"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}

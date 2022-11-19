@@ -1,0 +1,32 @@
+"Cloak"
+{
+ 	"$model" 1
+	"$nodecal" 1
+	"$bluramount" 1
+ 	"$refractamount" ".5"
+	"$REFRACTTINT" "{246 250 255}"
+	"$scale" "[1 1]"
+//	"$normalmap" "models\weapons\v_cigarette_case\v_cigarette_case_normal"
+	"$refracttinttexture" "models\weapons\v_cigarette_case/v_cigarette_case"
+	"$basetexture" "models\weapons\v_cigarette_case/v_cigarette_case"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "6"	
+	"$phongfresnelranges" "[0.25 0.5 1]"
+	"$basemapalphaphongmask" "1"
+
+	"$nofog" 1
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "0.1"	
+
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+	}
+}
+

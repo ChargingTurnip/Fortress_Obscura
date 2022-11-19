@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Building_Template/Building_Trainstation_Truss_Template001g"
+	"$surfaceprop" "metal"
+
+	"$AlphaTest" "1"
+	"$AlphaTestReference" "0.5"
+	"$AllowAlphaToCoverage" "1"
+}

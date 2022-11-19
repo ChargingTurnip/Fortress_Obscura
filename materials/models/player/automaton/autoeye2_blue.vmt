@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/automaton/autoeye2_blue"
+    	"$detail" "models/player/automaton/autoeye2_blue"
+    	"$detailscale" "1"        
+     	"$detailblendfactor" "1"  
+      	"$detailblendmode" "5"
+}

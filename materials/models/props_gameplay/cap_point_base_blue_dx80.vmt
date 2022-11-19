@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_gameplay/cap_point_base_blue"
+	"$selfillum" "1"
+	
+
+}

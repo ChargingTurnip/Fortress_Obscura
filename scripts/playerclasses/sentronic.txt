@@ -1,0 +1,48 @@
+//
+// Fortress Obscura -  Sentronic Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"sentronic"
+	"model"			"models/player/automaton_new.mdl"
+	"model_hwm"		"models/player/automaton_new.mdl"
+	"localize_name"		"FO_Class_Name_Sentronic"
+	"speed_max"		"350"
+//	"health_max"		"50"
+//	"armor_max"		"100"
+	"health_max"		"165"
+	"armor_max"		"0"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_NONE"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_NONE"
+	"weapon2"		"FO_WEAPON_ASA10"
+	"weapon3"		"TF_WEAPON_BAT"
+	
+	"DontDoAirwalk"	"0"
+	"DontDoNewJump"	"0"
+
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"96"
+		"tf_ammo_secondary"	"96"
+		"tf_ammo_metal"		"100"
+		"tf_ammo_grenades1"	"3"
+		"tf_ammo_grenades2"	"0"
+	}	
+
+	// Death Sounds
+	"sound_death"				"sentronic_painsharp01"
+	"sound_crit_death"			"sentronic_painsharp01"
+	"sound_melee_death"			"sentronic_painsharp01"
+	"sound_explosion_death"			"sentronic_painsharp01"	
+}

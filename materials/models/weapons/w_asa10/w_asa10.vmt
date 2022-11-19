@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/weapons/w_asa10/w_asa10"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+
+	"$envmapmask" "models/weapons/w_asa10/w_asa10"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "10"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	// Cloaking
+//	"$cloakPassEnabled" "1"
+//	"Proxies"
+//	{
+//		"weapon_invis"
+//		{
+//		}
+//	}
+}

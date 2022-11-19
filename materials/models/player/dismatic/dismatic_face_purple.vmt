@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\dismatic\dismatic_face_purple"
+
+	"$detail" "models\player\dismatic\dismatic_face_purple"
+	"$detailscale" "1"
+     	"$detailblendfactor" "1"  
+      	"$detailblendmode" "5"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"360?$color2" "[ 0.9 0.8 0.8 ]"
+
+	"$translucent" 1
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}

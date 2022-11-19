@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/buildables/sentry1/base1"
+	"$surfaceprop"	"default"
+}

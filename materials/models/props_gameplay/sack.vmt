@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_gameplay/sack"
+	"$bumpmap" "Models/props_gameplay/sack_normal"
+	"$nodecal" "1"
+}

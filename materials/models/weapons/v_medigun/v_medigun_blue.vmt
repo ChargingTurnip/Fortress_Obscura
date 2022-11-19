@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_medigun\v_medigun_blue"
+	"$phong" "1"
+	"$phongexponent" "5"
+	
+	"$phongboost" "10"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.3 .5 3]"
+	"$halflambert" "1"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "2"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
+
+}

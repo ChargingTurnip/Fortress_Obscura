@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_farm/awning01_red"
+	"$surfaceprop"	"metal"
+}

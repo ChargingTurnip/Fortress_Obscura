@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_skybox/windmill001"
+	"$nocull" "1"
+}

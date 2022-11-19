@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_syringegun\v_syringegun_glass"
+	"$translucent" "1"
+	"$additive" "1"
+
+}

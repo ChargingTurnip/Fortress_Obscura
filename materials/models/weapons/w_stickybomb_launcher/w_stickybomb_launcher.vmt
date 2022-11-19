@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_stickybomb_launcher/w_stickybomb_launcher"
+	"$bumpmap" "models/weapons/w_stickybomb_launcher/w_stickybomb_launcher_normal"
+
+	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost" "4"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	// Cloaking
+//	"$cloakPassEnabled" "1"
+//	"Proxies"
+//	{
+//		"weapon_invis"
+//		{
+//		}
+//	}
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/buildables/dispenser/disp_blueprint_build"
+	"$surfaceprop"	"no_decal"
+}

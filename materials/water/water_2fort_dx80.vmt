@@ -1,0 +1,89 @@
+"Water"
+{
+
+	"%keywords" "tf"
+	//	$forcecheap 1
+	
+	"%tooltexture" "dev/tfwater_normal"
+	"%compilewater" 1
+	"$abovewater" 1
+	//"$nofresnel" "1"
+
+	"$underwateroverlay" "effects/water_warp"
+	"$envmap" "env_cubemap"	
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0.6"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "water/dx80_tfwater001_dudv"
+	"$normalmap" "water/dx80_tfwater001_normal"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "water/water_2fort_beneath.vmt"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{51 43 13}"
+	"$fogstart" "-100"
+	"$fogend" "400"
+
+	 "$temp" "[0 0]"
+	 "$curr" 0.0
+	 "$curr2" 0.0
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"Sine"
+		{
+			"sineperiod" "24"
+			"sinemin" -0.5
+			"sinemax" 0.5
+			"resultVar" "$curr"
+		}
+		"Sine"
+		{
+			"sineperiod" "16"
+			"sinemin" 0.5
+			"sinemax" -0.5
+			"resultVar" "$curr2"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$curr2"
+			"resultVar" "$temp[0]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$curr"
+			"resultVar" "$temp[1]"
+		}
+
+ 
+		"TextureTransform"
+		{
+			"translateVar" "$temp"
+			"resultVar" "$bumptransform"
+		}  
+
+//		"TextureScroll"
+//		{
+//			"texturescrollvar" "$bumptransform"
+//			"texturescrollrate" .1
+//			"texturescrollangle" 45.00
+//		}
+		"WaterLOD"
+		{
+			// fixme!  This has to be here, or material loading barfs.
+			"dummy" 0
+		}
+	}
+}

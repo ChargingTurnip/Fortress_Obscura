@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_grenadelauncher/v_grenadelauncher"
+	$BASEMAPALPHAPHONGMASK 1
+//	"$bumpmap" "models/weapons\v_grenadelauncher\v_grenadelauncher_normal"
+
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$color2" "[ 0.6 0.6 0.6 ]"
+}

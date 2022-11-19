@@ -1,0 +1,5 @@
+﻿Doel:
+Een team moet alle zes territoriums beheersen om te winnen. Fasen worden gespeeld met twee controleposten tegelijk.
+
+Verdere opmerkingen:
+De rondes zullen doorgaan totdat één team alle gebieden heeft veroverd.

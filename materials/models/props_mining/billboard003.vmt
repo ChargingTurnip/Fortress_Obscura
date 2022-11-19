@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_mining/billboard003"
+	"$selfillum" 1
+
+	// Use separate self-illum mask on Pre DX9 hardware
+	">=DX90"
+	{
+		"$baseTexture" 		"Models/props_mining/billboard003"
+		"$selfillummask" 	"Models/props_mining/billboard003"
+	}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<DX90"
+	{
+		"$baseTexture" 	"Models/props_mining/billboard003"
+	}
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_farm/drain_pipe001"
+	"$nocull" "1"
+}

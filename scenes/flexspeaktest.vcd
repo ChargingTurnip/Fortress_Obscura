@@ -1,0 +1,44 @@
+// Choreo version 1
+actor "heavy"
+{
+  channel "audio"
+  {
+    event speak "Heavy.AutoCappedIntelligence02"
+    {
+      time 0.802083 1.905031
+      param "Heavy.AutoCappedControlPoint02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event flexanimation "asdf"
+    {
+      time 0.062500 3.343750
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "madUpper" 
+        {
+          0.2516 1.0000
+          0.2516 1.0000
+          0.9692 1.0000
+          2.7600 0.9700
+        }
+        "idleface" 
+        {
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "88"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

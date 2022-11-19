@@ -1,0 +1,5 @@
+﻿Tavoite:
+Voitat pisteen varastamalla vihollisen tiedustelusalkun ja palauttamalla sen omaan kellariisi
+
+Huomautus:
+Lipunkantajat pudottavat lipun kuollessaan. Pudotetut liput palaavat tukikohtaan 60 sekunnin kuluttua.

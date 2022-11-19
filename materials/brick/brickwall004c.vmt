@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Brick/brickwall004c"
+	"$bumpmap" "Brick/brickwall004_height-ssbump"
+	"%keywords" "tf"
+	"$ssbump" "1"
+}

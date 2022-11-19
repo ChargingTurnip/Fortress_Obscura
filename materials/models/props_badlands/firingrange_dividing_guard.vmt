@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_badlands/firingrange_dividing_guard"
+	"$bumpmap" "Models/props_badlands/firingrange_dividing_guard_normal"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".25"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+
+}

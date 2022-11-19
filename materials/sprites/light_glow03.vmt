@@ -1,0 +1,7 @@
+"Sprite"
+{
+	"$basetexture" "sprites/light_glow03"
+//	"$additive" "1"
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+}
