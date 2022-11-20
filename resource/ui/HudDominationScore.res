@@ -299,5 +299,38 @@
 		"textAlignment"	"center"	
 		"labelText"		"%pinkscorenum%"
 		
-	}												
+	}	
+	"PlayingTo"
+	{
+		"ControlName"	"CTFLabel"
+		"fieldName"		"PlayingTo"
+		"xpos"			"c-70"
+		"ypos"			"90"
+		"zpos"			"4"
+		"wide"			"140"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#FO_PlayingToDOM"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontSmall"
+		"fgcolor"		"TanLight"
+	}			
+	"PlayingToBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayingToBG"
+		"xpos"			"c-75"
+		"ypos"			"86"
+		"zpos"			"3"
+		"wide"			"150"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_playingto"
+		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"scaleImage"	"1"	
+	}													
 }
