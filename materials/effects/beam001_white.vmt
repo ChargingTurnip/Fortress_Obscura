@@ -1,0 +1,19 @@
+"Refract"
+{
+	"<dx90"
+	{
+		"$fallbackmaterial" "effects/beam001_white_dx80"
+	}
+	"$normalmap" "effects/beam001_normal"
+	"$refractamount" ".2"
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$translucent" "1"
+	"$forcerefract" 1
+	"$bluramount" "1"
+//	"$nofog" "1"
+	"$refracttinttexture" "effects/white"
+//	"$refracttint" "[1 .5 .45]"
+	"$vertexcolormodulate" "1"
+
+}

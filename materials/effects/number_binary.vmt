@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	"$basetexture" "Effects/number_binary"
+	"$translucent" 1
+	"$blendframes" 0
+//	"$additive" 1
+	"$overbrightfactor" "4"
+}

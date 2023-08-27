@@ -1,0 +1,34 @@
+//
+// Fortress Obscura - Courier Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"courier"
+	"model"			"models/player/courier.mdl"
+	"model_hwm"		"models/player/courier.mdl"
+	"localize_name"		"FO_Class_Name_Courier"
+	"speed_max"		"250"
+	"health_max"		"200"
+	"armor_max"		"0"
+
+	// Grenades.
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_FISTS"
+	
+	AmmoMax
+	{
+		"tf_ammo_primary"	"24"
+		"tf_ammo_secondary"	"0"
+		"tf_ammo_metal"		"100"
+		"tf_ammo_grenades1"	"0"
+		"tf_ammo_grenades2"	"0"
+	}	
+
+	// Death Sounds
+	"sound_death"				"Civilian.Death"
+	"sound_crit_death"			"Civilian.CritDeath"
+	"sound_melee_death"			"Civilian.MeleeDeath"
+	"sound_explosion_death"			"Civilian.ExplosionDeath"	
+}

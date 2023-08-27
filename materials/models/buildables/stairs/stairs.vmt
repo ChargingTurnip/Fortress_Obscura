@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	
+
+	"$basetexture"	"models\buildables\stairs\stairs"
+	"$phong" "1"
+	"$phongboost" "0"
+	"$phongexponent" "25"
+	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+	
+	"$basemapalphaphongmask" "1"
+
+	"$detail" "models\buildables\stairs\stairs"
+	"$detailscale" "1"
+	"$detailblendmode" "5"
+	"$detailblendfactor" "0.5"
+
+
+	"$rimlight" "1"		
+	"$rimlightexponent" "4"				
+	"$rimlightboost" "0"
+	
+
+}

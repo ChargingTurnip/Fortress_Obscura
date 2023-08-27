@@ -1,0 +1,118 @@
+// README:
+// What are you reading this for.
+// - Electrified Vegetable
+
+//SONG LIST:
+//Deadlock - Music.Class_Menu1 
+//Generator Defense - Music.Class_Menu2
+//Capture the Flag - Music.Class_Menu3
+//Domination - Music.Class_Menu4
+
+//By ChargingTurnip
+"Music.Class_Menu1"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+
+	"wave"			"#*music/class_menu1.wav"
+}
+
+//By ChargingTurnip
+"Music.Class_Menu2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"			"#*music/class_menu2.wav"
+}
+
+//By ChargingTurnip
+"Music.Class_Menu3"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"			"#*music/class_menu3.wav"
+}
+
+//By ChargingTurnip
+"Music.Class_Menu4"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"			"#*music/class_menu4.wav"
+}
+
+"music.class_menu_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_01.wav"
+}
+
+"music.class_menu_02"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_02.wav"
+}
+
+"music.class_menu_03"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_03.wav"
+}
+
+"music.class_menu_04"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_04.wav"
+}
+
+"music.class_menu_05"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_05.wav"
+}
+
+"music.class_menu_06"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_06.wav"
+}
+
+"music.class_menu_07"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_07.wav"
+}
+
+"music.class_menu_08"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_08.wav"
+}
+
+"music.class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/class_menu_09.wav"
+}

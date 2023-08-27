@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"models/props_island/island_small_leaves01"
+	"$nocull" 1
+//	"$translucent"	1
+	"$alphatest" 1
+//	"$model" 1
+}

@@ -1,0 +1,808 @@
+//--------------------------------------------------------------------------------------------------------------
+// Dismatic Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Criterion "DismaticIsNotStillonFire" "DismaticOnFire" "!=1" "required" weight 0
+Criterion "DismaticIsStillonFire" "DismaticOnFire" "1" "required" weight 0
+Criterion "DismaticNotKillSpeech" "DismaticKillSpeech" "!=1" "required" weight 0
+Criterion "DismaticNotKillSpeechMelee" "DismaticKillSpeechMelee" "!=1" "required" weight 0
+Criterion "DismaticNotSaidHealThanks" "DismaticSaidHealThanks" "!=1" "required"
+Criterion "IsHelpCapDismatic" "DismaticHelpCap" "1" "required" weight 0
+
+
+Response PlayerCloakedSpyDemomanDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify05.vcd" 
+}
+Rule PlayerCloakedSpyDemomanDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnDemoman
+	Response PlayerCloakedSpyDemomanDismatic
+}
+
+Response PlayerCloakedSpyDismaticDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify08.vcd" 
+}
+Rule PlayerCloakedSpyDismaticDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnDismatic
+	Response PlayerCloakedSpyDismaticDismatic
+}
+
+Response PlayerCloakedSpyHeavyDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify03.vcd" 
+}
+Rule PlayerCloakedSpyHeavyDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnHeavy
+	Response PlayerCloakedSpyHeavyDismatic
+}
+
+Response PlayerCloakedSpyMedicDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify07.vcd" 
+}
+Rule PlayerCloakedSpyMedicDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnMedic
+	Response PlayerCloakedSpyMedicDismatic
+}
+
+Response PlayerCloakedSpyPyroDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify04.vcd" 
+}
+Rule PlayerCloakedSpyPyroDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnPyro
+	Response PlayerCloakedSpyPyroDismatic
+}
+
+Response PlayerCloakedSpySniperDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify09.vcd" 
+}
+Rule PlayerCloakedSpySniperDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnSniper
+	Response PlayerCloakedSpySniperDismatic
+}
+
+Response PlayerCloakedSpySoldierDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify02.vcd" 
+}
+Rule PlayerCloakedSpySoldierDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnSoldier
+	Response PlayerCloakedSpySoldierDismatic
+}
+
+Response PlayerCloakedSpySpyDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify06.vcd" 
+	scene "scenes/Player/Dismatic/low/CloakedSpyIdentify10.vcd" 
+}
+Rule PlayerCloakedSpySpyDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic IsOnSpy
+	Response PlayerCloakedSpySpyDismatic
+}
+
+Response PlayerDispenserDownDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoDestroyedDispenser01.vcd" 
+}
+Rule PlayerDispenserDownDismatic
+{
+	criteria ConceptLostObject IsDispenser IsDismatic
+	Response PlayerDispenserDownDismatic
+}
+
+Response PlayerSentryDownDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoDestroyedSentry01.vcd" 
+}
+Rule PlayerSentryDownDismatic
+{
+	criteria ConceptLostObject IsSentryGun IsDismatic
+	Response PlayerSentryDownDismatic
+}
+
+Response PlayerTeleporterDownDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoDestroyedTeleporter01.vcd" 
+}
+Rule PlayerTeleporterDownDismatic
+{
+	criteria ConceptLostObject IsTeleporterEntrance IsDismatic
+	Response PlayerTeleporterDownDismatic
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksDismatic
+{
+	scene "scenes/Player/Dismatic/low/ThanksForTheHeal01.vcd" 
+	scene "scenes/Player/Dismatic/low/ThanksForTheHeal02.vcd" 
+}
+Rule HealThanksDismatic
+{
+	criteria ConceptMedicChargeStopped IsDismatic SuperHighHealthContext DismaticNotSaidHealThanks 50PercentChance
+	ApplyContext "DismaticSaidHealThanks:1:20"
+	Response HealThanksDismatic
+}
+
+Response PlayerRoundStartDismatic
+{
+	scene "scenes/Player/Dismatic/low/BattleCry01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Dismatic/low/BattleCry02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Dismatic/low/BattleCry03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Dismatic/low/BattleCry04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Dismatic/low/BattleCry05.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartDismatic
+{
+	criteria ConceptPlayerRoundStart IsDismatic
+	Response PlayerRoundStartDismatic
+}
+
+Response PlayerCappedIntelligenceDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoCappedIntelligence01.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoCappedIntelligence02.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoCappedIntelligence03.vcd" 
+}
+Rule PlayerCappedIntelligenceDismatic
+{
+	criteria ConceptPlayerCapturedIntelligence IsDismatic
+	Response PlayerCappedIntelligenceDismatic
+}
+
+Response PlayerCapturedPointDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoCappedControlPoint01.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoCappedControlPoint02.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoCappedControlPoint03.vcd" 
+}
+Rule PlayerCapturedPointDismatic
+{
+	criteria ConceptPlayerCapturedPoint IsDismatic
+	Response PlayerCapturedPointDismatic
+}
+
+Response PlayerSuddenDeathDismatic
+{
+	scene "scenes/Player/Dismatic/low/Jeers01.vcd" 
+	scene "scenes/Player/Dismatic/low/Jeers02.vcd" 
+	scene "scenes/Player/Dismatic/low/Jeers03.vcd" 
+	scene "scenes/Player/Dismatic/low/Jeers04.vcd" 
+}
+Rule PlayerSuddenDeathDismatic
+{
+	criteria ConceptPlayerSuddenDeathStart IsDismatic
+	Response PlayerSuddenDeathDismatic
+}
+
+Response PlayerStalemateDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoDejectedTie01.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoDejectedTie02.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoDejectedTie03.vcd" 
+}
+Rule PlayerStalemateDismatic
+{
+	criteria ConceptPlayerStalemate IsDismatic
+	Response PlayerStalemateDismatic
+}
+
+Response PlayerTeleporterThanksDismatic
+{
+	scene "scenes/Player/Dismatic/low/ThanksForTheTeleporter01.vcd" 
+	scene "scenes/Player/Dismatic/low/ThanksForTheTeleporter02.vcd" 
+}
+Rule PlayerTeleporterThanksDismatic
+{
+	criteria ConceptTeleported IsNotDismatic IsDismatic 30PercentChance
+	Response PlayerTeleporterThanksDismatic
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response KillTauntsDismaticSpecial
+{
+	scene "scenes/Player/Dismatic/low/SpecialCompleted02.vcd" 
+	scene "scenes/Player/Dismatic/low/SpecialCompleted06.vcd" 
+	scene "scenes/Player/Dismatic/low/SpecialCompleted08.vcd" 
+	scene "scenes/Player/Dismatic/low/SpecialCompleted09.vcd" 
+}
+Rule KillTauntsDismaticSpecial
+{
+	criteria ConceptKilledPlayer IsManyRecentKills WeaponIsSentrygun KilledPlayerDelay DismaticNotKillSpeech IsDismatic 30PercentChance
+	ApplyContext "DismaticKillSpeech:1:10"
+	applycontexttoworld
+	Response KillTauntsDismaticSpecial
+}
+
+Response KilledPlayerManyDismatic
+{
+	scene "scenes/Player/Dismatic/low/SpecialCompleted05.vcd" 
+	scene "scenes/Player/Dismatic/low/SpecialCompleted10.vcd" 
+	scene "scenes/Player/Dismatic/low/SpecialCompleted11.vcd" 
+}
+Rule KilledPlayerManyDismatic
+{
+	criteria ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponPrimary KilledPlayerDelay DismaticNotKillSpeech IsDismatic
+	ApplyContext "DismaticKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerManyDismatic
+}
+
+Response KilledPlayerMeleeDismaticDismatic
+{
+	scene "scenes/Player/Dismatic/low/SpecialCompleted07.vcd" 
+}
+Rule KilledPlayerMeleeDismaticDismatic
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee DismaticNotKillSpeechMelee IsDismatic WeaponIsNotSentrygun
+	ApplyContext "DismaticKillSpeechMelee:1:10"
+	applycontexttoworld
+	Response KilledPlayerMeleeDismaticDismatic
+}
+
+Response KilledPlayerVeryManyDismatic
+{
+	scene "scenes/Player/Dismatic/low/SpecialCompleted01.vcd" 
+}
+Rule KilledPlayerVeryManyDismatic
+{
+	criteria ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance IsWeaponPrimary KilledPlayerDelay DismaticNotKillSpeech IsDismatic
+	ApplyContext "DismaticKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerVeryManyDismatic
+}
+
+Response PlayerKilledCapperDismatic
+{
+	scene "scenes/Player/Dismatic/low/Cheers02.vcd" 
+	scene "scenes/Player/Dismatic/low/Cheers03.vcd" 
+	scene "scenes/Player/Dismatic/low/Cheers04.vcd" 
+	scene "scenes/Player/Dismatic/low/Cheers05.vcd" 
+}
+Rule PlayerKilledCapperDismatic
+{
+	criteria ConceptCapBlocked IsDismatic
+	ApplyContext "DismaticKillSpeech:1:10"
+	Response PlayerKilledCapperDismatic
+}
+
+Response PlayerKilledDominatingDismatic
+{
+	scene "scenes/Player/Dismatic/low/Cheers01.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/Cheers06.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/Jeers04.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughEvil01.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughEvil02.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughEvil05.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughEvil06.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughHappy01.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughHappy02.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughHappy03.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/LaughLong01.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/SpecialCompleted03.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/Taunts02.vcd" predelay "2.5"
+	scene "scenes/Player/Dismatic/low/Taunts04.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingDismatic
+{
+	criteria ConceptKilledPlayer IsDismatic IsDominated
+	ApplyContext "DismaticKillSpeech:1:10"
+	Response PlayerKilledDominatingDismatic
+}
+
+Response PlayerKilledForRevengeDismatic
+{
+	scene "scenes/Player/Dismatic/low/Cheers07.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeDismatic
+{
+	criteria ConceptKilledPlayer IsDismatic IsRevenge
+	ApplyContext "DismaticKillSpeech:1:10"
+	Response PlayerKilledForRevengeDismatic
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Dismatic
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBuildingDispenserDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoBuildingDispenser01.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoBuildingDispenser02.vcd" 
+}
+Rule PlayerBuildingDispenserDismatic
+{
+	criteria ConceptPlayerBuildingObject IsDispenser IsDismatic
+	Response PlayerBuildingDispenserDismatic
+}
+
+Response PlayerBuildingSentryDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoBuildingSentry01.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoBuildingSentry02.vcd" 
+}
+Rule PlayerBuildingSentryDismatic
+{
+	criteria ConceptPlayerBuildingObject IsSentryGun IsDismatic
+	Response PlayerBuildingSentryDismatic
+}
+
+Response PlayerBuildingTeleporterDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoBuildingTeleporter01.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoBuildingTeleporter02.vcd" 
+}
+Rule PlayerBuildingTeleporterDismatic
+{
+	criteria ConceptPlayerBuildingObject IsTeleporterEntrance IsDismatic
+	Response PlayerBuildingTeleporterDismatic
+}
+
+Response PlayerDispenserSappedDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoAttackedBySpy02.vcd" 
+}
+Rule PlayerDispenserSappedDismatic
+{
+	criteria ConceptSpySapping IsDismatic IsDispenser
+	Response PlayerDispenserSappedDismatic
+}
+
+Response PlayerSentrySappedDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoAttackedBySpy03.vcd" 
+}
+Rule PlayerSentrySappedDismatic
+{
+	criteria ConceptSpySapping IsDismatic IsSentryGun
+	Response PlayerSentrySappedDismatic
+}
+
+Response PlayerTeleporterEntranceSappedDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoAttackedBySpy01.vcd" 
+}
+Rule PlayerTeleporterEntranceSappedDismatic
+{
+	criteria ConceptSpySapping IsDismatic IsTeleporterEntrance
+	Response PlayerTeleporterEntranceSappedDismatic
+}
+
+Response PlayerTeleporterExitSappedDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoAttackedBySpy01.vcd" 
+}
+Rule PlayerTeleporterExitSappedDismatic
+{
+	criteria ConceptSpySapping IsDismatic IsTeleporterExit
+	Response PlayerTeleporterExitSappedDismatic
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainDismatic
+{
+	scene "scenes/Player/Dismatic/low/PainSevere01.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSevere02.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSevere03.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSevere04.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSevere05.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSevere06.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSevere07.vcd" 
+}
+Rule PlayerAttackerPainDismatic
+{
+	criteria ConceptAttackerPain IsDismatic
+	Response PlayerAttackerPainDismatic
+}
+
+Response PlayerOnFireDismatic
+{
+	scene "scenes/Player/Dismatic/low/AutoOnFire01.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoOnFire02.vcd" 
+	scene "scenes/Player/Dismatic/low/AutoOnFire03.vcd" 
+}
+Rule PlayerOnFireDismatic
+{
+	criteria ConceptFire IsDismatic DismaticIsNotStillonFire
+	ApplyContext "DismaticOnFire:1:7"
+	Response PlayerOnFireDismatic
+}
+
+Response PlayerPainDismatic
+{
+	scene "scenes/Player/Dismatic/low/PainSharp01.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSharp02.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSharp03.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSharp04.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSharp05.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSharp06.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSharp07.vcd" 
+	scene "scenes/Player/Dismatic/low/PainSharp08.vcd" 
+}
+Rule PlayerPainDismatic
+{
+	criteria ConceptPain IsDismatic
+	Response PlayerPainDismatic
+}
+
+Response PlayerStillOnFireDismatic
+{
+	scene "scenes/Player/Dismatic/low/autoonfiresecondary01.vcd" 
+}
+Rule PlayerStillOnFireDismatic
+{
+	criteria ConceptFire IsDismatic  DismaticIsStillonFire
+	ApplyContext "DismaticOnFire:1:7"
+	Response PlayerStillOnFireDismatic
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoDismatic
+{
+	scene "scenes/Player/Dismatic/low/Go01.vcd" 
+}
+Rule PlayerGoDismatic
+{
+	criteria ConceptPlayerGo IsDismatic
+	Response PlayerGoDismatic
+}
+
+Response PlayerHeadLeftDismatic
+{
+	scene "scenes/Player/Dismatic/low/HeadLeft01.vcd" 
+	scene "scenes/Player/Dismatic/low/HeadLeft02.vcd" 
+}
+Rule PlayerHeadLeftDismatic
+{
+	criteria ConceptPlayerLeft  IsDismatic
+	Response PlayerHeadLeftDismatic
+}
+
+Response PlayerHeadRightDismatic
+{
+	scene "scenes/Player/Dismatic/low/HeadRight01.vcd" 
+	scene "scenes/Player/Dismatic/low/HeadRight02.vcd" 
+	scene "scenes/Player/Dismatic/low/HeadRight03.vcd" 
+}
+Rule PlayerHeadRightDismatic
+{
+	criteria ConceptPlayerRight  IsDismatic
+	Response PlayerHeadRightDismatic
+}
+
+Response PlayerHelpDismatic
+{
+	scene "scenes/Player/Dismatic/low/HelpMe01.vcd" 
+	scene "scenes/Player/Dismatic/low/HelpMe02.vcd" 
+	scene "scenes/Player/Dismatic/low/HelpMe03.vcd" 
+}
+Rule PlayerHelpDismatic
+{
+	criteria ConceptPlayerHelp IsDismatic
+	Response PlayerHelpDismatic
+}
+
+Response PlayerHelpCaptureDismatic
+{
+	scene "scenes/Player/Dismatic/low/HelpMeCapture01.vcd" 
+	scene "scenes/Player/Dismatic/low/HelpMeCapture02.vcd" 
+	scene "scenes/Player/Dismatic/low/HelpMeCapture03.vcd" 
+}
+Rule PlayerHelpCaptureDismatic
+{
+	criteria ConceptPlayerHelp IsDismatic IsOnCappableControlPoint
+	ApplyContext "DismaticHelpCap:1:10"
+	Response PlayerHelpCaptureDismatic
+}
+
+Response PlayerHelpCapture2Dismatic
+{
+	scene "scenes/Player/Dismatic/low/StandOnThePoint01.vcd" 
+	scene "scenes/Player/Dismatic/low/StandOnThePoint02.vcd" 
+}
+Rule PlayerHelpCapture2Dismatic
+{
+	criteria ConceptPlayerHelp IsDismatic IsOnCappableControlPoint IsHelpCapDismatic
+	Response PlayerHelpCapture2Dismatic
+}
+
+Response PlayerHelpDefendDismatic
+{
+	scene "scenes/Player/Dismatic/low/HelpMeDefend01.vcd" 
+	scene "scenes/Player/Dismatic/low/HelpMeDefend02.vcd" 
+	scene "scenes/Player/Dismatic/low/HelpMeDefend03.vcd" 
+}
+Rule PlayerHelpDefendDismatic
+{
+	criteria ConceptPlayerHelp IsDismatic IsOnFriendlyControlPoint
+	Response PlayerHelpDefendDismatic
+}
+
+Response PlayerMedicDismatic
+{
+	scene "scenes/Player/Dismatic/low/Medic01.vcd" 
+	scene "scenes/Player/Dismatic/low/Medic02.vcd" 
+	scene "scenes/Player/Dismatic/low/Medic03.vcd" 
+}
+Rule PlayerMedicDismatic
+{
+	criteria ConceptPlayerMedic IsDismatic
+	Response PlayerMedicDismatic
+}
+
+Response PlayerMoveUpDismatic
+{
+	scene "scenes/Player/Dismatic/low/MoveUp01.vcd" 
+	scene "scenes/Player/Dismatic/low/MoveUp02.vcd" 
+}
+Rule PlayerMoveUpDismatic
+{
+	criteria ConceptPlayerMoveUp  IsDismatic
+	Response PlayerMoveUpDismatic
+}
+
+Response PlayerNoDismatic
+{
+	scene "scenes/Player/Dismatic/low/No01.vcd" 
+	scene "scenes/Player/Dismatic/low/No02.vcd" 
+	scene "scenes/Player/Dismatic/low/No03.vcd" 
+}
+Rule PlayerNoDismatic
+{
+	criteria ConceptPlayerNo  IsDismatic
+	Response PlayerNoDismatic
+}
+
+Response PlayerThanksDismatic
+{
+	scene "scenes/Player/Dismatic/low/Thanks01.vcd" 
+	scene "scenes/Player/Dismatic/low/Thanks02.vcd" 
+	scene "scenes/Player/Dismatic/low/Thanks03.vcd" 
+}
+Rule PlayerThanksDismatic
+{
+	criteria ConceptPlayerThanks IsDismatic
+	Response PlayerThanksDismatic
+}
+
+Response PlayerYesDismatic
+{
+	scene "scenes/Player/Dismatic/low/Yes01.vcd" 
+	scene "scenes/Player/Dismatic/low/Yes02.vcd" 
+	scene "scenes/Player/Dismatic/low/Yes03.vcd" 
+}
+Rule PlayerYesDismatic
+{
+	criteria ConceptPlayerYes  IsDismatic
+	Response PlayerYesDismatic
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeDismatic
+{
+	scene "scenes/Player/Dismatic/low/ActivateCharge01.vcd" 
+	scene "scenes/Player/Dismatic/low/ActivateCharge02.vcd" 
+	scene "scenes/Player/Dismatic/low/ActivateCharge03.vcd" 
+}
+Rule PlayerActivateChargeDismatic
+{
+	criteria ConceptPlayerActivateCharge IsDismatic
+	Response PlayerActivateChargeDismatic
+}
+
+Response PlayerCloakedSpyDismatic
+{
+	scene "scenes/Player/Dismatic/low/CloakedSpy01.vcd" 
+	scene "scenes/Player/Dismatic/low/CloakedSpy02.vcd" 
+	scene "scenes/Player/Dismatic/low/CloakedSpy03.vcd" 
+}
+Rule PlayerCloakedSpyDismatic
+{
+	criteria ConceptPlayerCloakedSpy IsDismatic
+	Response PlayerCloakedSpyDismatic
+}
+
+Response PlayerDispenserHereDismatic
+{
+	scene "scenes/Player/Dismatic/low/NeedDispenser01.vcd" 
+}
+Rule PlayerDispenserHereDismatic
+{
+	criteria ConceptPlayerDispenserHere IsDismatic
+	Response PlayerDispenserHereDismatic
+}
+
+Response PlayerIncomingDismatic
+{
+	scene "scenes/Player/Dismatic/low/Incoming01.vcd" 
+	scene "scenes/Player/Dismatic/low/Incoming02.vcd" 
+	scene "scenes/Player/Dismatic/low/Incoming03.vcd" 
+}
+Rule PlayerIncomingDismatic
+{
+	criteria ConceptPlayerIncoming IsDismatic
+	Response PlayerIncomingDismatic
+}
+
+Response PlayerSentryAheadDismatic
+{
+	scene "scenes/Player/Dismatic/low/SentryAhead01.vcd" 
+	scene "scenes/Player/Dismatic/low/SentryAhead02.vcd" 
+}
+Rule PlayerSentryAheadDismatic
+{
+	criteria ConceptPlayerSentryAhead IsDismatic
+	Response PlayerSentryAheadDismatic
+}
+
+Response PlayerSentryHereDismatic
+{
+	scene "scenes/Player/Dismatic/low/NeedSentry01.vcd" 
+}
+Rule PlayerSentryHereDismatic
+{
+	criteria ConceptPlayerSentryHere IsDismatic
+	Response PlayerSentryHereDismatic
+}
+
+Response PlayerTeleporterHereDismatic
+{
+	scene "scenes/Player/Dismatic/low/NeedTeleporter01.vcd" 
+	scene "scenes/Player/Dismatic/low/NeedTeleporter02.vcd" 
+}
+Rule PlayerTeleporterHereDismatic
+{
+	criteria ConceptPlayerTeleporterHere IsDismatic
+	Response PlayerTeleporterHereDismatic
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryDismatic
+{
+	scene "scenes/Player/Dismatic/low/BattleCry01.vcd" 
+	scene "scenes/Player/Dismatic/low/BattleCry02.vcd" 
+	scene "scenes/Player/Dismatic/low/BattleCry03.vcd" 
+	scene "scenes/Player/Dismatic/low/BattleCry04.vcd" 
+	scene "scenes/Player/Dismatic/low/BattleCry05.vcd" 
+}
+Rule PlayerBattleCryDismatic
+{
+	criteria ConceptPlayerBattleCry IsDismatic
+	Response PlayerBattleCryDismatic
+}
+
+Response PlayerCheersDismatic
+{
+	scene "scenes/Player/Dismatic/low/Cheers01.vcd" 
+	scene "scenes/Player/Dismatic/low/Cheers02.vcd" 
+}
+Rule PlayerCheersDismatic
+{
+	criteria ConceptPlayerCheers IsDismatic
+	Response PlayerCheersDismatic
+}
+
+Response PlayerGoodJobDismatic
+{
+	scene "scenes/Player/Dismatic/low/GoodJob01.vcd" 
+	scene "scenes/Player/Dismatic/low/GoodJob02.vcd" 
+	scene "scenes/Player/Dismatic/low/GoodJob03.vcd" 
+}
+Rule PlayerGoodJobDismatic
+{
+	criteria ConceptPlayerGoodJob IsDismatic
+	Response PlayerGoodJobDismatic
+}
+
+Response PlayerJeersDismatic
+{
+	scene "scenes/Player/Dismatic/low/Jeers01.vcd" 
+	scene "scenes/Player/Dismatic/low/Jeers02.vcd" 
+	scene "scenes/Player/Dismatic/low/Jeers03.vcd" 
+	scene "scenes/Player/Dismatic/low/Jeers04.vcd" 
+	scene "scenes/Player/Dismatic/low/Jeers05.vcd" 
+}
+Rule PlayerJeersDismatic
+{
+	criteria ConceptPlayerJeers IsDismatic
+	Response PlayerJeersDismatic
+}
+
+Response PlayerLostPointDismatic
+{
+	scene "scenes/Player/Dismatic/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization04.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization05.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization06.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization07.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization08.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization09.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization10.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization11.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization12.vcd" 
+}
+Rule PlayerLostPointDismatic
+{
+	criteria ConceptPlayerLostPoint IsDismatic
+	Response PlayerLostPointDismatic
+}
+
+Response PlayerNegativeDismatic
+{
+	scene "scenes/Player/Dismatic/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Dismatic/low/NegativeVocalization03.vcd" 
+}
+Rule PlayerNegativeDismatic
+{
+	criteria ConceptPlayerNegative IsDismatic
+	Response PlayerNegativeDismatic
+}
+
+Response PlayerNiceShotDismatic
+{
+	scene "scenes/Player/Dismatic/low/NiceShot01.vcd" 
+	scene "scenes/Player/Dismatic/low/NiceShot02.vcd" 
+	scene "scenes/Player/Dismatic/low/NiceShot03.vcd" 
+}
+Rule PlayerNiceShotDismatic
+{
+	criteria ConceptPlayerNiceShot IsDismatic
+	Response PlayerNiceShotDismatic
+}
+
+Response PlayerPositiveDismatic
+{
+	scene "scenes/Player/Dismatic/low/PositiveVocalization01.vcd" 
+}
+Rule PlayerPositiveDismatic
+{
+	criteria ConceptPlayerPositive IsDismatic
+	Response PlayerPositiveDismatic
+}
+
+Response PlayerTauntsDismatic
+{
+	scene "scenes/Player/Dismatic/low/LaughEvil03.vcd" 
+	scene "scenes/Player/Dismatic/low/LaughEvil04.vcd" 
+	scene "scenes/Player/Dismatic/low/LaughShort01.vcd" 
+	scene "scenes/Player/Dismatic/low/LaughShort02.vcd" 
+	scene "scenes/Player/Dismatic/low/LaughShort03.vcd" 
+	scene "scenes/Player/Dismatic/low/LaughShort04.vcd" 
+}
+Rule PlayerTauntsDismatic
+{
+	criteria ConceptPlayerTaunts IsDismatic
+	Response PlayerTauntsDismatic
+}
+

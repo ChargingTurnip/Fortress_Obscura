@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_doomsday/wood_fence001"
+	"$surfaceprop" "wood"
+}

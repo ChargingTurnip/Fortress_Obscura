@@ -1876,6 +1876,23 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
+		"7" 
+		{
+			"font" "resource/LietzLindauHamburg.otf"
+			"name" "Lietz LindauHamburg"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
 	}
 
 }

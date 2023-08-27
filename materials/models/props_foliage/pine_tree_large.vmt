@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_foliage/pine_tree_large"
+	"$alphatest" 1
+	"$nocull" 1	
+}

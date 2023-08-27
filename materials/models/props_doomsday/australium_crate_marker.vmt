@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_doomsday/australium_crate_marker"
+	$translucent 1
+}

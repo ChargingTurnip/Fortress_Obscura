@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models\props_gameplay\forcefield_gradient"
+	//"$translucent" "1"
+	"$additive" "1"
+	"$model" "1"
+	"$nodecal" "1"
+}

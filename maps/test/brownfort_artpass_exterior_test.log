@@ -1,0 +1,153 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\brownfort_artpass_exterior_test.vmf
+material "halflife/tnnl_flr6" not found.
+Material not found!: HALFLIFE/TNNL_FLR6
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "halflife/generic015v2" not found.
+Material not found!: HALFLIFE/GENERIC015V2
+Patching WVT material: maps/brownfort_artpass_exterior_test/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/brownfort_artpass_exterior_test/nature/blendgroundtograss001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 248 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\brownfort_artpass_exterior_test.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (336928 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 681 texinfos to 480
+Reduced 40 texdatas to 36 (974 bytes to 830)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\brownfort_artpass_exterior_test.bsp
+Wrote ZIP buffer, estimated size 1670, actual size 1322
+3 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\brownfort_artpass_exterior_test.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\brownfort_artpass_exterior_test.prt
+1065 portalclusters
+3261 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 61620 visible clusters (9.52%)
+Total clusters visible: 647409
+Average clusters visible: 607
+Building PAS...
+Average clusters audible: 996
+visdatasize:278188  compressed from 289680
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\brownfort_artpass_exterior_test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\brownfort_artpass_exterior_test.bsp
+Error! Invalid VTX file checksum: 1998132989, expected 37147653 "models/props_forest/wood_pile.dx80.vtx"
+4666 faces
+1379931 square feet [198710064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4666 patches before subdivision
+76112 patches after subdivision
+83 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5139300, max 562
+transfer lists:  39.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(970059, 825478, 803939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(359305, 242231, 237212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(146071, 78435, 76918)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(60877, 25938, 25451)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(25933, 8853, 8689)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(11158, 3072, 3016)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4848, 1090, 1070)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2119, 393, 386)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(931, 144, 142)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(411, 54, 53)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(182, 20, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(81, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(36, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(16, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0159 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/1024         1440/49152    ( 2.9%) 
+brushes                931/8192        11172/98304    (11.4%) 
+brushsides            6486/65536       51888/524288   ( 9.9%) 
+planes                2080/65536       41600/1310720  ( 3.2%) 
+vertexes              6427/65536       77124/786432   ( 9.8%) 
+nodes                 2323/65536       74336/2097152  ( 3.5%) 
+texinfos               480/12288       34560/884736   ( 3.9%) 
+texdata                 36/2048         1152/65536    ( 1.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4666/65536      261296/3670016  ( 7.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3030/65536      169680/3670016  ( 4.6%) 
+leaves                2354/65536       75328/2097152  ( 3.6%) 
+leaffaces             5568/65536       11136/131072   ( 8.5%) 
+leafbrushes           2143/65536        4286/131072   ( 3.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            34286/512000     137144/2048000  ( 6.7%) 
+edges                20221/256000      80884/1024000  ( 7.9%) 
+LDR worldlights         83/8192         7304/720896   ( 1.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            423/32768        4230/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6822/65536       13644/131072   (10.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     1561184/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      278188/16777216 ( 1.7%) 
+entdata               [variable]       50517/393216   (12.8%) 
+LDR ambient table     2354/65536        9416/262144   ( 3.6%) 
+HDR ambient table     2354/65536        9416/262144   ( 3.6%) 
+LDR leaf ambient     12933/65536      362124/1835008  (19.7%) 
+HDR leaf ambient      2354/65536       65912/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/8624     ( 0.0%) 
+pakfile               [variable]        1322/0        ( 0.0%) 
+physics               [variable]      336928/4194304  ( 8.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12875
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\brownfort_artpass_exterior_test.bsp
+22 seconds elapsed

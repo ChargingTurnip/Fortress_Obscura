@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/shalewall001c"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"$surfaceprop" "rock"
+	"%keywords" "tf"
+
+}

@@ -1,0 +1,6 @@
+ "VertexLitGeneric"
+{
+	"$basetexture" "\models\props_medical\med_anatomyboard"
+	"%keywords" "tf"
+
+}

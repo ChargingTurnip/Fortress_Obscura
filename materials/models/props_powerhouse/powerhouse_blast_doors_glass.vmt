@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_powerhouse/powerhouse_blast_doors_glass"
+	"$bumpmap"  "models\props_powerhouse/powerhouse_blast_doors_glass_normal"
+	$translucent 1
+	"$envmapcontrast" "0"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "cubemaps\cubemap_specular002"
+	"$envmaptint" "[ 1 0.941 0.876 ]"
+}
+

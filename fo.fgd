@@ -178,6 +178,7 @@
 		"filter_activator_mass_greater"
 		"filter_activator_name"
 		"filter_activator_tfteam"
+		"filter_activator_tfclass"
 		"filter_damage_type"
 		"filter_enemy"
 		"filter_multi"
@@ -295,6 +296,8 @@
 		"fo_gamemode_ditr"
 		"tf_gamerules"
 		"tf_logic_arena"
+		"fo_logic_patchwork"
+		"tf_logic_hunted"
 		"tf_logic_hybrid_ctf_cp"
 		"tf_logic_koth"
 		"tf_logic_medieval"
@@ -348,6 +351,7 @@
 		"func_respawnflag"
 		"func_respawnroom"
 		"func_respawnroomvisualizer"
+		"func_escapezone"
 		"func_forcefield"
 		"func_rot_button"
 		"func_rotation"
@@ -784,6 +788,62 @@
 	output Hole10Chosen(void) : "Fires when hiding spot number 10 was chosen."
 ]
 
+@PointClass base(Targetname) = fo_gamemode_gd : "NO NOT MY POWER CUBE"
+[		
+	RedGen(target_destination) : "Associated Red Generator" : "" : "Entity to use as the RED generator."
+	BlueGen(target_destination) : "Associated Blue Generator" : "" : "Entity to use as the BLUE generator."
+	GreenGen(target_destination) : "Associated Green Generator" : "" : "Entity to use as the GREEN generator. [Only used if 3 or 6-Team is enabled]"
+	YellowGen(target_destination) : "Associated Yellow Generator" : "" : "Entity to use as the YELLOW generator. [Only used if 6-Team is enabled]"
+	PurpleGen(target_destination) : "Associated Purple Generator" : "" : "Entity to use as the PURPLE generator. [Only used if 6-Team is enabled]"
+	PinkGen(target_destination) : "Associated Pink Generator" : "" : "Entity to use as the PINK generator. [Only used if 6-Team is enabled]"
+
+	input OpenRedGen(void) : "Fires the RedGenOpened output."
+	input OpenBlueGen(void) : "Fires the BlueGenOpened output."
+	input OpenGreenGen(void) : "Fires the GreenGenOpened output."
+	input OpenYellowGen(void) : "Fires the YellowGenOpened output."
+	input OpenPurpleGen(void) : "Fires the PurpleGenOpened output."
+
+	input CloseRedGen(void) : "Fires the RedGenClosed output."
+	input CloseBlueGen(void) : "Fires the BlueGenClosed output."
+	input CloseGreenGen(void) : "Fires the GreenGenClosed output."
+	input CloseYellowGen(void) : "Fires the YellowGenClosed output."
+	input ClosePurpleGen(void) : "Fires the PurpleGenClosed output."
+
+	input UpdatePointTimer(void) : "Updates the control point timer."
+	input ResetPointTimer(void) : "Resets the control point timer."
+
+	output RedGenOpened(void) : "Fires when the OpenRedGen input is activated."
+	output BlueGenOpened(void) : "Fires when the OpenBlueGen input is activated."
+	output GreenGenOpened(void) : "Fires when the OpenGreenGen input is activated."
+	output YellowGenOpened(void) : "Fires when the OpenYellowGen input is activated."
+	output PurpleGenOpened(void) : "Fires when the OpenPurpleGen input is activated."
+	output PinkGenOpened(void) : "Fires when the OpenPinkGen input is activated."
+
+	output RedGenClosed(void) : "Fires when the CloseRedGen input is activated."
+	output BlueGenClosed(void) : "Fires when the CloseBlueGen input is activated."
+	output GreenGenClosed(void) : "Fires when the CloseGreenGen input is activated."
+	output YellowGenClosed(void) : "Fires when the CloseYellowGen input is activated."
+	output PurpleGenClosed(void) : "Fires when the ClosePurpleGen input is activated."
+	output PinkGenClosed(void) : "Fires when the ClosePinkGen input is activated."
+
+	output RedGenDestroyed(void) : "Fires when the RED generator is destroyed."
+	output BlueGenDestroyed(void) : "Fires when the BLUE generator is destroyed."
+	output GreenGenDestroyed(void) : "Fires when the GREEN generator is destroyed."
+	output YellowGenDestroyed(void) : "Fires when the YELLOW generator is destroyed."
+	output PurpleGenDestroyed(void) : "Fires when the PURPLE generator is destroyed."
+	output PinkGenDestroyed(void) : "Fires when the PINK generator is destroyed."
+
+	output OnPointTimer(void) : "Fires when the control point timer ends."
+
+	output OnRedWin(void) : "Fires when the RED team wins."
+	output OnBlueWin(void) : "Fires when the BLUE team wins."
+	output OnGreenWin(void) : "Fires when the GREEN team wins."
+	output OnYellowWin(void) : "Fires when the YELLOW team wins."
+	output OnPurpleWin(void) : "Fires when the PURPLE team wins."
+	output OnPinkWin(void) : "Fires when the PINK team wins."
+	output OnWin(void) : "Fires when any team wins."
+]
+
 @PointClass base(Targetname) sphere(fademindist) sphere(fademaxdist) = fo_diamond_hole : "Diamond Hole" 
 [
 	model(studio) : "Model" : "" : "The model this entity should appear as. 128-character limit."
@@ -810,6 +870,39 @@
 	output OnReachDigMax(void) : "Fires when dig percentage is at its max."
 	output OnFirstDig(void) : "Fires when dug for the first time."
 	output OnDig(void) : "Fires when dug."
+]
+
+@PointClass base(Targetname) sphere(fademindist) sphere(fademaxdist) = team_generator : "Generator" 
+[
+	TeamNum(choices) : "Team" : 0 = 
+	[
+		0 : "Any"
+		2 : "Red"
+		3 : "Blue"
+		4 : "Green"
+		5 : "Yellow"
+		6 : "Purple"
+		7 : "Pink"
+	]
+
+	model(studio) : "Model" : "" : "The model this entity should appear as. 128-character limit."
+	skin(integer) : "Skin" : 0 : "Some models have multiple versions of their textures, called skins. Set this to a number other than 0 to use that skin instead of the default."
+	
+	SetHealth(integer) : "Health" : 1000 : "Max health for the generator."
+
+	output On10PercentHealth(void) : "Fires when generator health is less or equal to 10 percent."
+	output On20PercentHealth(void) : "Fires when generator health is less or equal to 20 percent."
+	output On30PercentHealth(void) : "Fires when generator health is less or equal to 30 percent."
+	output On40PercentHealth(void) : "Fires when generator health is less or equal to 40 percent."
+	output On50PercentHealth(void) : "Fires when generator health is less or equal to 50 percent."
+	output On60PercentHealth(void) : "Fires when generator health is less or equal to 60 percent."
+	output On70PercentHealth(void) : "Fires when generator health is less or equal to 70 percent."
+	output On80PercentHealth(void) : "Fires when generator health is less or equal to 80 percent."
+	output On90PercentHealth(void) : "Fires when generator health is less or equal to 90 percent."
+
+	output OnDestroyed(void) : "Fires when the generator is destroyed."
+
+	input DestroyThyselfHeathen(void) : "Removes the generator model and collision."
 ]
 
 @PointClass base(Targetname) = tf_gamerules : "Proxy entity for TF Gamerules"
@@ -1551,6 +1644,20 @@
 																						
 @SolidClass base(Targetname, TeamNum, EnableDisable, Toggle) = func_respawnroom :
 	"Designates a respawn room for a team." []
+
+@SolidClass base(Targetname, EnableDisable, Toggle) = func_escapezone : "Designates an escape zone for escort." 
+[
+	filtername(filterclass) : "Filter Name" : : "Optional filter to use to see if activator triggers me."
+
+	output OnCourierTouch(void) : "Sent when a Courier enters this trigger."
+
+	output OnRedCourierTouch(void) : "Sent when the RED Courier enters this trigger."
+	output OnBlueCourierTouch(void) : "Sent when the BLUE Courier enters this trigger."
+	output OnGreenCourierTouch(void) : "Sent when the GREEN Courier enters this trigger."
+	output OnYellowCourierTouch(void) : "Sent when the YELLOW Courier enters this trigger."
+	output OnPurpleCourierTouch(void) : "Sent when the PURPLE Courier enters this trigger."
+	output OnPinkCourierTouch(void) : "Sent when the PINK Courier enters this trigger."
+]
 		
 @SolidClass base(Targetname, TeamNum, EnableDisable, Toggle) = func_flag_alert : "Alerts are triggered when an enemy carrying a flag starts touching the area (or any player for an area with no team)."
 [
@@ -2261,6 +2368,107 @@
 
 ]
 
+@PointClass base(Targetname,EnableDisable) = fo_logic_patchwork : 	"Patchwork Entity. This is used to detect a Patchwork style map and also to do round specific stuff."
+[	
+// Outputs
+	output OnPatchworkRoundStart(void)	: "Fired the moment a match starts"
+
+	input SetRedEliminated(void) : "Disable respawning for RED."
+	input SetBlueEliminated(void) : "Disable respawning for BLUE."
+	input SetGreenEliminated(void) : "Disable respawning for GREEN."
+	input SetYellowEliminated(void) : "Disable respawning for YELLOW."
+	input SetPurpleEliminated(void) : "Disable respawning for PURPLE."
+	input SetPinkEliminated(void) : "Disable respawning for PINK."
+]
+
+@PointClass base(Targetname,EnableDisable) = tf_logic_hunted : 	"Escort Entity. This is used to detect an escort map and set countless parameters to define the mode."
+[	
+	RedPlaying(choices) : "RED has Courier?" : 0 : "Should RED have a Courier they must escort?" =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+	BluePlaying(choices) : "BLUE has Courier?" : 1 : "Should BLUE have a Courier they must escort?" =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+	GreenPlaying(choices) : "GREEN has Courier?" : 0 : "Should GREEN have a Courier they must escort?" =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+	YellowPlaying(choices) : "YELLOW has Courier?" : 0 : "Should YELLOW have a Courier they must escort?" =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+	PurplePlaying(choices) : "PURPLE has Courier?" : 0 : "Should PURPLE have a Courier they must escort?" =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+	PinkPlaying(choices) : "PINK has Courier?" : 0 : "Should PINK have a Courier they must escort?" =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	ScoreLimitRed(integer) : "RED scorelimit" : 3
+	ScoreLimitBlue(integer) : "BLUE scorelimit" : 3
+	ScoreLimitGreen(integer) : "GREEN scorelimit" : 3
+	ScoreLimitYellow(integer) : "YELLOW scorelimit" : 3
+	ScoreLimitPurple(integer) : "PURPLE scorelimit" : 3
+	ScoreLimitPink(integer) : "PINK scorelimit" : 3
+
+	DefendingTeam(choices) : "Defending team" : 1 : "Team that should receive points when a Courier dies." =
+	[
+		0 : "None (for Escort Race)"
+		1 : "RED"
+		2 : "BLUE"
+		3 : "GREEN"
+		4 : "YELLOW"
+		5 : "PURPLE"
+		6 : "PINK"
+	]
+
+	input AddRedPoint(integer) : "Add points for RED."
+	input AddBluePoint(integer) : "Add points for BLUE."
+	input AddGreenPoint(integer) : "Add points for GREEN."
+	input AddYellowPoint(integer) : "Add points for YELLOW."
+	input AddPurplePoint(integer) : "Add points for PURPLE."
+	input AddPinkPoint(integer) : "Add points for PINK."
+
+	input ResetAllCouriers(void) : "Reset all Couriers to their spawns."
+
+	input ResetRedCourier(void) : "Reset the RED Courier to their spawn."
+	input ResetBlueCourier(void) : "Reset the BLUE Courier to their spawn."
+	input ResetGreenCourier(void) : "Reset the GREEN Courier to their spawn."
+	input ResetYellowCourier(void) : "Reset the YELLOW Courier to their spawn."
+	input ResetPurpleCourier(void) : "Reset the PURPLE Courier to their spawn."
+	input ResetPinkCourier(void) : "Reset the PINK Courier to their spawn."
+
+// Outputs
+	output OnCourierKilled(void)	: "Fired the moment any Courier is killed."
+
+	output OnRedCourierKilled(void)	: "Fired the moment a RED Courier is killed."
+	output OnBlueCourierKilled(void) : "Fired the moment a BLUE Courier is killed."
+	output OnGreenCourierKilled(void) : "Fired the moment a GREEN Courier is killed."
+	output OnYellowCourierKilled(void) : "Fired the moment a YELLOW Courier is killed."
+	output OnPurpleCourierKilled(void) : "Fired the moment a PURPLE Courier is killed."
+	output OnPinkCourierKilled(void) : "Fired the moment a PINK Courier is killed."
+
+	output OnRedWin(void)	: "Fired when RED wins."
+	output OnBlueWin(void)	: "Fired when BLUE wins."
+	output OnGreenWin(void)	: "Fired when GREEN wins."
+	output OnYellowWin(void) : "Fired when YELLOW wins."
+	output OnPurpleWin(void) : "Fired when PURPLE wins."
+	output OnPinkWin(void) : "Fired when PINK wins."
+
+	output OnHuntedRoundStart(void)	: "Fired when players are allowed to move."
+
+]
+
 @PointClass base(Targetname,EnableDisable) = tf_logic_competitive : 	"Logic specifically for competitive mode."
 [	
 	output OnSpawnRoomDoorsShouldLock(void)	: "Game rules is saying that we should now disable (home) spawn door triggers."
@@ -2368,30 +2576,6 @@
 	output OnHealthBelow20Percent(void) : "Sent when the Boss' health drops below 20 percent."
 	output OnHealthBelow10Percent(void) : "Sent when the Boss' health drops below 10 percent."
 	output OnKilled(void) : "Sent when the Boss is killed."
-]
-
-@PointClass base(BaseAnimating, TeamNum, Model) studioprop() = team_generator : "Generator Object"
-[
-	max_health(integer) : "Max Health" : 1000 : "Maximum health of the Generator."
-	health(integer) : "Health" : 1000 : "The Generators starting health."
-	kill_sound(string) : "Death Sound" : "" : "The sound played when the Generator is destroyed." 
-
-	start_disabled(choices) : "Start Disabled?" : 0 =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
-
-	output OnHealthBelow90Percent(void) : "Sent when the Generators health drops below 90 percent."
-	output OnHealthBelow80Percent(void) : "Sent when the Generators health drops below 80 percent."
-	output OnHealthBelow70Percent(void) : "Sent when the Generators health drops below 70 percent."
-	output OnHealthBelow60Percent(void) : "Sent when the Generators health drops below 60 percent."
-	output OnHealthBelow50Percent(void) : "Sent when the Generators health drops below 50 percent."
-	output OnHealthBelow40Percent(void) : "Sent when the Generators health drops below 40 percent."
-	output OnHealthBelow30Percent(void) : "Sent when the Generators health drops below 30 percent."
-	output OnHealthBelow20Percent(void) : "Sent when the Generators health drops below 20 percent."
-	output OnHealthBelow10Percent(void) : "Sent when the Generators health drops below 10 percent."
-	output OnKilled(void) : "Sent when the Generator is destroyed."
 ]
 
 @PointClass base(Targetname) = tf_logic_multiple_escort : "Multiple Escort Entity. This is used to detect a payload map with trains for both teams."

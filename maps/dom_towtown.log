@@ -1,0 +1,752 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1016 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 20 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (946866 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Error! To use model "models/props_gameplay/door_slide_large_dynamic.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_gameplay/door_slide_large_dynamic.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1129 texinfos to 937
+Reduced 67 texdatas to 66 (1350 bytes to 1325)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.bsp
+Wrote ZIP buffer, estimated size 485, actual size 405
+11 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.prt
+ 935 portalclusters
+2992 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 27957 visible clusters (3.65%)
+Total clusters visible: 765220
+Average clusters visible: 818
+Building PAS...
+Average clusters audible: 934
+visdatasize:224700  compressed from 224400
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+10204 faces
+15 degenerate faces
+1678837 square feet [241752576.00 square inches]
+289 Displacements
+241135 Square Feet [34723568.00 Square Inches]
+10189 patches before subdivision
+142127 patches after subdivision
+48 direct lights
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 7031
+no samples 7032
+7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11396093, max 841
+transfer lists:  86.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(345009, 175080, 144751)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57963, 25536, 18754)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12460, 4942, 3355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3016, 1144, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(821, 307, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(240, 91, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 29, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 9, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0389 sec>
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes               2603/8192        31236/98304    (31.8%) 
+brushsides           16791/65536      134328/524288   (25.6%) 
+planes                4494/65536       89880/1310720  ( 6.9%) 
+vertexes             17594/65536      211128/786432   (26.8%) 
+nodes                 2340/65536       74880/2097152  ( 3.6%) 
+texinfos               937/12288       67464/884736   ( 7.6%) 
+texdata                 66/2048         2112/65536    ( 3.2%) 
+dispinfos              289/0           50864/0        ( 0.0%) 
+disp_verts           13161/0          263220/0        ( 0.0%) 
+disp_tris            19424/0           38848/0        ( 0.0%) 
+disp_lmsamples      656784/0          656784/0        ( 0.0%) 
+faces                10204/65536      571424/3670016  (15.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8626/65536      483056/3670016  (13.2%) 
+leaves                2395/65536       76640/2097152  ( 3.7%) 
+leaffaces            13651/65536       27302/131072   (20.8%) 
+leafbrushes           4607/65536        9214/131072   ( 7.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            91127/512000     364508/2048000  (17.8%) 
+edges                59150/256000     236600/1024000  (23.1%) 
+LDR worldlights         48/8192         4224/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1670/32768       16700/327680   ( 5.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41856/65536       83712/131072   (63.9%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                87/512         30624/180224   (17.0%) 
+LDR lightdata         [variable]     4801656/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      224700/16777216 ( 1.3%) 
+entdata               [variable]       99207/393216   (25.2%) 
+LDR ambient table     2395/65536        9580/262144   ( 3.7%) 
+HDR ambient table     2395/65536        9580/262144   ( 3.7%) 
+LDR leaf ambient     13054/65536      365512/1835008  (19.9%) 
+HDR leaf ambient      2395/65536       67060/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43642    ( 0.0%) 
+pakfile               [variable]         405/0        ( 0.0%) 
+physics               [variable]      946866/4194304  (22.6%) 
+physics terrain       [variable]       56661/1048576  ( 5.4%) 
+
+Level flags = 0
+
+Total triangle count: 36128
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+57 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+10204 faces
+15 degenerate faces
+1678837 square feet [241752576.00 square inches]
+289 Displacements
+241135 Square Feet [34723568.00 Square Inches]
+10189 patches before subdivision
+142127 patches after subdivision
+48 direct lights
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 7031
+no samples 7032
+7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11396093, max 841
+transfer lists:  86.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(345010, 175081, 144751)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57963, 25536, 18754)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12460, 4942, 3355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3016, 1144, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(821, 307, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(240, 91, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 29, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 9, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0407 sec>
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes               2603/8192        31236/98304    (31.8%) 
+brushsides           16791/65536      134328/524288   (25.6%) 
+planes                4494/65536       89880/1310720  ( 6.9%) 
+vertexes             17594/65536      211128/786432   (26.8%) 
+nodes                 2340/65536       74880/2097152  ( 3.6%) 
+texinfos               937/12288       67464/884736   ( 7.6%) 
+texdata                 66/2048         2112/65536    ( 3.2%) 
+dispinfos              289/0           50864/0        ( 0.0%) 
+disp_verts           13161/0          263220/0        ( 0.0%) 
+disp_tris            19424/0           38848/0        ( 0.0%) 
+disp_lmsamples      656784/0          656784/0        ( 0.0%) 
+faces                10204/65536      571424/3670016  (15.6%) 
+hdr faces            10204/65536      571424/3670016  (15.6%) 
+origfaces             8626/65536      483056/3670016  (13.2%) 
+leaves                2395/65536       76640/2097152  ( 3.7%) 
+leaffaces            13651/65536       27302/131072   (20.8%) 
+leafbrushes           4607/65536        9214/131072   ( 7.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            91127/512000     364508/2048000  (17.8%) 
+edges                59150/256000     236600/1024000  (23.1%) 
+LDR worldlights         48/8192         4224/720896   ( 0.6%) 
+HDR worldlights         48/8192         4224/720896   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1670/32768       16700/327680   ( 5.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41856/65536       83712/131072   (63.9%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                87/512         30624/180224   (17.0%) 
+LDR lightdata         [variable]     4801656/0        ( 0.0%) 
+HDR lightdata         [variable]     4801656/0        ( 0.0%) 
+visdata               [variable]      224700/16777216 ( 1.3%) 
+entdata               [variable]       99207/393216   (25.2%) 
+LDR ambient table     2395/65536        9580/262144   ( 3.7%) 
+HDR ambient table     2395/65536        9580/262144   ( 3.7%) 
+LDR leaf ambient     13054/65536      365512/1835008  (19.9%) 
+HDR leaf ambient     13054/65536      365512/1835008  (19.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43642    ( 0.0%) 
+pakfile               [variable]         405/0        ( 0.0%) 
+physics               [variable]      946866/4194304  (22.6%) 
+physics terrain       [variable]       56661/1048576  ( 5.4%) 
+
+Level flags = 0
+
+Total triangle count: 36128
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+54 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1022 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 20 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (971241 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Error! To use model "models/props_gameplay/door_slide_large_dynamic.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_gameplay/door_slide_large_dynamic.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1138 texinfos to 938
+Reduced 68 texdatas to 67 (1366 bytes to 1341)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.bsp
+Wrote ZIP buffer, estimated size 485, actual size 405
+16 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.prt
+ 928 portalclusters
+2984 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 27090 visible clusters (3.59%)
+Total clusters visible: 753774
+Average clusters visible: 812
+Building PAS...
+Average clusters audible: 927
+visdatasize:221483  compressed from 222720
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+10189 faces
+15 degenerate faces
+1599305 square feet [230300000.00 square inches]
+289 Displacements
+241135 Square Feet [34723568.00 Square Inches]
+10174 patches before subdivision
+142158 patches after subdivision
+48 direct lights
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 7009
+no samples 7010
+7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11386453, max 840
+transfer lists:  86.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(344863, 175040, 144720)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57943, 25534, 18753)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12458, 4943, 3356)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3016, 1144, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(821, 307, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(240, 91, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 29, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 9, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0398 sec>
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes               2634/8192        31608/98304    (32.2%) 
+brushsides           16982/65536      135856/524288   (25.9%) 
+planes                4518/65536       90360/1310720  ( 6.9%) 
+vertexes             17578/65536      210936/786432   (26.8%) 
+nodes                 2324/65536       74368/2097152  ( 3.5%) 
+texinfos               938/12288       67536/884736   ( 7.6%) 
+texdata                 67/2048         2144/65536    ( 3.3%) 
+dispinfos              289/0           50864/0        ( 0.0%) 
+disp_verts           13161/0          263220/0        ( 0.0%) 
+disp_tris            19424/0           38848/0        ( 0.0%) 
+disp_lmsamples      656784/0          656784/0        ( 0.0%) 
+faces                10189/65536      570584/3670016  (15.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8626/65536      483056/3670016  (13.2%) 
+leaves                2379/65536       76128/2097152  ( 3.6%) 
+leaffaces            13626/65536       27252/131072   (20.8%) 
+leafbrushes           4998/65536        9996/131072   ( 7.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            91072/512000     364288/2048000  (17.8%) 
+edges                59128/256000     236512/1024000  (23.1%) 
+LDR worldlights         48/8192         4224/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1664/32768       16640/327680   ( 5.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41787/65536       83574/131072   (63.8%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                87/512         30624/180224   (17.0%) 
+LDR lightdata         [variable]     4817384/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      221483/16777216 ( 1.3%) 
+entdata               [variable]       99207/393216   (25.2%) 
+LDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+HDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+LDR leaf ambient     12991/65536      363748/1835008  (19.8%) 
+HDR leaf ambient      2379/65536       66612/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43642    ( 0.0%) 
+pakfile               [variable]         405/0        ( 0.0%) 
+physics               [variable]      971241/4194304  (23.2%) 
+physics terrain       [variable]       56661/1048576  ( 5.4%) 
+
+Level flags = 0
+
+Total triangle count: 36103
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+1 minute, 3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+10189 faces
+15 degenerate faces
+1599305 square feet [230300000.00 square inches]
+289 Displacements
+241135 Square Feet [34723568.00 Square Inches]
+10174 patches before subdivision
+142158 patches after subdivision
+48 direct lights
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 7009
+no samples 7010
+7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11386453, max 840
+transfer lists:  86.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(344864, 175040, 144721)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57943, 25534, 18753)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12458, 4943, 3356)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3016, 1144, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(821, 307, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(240, 91, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 29, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 9, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0471 sec>
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+SampleRadial: Punting, Waiting for fix
+7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes               2634/8192        31608/98304    (32.2%) 
+brushsides           16982/65536      135856/524288   (25.9%) 
+planes                4518/65536       90360/1310720  ( 6.9%) 
+vertexes             17578/65536      210936/786432   (26.8%) 
+nodes                 2324/65536       74368/2097152  ( 3.5%) 
+texinfos               938/12288       67536/884736   ( 7.6%) 
+texdata                 67/2048         2144/65536    ( 3.3%) 
+dispinfos              289/0           50864/0        ( 0.0%) 
+disp_verts           13161/0          263220/0        ( 0.0%) 
+disp_tris            19424/0           38848/0        ( 0.0%) 
+disp_lmsamples      656784/0          656784/0        ( 0.0%) 
+faces                10189/65536      570584/3670016  (15.5%) 
+hdr faces            10189/65536      570584/3670016  (15.5%) 
+origfaces             8626/65536      483056/3670016  (13.2%) 
+leaves                2379/65536       76128/2097152  ( 3.6%) 
+leaffaces            13626/65536       27252/131072   (20.8%) 
+leafbrushes           4998/65536        9996/131072   ( 7.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            91072/512000     364288/2048000  (17.8%) 
+edges                59128/256000     236512/1024000  (23.1%) 
+LDR worldlights         48/8192         4224/720896   ( 0.6%) 
+HDR worldlights         48/8192         4224/720896   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1664/32768       16640/327680   ( 5.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41787/65536       83574/131072   (63.8%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                87/512         30624/180224   (17.0%) 
+LDR lightdata         [variable]     4817384/0        ( 0.0%) 
+HDR lightdata         [variable]     4817384/0        ( 0.0%) 
+visdata               [variable]      221483/16777216 ( 1.3%) 
+entdata               [variable]       99207/393216   (25.2%) 
+LDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+HDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+LDR leaf ambient     12991/65536      363748/1835008  (19.8%) 
+HDR leaf ambient     12991/65536      363748/1835008  (19.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43642    ( 0.0%) 
+pakfile               [variable]         405/0        ( 0.0%) 
+physics               [variable]      971241/4194304  (23.2%) 
+physics terrain       [variable]       56661/1048576  ( 5.4%) 
+
+Level flags = 0
+
+Total triangle count: 36103
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+1 minute, 2 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1044 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 20 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (971497 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Error! To use model "models/props_gameplay/door_slide_large_dynamic.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_gameplay/door_slide_large_dynamic.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1138 texinfos to 938
+Reduced 68 texdatas to 67 (1366 bytes to 1341)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\dom_towtown.bsp
+Wrote ZIP buffer, estimated size 485, actual size 405
+11 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.prt
+ 928 portalclusters
+2984 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 27090 visible clusters (3.59%)
+Total clusters visible: 753774
+Average clusters visible: 812
+Building PAS...
+Average clusters audible: 927
+visdatasize:221483  compressed from 222720
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+10189 faces
+15 degenerate faces
+1599320 square feet [230302080.00 square inches]
+289 Displacements
+241135 Square Feet [34723568.00 Square Inches]
+10174 patches before subdivision
+142158 patches after subdivision
+48 direct lights
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 7009
+no samples 7010
+7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11386349, max 840
+transfer lists:  86.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(344866, 175041, 144719)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57944, 25534, 18753)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12458, 4943, 3356)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3016, 1144, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(821, 307, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(240, 91, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 29, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 9, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0685 sec>
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+SampleRadial: Punting, Waiting for fix
+7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes               2634/8192        31608/98304    (32.2%) 
+brushsides           16982/65536      135856/524288   (25.9%) 
+planes                4518/65536       90360/1310720  ( 6.9%) 
+vertexes             17579/65536      210948/786432   (26.8%) 
+nodes                 2324/65536       74368/2097152  ( 3.5%) 
+texinfos               938/12288       67536/884736   ( 7.6%) 
+texdata                 67/2048         2144/65536    ( 3.3%) 
+dispinfos              289/0           50864/0        ( 0.0%) 
+disp_verts           13161/0          263220/0        ( 0.0%) 
+disp_tris            19424/0           38848/0        ( 0.0%) 
+disp_lmsamples      656784/0          656784/0        ( 0.0%) 
+faces                10189/65536      570584/3670016  (15.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8626/65536      483056/3670016  (13.2%) 
+leaves                2379/65536       76128/2097152  ( 3.6%) 
+leaffaces            13628/65536       27256/131072   (20.8%) 
+leafbrushes           4998/65536        9996/131072   ( 7.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            91070/512000     364280/2048000  (17.8%) 
+edges                59128/256000     236512/1024000  (23.1%) 
+LDR worldlights         48/8192         4224/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1661/32768       16610/327680   ( 5.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41733/65536       83466/131072   (63.7%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                87/512         30624/180224   (17.0%) 
+LDR lightdata         [variable]     4817296/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      221483/16777216 ( 1.3%) 
+entdata               [variable]       99207/393216   (25.2%) 
+LDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+HDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+LDR leaf ambient     12989/65536      363692/1835008  (19.8%) 
+HDR leaf ambient      2379/65536       66612/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43642    ( 0.0%) 
+pakfile               [variable]         405/0        ( 0.0%) 
+physics               [variable]      971497/4194304  (23.2%) 
+physics terrain       [variable]       56661/1048576  ( 5.4%) 
+
+Level flags = 0
+
+Total triangle count: 36097
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+1 minute, 6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+10189 faces
+15 degenerate faces
+1599320 square feet [230302080.00 square inches]
+289 Displacements
+241135 Square Feet [34723568.00 Square Inches]
+10174 patches before subdivision
+142158 patches after subdivision
+48 direct lights
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 7009
+no samples 7010
+7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11386349, max 840
+transfer lists:  86.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(344866, 175040, 144719)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57944, 25534, 18753)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12458, 4943, 3356)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3016, 1144, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(821, 307, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(240, 91, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 29, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 9, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0536 sec>
+0...1...2...3...4...5...6... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes               2634/8192        31608/98304    (32.2%) 
+brushsides           16982/65536      135856/524288   (25.9%) 
+planes                4518/65536       90360/1310720  ( 6.9%) 
+vertexes             17579/65536      210948/786432   (26.8%) 
+nodes                 2324/65536       74368/2097152  ( 3.5%) 
+texinfos               938/12288       67536/884736   ( 7.6%) 
+texdata                 67/2048         2144/65536    ( 3.3%) 
+dispinfos              289/0           50864/0        ( 0.0%) 
+disp_verts           13161/0          263220/0        ( 0.0%) 
+disp_tris            19424/0           38848/0        ( 0.0%) 
+disp_lmsamples      656784/0          656784/0        ( 0.0%) 
+faces                10189/65536      570584/3670016  (15.5%) 
+hdr faces            10189/65536      570584/3670016  (15.5%) 
+origfaces             8626/65536      483056/3670016  (13.2%) 
+leaves                2379/65536       76128/2097152  ( 3.6%) 
+leaffaces            13628/65536       27256/131072   (20.8%) 
+leafbrushes           4998/65536        9996/131072   ( 7.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            91070/512000     364280/2048000  (17.8%) 
+edges                59128/256000     236512/1024000  (23.1%) 
+LDR worldlights         48/8192         4224/720896   ( 0.6%) 
+HDR worldlights         48/8192         4224/720896   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1661/32768       16610/327680   ( 5.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41733/65536       83466/131072   (63.7%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                87/512         30624/180224   (17.0%) 
+LDR lightdata         [variable]     4817296/0        ( 0.0%) 
+HDR lightdata         [variable]     4817296/0        ( 0.0%) 
+visdata               [variable]      221483/16777216 ( 1.3%) 
+entdata               [variable]       99207/393216   (25.2%) 
+LDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+HDR ambient table     2379/65536        9516/262144   ( 3.6%) 
+LDR leaf ambient     12989/65536      363692/1835008  (19.8%) 
+HDR leaf ambient     12989/65536      363692/1835008  (19.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43642    ( 0.0%) 
+pakfile               [variable]         405/0        ( 0.0%) 
+physics               [variable]      971497/4194304  (23.2%) 
+physics terrain       [variable]       56661/1048576  ( 5.4%) 
+
+Level flags = 0
+
+Total triangle count: 36097
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\dom_towtown.bsp
+1 minute, 4 seconds elapsed

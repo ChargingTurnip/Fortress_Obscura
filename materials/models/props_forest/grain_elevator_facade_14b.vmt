@@ -1,0 +1,5 @@
+// ### This basic VMT was written based on the U:\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "wood/grain_elevator_facade_14b.vtf"
+}

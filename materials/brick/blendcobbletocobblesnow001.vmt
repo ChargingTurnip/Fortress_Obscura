@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "brick/cobblewall001"
+	"$basetexture2" "brick/cobblewall001_snow"
+//	"$blendmodulatetexture" "Nature/snowgrass_blendmask"
+	"%tooltexture" "brick/cobblewall001_snow"
+	"$bumpmap" "brick/cobblewall001_normal"
+	"$surfaceprop" "snow"
+//	"$normalmapalphaenvmapmask" 1
+//	"$envma" "env_cubemap"
+	"%keywords" "tf"
+}

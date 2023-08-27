@@ -18724,3 +18724,424 @@
 	"wave"			"vo/spy_Yes03.wav"
 }
 
+"Dismatic.PainCrticialDeath01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainCriticalDeath01.wav"
+}
+
+"Dismatic.PainCrticialDeath02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainCriticalDeath02.wav"
+}
+
+"Dismatic.PainCrticialDeath03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainCriticalDeath03.wav"
+}
+
+"Dismatic.PainSevere01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainSevere01.wav"
+}
+
+"Dismatic.PainSevere02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainSevere02.wav"
+}
+
+"Dismatic.PainSevere03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainSevere03.wav"
+}
+
+"Dismatic.PainSevere04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainSevere04.wav"
+}
+
+"Dismatic.PainSharp01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainSharp01.wav"
+}
+
+"Dismatic.PainSharp02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainSharp02.wav"
+}
+
+"Dismatic.PainSharp03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_PainSharp03.wav"
+}
+
+"Dismatic.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/dismatic_PainSevere01.wav"
+		"wave"		"vo/dismatic_PainSevere02.wav"
+		"wave"		"vo/dismatic_PainSevere03.wav"
+		"wave"		"vo/dismatic_PainSevere04.wav"
+	}
+}
+
+"Dismatic.CriticalDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/dismatic_PainCriticalDeath01.wav"
+		"wave"		"vo/dismatic_PainCriticalDeath02.wav"
+		"wave"		"vo/dismatic_PainCriticalDeath03.wav"
+	}
+}
+
+"Dismatic.BattleCry01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_BattleCry01.wav"
+}
+
+"Dismatic.BattleCry02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_BattleCry02.wav"
+}
+
+"Dismatic.BattleCry03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_BattleCry03.wav"
+}
+
+"Dismatic.BattleCry04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_BattleCry04.wav"
+}
+
+"Dismatic.BattleCry05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"rndwave"			
+	{
+		"wave"			"vo/dismatic_BattleCry05a.wav"
+		"wave"			"vo/dismatic_BattleCry05b.wav"
+	}
+}
+
+"Dismatic.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Medic01.wav"
+}
+
+"Dismatic.Medic02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Medic02.wav"
+}
+
+"Dismatic.Medic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Medic03.wav"
+}
+
+"Dismatic.Thanks01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Thanks01.wav"
+}
+
+"Dismatic.Thanks02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Thanks02.wav"
+}
+
+"Dismatic.Thanks03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Thanks03.wav"
+}
+
+"Dismatic.Cheers01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Cheers01.wav"
+}
+
+"Dismatic.Cheers02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Cheers02.wav"
+}
+
+"Dismatic.Jeers01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Jeers01.wav"
+}
+
+"Dismatic.Jeers02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Jeers02.wav"
+}
+
+"Dismatic.Jeers03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Jeers03.wav"
+}
+
+"Dismatic.Jeers04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Jeers04.wav"
+}
+
+"Dismatic.Jeers05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Jeers05.wav"
+}
+
+"Dismatic.PositiveVocalization01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Positive01.wav"
+}
+
+"Dismatic.NegativeVocalization01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Negative01.wav"
+}
+
+"Dismatic.NegativeVocalization02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Negative02.wav"
+}
+
+"Dismatic.NegativeVocalization03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Negative03.wav"
+}
+
+"Dismatic.MoveUp01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_MoveUp01.wav"
+}
+
+"Dismatic.MoveUp02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_MoveUp02.wav"
+}
+
+"Dismatic.Go01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"vo/dismatic_Go01.wav"
+}

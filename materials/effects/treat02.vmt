@@ -1,0 +1,7 @@
+"SpriteCard"
+{
+	"$basetexture"	"Effects/treat02"
+	"$surfaceprop"	"no_decal"
+	"$vertexalpha"	"1"
+	"$vertexcolor"	"1"
+}

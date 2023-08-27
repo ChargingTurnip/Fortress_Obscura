@@ -1,0 +1,10 @@
+ "VertexLitGeneric"
+{
+	"$basetexture" "\models\props_medical\med_classroom001"
+	"$yellow" "0"
+                "$basealphaenvmapmask" "1"
+	"$envmap" "effects/saxxy/saxxy_gold"
+	"$envmaptint" "[.3 .3 .3]"
+
+
+}

@@ -1,0 +1,11 @@
+"Modulate"
+{
+	"%keywords" "tf"
+	"$model" "1"
+	"$basetexture" "effects/invulnoverlay/invuln_overlay"
+//	"$additive" "1"
+	"$mod2x" "1"
+	"$color2" "[.4 .65 .4]"
+}
+
+

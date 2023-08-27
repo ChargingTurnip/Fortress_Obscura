@@ -19,30 +19,29 @@ PlayerClass
 	"grenade2"		"TF_WEAPON_NONE"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_NONE"
-	"weapon2"		"FO_WEAPON_ASA10"
-	"weapon3"		"TF_WEAPON_BAT"
+	"weapon1"		"TF_WEAPON_MINIGUN"
+	"weapon2"		"TF_WEAPON_SHOTGUN_HWG"
+	"weapon3"		"TF_WEAPON_WRENCH"
+	"weapon4"		"TF_WEAPON_PDA_ENGINEER_BUILD"
+	"weapon5"		"TF_WEAPON_PDA_ENGINEER_DESTROY"
+
+	"buildable1"	"OBJ_DISPENSER"
 	
 	"DontDoAirwalk"	"0"
 	"DontDoNewJump"	"0"
 
-	//Thirdperson
-	"cameraoffset_forward"	"85"
-	"cameraoffset_right"	"25"
-	"cameraoffset_up"	"0"
-
 	AmmoMax
 	{
-		"tf_ammo_primary"	"96"
+		"tf_ammo_primary"	"200"
 		"tf_ammo_secondary"	"96"
-		"tf_ammo_metal"		"100"
+		"tf_ammo_metal"		"200"
 		"tf_ammo_grenades1"	"3"
 		"tf_ammo_grenades2"	"0"
 	}	
 
 	// Death Sounds
-	"sound_death"				"dismatic_painsharp01"
-	"sound_crit_death"			"dismatic_painsharp01"
-	"sound_melee_death"			"dismatic_painsharp01"
-	"sound_explosion_death"			"dismatic_painsharp01"	
+	"sound_death"				"Dismatic.Death"
+	"sound_crit_death"			"Dismatic.CriticalDeath"
+	"sound_melee_death"			"Dismatic.Death"
+	"sound_explosion_death"			"Dismatic.CriticalDeath"	
 }

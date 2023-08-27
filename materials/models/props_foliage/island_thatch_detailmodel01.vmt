@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"island/thatch_roof001"
+	"$nocull" 1
+//	"$translucent"	1
+	"$alphatest" 1
+//	"$model" 1
+}

@@ -1,0 +1,9 @@
+"Spritecard"
+{
+//	"srgb?$overbrightfactor" "2"
+	"$basetexture" "effects/Explosion/topsprite256_cg0"
+	$translucent 1
+	"$overbrightfactor" "31"
+	"$addself" "0.5"
+//	"$additive" "1"
+}

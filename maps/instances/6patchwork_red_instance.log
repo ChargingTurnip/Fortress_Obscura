@@ -1,0 +1,226 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\6patchwork_red_instance.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-96.00 464.00 -256.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (840.5 1024.0 -112.3)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 937: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (739.7 1120.0 -112.9)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 937: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (728.0 1072.0 -121.1)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 937: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (31141 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 145 texinfos to 125
+Reduced 3 texdatas to 3 (60 bytes to 60)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\6patchwork_red_instance.bsp
+Wrote ZIP buffer, estimated size 105937, actual size 105723
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\6patchwork_red_instance.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-96.00 464.00 -256.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 2048.0 144.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 2048.0 520.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 2048.0 -184.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 2560.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 3072.0 192.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 2560.0 192.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (51165 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 175 texinfos to 149
+Reduced 3 texdatas to 3 (60 bytes to 60)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\6patchwork_red_instance.bsp
+Wrote ZIP buffer, estimated size 105937, actual size 105723
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\6patchwork_red_instance.vmf
+material "metal/wall014_harbor" not found.
+Material not found!: METAL/WALL014_HARBOR
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/6patchwork_red_instance/pl_barnblitz/blendmetalroofsnow_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-240.00 768.00 -240.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 212 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (230120 bytes)
+Static prop models/props_foliage/shrub_03b.mdl outside the map (288.00, 864.00, 56.00)
+Static prop models/props_foliage/shrub_03b.mdl outside the map (468.32, 1040.00, -160.00)
+Static prop models/props_foliage/shrub_03b.mdl outside the map (442.89, 976.00, -176.00)
+Static prop models/props_foliage/shrub_03b.mdl outside the map (144.00, 712.96, -192.00)
+Static prop models/props_foliage/shrub_03b.mdl outside the map (-66.85, 400.00, 72.00)
+Static prop models/props_foliage/shrub_03_cluster.mdl outside the map (-330.05, 1192.00, 144.00)
+Static prop models/props_foliage/shrub_03_cluster.mdl outside the map (176.00, 824.00, 56.00)
+Static prop models/props_foliage/cactus01.mdl outside the map (-296.00, 826.54, 72.00)
+Static prop models/props_foliage/cactus01.mdl outside the map (312.00, 824.00, 136.00)
+Static prop models/props_gameplay/sign_gameplay01.mdl outside the map (100.00, 1007.75, 212.00)
+Static prop models/props_gameplay/sign_gameplay01_witharrow_l.mdl outside the map (-256.25, 1196.00, 224.00)
+Static prop models/props_mining/rock001.mdl outside the map (-96.00, 464.00, -192.00)
+Static prop models/props_mining/rock002.mdl outside the map (-240.00, 768.00, -240.00)
+Static prop models/props_mining/rock005.mdl outside the map (248.75, 800.00, -192.00)
+Static prop models/props_2fort/lightbulb001.mdl outside the map (112.00, 448.00, 240.00)
+Error loading studio model "models/props_lights/hangingbulb.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1447 texinfos to 1010
+Reduced 49 texdatas to 48 (976 bytes to 950)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\6patchwork_red_instance.bsp
+Wrote ZIP buffer, estimated size 106506, actual size 106158
+3 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\6patchwork_red_instance.prt

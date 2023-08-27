@@ -1,11 +1,18 @@
-Welcome to Team Fortress 2
+Welcome to Fortress Obscura
 
 Our map rotation is:
-- Gravel Pit
-- Dustbowl
-- Granary
-- Well (CP)
 - 2Fort
-- Hydro
-- Well (CTF)
-- Badlands
+- 3Badpit
+- Powerbreak
+- Hydro (TC)
+- Strategic
+- Turbine
+- TowTown
+- Patchwork
+- 3Fort
+- Purifier
+- 6Fort
+- Strongside
+- 3Turbine
+- 6Hydro (DOM)
+- 6Turbine

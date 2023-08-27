@@ -1,0 +1,78 @@
+"Refract"
+{
+	<dx90
+	{
+		 	"$fallbackmaterial" "effects/berserk_overlay_dx80"
+	}
+
+	"%keywords" "tf"
+	"$forcerefract" "1"
+	"$refractamount" ".02"
+	"$model" "1"
+//	"$refracttint" "{255 115 15}"
+	"$refracttint" "{255 155 85}"
+	"$refracttint_constant" "[1 1 1]"
+	"$refracttint_add" "[2 1 1]"
+	"$normalmap" "effects/berserk_overlay_normal"
+	"$translate" "[0 0]"
+	"$angle" "[0]"
+	"$center" "[.5 .5]"
+	"$scale" "[.75 .75]"
+
+	"$bumpframe" "0"
+	"$bluramount" "1"
+	"$refracttinttexture" "effects/invulnoverlay/invuln_overlay"
+	"Proxies"
+	{
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$refracttint_constant"
+			"srcVar2"		"$refracttint_constant"
+			"resultVar"		"$refracttint"
+		}
+		"Sine"
+		{
+			"sinemax" ".1"
+			"sinemin" "-.1"
+			"sineperiod" ".81"
+			"resultvar" "$refractamount"
+		}
+		"Sine"
+		{
+			"sinemax" ".65"
+			"sinemin" ".45"
+			"sineperiod" ".81"
+			"resultvar" "$refracttint[1]"
+		}
+		"Sine"
+		{
+			"sinemax" ".65"
+			"sinemin" ".06"
+			"sineperiod" ".81"
+			"resultvar" "$refracttint[2]"
+		}
+		"Sine"
+		{
+			"sinemax" ".95"
+			"sinemin" "1"
+			"sineperiod" ".81"
+			"resultvar" "$scale"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$refracttint"
+			"srcVar2"		"$refracttint_add"
+			"resultVar"		"$refracttint"
+		}
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"rotateVar" "$angle"
+			"centerVar" "$center"
+			"scaleVar" "$scale"
+			"resultVar" "$bumptransform"
+		}
+	}
+
+}
+

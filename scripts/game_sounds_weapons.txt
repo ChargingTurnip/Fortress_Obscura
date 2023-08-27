@@ -3207,3 +3207,63 @@
 
 	"wave"	"ui/killsound_vortex.wav"
 }
+
+// ------------------------------------------------------------------------------------ //
+// MEDI_SHIELD
+// ------------------------------------------------------------------------------------ //
+"WeaponMedi_Shield.Protection"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	"1"
+	"wave"		")weapons\vaccinator_heal.wav"
+}
+
+"WeaponMedi_Shield.Deploy"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")weapons\medi_shield_deploy.wav"
+}
+
+"WeaponMedi_Shield.Retract"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")weapons\medi_shield_retract.wav"
+}
+
+"WeaponMedi_Shield.Burn"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".7"
+	"soundlevel"  	"SNDLVL_81dB"
+	"pitch"		"90, 100"
+
+	"rndwave"
+	{
+		"wave"	"weapons\medi_shield_burn_01.wav"
+		"wave"	"weapons\medi_shield_burn_02.wav"
+		"wave"	"weapons\medi_shield_burn_03.wav"
+		"wave"	"weapons\medi_shield_burn_04.wav"
+		"wave"	"weapons\medi_shield_burn_05.wav"
+		"wave"	"weapons\medi_shield_burn_06.wav"
+		"wave"	"weapons\medi_shield_burn_07.wav"
+		"wave"	"weapons\medi_shield_burn_08.wav"
+		"wave"	"weapons\medi_shield_burn_09.wav"
+		"wave"	"weapons\medi_shield_burn_10.wav"
+		"wave"	"weapons\medi_shield_burn_11.wav"
+	}
+}
+
+"WeaponMedi_Shield.Burn_lp"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_94dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")weapons\medi_burn_lp.wav"
+}

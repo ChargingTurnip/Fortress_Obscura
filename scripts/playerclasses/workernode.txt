@@ -1,0 +1,52 @@
+//
+// Fortress Obscura -  Worker Node Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"workernode"
+	"model"			"models/player/workernode.mdl"
+	"model_hwm"		"models/player/workernode.mdl"
+	"localize_name"		"FO_Class_Name_WorkerNode"
+	"speed_max"		"300"
+//	"health_max"		"50"
+//	"armor_max"		"100"
+	"health_max"		"140"
+	"armor_max"		"0"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_NONE"
+
+	// Weapons.
+	"weapon1"		"FO_WEAPON_NODEGUN"
+	"weapon2"		"TF_WEAPON_NONE"
+	"weapon3"		"FO_WEAPON_HAMMER"
+	//"weapon4"		"FO_WEAPON_PDA_WORKERNODE_BUILD"
+	//"weapon5"		"FO_WEAPON_PDA_WORKERNODE_DESTROY"
+	"weapon4"		"TF_WEAPON_PDA_ENGINEER_BUILD"
+	"weapon5"		"TF_WEAPON_PDA_ENGINEER_DESTROY"
+
+	"buildable1"	"OBJ_FORT"
+	"buildable2"	"OBJ_WALL"
+	"buildable3"	"OBJ_STAIRS"
+	"buildable4"	"OBJ_REPAIRNODE"
+	
+	"DontDoAirwalk"	"0"
+	"DontDoNewJump"	"0"
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"96"
+		"tf_ammo_secondary"	"96"
+		"tf_ammo_metal"		"200"
+		"tf_ammo_grenades1"	"3"
+		"tf_ammo_grenades2"	"0"
+	}	
+
+	// Death Sounds
+	"sound_death"				"workernode_painsharp01"
+	"sound_crit_death"			"workernode_painsharp01"
+	"sound_melee_death"			"workernode_painsharp01"
+	"sound_explosion_death"			"workernode_painsharp01"	
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_powerhouse/powerhouse_desk_stuff_glass"
+	$translucent 1
+	"$envmapcontrast" "0"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "cubemaps\cubemap_specular002"
+	"$envmaptint" "[ 1 0.941 0.876 ]"
+}
+

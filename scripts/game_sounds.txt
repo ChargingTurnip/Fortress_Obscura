@@ -741,3 +741,91 @@
 	"soundlevel"  	"SNDLVL_94dB"
 	"wave"			")misc/achievement_earned.wav"
 }
+
+
+"Cart.Roll"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"wave"			")items/cart_rolling.wav"
+}
+
+"Cart.Grind"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"rndwave"	
+	{
+		"wave"	"items/cart_rolling_back_grind1.wav"
+		"wave"	"items/cart_rolling_back_grind2.wav"
+		"wave"	"items/cart_rolling_back_grind3.wav"
+		"wave"	"items/cart_rolling_back_grind4.wav"
+	}
+}
+
+"Cart.RollStart"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"wave"			")items/cart_rolling_start.wav"
+}
+
+"Cart.RollStop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"wave"			")items/cart_rolling_stop.wav"
+}
+
+"Cart.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")items/cart_explode.wav"
+}
+
+"Cart.Trigger"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")items/cart_explode_trigger.wav"
+}
+
+"Cart.Falling"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			"items/cart_explode_falling.wav"
+}
+
+"Cart.Warning"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_104dB"
+	"wave"			")items/cart_warning.wav"
+}
+
+"Cart.WarningSingle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_104dB"
+	"wave"			")items/cart_warning_single.wav"
+}

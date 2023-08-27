@@ -226,7 +226,8 @@ criterion "IsOnHeavy" "crosshair_on" "Heavy" "required"
 criterion "IsOnPyro" "crosshair_on" "Pyro" "required"
 criterion "IsOnSpy" "crosshair_on" "Spy" "required"
 criterion "IsOnEngineer" "crosshair_on" "Engineer" "required"
-criterion "IsOnAutomaton" "crosshair_on" "Automaton" "required"
+criterion "IsOnSentronic" "crosshair_on" "Sentronic" "required"
+criterion "IsOnDismatic" "crosshair_on" "Dismatic" "required"
 
 criterion "IsDominated" "domination" "dominated" "required" 
 criterion "IsRevenge" "domination" "revenge" "required" 
@@ -245,7 +246,8 @@ criterion "IsHeavy" "playerclass" "Heavy" "required"
 criterion "IsPyro" "playerclass" "Pyro" "required"
 criterion "IsSpy" "playerclass" "Spy" "required"
 criterion "IsEngineer" "playerclass" "Engineer" "required"
-criterion "IsAutomaton" "playerclass" "Automaton" "required"
+criterion "IsSentronic" "playerclass" "Sentronic" "required"
+criterion "IsDismatic" "playerclass" "Dismatic" "required"
 
 criterion "IsNotScout" "playerclass" "!=Scout" "required" 
 criterion "IsNotSniper" "playerclass" "!=Sniper" "required"
@@ -256,8 +258,8 @@ criterion "IsNotHeavy" "playerclass" "!=Heavy" "required"
 criterion "IsNotPyro" "playerclass" "!=Pyro" "required"
 criterion "IsNotSpy" "playerclass" "!=Spy" "required"
 criterion "IsNotEngineer" "playerclass" "!=Engineer" "required"
-criterion "IsNotAutomaton" "playerclass" "!=Automaton" "required"
-
+criterion "IsNotSentronic" "playerclass" "!=Sentronic" "required"
+criterion "IsNotDismatic" "playerclass" "!=Dismatic" "required"
 
 criterion "IsVictimScout" "victimclass" "Scout" "required" weight 0
 criterion "IsVictimSniper" "victimclass" "Sniper" "required" weight 0
@@ -268,7 +270,8 @@ criterion "IsVictimHeavy" "victimclass" "Heavy" "required" weight 0
 criterion "IsVictimPyro" "victimclass" "Pyro" "required" weight 0
 criterion "IsVictimSpy" "victimclass" "Spy" "required" weight 0
 criterion "IsVictimEngineer" "victimclass" "Engineer" "required"  weight 0
-criterion "IsVictimAutomaton" "victimclass" "Automaton" "required"  weight 0
+criterion "IsVictimSentronic" "victimclass" "Sentronic" "required"  weight 0
+criterion "IsVictimDismatic" "victimclass" "Dismatic" "required"  weight 0
 
 criterion "IsNotVictimScout" "victimclass" "!=Scout" "required" weight 0
 criterion "IsNotVictimSniper" "victimclass" "!=Sniper" "required" weight 0
@@ -279,8 +282,8 @@ criterion "IsNotVictimHeavy" "victimclass" "!=Heavy" "required" weight 0
 criterion "IsNotVictimPyro" "victimclass" "!=Pyro" "required" weight 0
 criterion "IsNotVictimSpy" "victimclass" "!=Spy" "required" weight 0
 criterion "IsNotVictimEngineer" "victimclass" "!=Engineer" "required" weight 0
-criterion "IsNotVictimAutomaton" "victimclass" "!=Automaton" "required" weight 0z
-    
+criterion "IsNotVictimSentronic" "victimclass" "!=Sentronic" "required" weight 0
+criterion "IsNotVictimDismatic" "victimclass" "!=Dismatic" "required" weight 0    
 
 
 criterion "10PercentChance"  "randomnum"               ">90"   required
@@ -357,4 +360,5 @@ criterion "ConceptFireMinigunTalk" "Concept" "TLK_MINIGUN_FIREWEAPON" "required"
 #include "talker/Medic.txt"
 #include "talker/Pyro.txt"
 #include "talker/Spy.txt"
-#include "talker/Automaton.txt"
+#include "talker/Sentronic.txt"
+#include "talker/Dismatic.txt"

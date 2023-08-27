@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood\wood_floor002"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	
+	"$bumpmap" "Wood/wall020_height-ssbump"
+    "$ssbump" "1"
+
+    "$detail" "decals/halloween_rink_decal_001"
+    "$detailscale" ".05"
+    "$detailblendmode" "0"
+    "$detailblendfactor" "01.0"
+	
+}

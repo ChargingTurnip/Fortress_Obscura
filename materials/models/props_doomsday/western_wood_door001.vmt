@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_doomsday/western_wood_door001"
+	"$surfaceprop" "wood"
+}

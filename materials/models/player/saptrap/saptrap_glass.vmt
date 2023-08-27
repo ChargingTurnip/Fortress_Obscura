@@ -1,0 +1,43 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\saptrap\saptrap_glass"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap" "models\player\saptrap\saptrap_glass_normal"
+	"$translucent" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.6 .6 .6]"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "12"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+	}
+}

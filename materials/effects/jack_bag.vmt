@@ -1,0 +1,7 @@
+"SpriteCard"
+{
+	"$basetexture"	"Effects/jack_bag"
+	"$surfaceprop"	"no_decal"
+	"$vertexalpha"	"1"
+	"$vertexcolor"	"1"
+}

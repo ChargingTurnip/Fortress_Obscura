@@ -1,0 +1,271 @@
+replacements
+{
+	templates
+	{
+		standard
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$VERTEX_LIT				1
+					
+					$EFFECT					0
+		
+					$basetexture			$basetexture
+					$BASE_STEP_RANGE		"[ 0.0 1.0 ]"
+		
+					$CANVAS					"rj/colorbar3"
+					$CANVAS_SCALE			"[ 0.002 0.002 0.2 ]"
+					$CANVAS_STEP_RANGE		"[ 0.0 1.0 ]"
+					$CANVAS_COLOR_START		"[ 0.0 1.0 0.0 ]"
+					$CANVAS_COLOR_END		"[ 1.0 1.0 0.0 ]"
+				}
+			}
+		}
+		
+
+		spikeplant
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_foliage/spikeplant01_pyro"
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+//					$STRIPETEXTURE			"rj/stripe4"
+//					$STRIPE_SCALE			"[ 0.002 0.002 0.002 ]"
+//					$STRIPE_COLOR                   "[0.6 0.25 0.20]"
+//					$STRIPE_LM_SCALE     		1.0
+		
+
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		cactus
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_foliage/cactus01_pyro"
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		joshua
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_foliage/joshuatree01_pyro"
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+//					$STRIPETEXTURE			"rj/stripe4"
+//					$STRIPE_SCALE			"[ 0.002 0.002 0.002 ]"
+//					$STRIPE_COLOR                   "[0.6 0.25 0.20]"
+//					$STRIPE_LM_SCALE     		1.0
+		
+
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+
+		shrub_03_card_skin2
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_foliage/shrub_03_card_skin2_pyro"
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+//					$STRIPETEXTURE			"rj/stripe4"
+//					$STRIPE_SCALE			"[ 0.002 0.002 0.002 ]"
+//					$STRIPE_COLOR                   "[0.6 0.25 0.20]"
+//					$STRIPE_LM_SCALE     		1.0
+		
+//					$COLORBAR				"rj/colorbar_white01"
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		shrub_03_card_skin3
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_foliage/shrub_03_card_skin3_pyro"
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+//					$STRIPETEXTURE			"rj/stripe4"
+//					$STRIPE_SCALE			"[ 0.002 0.002 0.002 ]"
+//					$STRIPE_COLOR                   "[0.6 0.25 0.20]"
+//					$STRIPE_LM_SCALE     		1.0
+		
+//					$COLORBAR				"rj/colorbar_white01"
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		shrub_03_card
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_foliage/shrub_03_card_pyro"
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+//					$STRIPETEXTURE			"rj/stripe4"
+//					$STRIPE_SCALE			"[ 0.002 0.002 0.002 ]"
+//					$STRIPE_COLOR                   "[0.6 0.25 0.20]"
+//					$STRIPE_LM_SCALE     		1.0
+		
+//					$COLORBAR				"rj/colorbar_white01"
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		shrub_03_model
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_foliage/shrub_03_pyro"
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		darkgreen
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+		
+					$basetexture			$basetexture
+					$vertexcolor			$vertexcolor
+					$alphatest			1
+
+					$STRIPETEXTURE			"rj/stripe4"
+					$STRIPE_SCALE			"[ 0.002 0.002 0.002 ]"
+					$STRIPE_COLOR                   "[0.6 0.25 0.20]"
+					$STRIPE_LM_SCALE     		1.0
+		
+					$COLORBAR				"rj/colorbar_darkgreen01"
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.4
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+
+	}
+
+	patterns
+	{
+		spikeplant01
+		{
+			template	"spikeplant"
+		}
+		shrub_03_card_skin2
+		{
+			template	"shrub_03_card_skin2"
+		}
+		shrub_03_card_skin3
+		{
+			template	"shrub_03_card_skin3"
+		}
+		shrub_03_card
+		{
+			template	"shrub_03_card"
+		}
+		shrub_03
+		{
+			template	"shrub_03_model"
+		}
+		grass
+		{
+			template	"darkgreen"
+		}
+		cactus
+		{
+			template	"cactus"
+		}
+		joshua
+		{
+			template	"joshua"
+		}
+	}
+}
+

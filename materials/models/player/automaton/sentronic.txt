@@ -1,0 +1,2 @@
+automaton is the name of the precursor, not the current sentry robot
+the model is still named that because i couldnt be bothered to change it yet

@@ -5,8 +5,8 @@ Scheme
 	BaseSettings
 	{
 		// scheme-specific colors
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
+		MainMenu.TextColor			"White"			[$WIN32]
+		MainMenu.ArmedTextColor		"194 206 7 255"	[$WIN32]
 		MainMenu.Inset				"32"	
 	}
 	
@@ -16,8 +16,8 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"TF2 Build"
-				"tall"		"18"
+				"name"		"Lietz LindauHamburg"
+				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

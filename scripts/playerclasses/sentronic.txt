@@ -19,23 +19,22 @@ PlayerClass
 	"grenade2"		"TF_WEAPON_NONE"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_NONE"
-	"weapon2"		"FO_WEAPON_ASA10"
+	"weapon1"		"TF_WEAPON_ROCKETLAUNCHER"
+	"weapon2"		"TF_WEAPON_SMG"
 	"weapon3"		"TF_WEAPON_BAT"
+	"weapon4"		"TF_WEAPON_PDA_ENGINEER_BUILD"
+	"weapon5"		"TF_WEAPON_PDA_ENGINEER_DESTROY"
+
+	"buildable1"	"OBJ_SENTRYGUN"
 	
 	"DontDoAirwalk"	"0"
 	"DontDoNewJump"	"0"
 
-	//Thirdperson
-	"cameraoffset_forward"	"85"
-	"cameraoffset_right"	"25"
-	"cameraoffset_up"	"0"
-
 	AmmoMax
 	{
 		"tf_ammo_primary"	"96"
-		"tf_ammo_secondary"	"96"
-		"tf_ammo_metal"		"100"
+		"tf_ammo_secondary"	"5"
+		"tf_ammo_metal"		"200"
 		"tf_ammo_grenades1"	"3"
 		"tf_ammo_grenades2"	"0"
 	}	

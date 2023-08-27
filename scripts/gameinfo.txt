@@ -3,8 +3,8 @@
 //
 GameInfo
 {
-	game	"Team Fortress"
-	title	"Team Fortress"
+	game	"Fortress Obscura"
+	title	"Fortress Obscura"
 	type multiplayer_only
 	nomodels 1
 	nohimodel 1

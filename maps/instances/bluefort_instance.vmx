@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8862"
-	"mapversion" "117"
+	"editorbuild" "8864"
+	"mapversion" "120"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "0"
-	"mapversion" "117"
+	"mapversion" "120"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.4.2-rc.1 from devtest"
 	"detailmaterial" "detail/detailsprites"
@@ -42077,11 +42077,11 @@ world
 		side
 		{
 			"id" "21102"
-			"plane" "(528 -896 768) (528 -896 0) (528 -448 0)"
+			"plane" "(528 -832 768) (528 -832 0) (528 -448 0)"
 			vertices_plus
 			{
-				"v" "528 -896 768"
-				"v" "528 -896 0"
+				"v" "528 -832 768"
+				"v" "528 -832 0"
 				"v" "528 -448 0"
 				"v" "528 -448 768"
 			}
@@ -42095,13 +42095,13 @@ world
 		side
 		{
 			"id" "21101"
-			"plane" "(544 -448 768) (544 -448 0) (544 -896 0)"
+			"plane" "(544 -448 768) (544 -448 0) (544 -832 0)"
 			vertices_plus
 			{
 				"v" "544 -448 768"
 				"v" "544 -448 0"
-				"v" "544 -896 0"
-				"v" "544 -896 768"
+				"v" "544 -832 0"
+				"v" "544 -832 768"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -42113,13 +42113,13 @@ world
 		side
 		{
 			"id" "21100"
-			"plane" "(544 -896 768) (544 -896 0) (528 -896 0)"
+			"plane" "(544 -832 768) (544 -832 0) (528 -832 0)"
 			vertices_plus
 			{
-				"v" "544 -896 768"
-				"v" "544 -896 0"
-				"v" "528 -896 0"
-				"v" "528 -896 768"
+				"v" "544 -832 768"
+				"v" "544 -832 0"
+				"v" "528 -832 0"
+				"v" "528 -832 768"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -42149,12 +42149,12 @@ world
 		side
 		{
 			"id" "21098"
-			"plane" "(528 -448 0) (528 -896 0) (544 -896 0)"
+			"plane" "(528 -448 0) (528 -832 0) (544 -832 0)"
 			vertices_plus
 			{
 				"v" "528 -448 0"
-				"v" "528 -896 0"
-				"v" "544 -896 0"
+				"v" "528 -832 0"
+				"v" "544 -832 0"
 				"v" "544 -448 0"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
@@ -42167,13 +42167,13 @@ world
 		side
 		{
 			"id" "21097"
-			"plane" "(528 -896 768) (528 -448 768) (544 -448 768)"
+			"plane" "(528 -832 768) (528 -448 768) (544 -448 768)"
 			vertices_plus
 			{
-				"v" "528 -896 768"
+				"v" "528 -832 768"
 				"v" "528 -448 768"
 				"v" "544 -448 768"
-				"v" "544 -896 768"
+				"v" "544 -832 768"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -80432,7 +80432,7 @@ entity
 			vertices_plus
 			{
 				"v" "896 -1610 -183"
-				"v" "896 -1664 -255.99"
+				"v" "896 -1664 -256"
 				"v" "912 -1664 -256"
 				"v" "912 -1610 -183"
 			}
@@ -92892,668 +92892,6 @@ entity
 }
 entity
 {
-	"id" "20375"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"weaponid" "tf_weapon_sniperrifle"
-	"weaponmodel" "models/weapons/w_models/w_sniperrifle.mdl"
-	"origin" "640 -960 288"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20403"
-	"classname" "info_overlay"
-	"angles" "0 90 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "640 -960 256"
-	"BasisU" "0 1 0"
-	"BasisV" "-1 0 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "13154"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "640 -960 256"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20515"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_shotgun_soldier"
-	"weaponmodel" "models/weapons/w_models/w_shotgun.mdl"
-	"origin" "-272 -1360 288"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20543"
-	"classname" "info_overlay"
-	"angles" "0 30 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-272 -1360 256"
-	"BasisU" "0.866025 0.5 0"
-	"BasisV" "-0.5 0.866025 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "12933"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "-272 -1360 256"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20585"
-	"classname" "info_overlay"
-	"angles" "0 30 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-1024 -1920 64"
-	"BasisU" "0.866025 0.5 0"
-	"BasisV" "-0.5 0.866025 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "14899"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "-1024 -1920 64"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20591"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_rocketlauncher"
-	"weaponmodel" "models/weapons/w_models/w_rocketlauncher.mdl"
-	"origin" "-1024 -1920 96"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20651"
-	"classname" "info_overlay"
-	"angles" "0 60 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-288 -1360 64"
-	"BasisU" "0.5 0.866025 0"
-	"BasisV" "-0.866025 0.5 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "14888"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "-288 -1360 64"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20657"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_flamethrower"
-	"weaponmodel" "models/weapons/w_models/w_flamethrower.mdl"
-	"origin" "-288 -1360 96"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20709"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_pipebomblauncher"
-	"weaponmodel" "models/weapons/w_models/w_stickybomb_launcher.mdl"
-	"origin" "624 -1600 96"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20721"
-	"classname" "info_overlay"
-	"angles" "0 75 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "624 -1600 64"
-	"BasisU" "0.258819 0.965926 0"
-	"BasisV" "-0.965926 0.258819 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "14289 16842"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "624 -1600 64"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20745"
-	"classname" "info_overlay"
-	"angles" "0 105 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "1392 -1600 64"
-	"BasisU" "-0.258819 0.965926 0"
-	"BasisV" "-0.965926 -0.258819 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "17297"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "1392 -1600 64"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20751"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_shotgun_soldier"
-	"weaponmodel" "models/weapons/w_models/w_shotgun.mdl"
-	"origin" "1392 -1600 96"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20803"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_grenadelauncher"
-	"weaponmodel" "models/weapons/w_models/w_grenadelauncher.mdl"
-	"origin" "-240 -1792 -192"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20807"
-	"classname" "info_overlay"
-	"angles" "0 30 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-240 -1792 -224"
-	"BasisU" "0.866025 0.5 0"
-	"BasisV" "-0.5 0.866025 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "18154"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "-240 -1792 -224"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20855"
-	"classname" "info_overlay"
-	"angles" "0 105 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-1088 -2672 256"
-	"BasisU" "-0.258819 0.965926 0"
-	"BasisV" "-0.965926 -0.258819 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "14860"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "-1088 -2672 256"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20861"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "fo_weapon_pda_automaton"
-	"weaponmodel" "models/weapons/w_models/w_builder.mdl"
-	"origin" "-1088 -2672 288"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20903"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_flamethrower"
-	"weaponmodel" "models/weapons/w_models/w_flamethrower.mdl"
-	"origin" "-832 -3296 -224"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20907"
-	"classname" "info_overlay"
-	"angles" "0 315 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-832 -3296 -256"
-	"BasisU" "0.707107 -0.707107 0"
-	"BasisV" "0.707107 0.707107 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "15073"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "-832 -3296 -256"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20961"
-	"classname" "fo_item_weapon_emitter"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"skin" "0"
-	"weaponid" "tf_weapon_grenadelauncher"
-	"weaponmodel" "models/weapons/w_models/w_grenadelauncher.mdl"
-	"origin" "-576 -2064 -224"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20955"
-	"classname" "info_overlay"
-	"angles" "0 315 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-576 -2064 -256"
-	"BasisU" "0.707107 -0.707107 0"
-	"BasisV" "0.707107 0.707107 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/patch007"
-	"sides" "14187"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-22.6274 -22.6274 0"
-	"uv1" "-22.6274 22.6274 0"
-	"uv2" "22.6274 22.6274 0"
-	"uv3" "22.6274 -22.6274 0"
-	"origin" "-576 -2064 -256"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "21581"
-	"classname" "prop_dynamic"
-	"angles" "0 90 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_gameplay/resupply_locker.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"targetname" "blue_resupply3"
-	"origin" "992 -2032 257"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "21609"
-	"classname" "func_regenerate"
-	"associatedmodel" "blue_resupply3"
-	"StartDisabled" "0"
-	"TeamNum" "3"
-	solid
-	{
-		"id" "21607"
-		side
-		{
-			"id" "20866"
-			"plane" "(944 -2000 369.936) (1040 -2000 369.936) (1040 -2048 369.936)"
-			vertices_plus
-			{
-				"v" "944 -2048 369.936"
-				"v" "944 -2000 369.936"
-				"v" "1040 -2000 369.936"
-				"v" "1040 -2048 369.936"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "20865"
-			"plane" "(944 -2048 256.936) (1040 -2048 256.936) (1040 -2000 256.936)"
-			vertices_plus
-			{
-				"v" "944 -2000 256.936"
-				"v" "944 -2048 256.936"
-				"v" "1040 -2048 256.936"
-				"v" "1040 -2000 256.936"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "20864"
-			"plane" "(944 -2000 369.936) (944 -2048 369.936) (944 -2048 256.936)"
-			vertices_plus
-			{
-				"v" "944 -2048 256.936"
-				"v" "944 -2000 256.936"
-				"v" "944 -2000 369.938"
-				"v" "944 -2048 369.938"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "20863"
-			"plane" "(1040 -2000 256.936) (1040 -2048 256.936) (1040 -2048 369.936)"
-			vertices_plus
-			{
-				"v" "1040 -2000 256.936"
-				"v" "1040 -2048 256.936"
-				"v" "1040 -2048 369.938"
-				"v" "1040 -2000 369.938"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "20862"
-			"plane" "(1040 -2000 369.936) (944 -2000 369.936) (944 -2000 256.936)"
-			vertices_plus
-			{
-				"v" "944 -2000 256.936"
-				"v" "1040 -2000 256.936"
-				"v" "1040 -2000 369.938"
-				"v" "944 -2000 369.938"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "20861"
-			"plane" "(1040 -2048 256.936) (944 -2048 256.936) (944 -2048 369.936)"
-			vertices_plus
-			{
-				"v" "1040 -2048 256.936"
-				"v" "944 -2048 256.936"
-				"v" "944 -2048 369.938"
-				"v" "1040 -2048 369.938"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -6768]"
-	}
-}
-entity
-{
 	"id" "22303"
 	"classname" "func_occluder"
 	"StartActive" "1"
@@ -93814,13 +93152,186 @@ entity
 		"logicalpos" "[0 14500]"
 	}
 }
+entity
+{
+	"id" "21609"
+	"classname" "func_regenerate"
+	"associatedmodel" "blue_resupply3"
+	"StartDisabled" "0"
+	"TeamNum" "3"
+	solid
+	{
+		"id" "21607"
+		side
+		{
+			"id" "20866"
+			"plane" "(944 -2000 369.936) (1040 -2000 369.936) (1040 -2048 369.936)"
+			vertices_plus
+			{
+				"v" "944 -2048 369.936"
+				"v" "944 -2000 369.936"
+				"v" "1040 -2000 369.936"
+				"v" "1040 -2048 369.936"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20865"
+			"plane" "(944 -2048 256.936) (1040 -2048 256.936) (1040 -2000 256.936)"
+			vertices_plus
+			{
+				"v" "944 -2000 256.936"
+				"v" "944 -2048 256.936"
+				"v" "1040 -2048 256.936"
+				"v" "1040 -2000 256.936"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20864"
+			"plane" "(944 -2000 369.936) (944 -2048 369.936) (944 -2048 256.936)"
+			vertices_plus
+			{
+				"v" "944 -2048 256.936"
+				"v" "944 -2000 256.936"
+				"v" "944 -2000 369.938"
+				"v" "944 -2048 369.938"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20863"
+			"plane" "(1040 -2000 256.936) (1040 -2048 256.936) (1040 -2048 369.936)"
+			vertices_plus
+			{
+				"v" "1040 -2000 256.936"
+				"v" "1040 -2048 256.936"
+				"v" "1040 -2048 369.938"
+				"v" "1040 -2000 369.938"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20862"
+			"plane" "(1040 -2000 369.936) (944 -2000 369.936) (944 -2000 256.936)"
+			vertices_plus
+			{
+				"v" "944 -2000 256.936"
+				"v" "1040 -2000 256.936"
+				"v" "1040 -2000 369.938"
+				"v" "944 -2000 369.938"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20861"
+			"plane" "(1040 -2048 256.936) (944 -2048 256.936) (944 -2048 369.936)"
+			vertices_plus
+			{
+				"v" "1040 -2048 256.936"
+				"v" "944 -2048 256.936"
+				"v" "944 -2048 369.938"
+				"v" "1040 -2048 369.938"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
+	}
+}
+entity
+{
+	"id" "21581"
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_gameplay/resupply_locker.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "blue_resupply3"
+	"origin" "992 -2032 257"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-439.769 75.6005 563.158]"
-		"look" "[-412.349 -185.301 516.9]"
+		"position" "[-227.533 -1882.17 -184.794]"
+		"look" "[-328.983 -1636.04 -194.09]"
 	}
 	camera
 	{

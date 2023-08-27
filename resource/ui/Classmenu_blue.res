@@ -85,10 +85,10 @@
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
-	"scout_blue"
+	"sentronic_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"scout_blue"
+		"fieldName"			"sentronic_blue"
 		"xpos"				"c-300"
 		"xpos_hidef"				"c-290"
 		"xpos_lodef"		"c-265"
@@ -106,7 +106,7 @@
 		"labelText"			"&1"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
-		"Command"			"joinclass scout"
+		"Command"			"joinclass sentronic"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
@@ -114,10 +114,10 @@
 		"activeimage"		"class_sel_sm_scout_blu"
 		"inactiveimage"		"class_sel_sm_scout_inactive"
 	}
-	"soldier_blue"
+	"dismatic_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"soldier_blue"
+		"fieldName"			"dismatic_blue"
 		"xpos"				"c-250"
 		"xpos_hidef"				"c-244"
 		"xpos_lodef"		"c-225"
@@ -135,7 +135,7 @@
 		"labelText"			"&2"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
-		"Command"			"joinclass soldier"
+		"Command"			"joinclass dismatic"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
@@ -143,10 +143,10 @@
 		"activeimage"		"class_sel_sm_soldier_blu"
 		"inactiveimage"		"class_sel_sm_soldier_inactive"
 	}
-	"pyro_blue"
+	"telecon_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"pyro_blue"
+		"fieldName"			"telecon_blue"
 		"xpos"				"c-200"
 		"xpos_hidef"				"c-194"
 		"xpos_lodef"		"c-180"
@@ -164,7 +164,7 @@
 		"labelText"			"&3"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
-		"Command"			"joinclass pyro"
+		"Command"			"joinclass telecon"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
@@ -199,10 +199,10 @@
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
-	"demoman_blue"
+	"workernode_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"demoman_blue"
+		"fieldName"			"workernode_blue"
 		"xpos"				"c-110"
 		"xpos_lodef"		"c-100"
 		"ypos"				"-5"
@@ -219,18 +219,18 @@
 		"labelText"			"&4"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
-		"Command"			"joinclass demoman"
+		"Command"			"joinclass workernode"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_demo_blu"
-		"inactiveimage"		"class_sel_sm_demo_inactive"
+		"activeimage"		"class_sel_sm_workernode_blu"
+		"inactiveimage"		"class_sel_sm_workernode_inactive"
 	}	
-	"heavyweapons_blue"
+	"saptrap_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"heavyweapons_blue"
+		"fieldName"			"saptrap_blue"
 		"xpos"				"c-60"
 		"xpos_lodef"		"c-55"
 		"ypos"				"-5"
@@ -247,7 +247,7 @@
 		"labelText"			"&5"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
-		"Command"			"joinclass heavyweapons"
+		"Command"			"joinclass saptrap"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"

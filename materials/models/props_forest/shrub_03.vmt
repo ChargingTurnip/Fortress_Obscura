@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_forest/shrub_03"
+	"$surfaceprop"	"default"
+	"$alphatest" 1
+}

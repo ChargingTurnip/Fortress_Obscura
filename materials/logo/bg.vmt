@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "logo\bg"
+	"$translucent" 1
+	"$ignorez" 1
+}

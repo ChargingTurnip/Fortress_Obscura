@@ -1,0 +1,146 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\powerbreak_red_instance.vmf
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "generator/secrets/hammer_01" not found.
+Material not found!: GENERATOR/SECRETS/HAMMER_01
+Patching WVT material: maps/powerbreak_red_instance/nature/blendgroundtogravel005_wvt_patch
+Patching WVT material: maps/powerbreak_red_instance/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 126 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\powerbreak_red_instance.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_goldrush_01bk" not found.
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (299064 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1940 texinfos to 1019
+Reduced 65 texdatas to 54 (2104 bytes to 1721)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\instances\powerbreak_red_instance.bsp
+Wrote ZIP buffer, estimated size 8824, actual size 6600
+3 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 3
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\powerbreak_red_instance.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\powerbreak_red_instance.prt
+1008 portalclusters
+2823 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 32902 visible clusters (6.16%)
+Total clusters visible: 533940
+Average clusters visible: 529
+Building PAS...
+Average clusters audible: 972
+visdatasize:257308  compressed from 258048
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\powerbreak_red_instance.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\powerbreak_red_instance.bsp
+3360 faces
+3412490 square feet [491398624.00 square inches]
+7 Displacements
+2736 Square Feet [394090.91 Square Inches]
+3360 patches before subdivision
+53356 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4805110, max 483
+transfer lists:  36.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(262133, 240434, 223577)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(69019, 57767, 52034)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15760, 12218, 10875)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4066, 3020, 2651)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1010, 724, 630)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(262, 183, 158)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 46, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(18, 12, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0162 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                836/8192        10032/98304    (10.2%) 
+brushsides            5552/65536       44416/524288   ( 8.5%) 
+planes                2346/65536       46920/1310720  ( 3.6%) 
+vertexes              6032/65536       72384/786432   ( 9.2%) 
+nodes                 2350/65536       75200/2097152  ( 3.6%) 
+texinfos              1019/12288       73368/884736   ( 8.3%) 
+texdata                 54/2048         1728/65536    ( 2.6%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             567/0           11340/0        ( 0.0%) 
+disp_tris              896/0            1792/0        ( 0.0%) 
+disp_lmsamples        7812/0            7812/0        ( 0.0%) 
+faces                 3360/65536      188160/3670016  ( 5.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1907/65536      106792/3670016  ( 2.9%) 
+leaves                2373/65536       75936/2097152  ( 3.6%) 
+leaffaces             4232/65536        8464/131072   ( 6.5%) 
+leafbrushes           2261/65536        4522/131072   ( 3.5%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            24217/512000      96868/2048000  ( 4.7%) 
+edges                15740/256000      62960/1024000  ( 6.1%) 
+LDR worldlights         52/8192         4576/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            448/32768        4480/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8340/65536       16680/131072   (12.7%) 
+cubemapsamples          39/1024          624/16384    ( 3.8%) 
+overlays                20/512          7040/180224   ( 3.9%) 
+LDR lightdata         [variable]     2121836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      257308/16777216 ( 1.5%) 
+entdata               [variable]       56285/393216   (14.3%) 
+LDR ambient table     2373/65536        9492/262144   ( 3.6%) 
+HDR ambient table     2373/65536        9492/262144   ( 3.6%) 
+LDR leaf ambient     11278/65536      315784/1835008  (17.2%) 
+HDR leaf ambient      2373/65536       66444/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18250    ( 0.0%) 
+pakfile               [variable]        6600/0        ( 0.0%) 
+physics               [variable]      299064/4194304  ( 7.1%) 
+physics terrain       [variable]         401/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9867
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\instances\powerbreak_red_instance.bsp
+17 seconds elapsed

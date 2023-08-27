@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_powerhouse/powerhouse_turbine_grill"
+	"$translucent" 1
+	"$nocull" 1
+}

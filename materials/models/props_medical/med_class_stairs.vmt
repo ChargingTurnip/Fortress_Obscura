@@ -1,0 +1,6 @@
+ "VertexLitGeneric"
+{
+	"$basetexture" "\models\props_medical\med_class_stairs"
+	"%keywords" "tf"
+
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"Effects/mtp_fluff"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$spriteorientation" 4
+}

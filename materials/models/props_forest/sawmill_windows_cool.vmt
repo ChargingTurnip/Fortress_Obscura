@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_forest/sawmill_windows"
+	"$selfillum" "1"
+	"$selfillumtint" "[.61 .79 .82]"
+}

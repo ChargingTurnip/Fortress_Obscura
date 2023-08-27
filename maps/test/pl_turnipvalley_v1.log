@@ -1,0 +1,489 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.vmf
+material "customdev/dev_measurewall01red" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01RED
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/wall027blub" not found.
+Material not found!: METAL/WALL027BLUB
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+material "water/water_powerhouse" not found.
+Material not found!: WATER/WATER_POWERHOUSE
+material "pl_turnipvalley/metal_doors/metal_door_label_c" not found.
+Material not found!: PL_TURNIPVALLEY/METAL_DOORS/METAL_DOOR_LABEL_C
+material "nature/metalgrate" not found.
+Material not found!: NATURE/METALGRATE
+Patching WVT material: maps/pl_turnipvalley_v1/nature/blendgroundtograss003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 22 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (372105 bytes)
+Error loading studio model "models/props_turnipvalley/turnip_large/turnip_large.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_small/turnip_small.mdl"!
+Error loading studio model "models/props_barnblitz/train_track_support_bb01.mdl"!
+Error loading studio model "models/props_construction/construction_fence128.mdl"!
+Error loading studio model "models/props_construction/construction_fence512.mdl"!
+Error loading studio model "models/generator/fake_pig/fake_pig.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_huge/turnip_huge.mdl"!
+Error loading studio model "models/props_construction/flatbed_cart001.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_tiny/turnip_tiny.mdl"!
+Error loading studio model "models/egypt/tent/tent.mdl"!
+Error loading studio model "models/custom_cars/vw_beetle/vw_beetle.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1300 texinfos to 634
+Reduced 46 texdatas to 38 (1134 bytes to 969)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.bsp
+Wrote ZIP buffer, estimated size 1553, actual size 1205
+4 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 6
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.prt
+ 955 portalclusters
+2709 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 53252 visible clusters (8.15%)
+Total clusters visible: 653213
+Average clusters visible: 683
+Building PAS...
+Average clusters audible: 944
+visdatasize:228351  compressed from 229200
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+3778 faces
+838654 square feet [120766224.00 square inches]
+26 Displacements
+34651 Square Feet [4989872.50 Square Inches]
+3778 patches before subdivision
+3778 patches after subdivision
+141 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264320, max 607
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67943, 56281, 50761)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9859, 7867, 7223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1769, 1395, 1296)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(365, 288, 269)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(79, 63, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 15, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0171 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  57/1024         2736/49152    ( 5.6%) 
+brushes                959/8192        11508/98304    (11.7%) 
+brushsides            7612/65536       60896/524288   (11.6%) 
+planes                4158/65536       83160/1310720  ( 6.3%) 
+vertexes              6228/65536       74736/786432   ( 9.5%) 
+nodes                 2431/65536       77792/2097152  ( 3.7%) 
+texinfos               634/12288       45648/884736   ( 5.2%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos               26/0            4576/0        ( 0.0%) 
+disp_verts            2106/0           42120/0        ( 0.0%) 
+disp_tris             3328/0            6656/0        ( 0.0%) 
+disp_lmsamples       88036/0           88036/0        ( 0.0%) 
+faces                 3778/65536      211568/3670016  ( 5.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2198/65536      123088/3670016  ( 3.4%) 
+leaves                2489/65536       79648/2097152  ( 3.8%) 
+leaffaces             4258/65536        8516/131072   ( 6.5%) 
+leafbrushes           2398/65536        4796/131072   ( 3.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            26249/512000     104996/2048000  ( 5.1%) 
+edges                15036/256000      60144/1024000  ( 5.9%) 
+LDR worldlights        141/8192        12408/720896   ( 1.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            226/32768        2260/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3408/65536        6816/131072   ( 5.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1640800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      228351/16777216 ( 1.4%) 
+entdata               [variable]      157334/393216   (40.0%) 
+LDR ambient table     2489/65536        9956/262144   ( 3.8%) 
+HDR ambient table     2489/65536        9956/262144   ( 3.8%) 
+LDR leaf ambient     12453/65536      348684/1835008  (19.0%) 
+HDR leaf ambient      2489/65536       69692/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/639544   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/16398    ( 0.0%) 
+pakfile               [variable]        1205/0        ( 0.0%) 
+physics               [variable]      372105/4194304  ( 8.9%) 
+physics terrain       [variable]        7358/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 9891
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+27 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.vmf
+material "customdev/dev_measurewall01red" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01RED
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/wall027blub" not found.
+Material not found!: METAL/WALL027BLUB
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+material "water/water_powerhouse" not found.
+Material not found!: WATER/WATER_POWERHOUSE
+material "pl_turnipvalley/metal_doors/metal_door_label_c" not found.
+Material not found!: PL_TURNIPVALLEY/METAL_DOORS/METAL_DOOR_LABEL_C
+material "nature/metalgrate" not found.
+Material not found!: NATURE/METALGRATE
+Patching WVT material: maps/pl_turnipvalley_v1/nature/blendgroundtograss003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 22 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (372105 bytes)
+Error loading studio model "models/props_turnipvalley/turnip_large/turnip_large.mdl"!
+Error loading studio model "models/custom_cars/vw_beetle/vw_beetle.mdl"!
+Error loading studio model "models/egypt/tent/tent.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_tiny/turnip_tiny.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_small/turnip_small.mdl"!
+Error loading studio model "models/props_construction/flatbed_cart001.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_huge/turnip_huge.mdl"!
+Error loading studio model "models/generator/fake_pig/fake_pig.mdl"!
+Error loading studio model "models/props_barnblitz/train_track_support_bb01.mdl"!
+Error loading studio model "models/props_construction/construction_fence128.mdl"!
+Error loading studio model "models/props_construction/construction_fence512.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1300 texinfos to 634
+Reduced 46 texdatas to 38 (1134 bytes to 969)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.bsp
+Wrote ZIP buffer, estimated size 1553, actual size 1205
+4 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 6
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.prt
+ 955 portalclusters
+2709 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 53252 visible clusters (8.15%)
+Total clusters visible: 653213
+Average clusters visible: 683
+Building PAS...
+Average clusters audible: 944
+visdatasize:228351  compressed from 229200
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+3778 faces
+838654 square feet [120766224.00 square inches]
+26 Displacements
+34651 Square Feet [4989872.50 Square Inches]
+3778 patches before subdivision
+3778 patches after subdivision
+141 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264320, max 607
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67944, 56282, 50761)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9859, 7867, 7223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1769, 1395, 1296)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(365, 288, 269)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(79, 63, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 15, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0129 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  57/1024         2736/49152    ( 5.6%) 
+brushes                959/8192        11508/98304    (11.7%) 
+brushsides            7612/65536       60896/524288   (11.6%) 
+planes                4158/65536       83160/1310720  ( 6.3%) 
+vertexes              6228/65536       74736/786432   ( 9.5%) 
+nodes                 2431/65536       77792/2097152  ( 3.7%) 
+texinfos               634/12288       45648/884736   ( 5.2%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos               26/0            4576/0        ( 0.0%) 
+disp_verts            2106/0           42120/0        ( 0.0%) 
+disp_tris             3328/0            6656/0        ( 0.0%) 
+disp_lmsamples       88036/0           88036/0        ( 0.0%) 
+faces                 3778/65536      211568/3670016  ( 5.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2198/65536      123088/3670016  ( 3.4%) 
+leaves                2489/65536       79648/2097152  ( 3.8%) 
+leaffaces             4258/65536        8516/131072   ( 6.5%) 
+leafbrushes           2398/65536        4796/131072   ( 3.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            26249/512000     104996/2048000  ( 5.1%) 
+edges                15036/256000      60144/1024000  ( 5.9%) 
+LDR worldlights        141/8192        12408/720896   ( 1.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            226/32768        2260/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3408/65536        6816/131072   ( 5.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1640800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      228351/16777216 ( 1.4%) 
+entdata               [variable]      157314/393216   (40.0%) 
+LDR ambient table     2489/65536        9956/262144   ( 3.8%) 
+HDR ambient table     2489/65536        9956/262144   ( 3.8%) 
+LDR leaf ambient     12453/65536      348684/1835008  (19.0%) 
+HDR leaf ambient      2489/65536       69692/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/639544   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/16398    ( 0.0%) 
+pakfile               [variable]        1205/0        ( 0.0%) 
+physics               [variable]      372105/4194304  ( 8.9%) 
+physics terrain       [variable]        7358/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 9891
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+27 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.vmf
+material "customdev/dev_measurewall01red" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01RED
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/wall027blub" not found.
+Material not found!: METAL/WALL027BLUB
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+material "water/water_powerhouse" not found.
+Material not found!: WATER/WATER_POWERHOUSE
+material "pl_turnipvalley/metal_doors/metal_door_label_c" not found.
+Material not found!: PL_TURNIPVALLEY/METAL_DOORS/METAL_DOOR_LABEL_C
+material "nature/metalgrate" not found.
+Material not found!: NATURE/METALGRATE
+Patching WVT material: maps/pl_turnipvalley_v1/nature/blendgroundtograss003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 22 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (372105 bytes)
+Error loading studio model "models/props_turnipvalley/turnip_large/turnip_large.mdl"!
+Error loading studio model "models/custom_cars/vw_beetle/vw_beetle.mdl"!
+Error loading studio model "models/egypt/tent/tent.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_tiny/turnip_tiny.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_small/turnip_small.mdl"!
+Error loading studio model "models/props_construction/flatbed_cart001.mdl"!
+Error loading studio model "models/props_turnipvalley/turnip_huge/turnip_huge.mdl"!
+Error loading studio model "models/generator/fake_pig/fake_pig.mdl"!
+Error loading studio model "models/props_barnblitz/train_track_support_bb01.mdl"!
+Error loading studio model "models/props_construction/construction_fence128.mdl"!
+Error loading studio model "models/props_construction/construction_fence512.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1300 texinfos to 634
+Reduced 46 texdatas to 38 (1134 bytes to 969)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\pl_turnipvalley_v1.bsp
+Wrote ZIP buffer, estimated size 1553, actual size 1205
+6 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 6
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.prt
+ 955 portalclusters
+2709 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 53252 visible clusters (8.15%)
+Total clusters visible: 653213
+Average clusters visible: 683
+Building PAS...
+Average clusters audible: 944
+visdatasize:228351  compressed from 229200
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+3778 faces
+838654 square feet [120766224.00 square inches]
+26 Displacements
+34651 Square Feet [4989872.50 Square Inches]
+3778 patches before subdivision
+3778 patches after subdivision
+141 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264320, max 607
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67944, 56282, 50761)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9859, 7867, 7223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1769, 1395, 1296)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(365, 288, 269)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(79, 63, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 15, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0131 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  57/1024         2736/49152    ( 5.6%) 
+brushes                959/8192        11508/98304    (11.7%) 
+brushsides            7612/65536       60896/524288   (11.6%) 
+planes                4158/65536       83160/1310720  ( 6.3%) 
+vertexes              6228/65536       74736/786432   ( 9.5%) 
+nodes                 2431/65536       77792/2097152  ( 3.7%) 
+texinfos               634/12288       45648/884736   ( 5.2%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos               26/0            4576/0        ( 0.0%) 
+disp_verts            2106/0           42120/0        ( 0.0%) 
+disp_tris             3328/0            6656/0        ( 0.0%) 
+disp_lmsamples       88036/0           88036/0        ( 0.0%) 
+faces                 3778/65536      211568/3670016  ( 5.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2198/65536      123088/3670016  ( 3.4%) 
+leaves                2489/65536       79648/2097152  ( 3.8%) 
+leaffaces             4258/65536        8516/131072   ( 6.5%) 
+leafbrushes           2398/65536        4796/131072   ( 3.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            26249/512000     104996/2048000  ( 5.1%) 
+edges                15036/256000      60144/1024000  ( 5.9%) 
+LDR worldlights        141/8192        12408/720896   ( 1.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            226/32768        2260/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3408/65536        6816/131072   ( 5.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1640800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      228351/16777216 ( 1.4%) 
+entdata               [variable]      157314/393216   (40.0%) 
+LDR ambient table     2489/65536        9956/262144   ( 3.8%) 
+HDR ambient table     2489/65536        9956/262144   ( 3.8%) 
+LDR leaf ambient     12453/65536      348684/1835008  (19.0%) 
+HDR leaf ambient      2489/65536       69692/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/639544   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/16398    ( 0.0%) 
+pakfile               [variable]        1205/0        ( 0.0%) 
+physics               [variable]      372105/4194304  ( 8.9%) 
+physics terrain       [variable]        7358/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 9891
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\pl_turnipvalley_v1.bsp
+23 seconds elapsed

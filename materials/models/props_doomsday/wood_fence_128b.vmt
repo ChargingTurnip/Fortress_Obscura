@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_coalmine/wood_fence_128b"
+	"$surfaceprop" "wood"
+}

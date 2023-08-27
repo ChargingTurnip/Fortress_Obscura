@@ -671,71 +671,138 @@
 	}
 //============================================================================================================
 
-// Automaton
+// Sentronic
 //------------------------------------------------------------------------------------------------------------
-	response "AutomatonTauntPrimary"
+	response "SentronicTauntPrimary"
 	{
-		scene "scenes/player/automaton/low/taunt01_vocal01.vcd"
-		scene "scenes/player/automaton/low/taunt01_vocal02.vcd"
-		scene "scenes/player/automaton/low/taunt01_vocal03.vcd"
-		scene "scenes/player/automaton/low/taunt01_vocal04.vcd"
+		scene "scenes/player/Sentronic/low/taunt01_vocal01.vcd"
+		scene "scenes/player/Sentronic/low/taunt01_vocal02.vcd"
+		scene "scenes/player/Sentronic/low/taunt01_vocal03.vcd"
+		scene "scenes/player/Sentronic/low/taunt01_vocal04.vcd"
 	}
-	response "AutomatonTauntSecondary"
+	response "SentronicTauntSecondary"
 	{
-		scene "scenes/player/automaton/low/taunt02_vocal01.vcd"
-		scene "scenes/player/automaton/low/taunt02_vocal02.vcd"
-		scene "scenes/player/automaton/low/taunt02_vocal03.vcd"
+		scene "scenes/player/Sentronic/low/taunt02_vocal01.vcd"
+		scene "scenes/player/Sentronic/low/taunt02_vocal02.vcd"
+		scene "scenes/player/Sentronic/low/taunt02_vocal03.vcd"
 	}
-	response "AutomatonTauntMelee"
+	response "SentronicTauntMelee"
 	{
-		scene "scenes/player/automaton/low/taunt03.vcd"
-	}
-
-	rule AutomatonTauntPlayerPrimary
-	{
-		criteria ConceptPlayerTaunt IsAutomaton WeaponIsShotgunPrimary
-		response AutomatonTauntPrimary
-	}
-	rule AutomatonTauntPlayerSecondary
-	{
-		criteria ConceptPlayerTaunt IsAutomaton WeaponIsPistol
-		response AutomatonTauntSecondary
-	}
-	rule AutomatonTauntPlayerMelee
-	{
-		criteria ConceptPlayerTaunt IsAutomaton WeaponIsWrench
-		response AutomatonTauntMelee
+		scene "scenes/player/Sentronic/low/taunt03.vcd"
 	}
 
-	Response PlayerExpressionIdleAutomaton
+	rule SentronicTauntPlayerPrimary
 	{
-		scene "scenes/player/automaton/low/idleloop01.vcd"
+		criteria ConceptPlayerTaunt IsSentronic WeaponIsShotgunPrimary
+		response SentronicTauntPrimary
 	}
-	Rule PlayerExpressionIdleAutomaton
+	rule SentronicTauntPlayerSecondary
 	{
-		criteria ConceptPlayerExpression IsAutomaton
-		Response PlayerExpressionIdleAutomaton
+		criteria ConceptPlayerTaunt IsSentronic WeaponIsPistol
+		response SentronicTauntSecondary
+	}
+	rule SentronicTauntPlayerMelee
+	{
+		criteria ConceptPlayerTaunt IsSentronic WeaponIsWrench
+		response SentronicTauntMelee
+	}
+
+	Response PlayerExpressionIdleSentronic
+	{
+		scene "scenes/player/Sentronic/low/idleloop01.vcd"
+	}
+	Rule PlayerExpressionIdleSentronic
+	{
+		criteria ConceptPlayerExpression IsSentronic
+		Response PlayerExpressionIdleSentronic
 	}
 	
-	Response PlayerExpressionIdleHurtAutomaton
+	Response PlayerExpressionIdleHurtSentronic
 	{
-		scene "scenes/player/automaton/low/idleloopHurt01.vcd"
+		scene "scenes/player/Sentronic/low/idleloopHurt01.vcd"
 	}
-	Rule PlayerExpressionIdleHurtAutomaton
+	Rule PlayerExpressionIdleHurtSentronic
 	{
-		criteria ConceptPlayerExpression IsAutomaton LowHealthContext
-		Response PlayerExpressionIdleHurtAutomaton
+		criteria ConceptPlayerExpression IsSentronic LowHealthContext
+		Response PlayerExpressionIdleHurtSentronic
 	}
 	
-	Response PlayerExpressionAttackAutomaton
+	Response PlayerExpressionAttackSentronic
 	{
-		scene "scenes/player/automaton/low/attack01.vcd"
+		scene "scenes/player/Sentronic/low/attack01.vcd"
 	}
-	Rule PlayerExpressionAttackAutomaton
+	Rule PlayerExpressionAttackSentronic
 	{
-		criteria ConceptFireWeapon IsAutomaton
-		Response PlayerExpressionAttackAutomaton
+		criteria ConceptFireWeapon IsSentronic
+		Response PlayerExpressionAttackSentronic
 	}
 
 //============================================================================================================
 
+// Dismatic
+//------------------------------------------------------------------------------------------------------------
+	response "DismaticTauntPrimary"
+	{
+		scene "scenes/player/Dismatic/low/taunt01_vocal01.vcd"
+		scene "scenes/player/Dismatic/low/taunt01_vocal02.vcd"
+		scene "scenes/player/Dismatic/low/taunt01_vocal03.vcd"
+		scene "scenes/player/Dismatic/low/taunt01_vocal04.vcd"
+	}
+	response "DismaticTauntSecondary"
+	{
+		scene "scenes/player/Dismatic/low/taunt02_vocal01.vcd"
+		scene "scenes/player/Dismatic/low/taunt02_vocal02.vcd"
+		scene "scenes/player/Dismatic/low/taunt02_vocal03.vcd"
+	}
+	response "DismaticTauntMelee"
+	{
+		scene "scenes/player/Dismatic/low/taunt03.vcd"
+	}
+
+	rule DismaticTauntPlayerPrimary
+	{
+		criteria ConceptPlayerTaunt IsDismatic WeaponIsShotgunPrimary
+		response DismaticTauntPrimary
+	}
+	rule DismaticTauntPlayerSecondary
+	{
+		criteria ConceptPlayerTaunt IsDismatic WeaponIsPistol
+		response DismaticTauntSecondary
+	}
+	rule DismaticTauntPlayerMelee
+	{
+		criteria ConceptPlayerTaunt IsDismatic WeaponIsWrench
+		response DismaticTauntMelee
+	}
+
+	Response PlayerExpressionIdleDismatic
+	{
+		scene "scenes/player/Dismatic/low/idleloop01.vcd"
+	}
+	Rule PlayerExpressionIdleDismatic
+	{
+		criteria ConceptPlayerExpression IsDismatic
+		Response PlayerExpressionIdleDismatic
+	}
+	
+	Response PlayerExpressionIdleHurtDismatic
+	{
+		scene "scenes/player/Dismatic/low/idleloopHurt01.vcd"
+	}
+	Rule PlayerExpressionIdleHurtDismatic
+	{
+		criteria ConceptPlayerExpression IsDismatic LowHealthContext
+		Response PlayerExpressionIdleHurtDismatic
+	}
+	
+	Response PlayerExpressionAttackSentronic
+	{
+		scene "scenes/player/Sentronic/low/attack01.vcd"
+	}
+	Rule PlayerExpressionAttackSentronic
+	{
+		criteria ConceptFireWeapon IsSentronic
+		Response PlayerExpressionAttackSentronic
+	}
+
+//============================================================================================================

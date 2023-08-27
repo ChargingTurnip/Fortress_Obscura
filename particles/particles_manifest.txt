@@ -15,6 +15,7 @@ particles_manifest
 		"file"		"!particles/muzzle_flash.pcf"
 		"file"		"!particles/teleported_fx.pcf"
 		"file"		"!particles/cig_smoke.pcf"
+		"file"		"!particles/cine_fx.pcf"
 		"file"		"!particles/crit.pcf"
 		"file"		"!particles/medicgun_beam.pcf"
 		"file"		"!particles/water.pcf"

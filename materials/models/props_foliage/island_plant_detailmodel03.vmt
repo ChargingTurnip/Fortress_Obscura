@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"overlays/island_leaves_overlay02"
+//	"$translucent"	1
+	"$alphatest" 1
+//	"$model" 1
+}

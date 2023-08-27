@@ -14,6 +14,10 @@
 	{
 		"team_Blue"	"Blue"
 		"team_Red"			"Red"
+		"team_Green"			"Green"
+		"team_Yellow"			"Yellow"
+		"team_Purple"			"Purple"
+		"team_Pink"			"Pink"
 		"team_Unassigned"	"Unassigned"
 		"team_Spectator"	"Spectator"
 		"alive_true"		"Alive"

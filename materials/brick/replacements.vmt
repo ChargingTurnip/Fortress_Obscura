@@ -1,0 +1,42 @@
+replacements
+{
+	templates
+	{
+		brickwall
+		{
+			"LightmappedGeneric"
+			{
+				pyro_vision
+				{
+					$basetexture			$basetexture
+					$vertexcolor			$vertexcolor
+
+//					$STRIPETEXTURE			"rj/stripe3"
+//					$STRIPE_SCALE			"[ 0.002 0.002 0.002 ]"
+		
+					$EFFECT					1
+					$COLORBAR				"rj/colorbar_wood01"
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.6
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+
+	}
+
+	patterns
+	{
+		brickwall
+		{
+			template	"brickwall"
+		}
+		wall0
+		{
+			template	"brickwall"
+		}
+	}
+}
+

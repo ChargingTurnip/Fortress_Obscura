@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"models\props_island\island_plants01"
+	"$alphatest" 1
+	"$nocull" 1
+}

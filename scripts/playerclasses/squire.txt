@@ -24,11 +24,6 @@ PlayerClass
 	"DontDoAirwalk"	"0"
 	"DontDoNewJump"	"0"
 
-	//Thirdperson
-	"cameraoffset_forward"	"85"
-	"cameraoffset_right"	"25"
-	"cameraoffset_up"	"0"
-
 	AmmoMax
 	{
 		"tf_ammo_primary"	"96"

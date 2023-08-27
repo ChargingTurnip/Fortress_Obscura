@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	$basetexture 	"models/props_barnblitz/skybox_trees_snowpine001"
+
+	$alphatest 1
+	$model 1
+}

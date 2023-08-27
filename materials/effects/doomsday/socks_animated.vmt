@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "Effects\doomsday/socks_animated"
+	"$translucent" 1
+//	"$additive" 1
+	"$overbrightfactor" "1"
+}
+

@@ -1,0 +1,64 @@
+"Refract"
+{
+	<dx90
+	{
+		 	"$fallbackmaterial" "effects/dodge_overlay_dx80"
+	}
+
+	"%keywords" "tf"
+//	"$refractamount" "1.12"
+	"$refractamount" ".2"
+	"$forcerefract" "1"
+	"$model" "1"
+//	"$refracttint" "{255 255 255}"
+	"$refracttint" "[3 3 3]"
+	"$normalmap" "effects/dodge_overlay_normal"
+	"$bumpframe" "0"
+
+//	"$bumptransform" "center .5 .5 scale .75 .75 rotate 0 translate 0 0"
+
+	"$translate" "[0 0]"
+	"$angle" "[0]"
+	"$center" "[.5 .5]"
+	"$scale" "[.75 .75]"
+
+
+	"$bluramount" "1"
+//	"$refracttinttexture" "effects/invulnoverlay/invuln_overlay"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sinemax" "-.18"
+			"sinemin" "0"
+			"sineperiod" "1"
+			"resultvar" "$refractamount"
+		}
+		"Sine"
+		{
+			"sinemax" "3"
+			"sinemin" "1.75"
+			"sineperiod" "1"
+			"resultvar" "$refracttint"
+		}
+		"Sine"
+		{
+			"sinemax" ".8"
+			"sinemin" ".9"
+			"sineperiod" "1"
+			"resultvar" "$scale"
+		}
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"rotateVar" "$angle"
+			"centerVar" "$center"
+			"scaleVar" "$scale"
+			"resultVar" "$bumptransform"
+		}
+	}
+}
+
+
+

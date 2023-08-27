@@ -62,7 +62,7 @@ objects
 		StatusName			"#TF_Object_Tele_Entrance"
 		BuildTime			20
 		MaxObjects			1
-		Cost				125
+		Cost				50
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
@@ -90,7 +90,7 @@ objects
 		StatusName			"#TF_Object_Tele_Exit"
 		BuildTime			20
 		MaxObjects			1
-		Cost				125
+		Cost				50
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
@@ -138,5 +138,114 @@ objects
 		ExplodeSound		"Weapon_Sapper.Removed"
 		ExplodeEffect		"ExplosionCore_sapperdestroyed"
 		MetalToDropInGibs	10		
+	}
+
+	OBJ_FORT
+	{
+		ClassName			obj_fort
+		StatusName			"#FO_Object_Fort"
+		BuildTime			10
+		MaxObjects			999
+		Cost				130
+		CostMultiplier		1
+		UpgradeCost			0
+		MaxUpgradeLevel		0
+		BuilderWeaponName	"Fort"
+		BuilderPlacementString	"Place on ground"
+		SelectionSlot		3
+		SelectionPosition	0
+		SapperAttachTime	0.0
+		IconActive			obj_fort
+		IconInactive		obj_fort
+		Viewmodel			"models/weapons/v_models/v_toolbox_engineer.mdl"
+		Playermodel			"models/weapons/w_models/w_toolbox.mdl"
+		DisplayPriority		4
+		HudStatusIcon		"obj_status_fort_1"
+		VisibleInWeaponSelection 0
+		ExplodeSound		"Building_Sentry.Explode"
+		ExplodeEffect		"ExplosionCore_buildings"
+		MetalToDropInGibs	60		
+	}
+
+	OBJ_WALL
+	{
+		ClassName			obj_wall
+		StatusName			"#FO_Object_Wall"
+		BuildTime			3
+		MaxObjects			999
+		Cost				10
+		CostMultiplier		1
+		UpgradeCost			0
+		MaxUpgradeLevel		0
+		BuilderWeaponName	"Wall"
+		BuilderPlacementString	"Place on ground"
+		SelectionSlot		3
+		SelectionPosition	0
+		SapperAttachTime	0.0
+		IconActive			obj_wall
+		IconInactive		obj_wall
+		Viewmodel			"models/weapons/v_models/v_toolbox_engineer.mdl"
+		Playermodel			"models/weapons/w_models/w_toolbox.mdl"
+		DisplayPriority		4
+		HudStatusIcon		"obj_status_wall_1"
+		VisibleInWeaponSelection 0
+		ExplodeSound		"Building_Sentry.Explode"
+		ExplodeEffect		"ExplosionCore_buildings"
+		MetalToDropInGibs	8		
+	}
+
+	OBJ_STAIRS
+	{
+		ClassName			obj_stairs
+		StatusName			"#FO_Object_Stairs"
+		BuildTime			5
+		MaxObjects			999
+		Cost				50
+		CostMultiplier		1
+		UpgradeCost			0
+		MaxUpgradeLevel		0
+		BuilderWeaponName	"Stairs"
+		BuilderPlacementString	"Place on ground"
+		SelectionSlot		3
+		SelectionPosition	0
+		SapperAttachTime	0.0
+		SolidToPlayerMovement	1
+		IconActive			obj_stairs
+		IconInactive		obj_stairs
+		Viewmodel			"models/weapons/v_models/v_toolbox_engineer.mdl"
+		Playermodel			"models/weapons/w_models/w_toolbox.mdl"
+		DisplayPriority		4
+		HudStatusIcon		"obj_status_stairs_1"
+		VisibleInWeaponSelection 0
+		ExplodeSound		"Building_Sentry.Explode"
+		ExplodeEffect		"ExplosionCore_buildings"
+		MetalToDropInGibs	25		
+	}
+
+	OBJ_REPAIRNODE
+	{
+		ClassName			obj_repairnode
+		StatusName			"#FO_Object_RepairNode"
+		BuildTime			20
+		MaxObjects			1
+		Cost				100
+		CostMultiplier		1
+		UpgradeCost			0
+		MaxUpgradeLevel		0
+		BuilderWeaponName	"Repair Node"
+		BuilderPlacementString	"Place on ground"
+		SelectionSlot		3
+		SelectionPosition	1
+		SapperAttachTime	0.0
+		IconActive			obj_repairnode
+		IconInactive		obj_repairnode
+		Viewmodel			"models/weapons/v_models/v_toolbox_engineer.mdl"
+		Playermodel			"models/weapons/w_models/w_toolbox.mdl"
+		DisplayPriority		3
+		HudStatusIcon		"obj_status_repairnode"
+		VisibleInWeaponSelection 0
+		ExplodeSound		"Building_Dispenser.Explode"
+		ExplodeEffect		"ExplosionCore_buildings"
+		MetalToDropInGibs	50
 	}
 }

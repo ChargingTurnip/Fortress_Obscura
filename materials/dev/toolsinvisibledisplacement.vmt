@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "tools/toolsinvisibledisplacement"
+        "$decal" 1
+	"$surfaceprop" "dirt"
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%tooltexture" "tools/toolsinvisibledisplacement_tooltexture"
+	"%keywords" "tools"
+}

@@ -1,0 +1,687 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.vmf
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "generator/secrets/hammer_01" not found.
+Material not found!: GENERATOR/SECRETS/HAMMER_01
+Patching WVT material: maps/gd_powerbreak/nature/blendgroundtogravel005_wvt_patch
+Patching WVT material: maps/gd_powerbreak/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 254 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_goldrush_01bk" not found.
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (598012 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3830 texinfos to 1953
+Reduced 74 texdatas to 64 (2290 bytes to 1992)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.bsp
+Wrote ZIP buffer, estimated size 10714, actual size 7820
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 3
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.prt
+1856 portalclusters
+5266 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 90810 visible clusters (6.68%)
+Total clusters visible: 1359668
+Average clusters visible: 732
+Building PAS...
+Average clusters audible: 923
+visdatasize:865246  compressed from 861184
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+6323 faces
+4044997 square feet [582479552.00 square inches]
+14 Displacements
+5473 Square Feet [788181.88 Square Inches]
+6323 patches before subdivision
+105883 patches after subdivision
+105 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10062566, max 599
+transfer lists:  76.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(720620, 603900, 557509)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(163356, 132498, 125209)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35378, 27446, 26391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8755, 6698, 6461)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2141, 1603, 1552)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(551, 405, 393)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(142, 102, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(38, 26, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 7, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0202 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               1672/8192        20064/98304    (20.4%) 
+brushsides           11105/65536       88840/524288   (16.9%) 
+planes                3784/65536       75680/1310720  ( 5.8%) 
+vertexes             11632/65536      139584/786432   (17.7%) 
+nodes                 4133/65536      132256/2097152  ( 6.3%) 
+texinfos              1953/12288      140616/884736   (15.9%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples       15624/0           15624/0        ( 0.0%) 
+faces                 6323/65536      354088/3670016  ( 9.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3798/65536      212688/3670016  ( 5.8%) 
+leaves                4178/65536      133696/2097152  ( 6.4%) 
+leaffaces             8048/65536       16096/131072   (12.3%) 
+leafbrushes           4044/65536        8088/131072   ( 6.2%) 
+areas                   11/256            88/2048     ( 4.3%) 
+surfedges            46800/512000     187200/2048000  ( 9.1%) 
+edges                30636/256000     122544/1024000  (12.0%) 
+LDR worldlights        105/8192         9240/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            877/32768        8770/327680   ( 2.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16398/65536       32796/131072   (25.0%) 
+cubemapsamples          78/1024         1248/16384    ( 7.6%) 
+overlays                40/512         14080/180224   ( 7.8%) 
+LDR lightdata         [variable]     4219544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      865246/16777216 ( 5.2%) 
+entdata               [variable]      121765/393216   (31.0%) 
+LDR ambient table     4178/65536       16712/262144   ( 6.4%) 
+HDR ambient table     4178/65536       16712/262144   ( 6.4%) 
+LDR leaf ambient     20867/65536      584276/1835008  (31.8%) 
+HDR leaf ambient      4178/65536      116984/1835008  ( 6.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/29674    ( 0.0%) 
+pakfile               [variable]        7820/0        ( 0.0%) 
+physics               [variable]      598012/4194304  (14.3%) 
+physics terrain       [variable]         856/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 18955
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+39 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.vmf
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "generator/secrets/hammer_01" not found.
+Material not found!: GENERATOR/SECRETS/HAMMER_01
+Patching WVT material: maps/gd_powerbreak/nature/blendgroundtogravel005_wvt_patch
+Patching WVT material: maps/gd_powerbreak/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity trigger_multiple (2972.00 -1993.60 -80.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 2560.0 470.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 470.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3584.0 3072.0 470.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4134.0 1024.0 -262.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4130.0 1024.0 80.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4168.0 1024.0 80.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4134.0 1024.0 812.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4308.0 1024.0 16.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+material "skybox/sky_goldrush_01bk" not found.
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (595524 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3830 texinfos to 1954
+Reduced 74 texdatas to 64 (2290 bytes to 1992)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.bsp
+Wrote ZIP buffer, estimated size 10714, actual size 7820
+4 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 3
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.vmf
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "generator/secrets/hammer_01" not found.
+Material not found!: GENERATOR/SECRETS/HAMMER_01
+Patching WVT material: maps/gd_powerbreak/nature/blendgroundtogravel005_wvt_patch
+Patching WVT material: maps/gd_powerbreak/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity trigger_multiple (-2972.00 1753.60 -32.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 2560.0 470.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 470.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3584.0 3072.0 470.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4134.0 1024.0 -262.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4130.0 1024.0 80.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4168.0 1024.0 80.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4134.0 1024.0 812.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4308.0 1024.0 16.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+material "skybox/sky_goldrush_01bk" not found.
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (595525 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3828 texinfos to 1954
+Reduced 74 texdatas to 64 (2290 bytes to 1992)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.bsp
+Wrote ZIP buffer, estimated size 10714, actual size 7820
+4 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 3
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.vmf
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "generator/secrets/hammer_01" not found.
+Material not found!: GENERATOR/SECRETS/HAMMER_01
+Patching WVT material: maps/gd_powerbreak/nature/blendgroundtogravel005_wvt_patch
+Patching WVT material: maps/gd_powerbreak/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_goldrush_01bk" not found.
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (595525 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3826 texinfos to 1916
+Reduced 74 texdatas to 64 (2290 bytes to 1992)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.bsp
+Wrote ZIP buffer, estimated size 10714, actual size 7820
+4 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 3
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.prt
+1023 portalclusters
+2746 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 76032 visible clusters (10.44%)
+Total clusters visible: 728043
+Average clusters visible: 711
+Building PAS...
+Average clusters audible: 998
+visdatasize:256989  compressed from 261888
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+5313 faces
+1022144 square feet [147188848.00 square inches]
+14 Displacements
+5473 Square Feet [788181.88 Square Inches]
+5313 patches before subdivision
+100809 patches after subdivision
+105 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125759, max 619
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(724708, 607378, 560258)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(163902, 132830, 125545)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35568, 27593, 26571)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8787, 6725, 6499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2149, 1611, 1564)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(552, 407, 396)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(142, 103, 100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(38, 26, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 7, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0294 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               1660/8192        19920/98304    (20.3%) 
+brushsides           11033/65536       88264/524288   (16.8%) 
+planes                3652/65536       73040/1310720  ( 5.6%) 
+vertexes              9462/65536      113544/786432   (14.4%) 
+nodes                 2571/65536       82272/2097152  ( 3.9%) 
+texinfos              1916/12288      137952/884736   (15.6%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples       15624/0           15624/0        ( 0.0%) 
+faces                 5313/65536      297528/3670016  ( 8.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3657/65536      204792/3670016  ( 5.6%) 
+leaves                2616/65536       83712/2097152  ( 4.0%) 
+leaffaces             6843/65536       13686/131072   (10.4%) 
+leafbrushes           3432/65536        6864/131072   ( 5.2%) 
+areas                   10/256            80/2048     ( 3.9%) 
+surfedges            41616/512000     166464/2048000  ( 8.1%) 
+edges                27617/256000     110468/1024000  (10.8%) 
+LDR worldlights        105/8192         9240/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            723/32768        7230/327680   ( 2.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14022/65536       28044/131072   (21.4%) 
+cubemapsamples          78/1024         1248/16384    ( 7.6%) 
+overlays                40/512         14080/180224   ( 7.8%) 
+LDR lightdata         [variable]     4080040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      256989/16777216 ( 1.5%) 
+entdata               [variable]      121758/393216   (31.0%) 
+LDR ambient table     2616/65536       10464/262144   ( 4.0%) 
+HDR ambient table     2616/65536       10464/262144   ( 4.0%) 
+LDR leaf ambient     12871/65536      360388/1835008  (19.6%) 
+HDR leaf ambient      2616/65536       73248/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/29686    ( 0.0%) 
+pakfile               [variable]        7820/0        ( 0.0%) 
+physics               [variable]      595525/4194304  (14.2%) 
+physics terrain       [variable]         856/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 16359
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+34 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.vmf
+material "customdev/dev_measurewall01blu" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREWALL01BLU
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "generator/secrets/hammer_01" not found.
+Material not found!: GENERATOR/SECRETS/HAMMER_01
+Patching WVT material: maps/gd_powerbreak/nature/blendgroundtogravel005_wvt_patch
+Patching WVT material: maps/gd_powerbreak/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 258 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (595525 bytes)
+Error! To use model "models/player/heavy.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/heavy.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3826 texinfos to 1916
+Reduced 74 texdatas to 64 (2290 bytes to 1992)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_powerbreak.bsp
+Wrote ZIP buffer, estimated size 10714, actual size 7820
+4 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.prt
+1023 portalclusters
+2746 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 76032 visible clusters (10.44%)
+Total clusters visible: 728043
+Average clusters visible: 711
+Building PAS...
+Average clusters audible: 998
+visdatasize:256989  compressed from 261888
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+5313 faces
+1022144 square feet [147188848.00 square inches]
+14 Displacements
+5473 Square Feet [788181.88 Square Inches]
+5313 patches before subdivision
+100809 patches after subdivision
+105 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125759, max 619
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(729650, 606448, 562553)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(166011, 132434, 126523)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(36136, 27489, 26822)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8978, 6691, 6581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2204, 1601, 1587)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(569, 404, 403)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(147, 102, 102)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(39, 26, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 7, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0306 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               1660/8192        19920/98304    (20.3%) 
+brushsides           11033/65536       88264/524288   (16.8%) 
+planes                3652/65536       73040/1310720  ( 5.6%) 
+vertexes              9462/65536      113544/786432   (14.4%) 
+nodes                 2571/65536       82272/2097152  ( 3.9%) 
+texinfos              1916/12288      137952/884736   (15.6%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples       15624/0           15624/0        ( 0.0%) 
+faces                 5313/65536      297528/3670016  ( 8.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3657/65536      204792/3670016  ( 5.6%) 
+leaves                2616/65536       83712/2097152  ( 4.0%) 
+leaffaces             6843/65536       13686/131072   (10.4%) 
+leafbrushes           3432/65536        6864/131072   ( 5.2%) 
+areas                   10/256            80/2048     ( 3.9%) 
+surfedges            41616/512000     166464/2048000  ( 8.1%) 
+edges                27617/256000     110468/1024000  (10.8%) 
+LDR worldlights        105/8192         9240/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            723/32768        7230/327680   ( 2.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14022/65536       28044/131072   (21.4%) 
+cubemapsamples          78/1024         1248/16384    ( 7.6%) 
+overlays                40/512         14080/180224   ( 7.8%) 
+LDR lightdata         [variable]     4080040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      256989/16777216 ( 1.5%) 
+entdata               [variable]      121753/393216   (31.0%) 
+LDR ambient table     2616/65536       10464/262144   ( 4.0%) 
+HDR ambient table     2616/65536       10464/262144   ( 4.0%) 
+LDR leaf ambient     12868/65536      360304/1835008  (19.6%) 
+HDR leaf ambient      2616/65536       73248/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/29686    ( 0.0%) 
+pakfile               [variable]        7820/0        ( 0.0%) 
+physics               [variable]      595525/4194304  (14.2%) 
+physics terrain       [variable]         856/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 16359
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_powerbreak.bsp
+34 seconds elapsed

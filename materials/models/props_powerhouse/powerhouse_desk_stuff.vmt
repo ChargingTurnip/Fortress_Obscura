@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_powerhouse/powerhouse_desk_stuff"
+
+	"$BasemapAlphaPhongMask" 1
+	"$envmapcontrast" "0"
+	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[ 0.09 0.070 0.04 ]"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.5 .5 3]"
+	$phongtint "[ 1.0 0.9 0.75 ]"
+}

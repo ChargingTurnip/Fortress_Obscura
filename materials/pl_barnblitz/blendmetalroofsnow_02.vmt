@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	//"$basetexture" "pl_barnblitz/metalroof_prebump002"
+	"$basetexture" "Metal/wall028"
+	"$basetexture2" "Nature/snow_full001"
+	"%tooltexture" "Metal/wall028"
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+	"$bumpmap" "Nature/snow_full001_normal"
+	"$bumpmap2" "Nature/snow_full001_normal"
+	"%keywords" "tf"
+	"$surfaceprop" "metal"
+
+}

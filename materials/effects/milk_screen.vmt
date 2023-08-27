@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "Effects/milk_screen"
+	"$translucent" "1"
+	"%keywords" "tf"
+
+
+
+	"$scale" "[1 1]"
+
+}
