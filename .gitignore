@@ -1,0 +1,24 @@
+# files in cfg folder
+config.cfg
+banned_ip.cfg
+server_blacklist.txt
+user.scr
+settings.scr
+
+# files in main Fortress_Obscura folder
+demoheader.tmp
+GameState.txt
+ServerConfig.vdf
+voice_ban.dt
+tf2_playerstats.dmx
+
+# various downloaded or user created content
+custom/*
+download/user_custom/*
+materials/temp/*
+materials/vgui/logos/*
+
+# other
+viewed.res
+
+*.cache
