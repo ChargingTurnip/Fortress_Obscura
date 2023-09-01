@@ -228,6 +228,7 @@ criterion "IsOnSpy" "crosshair_on" "Spy" "required"
 criterion "IsOnEngineer" "crosshair_on" "Engineer" "required"
 criterion "IsOnSentronic" "crosshair_on" "Sentronic" "required"
 criterion "IsOnDismatic" "crosshair_on" "Dismatic" "required"
+criterion "IsOnTelecon" "crosshair_on" "Telecon" "required"
 
 criterion "IsDominated" "domination" "dominated" "required" 
 criterion "IsRevenge" "domination" "revenge" "required" 
@@ -248,6 +249,7 @@ criterion "IsSpy" "playerclass" "Spy" "required"
 criterion "IsEngineer" "playerclass" "Engineer" "required"
 criterion "IsSentronic" "playerclass" "Sentronic" "required"
 criterion "IsDismatic" "playerclass" "Dismatic" "required"
+criterion "IsTelecon" "playerclass" "Telecon" "required"
 
 criterion "IsNotScout" "playerclass" "!=Scout" "required" 
 criterion "IsNotSniper" "playerclass" "!=Sniper" "required"
@@ -260,6 +262,7 @@ criterion "IsNotSpy" "playerclass" "!=Spy" "required"
 criterion "IsNotEngineer" "playerclass" "!=Engineer" "required"
 criterion "IsNotSentronic" "playerclass" "!=Sentronic" "required"
 criterion "IsNotDismatic" "playerclass" "!=Dismatic" "required"
+criterion "IsNotTelecon" "playerclass" "!=Telecon" "required"
 
 criterion "IsVictimScout" "victimclass" "Scout" "required" weight 0
 criterion "IsVictimSniper" "victimclass" "Sniper" "required" weight 0
@@ -272,6 +275,7 @@ criterion "IsVictimSpy" "victimclass" "Spy" "required" weight 0
 criterion "IsVictimEngineer" "victimclass" "Engineer" "required"  weight 0
 criterion "IsVictimSentronic" "victimclass" "Sentronic" "required"  weight 0
 criterion "IsVictimDismatic" "victimclass" "Dismatic" "required"  weight 0
+criterion "IsVictimTelecon" "victimclass" "Telecon" "required"  weight 0
 
 criterion "IsNotVictimScout" "victimclass" "!=Scout" "required" weight 0
 criterion "IsNotVictimSniper" "victimclass" "!=Sniper" "required" weight 0
@@ -284,6 +288,7 @@ criterion "IsNotVictimSpy" "victimclass" "!=Spy" "required" weight 0
 criterion "IsNotVictimEngineer" "victimclass" "!=Engineer" "required" weight 0
 criterion "IsNotVictimSentronic" "victimclass" "!=Sentronic" "required" weight 0
 criterion "IsNotVictimDismatic" "victimclass" "!=Dismatic" "required" weight 0    
+criterion "IsNotVictimTelecon" "victimclass" "!=Telecon" "required" weight 0    
 
 
 criterion "10PercentChance"  "randomnum"               ">90"   required
@@ -362,3 +367,4 @@ criterion "ConceptFireMinigunTalk" "Concept" "TLK_MINIGUN_FIREWEAPON" "required"
 #include "talker/Spy.txt"
 #include "talker/Sentronic.txt"
 #include "talker/Dismatic.txt"
+#include "talker/Telecon.txt"

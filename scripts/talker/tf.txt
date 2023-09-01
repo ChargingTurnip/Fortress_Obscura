@@ -806,3 +806,74 @@
 	}
 
 //============================================================================================================
+
+//============================================================================================================
+
+// Telecon
+//------------------------------------------------------------------------------------------------------------
+	response "TeleconTauntPrimary"
+	{
+		scene "scenes/player/Telecon/low/taunt01_vocal01.vcd"
+		scene "scenes/player/Telecon/low/taunt01_vocal02.vcd"
+		scene "scenes/player/Telecon/low/taunt01_vocal03.vcd"
+		scene "scenes/player/Telecon/low/taunt01_vocal04.vcd"
+	}
+	response "TeleconTauntSecondary"
+	{
+		scene "scenes/player/Telecon/low/taunt02_vocal01.vcd"
+		scene "scenes/player/Telecon/low/taunt02_vocal02.vcd"
+		scene "scenes/player/Telecon/low/taunt02_vocal03.vcd"
+	}
+	response "TeleconTauntMelee"
+	{
+		scene "scenes/player/Telecon/low/taunt03.vcd"
+	}
+
+	rule TeleconTauntPlayerPrimary
+	{
+		criteria ConceptPlayerTaunt IsTelecon WeaponIsShotgunPrimary
+		response TeleconTauntPrimary
+	}
+	rule TeleconTauntPlayerSecondary
+	{
+		criteria ConceptPlayerTaunt IsTelecon WeaponIsPistol
+		response TeleconTauntSecondary
+	}
+	rule TeleconTauntPlayerMelee
+	{
+		criteria ConceptPlayerTaunt IsTelecon WeaponIsWrench
+		response TeleconTauntMelee
+	}
+
+	Response PlayerExpressionIdleTelecon
+	{
+		scene "scenes/player/Telecon/low/idleloop01.vcd"
+	}
+	Rule PlayerExpressionIdleTelecon
+	{
+		criteria ConceptPlayerExpression IsTelecon
+		Response PlayerExpressionIdleTelecon
+	}
+	
+	Response PlayerExpressionIdleHurtTelecon
+	{
+		scene "scenes/player/Telecon/low/idleloopHurt01.vcd"
+	}
+	Rule PlayerExpressionIdleHurtTelecon
+	{
+		criteria ConceptPlayerExpression IsTelecon LowHealthContext
+		Response PlayerExpressionIdleHurtTelecon
+	}
+	
+	Response PlayerExpressionAttackTelecon
+	{
+		scene "scenes/player/Telecon/low/attack01.vcd"
+	}
+	Rule PlayerExpressionAttackTelecon
+	{
+		criteria ConceptFireWeapon IsTelecon
+		Response PlayerExpressionAttackTelecon
+	}
+
+//============================================================================================================
+

@@ -2249,6 +2249,174 @@ world
 }
 entity
 {
+	"id" "5765"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-1954.39 1689.1 143.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "5762"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-2145.17 1971.55 151.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "5759"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-2923.44 2487.55 143.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
+	}
+}
+entity
+{
+	"id" "5756"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-3032.36 2212.2 95.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10500]"
+	}
+}
+entity
+{
+	"id" "5753"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-2763.44 2210.42 95.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10500]"
+	}
+}
+entity
+{
+	"id" "5750"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-1898.08 2303.58 423.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "5747"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-2133.11 2158.65 143.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "5744"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-2265.11 2387.28 143.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "5741"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-2397.11 2615.91 143.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "5738"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-2142.05 2606.13 143.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "5735"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-1395.79 2593.58 423.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "5732"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-1524.94 3345.78 423.632"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
 	"id" "5885"
 	"classname" "env_cubemap"
 	"cubemapsize" "0"
@@ -3502,174 +3670,6 @@ entity
 	"classname" "env_cubemap"
 	"sides" ""
 	"origin" "-1154.28 3559.78 423.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5732"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-1524.94 3345.78 423.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5735"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-1395.79 2593.58 423.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5738"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-2142.05 2606.13 143.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5741"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-2397.11 2615.91 143.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5744"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-2265.11 2387.28 143.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5747"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-2133.11 2158.65 143.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5750"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-1898.08 2303.58 423.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 11500]"
-	}
-}
-entity
-{
-	"id" "5753"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-2763.44 2210.42 95.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 10500]"
-	}
-}
-entity
-{
-	"id" "5756"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-3032.36 2212.2 95.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 10500]"
-	}
-}
-entity
-{
-	"id" "5759"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-2923.44 2487.55 143.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -16268]"
-	}
-}
-entity
-{
-	"id" "5762"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-2145.17 1971.55 151.632"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 12000]"
-	}
-}
-entity
-{
-	"id" "5765"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-1954.39 1689.1 143.632"
 	editor
 	{
 		"color" "0 0 255"
