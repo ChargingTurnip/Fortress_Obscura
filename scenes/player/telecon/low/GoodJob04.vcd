@@ -43,7 +43,7 @@ scalesettings
 {
   "CChoreoView" "60"
   "ExpressionTool" "100"
-  "RampTool" "66"
+  "RampTool" "64"
   "GestureTool" "100"
   "SceneRampTool" "100"
 }
