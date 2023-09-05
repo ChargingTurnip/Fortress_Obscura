@@ -1,10 +1,14 @@
 ChargingTurnip - Programming, Modeling, Texturing, Music, Huds, Mapping, Concepting, Writing
 Waugh101 - DOM_TowTown artpass, 3/6-Team art design assistance
-Ray Is Sucky - CP Patchwork partial artpass
+Ray Is Sucky - CP_Patchwork partial artpass
+yeah right - DOM_Tokyo, Mapping
+Milosuper - GD_Hardware
 MegapiemanPHD - Voice acting, GD_Powerbreak
+Octmari - Voice acting, Programming, Mapping
 Stachekip - Voice acting, SFX
+Lambdagon - Programming
 Blamo - SFM renders
 ThatGoofyGuy - Concepting, Writing
 Nasty Character - Concepting
-Dollar - Concepting
+Dollar - Voice acting, Concepting
 Sealawt - Viewmodel animations

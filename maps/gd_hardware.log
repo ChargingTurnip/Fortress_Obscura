@@ -1171,3 +1171,517 @@ Level flags = 0
 Total triangle count: 18989
 Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
 2 minutes, 24 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_hardware.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gd_hardware/dev/dev_blendmeasure2_wvt_patch
+Patching WVT material: maps/gd_hardware/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 746 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_hardware.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_trainyard_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_trainyard_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_trainyard_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_trainyard_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (408639 bytes)
+Error! To use model "models/player/workernode_static.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/workernode_static.mdl"!
+Error! To use model "models/player/automaton_new.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/automaton_new.mdl"!
+Error! To use model "models/player/courier.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/courier.mdl"!
+Error! To use model "models/player/dismatic.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/dismatic.mdl"!
+Error! To use model "models/player/saptrap.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/saptrap.mdl"!
+Error! To use model "models/player/telecon.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/telecon.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 929 texinfos to 377
+Reduced 34 texdatas to 31 (833 bytes to 772)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_hardware.bsp
+Wrote ZIP buffer, estimated size 942, actual size 728
+5 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.prt
+1553 portalclusters
+4498 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 77123 visible clusters (3.79%)
+Total clusters visible: 2034883
+Average clusters visible: 1310
+Building PAS...
+Average clusters audible: 1551
+visdatasize:615210  compressed from 621200
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+6455 faces
+5 degenerate faces
+4894301 square feet [704779392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6450 patches before subdivision
+199404 patches after subdivision
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+98 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23196818, max 1336
+transfer lists: 177.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(934634, 694150, 854264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(176639, 80039, 135160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(43877, 10556, 34345)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(13538, 1894, 10945)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4366, 354, 3818)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1526, 85, 1396)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(538, 20, 525)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(198, 6, 202)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(73, 2, 79)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(28, 1, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.1193 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  89/1024         4272/49152    ( 8.7%) 
+brushes               1106/8192        13272/98304    (13.5%) 
+brushsides           10626/65536       85008/524288   (16.2%) 
+planes                7592/65536      151840/1310720  (11.6%) 
+vertexes             10697/65536      128364/786432   (16.3%) 
+nodes                 3692/65536      118144/2097152  ( 5.6%) 
+texinfos               377/12288       27144/884736   ( 3.1%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6455/65536      361480/3670016  ( 9.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3090/65536      173040/3670016  ( 4.7%) 
+leaves                3782/65536      121024/2097152  ( 5.8%) 
+leaffaces             8100/65536       16200/131072   (12.4%) 
+leafbrushes           3591/65536        7182/131072   ( 5.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            44087/512000     176348/2048000  ( 8.6%) 
+edges                26150/256000     104600/1024000  (10.2%) 
+LDR worldlights         98/8192         8624/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1080/32768       10800/327680   ( 3.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16986/65536       33972/131072   (25.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                18/512          6336/180224   ( 3.5%) 
+LDR lightdata         [variable]     4561680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      615210/16777216 ( 3.7%) 
+entdata               [variable]      204670/393216   (52.1%) 
+LDR ambient table     3782/65536       15128/262144   ( 5.8%) 
+HDR ambient table     3782/65536       15128/262144   ( 5.8%) 
+LDR leaf ambient     24379/65536      682612/1835008  (37.2%) 
+HDR leaf ambient      3782/65536      105896/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/54804    ( 0.0%) 
+pakfile               [variable]         728/0        ( 0.0%) 
+physics               [variable]      408639/4194304  ( 9.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 18979
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+2 minutes, 24 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_hardware.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gd_hardware/dev/dev_blendmeasure2_wvt_patch
+Patching WVT material: maps/gd_hardware/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 746 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_hardware.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_trainyard_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_trainyard_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_trainyard_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_trainyard_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (408639 bytes)
+Error! To use model "models/player/workernode_static.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/workernode_static.mdl"!
+Error! To use model "models/player/automaton_new.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/automaton_new.mdl"!
+Error! To use model "models/player/courier.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/courier.mdl"!
+Error! To use model "models/player/dismatic.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/dismatic.mdl"!
+Error! To use model "models/player/saptrap.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/saptrap.mdl"!
+Error! To use model "models/player/telecon.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/telecon.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 929 texinfos to 377
+Reduced 34 texdatas to 31 (833 bytes to 772)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\gd_hardware.bsp
+Wrote ZIP buffer, estimated size 942, actual size 728
+5 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.prt
+1553 portalclusters
+4498 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 77123 visible clusters (3.79%)
+Total clusters visible: 2034883
+Average clusters visible: 1310
+Building PAS...
+Average clusters audible: 1551
+visdatasize:615210  compressed from 621200
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+6455 faces
+5 degenerate faces
+4894301 square feet [704779392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6450 patches before subdivision
+199404 patches after subdivision
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 300.000000 but _zero_percent_distance of 0.000000
+98 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23196818, max 1336
+transfer lists: 177.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(934662, 694182, 854297)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(176641, 80042, 135162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(43877, 10556, 34345)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(13538, 1894, 10945)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4366, 354, 3818)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1526, 85, 1396)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(538, 20, 525)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(198, 6, 202)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(73, 2, 79)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(28, 1, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0642 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  89/1024         4272/49152    ( 8.7%) 
+brushes               1106/8192        13272/98304    (13.5%) 
+brushsides           10626/65536       85008/524288   (16.2%) 
+planes                7592/65536      151840/1310720  (11.6%) 
+vertexes             10697/65536      128364/786432   (16.3%) 
+nodes                 3692/65536      118144/2097152  ( 5.6%) 
+texinfos               377/12288       27144/884736   ( 3.1%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6455/65536      361480/3670016  ( 9.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3090/65536      173040/3670016  ( 4.7%) 
+leaves                3782/65536      121024/2097152  ( 5.8%) 
+leaffaces             8100/65536       16200/131072   (12.4%) 
+leafbrushes           3591/65536        7182/131072   ( 5.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            44087/512000     176348/2048000  ( 8.6%) 
+edges                26150/256000     104600/1024000  (10.2%) 
+LDR worldlights         98/8192         8624/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1080/32768       10800/327680   ( 3.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16986/65536       33972/131072   (25.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                18/512          6336/180224   ( 3.5%) 
+LDR lightdata         [variable]     4561680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      615210/16777216 ( 3.7%) 
+entdata               [variable]      204378/393216   (52.0%) 
+LDR ambient table     3782/65536       15128/262144   ( 5.8%) 
+HDR ambient table     3782/65536       15128/262144   ( 5.8%) 
+LDR leaf ambient     24379/65536      682612/1835008  (37.2%) 
+HDR leaf ambient      3782/65536      105896/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/54804    ( 0.0%) 
+pakfile               [variable]         728/0        ( 0.0%) 
+physics               [variable]      408639/4194304  ( 9.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 18979
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\gd_hardware.bsp
+2 minutes, 27 seconds elapsed
