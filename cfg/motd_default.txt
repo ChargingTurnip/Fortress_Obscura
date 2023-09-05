@@ -6,10 +6,13 @@ Our map rotation is:
 - Powerbreak
 - Hydro (TC)
 - Strategic
+- Bomba
 - Turbine
 - TowTown
+- Hardware
 - Patchwork
 - 3Fort
+- Tokyo
 - Purifier
 - 6Fort
 - Strongside

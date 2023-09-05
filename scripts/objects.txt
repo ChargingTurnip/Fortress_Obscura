@@ -144,9 +144,9 @@ objects
 	{
 		ClassName			obj_fort
 		StatusName			"#FO_Object_Fort"
-		BuildTime			10
+		BuildTime			6
 		MaxObjects			999
-		Cost				130
+		Cost				50
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
@@ -164,16 +164,16 @@ objects
 		VisibleInWeaponSelection 0
 		ExplodeSound		"Building_Sentry.Explode"
 		ExplodeEffect		"ExplosionCore_buildings"
-		MetalToDropInGibs	60		
+		MetalToDropInGibs	25		
 	}
 
 	OBJ_WALL
 	{
 		ClassName			obj_wall
 		StatusName			"#FO_Object_Wall"
-		BuildTime			3
+		BuildTime			4
 		MaxObjects			999
-		Cost				10
+		Cost				20
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
@@ -191,7 +191,7 @@ objects
 		VisibleInWeaponSelection 0
 		ExplodeSound		"Building_Sentry.Explode"
 		ExplodeEffect		"ExplosionCore_buildings"
-		MetalToDropInGibs	8		
+		MetalToDropInGibs	10		
 	}
 
 	OBJ_STAIRS
@@ -200,7 +200,7 @@ objects
 		StatusName			"#FO_Object_Stairs"
 		BuildTime			5
 		MaxObjects			999
-		Cost				50
+		Cost				25
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0

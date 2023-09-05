@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "143"
+	"mapversion" "144"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "143"
+	"mapversion" "144"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -97745,14 +97745,9 @@ entity
 entity
 {
 	"id" "54037"
-	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"origin" "144 2832 65"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
+	"classname" "func_detail"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
 	solid
 	{
 		"id" "54038"
@@ -97866,7 +97861,7 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -97984,7 +97979,7 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -98102,7 +98097,7 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -98220,14 +98215,14 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 7000]"

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "144"
+	"mapversion" "145"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "144"
+	"mapversion" "145"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -82289,7 +82289,7 @@ entity
 	"team_bodygroup_6" "1"
 	"team_bodygroup_7" "1"
 	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_yellow_locked"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red_locked"
 	"team_icon_3" "sprites/obj_icons/icon_obj_blu_locked"
 	"team_icon_4" "sprites/obj_icons/icon_obj_grn_locked"
 	"team_icon_5" "sprites/obj_icons/icon_obj_ylw"

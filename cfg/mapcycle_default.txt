@@ -3,10 +3,13 @@ dom_3badpit
 gd_powerbreak
 tc_hydro
 arena_strategic
+gd_bomba
 ctf_turbine
 dom_towtown
+gd_hardware
 cp_patchwork
 ctf_3fort
+dom_tokyo
 ctp_purifier
 ctf_6fort
 esc_strongside
