@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "265"
+	"mapversion" "267"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "265"
+	"mapversion" "267"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4165,7 +4165,7 @@ entity
 	"id" "77757"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "cp_2"
-	"area_time_to_cap" "2"
+	"area_time_to_cap" "4"
 	"origin" "-1808 -768 -112"
 	"spawnflags" "1"
 	"StartDisabled" "0"
@@ -4601,7 +4601,7 @@ entity
 	"id" "77755"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "cp_1"
-	"area_time_to_cap" "2"
+	"area_time_to_cap" "4"
 	"origin" "-3312 2528 -112"
 	"spawnflags" "1"
 	"StartDisabled" "0"

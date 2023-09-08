@@ -1134,3 +1134,185 @@ Total triangle count: 8060
 Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctp_duoload.bsp
 ZIP Output overshot buffer estimate: Estimated 0, actual 54
 30 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctp_duoload.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "customdev/dev_measuregeneric01red" not found.
+Material not found!: CUSTOMDEV/DEV_MEASUREGENERIC01RED
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctp_duoload.prt...Building visibility clusters...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_halloween_night2014_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween_night2014_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_halloween_night2014_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween_night2014_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (316935 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1077 texinfos to 369
+Reduced 19 texdatas to 19 (437 bytes to 437)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctp_duoload.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctp_duoload.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctp_duoload.prt
+ 724 portalclusters
+1910 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 21534 visible clusters (5.26%)
+Total clusters visible: 409104
+Average clusters visible: 565
+Building PAS...
+Average clusters audible: 712
+visdatasize:135367  compressed from 139008
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctp_duoload.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctp_duoload.bsp
+2995 faces
+703125 square feet [101250072.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2995 patches before subdivision
+62175 patches after subdivision
+WARNING: light_spot at (-1744 1408 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2176 1872 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2128 1440 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2592 1424 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2640 1856 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3024 1600 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1792 1840 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3024 1856 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1968 3488 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2224 3040 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1840 3040 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1840 2784 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2224 2784 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2352 3232 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1968 3232 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2352 3488 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1729 1326 -64) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1920 960 -64) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-1904 624 -64) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3376 352 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2944 -112 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2992 320 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2528 336 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2480 -96 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2096 160 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3328 -80 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2096 -96 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3152 -1728 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2896 -1280 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3280 -1280 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3280 -1024 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2896 -1024 400) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2768 -1472 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3152 -1472 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-2768 -1728 288) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3391 433 -64) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3200 800 -64) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-3216 1136 -64) has outer angle larger than 90 degrees! Clamping to 90...
+180 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5716067, max 397
+transfer lists:  43.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(364265, 349178, 353521)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(110703, 93343, 113791)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(36000, 26573, 39546)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(12251, 7774, 14248)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4303, 2320, 5238)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1547, 702, 1949)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(566, 215, 732)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(209, 67, 276)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(78, 21, 105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 7, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 2, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 1, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0178 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  43/1024         2064/49152    ( 4.2%) 
+brushes                872/8192        10464/98304    (10.6%) 
+brushsides            6238/65536       49904/524288   ( 9.5%) 
+planes                3092/65536       61840/1310720  ( 4.7%) 
+vertexes              5290/65536       63480/786432   ( 8.1%) 
+nodes                 2198/65536       70336/2097152  ( 3.4%) 
+texinfos               369/12288       26568/884736   ( 3.0%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2995/65536      167720/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1914/65536      107184/3670016  ( 2.9%) 
+leaves                2242/65536       71744/2097152  ( 3.4%) 
+leaffaces             3375/65536        6750/131072   ( 5.1%) 
+leafbrushes           2241/65536        4482/131072   ( 3.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            21658/512000      86632/2048000  ( 4.2%) 
+edges                13022/256000      52088/1024000  ( 5.1%) 
+LDR worldlights        180/8192        15840/720896   ( 2.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            248/32768        2480/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3669/65536        7338/131072   ( 5.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2134512/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      135367/16777216 ( 0.8%) 
+entdata               [variable]      119435/393216   (30.4%) 
+LDR ambient table     2242/65536        8968/262144   ( 3.4%) 
+HDR ambient table     2242/65536        8968/262144   ( 3.4%) 
+LDR leaf ambient     10698/65536      299544/1835008  (16.3%) 
+HDR leaf ambient      2242/65536       62776/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22156    ( 0.0%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]      316935/4194304  ( 7.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8060
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctp_duoload.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+29 seconds elapsed
