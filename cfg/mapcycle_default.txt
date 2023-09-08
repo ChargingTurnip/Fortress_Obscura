@@ -7,6 +7,7 @@ gd_bomba
 ctf_turbine
 dom_towtown
 gd_hardware
+ctp_duoload
 cp_patchwork
 ctf_3fort
 dom_tokyo

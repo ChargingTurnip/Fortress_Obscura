@@ -10,6 +10,7 @@ Our map rotation is:
 - Turbine
 - TowTown
 - Hardware
+- Duoload
 - Patchwork
 - 3Fort
 - Tokyo

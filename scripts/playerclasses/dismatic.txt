@@ -8,7 +8,7 @@ PlayerClass
 	"model"			"models/player/dismatic.mdl"
 	"model_hwm"		"models/player/dismatic_new.mdl"
 	"localize_name"		"FO_Class_Name_Dismatic"
-	"speed_max"		"230"
+	"speed_max"		"260"
 //	"health_max"		"50"
 //	"armor_max"		"100"
 	"health_max"		"300"
