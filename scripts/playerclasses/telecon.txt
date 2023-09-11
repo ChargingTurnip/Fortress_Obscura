@@ -21,7 +21,7 @@ PlayerClass
 	// Weapons.
 	"weapon1"		"TF_WEAPON_SCATTERGUN"
 	"weapon2"		"TF_WEAPON_NONE"
-	"weapon3"		"TF_WEAPON_BAT"
+	"weapon3"		"FO_WEAPON_PADDLE"
 	"weapon4"		"TF_WEAPON_PDA_ENGINEER_BUILD"
 	"weapon5"		"TF_WEAPON_PDA_ENGINEER_DESTROY"
 

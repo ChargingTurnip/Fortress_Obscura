@@ -3267,3 +3267,22 @@
 
 	"wave"	")weapons\medi_burn_lp.wav"
 }
+
+// ------------------------------------------------------------------------------------ //
+// SHOTLING GUN
+// ------------------------------------------------------------------------------------ //
+"Weapon_ShotlingGun.Fire"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/shotlinggun_fire.wav"
+}
+
+"Weapon_ShotlingGun.Crit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/shotlinggun_crit.wav"
+}

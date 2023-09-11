@@ -963,6 +963,10 @@
 	input SetStalemateOnTimelimit(bool) : "Determines whether mp_timelimit can end the match in the middle of a round."
 	input SetRedKothClockActive(void) : "Set the RED team clock active for KOTH maps."
 	input SetBlueKothClockActive(void) : "Set the BLU team clock active for KOTH maps."
+	input SetGreenKothClockActive(void) : "Set the GRN team clock active for KOTH maps."
+	input SetYellowKothClockActive(void) : "Set the YLW team clock active for KOTH maps."
+	input SetPurpleKothClockActive(void) : "Set the PRP team clock active for KOTH maps."
+	input SetPinkKothClockActive(void) : "Set the PNK team clock active for KOTH maps."
 	input SetCTFCaptureBonusTime(float) : "Set the length (in seconds) of team crit time for CTF captures. 0 = none"
 	input PlayVORed(string) : "Play the given sound entry via the VO channel" 
 	input PlayVOBlue(string) : "Play the given sound entry via the VO channel"
@@ -2616,8 +2620,16 @@
 
 	input SetRedTimer(integer)	:	"Set the time remaining for the RED timer."
 	input SetBlueTimer(integer)	:	"Set the time remaining for the BLUE timer."
+	input SetGreenTimer(integer)	:	"Set the time remaining for the GREEN timer."
+	input SetYellowTimer(integer)	:	"Set the time remaining for the YELLOW timer."
+	input SetPurpleTimer(integer)	:	"Set the time remaining for the PURPLE timer."
+	input SetPinkTimer(integer)	:	"Set the time remaining for the PINK timer."
 	input AddRedTimer(integer)	:	"Add time to the RED timer."
 	input AddBlueTimer(integer)	:	"Add time to the BLUE timer."
+	input AddGreenTimer(integer)	:	"Add time to the GREEN timer."
+	input AddYellowTimer(integer)	:	"Add time to the YELLOW timer."
+	input AddPurpleTimer(integer)	:	"Add time to the PURPLE timer."
+	input AddPinkTimer(integer)	:	"Add time to the PINK timer."
 ]
 
 @PointClass base(Targetname,Parentname,Angles ) studio("models/bots/bot_worker/bot_worker_a.mdl")= tf_robot_destruction_robot_spawn : "Robot Destruction Robot spawn point."

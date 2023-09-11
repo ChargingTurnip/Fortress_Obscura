@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\controlfreak\controlfreak_glow"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\player\controlfreak\controlfreak_glow_mask"
+
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+}
+

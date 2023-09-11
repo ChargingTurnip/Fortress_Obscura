@@ -8,11 +8,11 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 		
 	// Attributes TF.
-	"Damage"		"9"
+	"Damage"		"8"
 	"Range"			"8192"
-	"BulletsPerShot"	"2"
-	"Spread"		"0.025"
-	"TimeFireDelay"	"0.15"
+	"BulletsPerShot"	"8"
+	"Spread"		"0.07"
+	"TimeFireDelay"	"0.25"
 	"UseRapidFireCrits"	"1"
 	"ProjectileType"	"projectile_bullet"
 
@@ -20,8 +20,8 @@ WeaponData
 	"primary_ammo"		"TF_AMMO_PRIMARY"
 	"secondary_ammo"	"None"
 	"clip_size"		"-1"
-	"MaxAmmo"		"200"
-	"SpawnAmmo"		"200"
+	"MaxAmmo"		"100"
+	"SpawnAmmo"		"100"
 
 	// Buckets.
 	"bucket"		"0"
@@ -48,11 +48,12 @@ WeaponData
 	{
 		"reload"		"Weapon_Minigun.Reload"
 		"empty"			"Weapon_Minigun.ClipEmpty"	
-		"double_shot"	"Weapon_Minigun.Fire"
+		//"single_shot" 		"Weapon_Shotgun.Single"
+		"double_shot"		"Weapon_ShotlingGun.Fire"
 		"special1"		"Weapon_Minigun.WindUp"
 		"special2"		"Weapon_Minigun.WindDown"
 		"special3"		"Weapon_Minigun.Spin"
-		"burst"			"Weapon_Minigun.FireCrit"
+		"burst"			"Weapon_ShotlingGun.Crit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

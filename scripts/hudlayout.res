@@ -51,6 +51,50 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}	
+
+	HudKothTimeStatus
+	{
+		"fieldName" "HudKothTimeStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"c-200"
+		"ypos"	"0"
+		"wide"	"400"
+		"tall"	"160"
+		
+		"blue_active_xpos"			"216"
+		"blue_active_xpos_minmode"	"255"
+	
+		"red_active_xpos"			"306"
+		"red_active_xpos_minmode"	"305"
+
+		"3blue_active_xpos"			"116"
+		"3blue_active_xpos_minmode"	"155"
+
+		"3red_active_xpos"			"206"
+		"3red_active_xpos_minmode"	"205"
+
+		"6blue_active_xpos"			"216"
+		"6blue_active_xpos_minmode"	"255"
+
+		"6red_active_xpos"			"306"
+		"6red_active_xpos_minmode"	"305"
+
+		"green_active_xpos"	"126"
+		"green_active_xpos_minmode"	"125"
+		
+		"6green_active_xpos"	"126"
+		"6green_active_xpos_minmode"	"125"
+		
+		"yellow_active_xpos"	"396"
+		"yellow_active_xpos_minmode"	"355"
+
+		"purple_active_xpos"	"36"
+		"purple_active_xpos_minmode"	"35"
+		
+		"pink_active_xpos"	"486"
+		"pink_active_xpos_minmode"	"445"
+	}
 	
 	HudCloakMeter
 	{

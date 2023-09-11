@@ -25,7 +25,6 @@ PlayerClass
 	//"weapon4"		"FO_WEAPON_PDA_WORKERNODE_BUILD"
 	//"weapon5"		"FO_WEAPON_PDA_WORKERNODE_DESTROY"
 	"weapon4"		"TF_WEAPON_PDA_ENGINEER_BUILD"
-	"weapon5"		"TF_WEAPON_PDA_ENGINEER_DESTROY"
 
 	"buildable1"	"OBJ_FORT"
 	"buildable2"	"OBJ_WALL"

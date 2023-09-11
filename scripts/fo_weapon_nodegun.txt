@@ -8,7 +8,7 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 		
 	// Attributes TF.
-	"Damage"		"20"
+	"Damage"		"16"
 	"Range"			"8192"
 	"BulletsPerShot"	"1"
 	"Spread"		"0.015"
@@ -19,7 +19,7 @@ WeaponData
 	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
 	"UseRapidFireCrits"	"1"
 	"HasTeamSkins_Viewmodel"	"1"
-	"HasTeamSkins_Worldmodel"	"1"
+	"HasTeamSkins_Worldmodel"	"0"
 	"MaxAmmo"		"75"
 	"SpawnAmmo"		"75"
 

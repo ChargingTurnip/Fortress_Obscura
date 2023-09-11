@@ -9,7 +9,7 @@
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Attributes TF.
-	"Damage"			"65"
+	"Damage"			"45"
 	"TimeFireDelay"			"0.8"
 	"TimeIdle"			"5.0"
 

@@ -7,6 +7,7 @@
 //Generator Defense - Music.Class_Menu2
 //Capture the Flag - Music.Class_Menu3
 //Domination - Music.Class_Menu4
+//King of the Hill - Music.Class_Menu5
 
 //By ChargingTurnip
 "Music.Class_Menu1"
@@ -43,6 +44,15 @@
 	"soundlevel"		"SNDLVL_NONE"
 	"volume"		"0.55"
 	"wave"			"#*music/class_menu4.wav"
+}
+
+//By ChargingTurnip
+"Music.Class_Menu5"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"			"#*music/class_menu5.wav"
 }
 
 "music.class_menu_01"
