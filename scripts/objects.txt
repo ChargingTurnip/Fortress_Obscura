@@ -146,7 +146,7 @@ objects
 		StatusName			"#FO_Object_Fort"
 		BuildTime			6
 		MaxObjects			999
-		Cost				50
+		Cost				80
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
