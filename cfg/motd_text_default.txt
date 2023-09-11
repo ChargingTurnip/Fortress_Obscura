@@ -17,6 +17,7 @@ Our map rotation is:
 - Purifier
 - 6Fort
 - Strongside
+- Dogpile
 - 3Turbine
 - 6Hydro (DOM)
 - 6Turbine

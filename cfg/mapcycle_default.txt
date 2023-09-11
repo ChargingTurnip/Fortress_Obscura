@@ -14,6 +14,7 @@ dom_tokyo
 ctp_purifier
 ctf_6fort
 esc_strongside
+koth_dogpile
 ctf_3turbine
 dom_6hydro
 ctf_6turbine
