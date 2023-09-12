@@ -3,6 +3,7 @@
 	game	"Fortress Obscura"
 	gamelogo 1
 	type multiplayer_only
+	icon			"resource/game"
 	nomodels 1
 	nohimodel 1
 	nocrosshair 0
