@@ -1,0 +1,5 @@
+Objective:
+To win each team must capture the control point and destroy the enemy generator.
+
+Other Notes:
+The control point resets after 60 seconds. Your generator cannot be damaged when you own the control point.

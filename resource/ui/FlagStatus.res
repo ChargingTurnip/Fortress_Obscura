@@ -69,4 +69,32 @@
 		"image"			"../hud/objectives_6flagpanel_ico_flag_home"
 		"scaleImage"	"1"	
 	}
+	"Diamond"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Diamond"
+		"xpos"			"63"
+		"ypos"			"25"
+		"zpos"			"2"
+		"wide"			"35"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_diamond"
+		"scaleImage"	"1"	
+	}				
+	"DiamondStatusIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"DiamondStatusIcon"
+		"xpos"			"75"
+		"ypos"			"35"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_ico_flag_home"
+		"scaleImage"	"1"	
+	}
 }

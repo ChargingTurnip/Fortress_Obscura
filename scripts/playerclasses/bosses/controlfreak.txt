@@ -1,0 +1,45 @@
+//
+// Fortress Obscura - Control Freak Boss Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"controlfreak"
+	"model"			"models/player/controlfreak.mdl"
+	"model_hwm"		"models/player/controlfreak.mdl"
+	"localize_name"		"FO_Class_Name_ControlFreak"
+	"speed_max"		"300"
+//	"health_max"		"90"
+//	"armor_max"		"100"
+	"health_max"		"10000"
+	"armor_max"		"0"
+
+	// Grenades.
+	//"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+//	"grenade2"		"TF_WEAPON_GRENADE_SMOKE_BOMB"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_FISTS"
+	//"weapon2"		""
+	//"weapon3"		"TF_WEAPON_KNIFE"
+	//"weapon4"		"TF_WEAPON_PDA_SPY"
+	//"weapon5"		"TF_WEAPON_INVIS"
+	
+	// Buildables
+	//"buildable1"	"OBJ_ATTACHMENT_SAPPER"
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"20"		
+		"tf_ammo_secondary"	"24"
+		"tf_ammo_metal"		"100"
+		"tf_ammo_grenades1"	"0"
+		"tf_ammo_grenades2"	"1"
+	}
+
+	// Death Sounds
+	"sound_death"				"ControlFreak.Death"
+	"sound_crit_death"			"ControlFreak.CritDeath"
+	"sound_melee_death"			"ControlFreak.MeleeDeath"
+	"sound_explosion_death"			"ControlFreak.ExplosionDeath"		
+}

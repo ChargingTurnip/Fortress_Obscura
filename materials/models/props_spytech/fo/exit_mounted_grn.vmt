@@ -1,0 +1,7 @@
+"Patch"
+{
+	include "materials/models/props_spytech/exit_mounted.vmt"
+	insert {
+		"$basetexture"	"models/props_spytech/fo/exit_mounted_grn"
+	}
+}

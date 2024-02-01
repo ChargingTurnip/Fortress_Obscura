@@ -2,12 +2,14 @@ ctf_2fort
 dom_3badpit
 gd_powerbreak
 tc_hydro
+ditr_abscond
 arena_strategic
 gd_bomba
 ctf_turbine
 dom_towtown
 gd_hardware
 ctp_duoload
+gd_filtrate
 cp_patchwork
 ctf_3fort
 dom_tokyo

@@ -1,0 +1,40 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event expression "madUpper"
+    {
+      time 0.041667 5.125000
+      param "player\spy\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0987 0.6229
+        1.0563 0.6275
+        4.9250 0.5827
+      }
+    }
+    event speak "Saptrap.No01"
+    {
+      time 0.031250 0.877168
+      param "Saptrap.No01"
+      param2 "0.620"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "32"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

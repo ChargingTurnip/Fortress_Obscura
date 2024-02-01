@@ -877,3 +877,141 @@
 
 //============================================================================================================
 
+//============================================================================================================
+
+// Saptrap
+//------------------------------------------------------------------------------------------------------------
+	response "SaptrapTauntPrimary"
+	{
+		scene "scenes/player/Saptrap/low/taunt01_vocal01.vcd"
+		scene "scenes/player/Saptrap/low/taunt01_vocal02.vcd"
+		scene "scenes/player/Saptrap/low/taunt01_vocal03.vcd"
+		scene "scenes/player/Saptrap/low/taunt01_vocal04.vcd"
+	}
+	response "SaptrapTauntSecondary"
+	{
+		scene "scenes/player/Saptrap/low/taunt02_vocal01.vcd"
+		scene "scenes/player/Saptrap/low/taunt02_vocal02.vcd"
+		scene "scenes/player/Saptrap/low/taunt02_vocal03.vcd"
+	}
+	response "SaptrapTauntMelee"
+	{
+		scene "scenes/player/Saptrap/low/taunt03.vcd"
+	}
+
+	rule SaptrapTauntPlayerPrimary
+	{
+		criteria ConceptPlayerTaunt IsSaptrap WeaponIsShotgunPrimary
+		response SaptrapTauntPrimary
+	}
+	rule SaptrapTauntPlayerSecondary
+	{
+		criteria ConceptPlayerTaunt IsSaptrap WeaponIsPistol
+		response SaptrapTauntSecondary
+	}
+	rule SaptrapTauntPlayerMelee
+	{
+		criteria ConceptPlayerTaunt IsSaptrap WeaponIsWrench
+		response SaptrapTauntMelee
+	}
+
+	Response PlayerExpressionIdleSaptrap
+	{
+		scene "scenes/player/Saptrap/low/idleloop01.vcd"
+	}
+	Rule PlayerExpressionIdleSaptrap
+	{
+		criteria ConceptPlayerExpression IsSaptrap
+		Response PlayerExpressionIdleSaptrap
+	}
+	
+	Response PlayerExpressionIdleHurtSaptrap
+	{
+		scene "scenes/player/Saptrap/low/idleloopHurt01.vcd"
+	}
+	Rule PlayerExpressionIdleHurtSaptrap
+	{
+		criteria ConceptPlayerExpression IsSaptrap LowHealthContext
+		Response PlayerExpressionIdleHurtSaptrap
+	}
+	
+	Response PlayerExpressionAttackSaptrap
+	{
+		scene "scenes/player/Saptrap/low/attack01.vcd"
+	}
+	Rule PlayerExpressionAttackSaptrap
+	{
+		criteria ConceptFireWeapon IsSaptrap
+		Response PlayerExpressionAttackSaptrap
+	}
+
+//============================================================================================================
+
+//============================================================================================================
+
+
+// Worker Node
+//------------------------------------------------------------------------------------------------------------
+	response "WorkerNodeTauntPrimary"
+	{
+		scene "scenes/player/workernode/low/taunt01_vocal01.vcd"
+		scene "scenes/player/workernode/low/taunt01_vocal02.vcd"
+		scene "scenes/player/workernode/low/taunt01_vocal03.vcd"
+		scene "scenes/player/workernode/low/taunt01_vocal04.vcd"
+	}
+	response "WorkerNodeTauntSecondary"
+	{
+		scene "scenes/player/workernode/low/taunt02_vocal01.vcd"
+		scene "scenes/player/workernode/low/taunt02_vocal02.vcd"
+		scene "scenes/player/workernode/low/taunt02_vocal03.vcd"
+	}
+	response "WorkerNodeTauntMelee"
+	{
+		scene "scenes/player/workernode/low/taunt03.vcd"
+	}
+
+	rule WorkerNodeTauntPlayerPrimary
+	{
+		criteria ConceptPlayerTaunt IsWorkerNode WeaponIsShotgunPrimary
+		response WorkerNodeTauntPrimary
+	}
+	rule WorkerNodeTauntPlayerSecondary
+	{
+		criteria ConceptPlayerTaunt IsWorkerNode WeaponIsPistol
+		response WorkerNodeTauntSecondary
+	}
+	rule WorkerNodeTauntPlayerMelee
+	{
+		criteria ConceptPlayerTaunt IsWorkerNode WeaponIsWrench
+		response WorkerNodeTauntMelee
+	}
+
+	Response PlayerExpressionIdleWorkerNode
+	{
+		scene "scenes/player/workernode/low/idleloop01.vcd"
+	}
+	Rule PlayerExpressionIdleWorkerNode
+	{
+		criteria ConceptPlayerExpression IsWorkerNode
+		Response PlayerExpressionIdleWorkerNode
+	}
+	
+	Response PlayerExpressionIdleHurtWorkerNode
+	{
+		scene "scenes/player/workernode/low/idleloopHurt01.vcd"
+	}
+	Rule PlayerExpressionIdleHurtWorkerNode
+	{
+		criteria ConceptPlayerExpression IsWorkerNode LowHealthContext
+		Response PlayerExpressionIdleHurtWorkerNode
+	}
+	
+	Response PlayerExpressionAttackWorkerNode
+	{
+		scene "scenes/player/workernode/low/attack01.vcd"
+	}
+	Rule PlayerExpressionAttackWorkerNode
+	{
+		criteria ConceptFireWeapon IsWorkerNode
+		Response PlayerExpressionAttackWorkerNode
+	}

@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event expression "mad"
+    {
+      time 0.052083 5.031250
+      param "player\spy\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.3697 0.6785 "curve_bspline_to_curve_bspline"
+        2.4000 0.6105
+        4.9203 0.6043
+      }
+    }
+    event speak "Saptrap.Jeers01"
+    {
+      time 0.250000 2.750000
+      param "Saptrap.Jeers01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "8"
+  "ExpressionTool" "100"
+  "RampTool" "22"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

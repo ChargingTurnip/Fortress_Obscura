@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/fo/control_room_consoles"
+	"$nodecal" "1"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$color2"		"{ 255 255 255 }"
+
+}

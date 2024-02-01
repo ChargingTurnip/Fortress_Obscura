@@ -287,6 +287,27 @@
 		"player_3"		"short"
 		"player_3_points"	"short"
 	}
+
+	"player_hurt"
+	{
+		"userid" "short"
+		"health" "short"
+		"attacker" "short"
+		"damageamount" "short"
+		"custom"	"short"
+		"showdisguisedcrit" "bool"	// if our attribute specifically crits disguised enemies we need to show it on the client
+		"crit" "bool"
+		"weaponid" "short"
+		"victim_index"	"short"	// entindex who died
+		"attacker_index"	"short"		// entindex that killed
+   	}
+	
+	"player_healed"
+	{
+		"patient"	"short"
+		"healer"	"short"
+		"amount"	"short"
+	}
 	
 	"teamplay_teambalanced_player"
 	{
@@ -312,6 +333,10 @@
 	}
 
 	"localplayer_changeclass"
+	{
+	}
+
+	"localplayer_respawn"
 	{
 	}
 		
@@ -367,6 +392,37 @@
 	
 	"spec_target_updated"
 	{
+	}
+
+	"escort_speed"
+	{
+		"team"		"byte"			// which team
+		"speed"		"byte"
+		"players"	"byte"
+	}
+	
+	"escort_progress"
+	{
+		"team"		"byte"			// which team
+		"progress"	"float"
+		"reset"		"bool"
+	}
+
+	"escort_recede"
+	{
+		"team"			"byte"		// which team
+		"recedetime"	"float"
+	}
+
+	"player_escort_score"
+	{
+		"player"	"byte"
+		"points"	"byte"
+	}
+
+	"path_track_passed"
+	{
+		"index"	"short"		// index of the node being passed
 	}
 }
 

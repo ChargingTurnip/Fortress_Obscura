@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_spytech/fo/terminal_chair_worn"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$color2"		"{ 255 255 255 }"
+}

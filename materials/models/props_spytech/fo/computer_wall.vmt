@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/fo/computer_wall"
+	"$nodecal" "1"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$color2"		"{ 255 255 255 }"
+}

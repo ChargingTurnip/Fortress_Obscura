@@ -1,0 +1,8 @@
+"patch"
+{
+	include "materials/Models/props_spytech/fo/terminal_chair_worn.vmt"
+    insert
+	{
+		"$color2"		"{ 129 127 66 }"
+	}
+}

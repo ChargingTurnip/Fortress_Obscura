@@ -1,0 +1,710 @@
+//--------------------------------------------------------------------------------------------------------------
+// Saptrap Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Criterion "SaptrapIsNotStillonFire" "SaptrapOnFire" "!=1" "required" weight 0
+Criterion "SaptrapIsStillonFire" "SaptrapOnFire" "1" "required" weight 0
+Criterion "SaptrapNotKillSpeech" "SaptrapKillSpeech" "!=1" "required" weight 0
+Criterion "SaptrapNotKillSpeechMelee" "SaptrapKillSpeechMelee" "!=1" "required" weight 0
+Criterion "SaptrapNotSaidHealThanks" "SaptrapSaidHealThanks" "!=1" "required"
+Criterion "IsHelpCapSaptrap" "SaptrapHelpCap" "1" "required" weight 0
+
+
+Response PlayerCloakedSaptrapDemomanSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify05.vcd" 
+}
+Rule PlayerCloakedSaptrapDemomanSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnDemoman
+	Response PlayerCloakedSaptrapDemomanSaptrap
+}
+
+Response PlayerCloakedSaptrapEngineerSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify09.vcd" 
+}
+Rule PlayerCloakedSaptrapEngineerSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnEngineer
+	Response PlayerCloakedSaptrapEngineerSaptrap
+}
+
+Response PlayerCloakedSaptrapHeavySaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify03.vcd" 
+}
+Rule PlayerCloakedSaptrapHeavySaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnHeavy
+	Response PlayerCloakedSaptrapHeavySaptrap
+}
+
+Response PlayerCloakedSaptrapMedicSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify08.vcd" 
+}
+Rule PlayerCloakedSaptrapMedicSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnMedic
+	Response PlayerCloakedSaptrapMedicSaptrap
+}
+
+Response PlayerCloakedSaptrapPyroSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify04.vcd" 
+}
+Rule PlayerCloakedSaptrapPyroSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnPyro
+	Response PlayerCloakedSaptrapPyroSaptrap
+}
+
+Response PlayerCloakedSaptrapSniperSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify10.vcd" 
+}
+Rule PlayerCloakedSaptrapSniperSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnSniper
+	Response PlayerCloakedSaptrapSniperSaptrap
+}
+
+Response PlayerCloakedSaptrapSoldierSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify02.vcd" 
+}
+Rule PlayerCloakedSaptrapSoldierSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnSoldier
+	Response PlayerCloakedSaptrapSoldierSaptrap
+}
+
+Response PlayerCloakedSaptrapSaptrapSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify06.vcd" 
+	scene "scenes/Player/Saptrap/low/CloakedSaptrapIdentify07.vcd" 
+}
+Rule PlayerCloakedSaptrapSaptrapSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap IsOnSaptrap
+	Response PlayerCloakedSaptrapSaptrapSaptrap
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksSaptrap
+{
+	scene "scenes/Player/Saptrap/low/ThanksForTheHeal01.vcd" 
+	scene "scenes/Player/Saptrap/low/ThanksForTheHeal02.vcd" 
+	scene "scenes/Player/Saptrap/low/ThanksForTheHeal03.vcd" 
+}
+Rule HealThanksSaptrap
+{
+	criteria ConceptMedicChargeStopped IsSaptrap SuperHighHealthContext SaptrapNotSaidHealThanks 50PercentChance
+	ApplyContext "SaptrapSaidHealThanks:1:20"
+	Response HealThanksSaptrap
+}
+
+Response PlayerRoundStartSaptrap
+{
+	scene "scenes/Player/Saptrap/low/BattleCry01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Saptrap/low/BattleCry02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Saptrap/low/BattleCry03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Saptrap/low/BattleCry04.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartSaptrap
+{
+	criteria ConceptPlayerRoundStart IsSaptrap
+	Response PlayerRoundStartSaptrap
+}
+
+Response PlayerCappedIntelligenceSaptrap
+{
+	scene "scenes/Player/Saptrap/low/AutoCappedIntelligence01.vcd" 
+	scene "scenes/Player/Saptrap/low/AutoCappedIntelligence02.vcd" 
+	scene "scenes/Player/Saptrap/low/AutoCappedIntelligence03.vcd" 
+}
+Rule PlayerCappedIntelligenceSaptrap
+{
+	criteria ConceptPlayerCapturedIntelligence IsSaptrap
+	Response PlayerCappedIntelligenceSaptrap
+}
+
+Response PlayerCapturedPointSaptrap
+{
+	scene "scenes/Player/Saptrap/low/AutoCappedControlPoint01.vcd" 
+	scene "scenes/Player/Saptrap/low/AutoCappedControlPoint02.vcd" 
+	scene "scenes/Player/Saptrap/low/AutoCappedControlPoint03.vcd" 
+}
+Rule PlayerCapturedPointSaptrap
+{
+	criteria ConceptPlayerCapturedPoint IsSaptrap
+	Response PlayerCapturedPointSaptrap
+}
+
+Response PlayerSuddenDeathSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Jeers01.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers02.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers03.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers04.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers05.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers06.vcd" 
+}
+Rule PlayerSuddenDeathSaptrap
+{
+	criteria ConceptPlayerSuddenDeathStart IsSaptrap
+	Response PlayerSuddenDeathSaptrap
+}
+
+Response PlayerStalemateSaptrap
+{
+	scene "scenes/Player/Saptrap/low/AutoDejectedTie01.vcd" 
+	scene "scenes/Player/Saptrap/low/AutoDejectedTie02.vcd" 
+	scene "scenes/Player/Saptrap/low/AutoDejectedTie03.vcd" 
+}
+Rule PlayerStalemateSaptrap
+{
+	criteria ConceptPlayerStalemate IsSaptrap
+	Response PlayerStalemateSaptrap
+}
+
+Response PlayerTeleporterThanksSaptrap
+{
+	scene "scenes/Player/Saptrap/low/ThanksForTheTeleporter01.vcd" 
+	scene "scenes/Player/Saptrap/low/ThanksForTheTeleporter02.vcd" 
+	scene "scenes/Player/Saptrap/low/ThanksForTheTeleporter03.vcd" 
+}
+Rule PlayerTeleporterThanksSaptrap
+{
+	criteria ConceptTeleported IsNotEngineer IsSaptrap 30PercentChance
+	Response PlayerTeleporterThanksSaptrap
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response KilledPlayerManySaptrap
+{
+	scene "scenes/Player/Saptrap/low/SpecialCompleted09.vcd" 
+}
+Rule KilledPlayerManySaptrap
+{
+	criteria ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponPrimary KilledPlayerDelay SaptrapNotKillSpeech IsSaptrap
+	ApplyContext "SaptrapKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerManySaptrap
+}
+
+Response KilledPlayerMeleeSaptrap
+{
+	scene "scenes/Player/Saptrap/low/SpecialCompleted02.vcd" 
+	scene "scenes/Player/Saptrap/low/SpecialCompleted03.vcd" 
+	scene "scenes/Player/Saptrap/low/SpecialCompleted11.vcd" 
+}
+Rule KilledPlayerMeleeSaptrap
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee SaptrapNotKillSpeechMelee IsSaptrap
+	ApplyContext "SaptrapKillSpeechMelee:1:10"
+	applycontexttoworld
+	Response KilledPlayerMeleeSaptrap
+}
+
+Response PlayerKilledCapperSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Cheers04.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers07.vcd" 
+	scene "scenes/Player/Saptrap/low/PositiveVocalization01.vcd" 
+	scene "scenes/Player/Saptrap/low/PositiveVocalization02.vcd" 
+}
+Rule PlayerKilledCapperSaptrap
+{
+	criteria ConceptCapBlocked IsSaptrap
+	ApplyContext "SaptrapKillSpeech:1:10"
+	Response PlayerKilledCapperSaptrap
+}
+
+Response PlayerKilledDominatingSaptrap
+{
+	scene "scenes/Player/Saptrap/low/PositiveVocalization01.vcd" predelay "2.5"
+	scene "scenes/Player/Saptrap/low/PositiveVocalization02.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/LaughEvil01.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/LaughEvil02.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/LaughHappy01.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/LaughHappy02.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/LaughHappy03.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/LaughLong01.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/LaughShort06.vcd" predelay "2.5"
+	//scene "scenes/Player/Saptrap/low/SpecialCompleted10.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSaptrap
+{
+	criteria ConceptKilledPlayer IsSaptrap IsDominated
+	ApplyContext "SaptrapKillSpeech:1:10"
+	Response PlayerKilledDominatingSaptrap
+}
+
+Response PlayerKilledForRevengeSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Cheers01.vcd" predelay "2.5"
+	scene "scenes/Player/Saptrap/low/Cheers06.vcd" predelay "2.5"
+	scene "scenes/Player/Saptrap/low/GoodJob01.vcd" predelay "2.5"
+	scene "scenes/Player/Saptrap/low/PositiveVocalization01.vcd" predelay "2.5"
+	scene "scenes/Player/Saptrap/low/PositiveVocalization02.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeSaptrap
+{
+	criteria ConceptKilledPlayer IsSaptrap IsRevenge
+	ApplyContext "SaptrapKillSpeech:1:10"
+	Response PlayerKilledForRevengeSaptrap
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainSaptrap
+{
+	scene "scenes/Player/Saptrap/low/PainSevere01.vcd" 
+	scene "scenes/Player/Saptrap/low/PainSevere02.vcd" 
+	scene "scenes/Player/Saptrap/low/PainSevere03.vcd" 
+	scene "scenes/Player/Saptrap/low/PainSevere04.vcd" 
+	scene "scenes/Player/Saptrap/low/PainSevere05.vcd" 
+}
+Rule PlayerAttackerPainSaptrap
+{
+	criteria ConceptAttackerPain IsSaptrap
+	Response PlayerAttackerPainSaptrap
+}
+
+Response PlayerOnFireSaptrap
+{
+	scene "scenes/Player/Saptrap/low/AutoOnFire02.vcd" 
+}
+Rule PlayerOnFireSaptrap
+{
+	criteria ConceptFire IsSaptrap SaptrapIsNotStillonFire
+	ApplyContext "SaptrapOnFire:1:7"
+	Response PlayerOnFireSaptrap
+}
+
+Response PlayerOnFireRareSaptrap
+{
+	scene "scenes/Player/Saptrap/low/AutoOnFire01.vcd" 
+	scene "scenes/Player/Saptrap/low/AutoOnFire03.vcd" 
+}
+Rule PlayerOnFireRareSaptrap
+{
+	criteria ConceptFire IsSaptrap 10PercentChance SaptrapIsNotStillonFire
+	ApplyContext "SaptrapOnFire:1:7"
+	Response PlayerOnFireRareSaptrap
+}
+
+Response PlayerPainSaptrap
+{
+	scene "scenes/Player/Saptrap/low/PainSharp01.vcd" 
+	scene "scenes/Player/Saptrap/low/PainSharp02.vcd" 
+	scene "scenes/Player/Saptrap/low/PainSharp03.vcd" 
+	scene "scenes/Player/Saptrap/low/PainSharp04.vcd" 
+}
+Rule PlayerPainSaptrap
+{
+	criteria ConceptPain IsSaptrap
+	Response PlayerPainSaptrap
+}
+
+Response PlayerStillOnFireSaptrap
+{
+	scene "scenes/Player/Saptrap/low/autoonfiresecondary01.vcd" 
+}
+Rule PlayerStillOnFireSaptrap
+{
+	criteria ConceptFire IsSaptrap  SaptrapIsStillonFire
+	ApplyContext "SaptrapOnFire:1:7"
+	Response PlayerStillOnFireSaptrap
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Go01.vcd" 
+	scene "scenes/Player/Saptrap/low/Go02.vcd" 
+	scene "scenes/Player/Saptrap/low/Go03.vcd" 
+}
+Rule PlayerGoSaptrap
+{
+	criteria ConceptPlayerGo IsSaptrap
+	Response PlayerGoSaptrap
+}
+
+Response PlayerHeadLeftSaptrap
+{
+	scene "scenes/Player/Saptrap/low/HeadLeft01.vcd" 
+	scene "scenes/Player/Saptrap/low/HeadLeft02.vcd" 
+	scene "scenes/Player/Saptrap/low/HeadLeft03.vcd" 
+}
+Rule PlayerHeadLeftSaptrap
+{
+	criteria ConceptPlayerLeft  IsSaptrap
+	Response PlayerHeadLeftSaptrap
+}
+
+Response PlayerHeadRightSaptrap
+{
+	scene "scenes/Player/Saptrap/low/HeadRight01.vcd" 
+	scene "scenes/Player/Saptrap/low/HeadRight02.vcd" 
+	scene "scenes/Player/Saptrap/low/HeadRight03.vcd" 
+}
+Rule PlayerHeadRightSaptrap
+{
+	criteria ConceptPlayerRight  IsSaptrap
+	Response PlayerHeadRightSaptrap
+}
+
+Response PlayerHelpSaptrap
+{
+	scene "scenes/Player/Saptrap/low/HelpMe01.vcd" 
+	scene "scenes/Player/Saptrap/low/HelpMe02.vcd" 
+	scene "scenes/Player/Saptrap/low/HelpMe03.vcd" 
+}
+Rule PlayerHelpSaptrap
+{
+	criteria ConceptPlayerHelp IsSaptrap
+	Response PlayerHelpSaptrap
+}
+
+Response PlayerHelpCaptureSaptrap
+{
+	scene "scenes/Player/Saptrap/low/HelpMeCapture01.vcd" 
+	scene "scenes/Player/Saptrap/low/HelpMeCapture02.vcd" 
+	scene "scenes/Player/Saptrap/low/HelpMeCapture03.vcd" 
+}
+Rule PlayerHelpCaptureSaptrap
+{
+	criteria ConceptPlayerHelp IsSaptrap IsOnCappableControlPoint
+	ApplyContext "SaptrapHelpCap:1:10"
+	Response PlayerHelpCaptureSaptrap
+}
+
+Response PlayerHelpCapture2Saptrap
+{
+	scene "scenes/Player/Saptrap/low/StandOnThePoint01.vcd" 
+	scene "scenes/Player/Saptrap/low/StandOnThePoint02.vcd" 
+	scene "scenes/Player/Saptrap/low/StandOnThePoint03.vcd" 
+	scene "scenes/Player/Saptrap/low/StandOnThePoint04.vcd" 
+}
+Rule PlayerHelpCapture2Saptrap
+{
+	criteria ConceptPlayerHelp IsSaptrap IsOnCappableControlPoint IsHelpCapSaptrap
+	Response PlayerHelpCapture2Saptrap
+}
+
+Response PlayerHelpDefendSaptrap
+{
+	scene "scenes/Player/Saptrap/low/HelpMeDefend01.vcd" 
+	scene "scenes/Player/Saptrap/low/HelpMeDefend02.vcd" 
+	scene "scenes/Player/Saptrap/low/HelpMeDefend03.vcd" 
+}
+Rule PlayerHelpDefendSaptrap
+{
+	criteria ConceptPlayerHelp IsSaptrap IsOnFriendlyControlPoint
+	Response PlayerHelpDefendSaptrap
+}
+
+Response PlayerMedicSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Medic01.vcd" 
+	scene "scenes/Player/Saptrap/low/Medic02.vcd" 
+	scene "scenes/Player/Saptrap/low/Medic03.vcd" 
+}
+Rule PlayerMedicSaptrap
+{
+	criteria ConceptPlayerMedic IsSaptrap
+	Response PlayerMedicSaptrap
+}
+
+Response PlayerMoveUpSaptrap
+{
+	scene "scenes/Player/Saptrap/low/MoveUp01.vcd" 
+	scene "scenes/Player/Saptrap/low/MoveUp02.vcd" 
+}
+Rule PlayerMoveUpSaptrap
+{
+	criteria ConceptPlayerMoveUp  IsSaptrap
+	Response PlayerMoveUpSaptrap
+}
+
+Response PlayerNoSaptrap
+{
+	scene "scenes/Player/Saptrap/low/No01.vcd" 
+	scene "scenes/Player/Saptrap/low/No02.vcd" 
+	scene "scenes/Player/Saptrap/low/No03.vcd" 
+}
+Rule PlayerNoSaptrap
+{
+	criteria ConceptPlayerNo  IsSaptrap
+	Response PlayerNoSaptrap
+}
+
+Response PlayerThanksSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Thanks01.vcd" 
+	scene "scenes/Player/Saptrap/low/Thanks02.vcd" 
+	scene "scenes/Player/Saptrap/low/Thanks03.vcd" 
+}
+Rule PlayerThanksSaptrap
+{
+	criteria ConceptPlayerThanks IsSaptrap
+	Response PlayerThanksSaptrap
+}
+
+Response PlayerYesSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Yes01.vcd" 
+	scene "scenes/Player/Saptrap/low/Yes02.vcd" 
+	scene "scenes/Player/Saptrap/low/Yes03.vcd" 
+}
+Rule PlayerYesSaptrap
+{
+	criteria ConceptPlayerYes  IsSaptrap
+	Response PlayerYesSaptrap
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeSaptrap
+{
+	scene "scenes/Player/Saptrap/low/ActivateCharge01.vcd" 
+	scene "scenes/Player/Saptrap/low/ActivateCharge02.vcd" 
+	scene "scenes/Player/Saptrap/low/ActivateCharge03.vcd" 
+}
+Rule PlayerActivateChargeSaptrap
+{
+	criteria ConceptPlayerActivateCharge IsSaptrap
+	Response PlayerActivateChargeSaptrap
+}
+
+Response PlayerCloakedSaptrapSaptrap
+{
+	scene "scenes/Player/Saptrap/low/CloakedSaptrap01.vcd" 
+	scene "scenes/Player/Saptrap/low/CloakedSaptrap02.vcd" 
+	scene "scenes/Player/Saptrap/low/CloakedSaptrap03.vcd" 
+	scene "scenes/Player/Saptrap/low/CloakedSaptrap04.vcd" 
+}
+Rule PlayerCloakedSaptrapSaptrap
+{
+	criteria ConceptPlayerCloakedSaptrap IsSaptrap
+	Response PlayerCloakedSaptrapSaptrap
+}
+
+Response PlayerDispenserHereSaptrap
+{
+	scene "scenes/Player/Saptrap/low/NeedDispenser01.vcd" 
+}
+Rule PlayerDispenserHereSaptrap
+{
+	criteria ConceptPlayerDispenserHere IsSaptrap
+	Response PlayerDispenserHereSaptrap
+}
+
+Response PlayerIncomingSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Incoming01.vcd" 
+	scene "scenes/Player/Saptrap/low/Incoming02.vcd" 
+	scene "scenes/Player/Saptrap/low/Incoming03.vcd" 
+}
+Rule PlayerIncomingSaptrap
+{
+	criteria ConceptPlayerIncoming IsSaptrap
+	Response PlayerIncomingSaptrap
+}
+
+Response PlayerSentryAheadSaptrap
+{
+	scene "scenes/Player/Saptrap/low/SentryAhead01.vcd" 
+	scene "scenes/Player/Saptrap/low/SentryAhead02.vcd" 
+}
+Rule PlayerSentryAheadSaptrap
+{
+	criteria ConceptPlayerSentryAhead IsSaptrap
+	Response PlayerSentryAheadSaptrap
+}
+
+Response PlayerSentryHereSaptrap
+{
+	scene "scenes/Player/Saptrap/low/NeedSentry01.vcd" 
+}
+Rule PlayerSentryHereSaptrap
+{
+	criteria ConceptPlayerSentryHere IsSaptrap
+	Response PlayerSentryHereSaptrap
+}
+
+Response PlayerTeleporterHereSaptrap
+{
+	scene "scenes/Player/Saptrap/low/NeedTeleporter01.vcd" 
+}
+Rule PlayerTeleporterHereSaptrap
+{
+	criteria ConceptPlayerTeleporterHere IsSaptrap
+	Response PlayerTeleporterHereSaptrap
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCrySaptrap
+{
+	scene "scenes/Player/Saptrap/low/BattleCry01.vcd" 
+	scene "scenes/Player/Saptrap/low/BattleCry02.vcd" 
+	scene "scenes/Player/Saptrap/low/BattleCry03.vcd" 
+	scene "scenes/Player/Saptrap/low/BattleCry04.vcd" 
+	scene "scenes/Player/Saptrap/low/BattleCry05.vcd" 
+}
+Rule PlayerBattleCrySaptrap
+{
+	criteria ConceptPlayerBattleCry IsSaptrap
+	Response PlayerBattleCrySaptrap
+}
+
+Response PlayerCheersSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Cheers01.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers02.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers03.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers04.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers05.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers06.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers07.vcd" 
+	scene "scenes/Player/Saptrap/low/Cheers08.vcd" 
+}
+Rule PlayerCheersSaptrap
+{
+	criteria ConceptPlayerCheers IsSaptrap
+	Response PlayerCheersSaptrap
+}
+
+Response PlayerDisguisedTauntsSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Taunts07.vcd" 
+	scene "scenes/Player/Saptrap/low/Taunts08.vcd" 
+}
+Rule PlayerDisguisedTauntsSaptrap
+{
+	criteria ConceptPlayerTaunts IsDisguised IsSaptrap
+	Response PlayerDisguisedTauntsSaptrap
+}
+
+Response PlayerGoodJobSaptrap
+{
+	scene "scenes/Player/Saptrap/low/GoodJob01.vcd" 
+	scene "scenes/Player/Saptrap/low/GoodJob02.vcd" 
+	scene "scenes/Player/Saptrap/low/GoodJob03.vcd" 
+}
+Rule PlayerGoodJobSaptrap
+{
+	criteria ConceptPlayerGoodJob IsSaptrap
+	Response PlayerGoodJobSaptrap
+}
+
+Response PlayerJeersSaptrap
+{
+	scene "scenes/Player/Saptrap/low/Jeers01.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers02.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers03.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers04.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers05.vcd" 
+	scene "scenes/Player/Saptrap/low/Jeers06.vcd" 
+}
+Rule PlayerJeersSaptrap
+{
+	criteria ConceptPlayerJeers IsSaptrap
+	Response PlayerJeersSaptrap
+}
+
+Response PlayerLostPointSaptrap
+{
+	scene "scenes/Player/Saptrap/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization04.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization05.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization06.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization07.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization08.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization09.vcd" 
+}
+Rule PlayerLostPointSaptrap
+{
+	criteria ConceptPlayerLostPoint IsSaptrap
+	Response PlayerLostPointSaptrap
+}
+
+Response PlayerNegativeSaptrap
+{
+	scene "scenes/Player/Saptrap/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization04.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization05.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization06.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization07.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization08.vcd" 
+	scene "scenes/Player/Saptrap/low/NegativeVocalization09.vcd" 
+}
+Rule PlayerNegativeSaptrap
+{
+	criteria ConceptPlayerNegative IsSaptrap
+	Response PlayerNegativeSaptrap
+}
+
+Response PlayerNiceShotSaptrap
+{
+	scene "scenes/Player/Saptrap/low/NiceShot01.vcd" 
+	scene "scenes/Player/Saptrap/low/NiceShot02.vcd" 
+	scene "scenes/Player/Saptrap/low/NiceShot03.vcd" 
+}
+Rule PlayerNiceShotSaptrap
+{
+	criteria ConceptPlayerNiceShot IsSaptrap
+	Response PlayerNiceShotSaptrap
+}
+
+Response PlayerPositiveSaptrap
+{
+	scene "scenes/Player/Saptrap/low/PositiveVocalization01.vcd" 
+	scene "scenes/Player/Saptrap/low/PositiveVocalization02.vcd" 
+	scene "scenes/Player/Saptrap/low/PositiveVocalization03.vcd" 
+	scene "scenes/Player/Saptrap/low/PositiveVocalization04.vcd" 
+	scene "scenes/Player/Saptrap/low/PositiveVocalization05.vcd" 
+}
+Rule PlayerPositiveSaptrap
+{
+	criteria ConceptPlayerPositive IsSaptrap
+	Response PlayerPositiveSaptrap
+}
+
+Response PlayerTauntsSaptrap
+{
+	scene "scenes/Player/Saptrap/low/LaughShort01.vcd" 
+	scene "scenes/Player/Saptrap/low/LaughShort02.vcd" 
+	scene "scenes/Player/Saptrap/low/LaughShort03.vcd" 
+	scene "scenes/Player/Saptrap/low/LaughShort04.vcd" 
+	scene "scenes/Player/Saptrap/low/LaughShort05.vcd" 
+}
+Rule PlayerTauntsSaptrap
+{
+	criteria ConceptPlayerTaunts IsSaptrap
+	Response PlayerTauntsSaptrap
+}
+

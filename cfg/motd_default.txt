@@ -5,12 +5,14 @@ Our map rotation is:
 - 3Badpit
 - Powerbreak
 - Hydro (TC)
+- Abscond
 - Strategic
 - Bomba
 - Turbine
 - TowTown
 - Hardware
 - Duoload
+- Filtrate
 - Patchwork
 - 3Fort
 - Tokyo
@@ -19,5 +21,5 @@ Our map rotation is:
 - Strongside
 - Dogpile
 - 3Turbine
-- 6Hydro (DOM)
+- 6Hydro
 - 6Turbine

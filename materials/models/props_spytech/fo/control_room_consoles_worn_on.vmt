@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/fo/control_room_consoles_worn"
+	"$nodecal" "1"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$color2"		"{ 255 255 255 }"
+
+	"$EmissiveBlendEnabled" 		"1"	
+	"$EmissiveBlendStrength"		".75"
+	"$EmissiveBlendBaseTexture" 	"Models/props_spytech/fo/control_room_consoles_glow"
+	"$EmissiveBlendTexture" 		"vgui/white"
+	"$EmissiveBlendFlowTexture" 	"vgui/white"
+	"$EmissiveBlendTint" 			"[ 1 1 1 ]"
+	"$EmissiveBlendScrollVector" 	"[ 0 0 ]"
+}

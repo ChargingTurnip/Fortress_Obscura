@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/vgui/light_spectate"
+	"$model" "1"
+	"$decal" "1"
+	"$additive" "1"
+//	"$mod2x" "1"
+//	"$nofog" "1"
+
+	$colorover	"[.325 .325 .325]"
+
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1	"$colorover"
+			resultVar "$color"
+		}
+	}
+}

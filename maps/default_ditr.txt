@@ -1,0 +1,5 @@
+Objective:
+To win a point, locate a hidden dirt pile and dig to reveal a diamond and return it to your capture zone.
+
+Other Notes:
+Dirt piles can only be dug with melee.

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$baseTexture"			"models/props_gameplay/fo/ball001_birthday"
+	"$bumpmap" 			"models/props_gameplay/ball001_normal"
+//	"$basemapalphaphongmask"	"1"
+	"$phong"			"1"
+	"$phongexponent"		"8"
+	"$phongboost"			"1"	
+	"$phongfresnelranges"		"[.6 2 5]"
+
+	"$nodecal"			"1"
+
+	"$envmap"			"env_cubemap"
+	"$envmaptint"			"[.2 .2 .4]"
+
+	"$rimlight"			"1"
+	"$rimlightboost"		"4"
+	"$rimlightexponent"		"15"
+
+	"$surfaceprop"			"ball_bouncy"
+}

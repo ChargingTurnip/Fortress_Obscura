@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/fo/terminal_chair"
+     	"$envmap" "env_cubemap"
+	"$envmapmask" "Models/props_spytech/fo/terminal_chair_envmap"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$color2"		"{ 255 255 255 }"
+}

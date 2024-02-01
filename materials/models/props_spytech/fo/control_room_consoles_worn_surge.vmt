@@ -1,0 +1,81 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/fo/control_room_consoles_worn"
+	"$nodecal" "1"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$color2"		"{ 255 255 255 }"
+
+	"$EmissiveBlendEnabled" 		"1"	
+	"$EmissiveBlendStrength"		".75"
+	"$EmissiveBlendBaseTexture" 	"Models/props_spytech/fo/control_room_consoles_glow"
+	"$EmissiveBlendTexture" 		"vgui/white"
+	"$EmissiveBlendFlowTexture" 	"vgui/white"
+	"$EmissiveBlendTint" 			"[ 1 1 1 ]"
+	"$EmissiveBlendScrollVector" 	"[ 0 0 ]"
+	
+	$sine		0
+	$noise1		0
+	$noise2		0
+	$noise3		0
+	
+	Proxies
+	{
+		Sine
+		{
+			resultVar	$sine
+			sinePeriod	3
+			sineMin		.375
+			sineMax		.625
+		}
+		Sine
+		{
+			resultVar	$noise1
+			sinePeriod	1
+			sineMin		-.125
+			sineMax		.125
+			timeOffset	.25
+		}
+		Sine
+		{
+			resultVar	$noise2
+			sinePeriod	4.274
+			sinemin		.5
+			sinemax		1.25
+			timeOffset	.125
+		}
+		Sine
+		{
+			resultVar	$noise3
+			sinePeriod	6.28306
+			sinemin		-7
+			sinemax		1
+		}
+		Clamp
+		{
+			min			0
+			max			1
+			srcVar1		$noise3
+			resultVar	$noise3
+		}
+		Add
+		{
+			srcVar1		$sine
+			srcVar2		$noise1
+			resultVar	$EmissiveBlendStrength
+		}
+		Multiply
+		{
+			srcVar1		$EmissiveBlendStrength
+			srcVar2		$noise2
+			resultVar	$EmissiveBlendStrength
+		}
+		Add
+		{
+			srcVar1		$EmissiveBlendStrength
+			srcVar2		$noise3
+			resultVar	$EmissiveBlendStrength
+		}
+	}
+}

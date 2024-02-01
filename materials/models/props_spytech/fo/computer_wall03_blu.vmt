@@ -1,0 +1,9 @@
+"patch"
+{
+	include "materials/Models/props_spytech/fo/computer_wall03.vmt"
+    insert
+	{
+		"$color2"		"{ 35 98 112 }"
+		"$EmissiveBlendBaseTexture" 	"Models/props_spytech/fo/computer_wall03_glow_blu"
+	}
+}

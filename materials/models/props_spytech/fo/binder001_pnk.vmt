@@ -1,0 +1,8 @@
+"patch"
+{
+	include "materials/Models/props_spytech/fo/binder001.vmt"
+    insert
+	{
+		"$color2"		"{ 230 156 180 }"
+	}
+}

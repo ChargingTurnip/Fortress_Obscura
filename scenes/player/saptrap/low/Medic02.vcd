@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event expression "painBig"
+    {
+      time 0.016129 5.069893
+      param "player\spy\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.1182 0.6986
+        1.1167 0.6801
+        4.9167 0.6832
+      }
+    }
+    event speak "Saptrap.Medic02"
+    {
+      time 0.021505 2.511505
+      param "Saptrap.Medic02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "124"
+  "ExpressionTool" "100"
+  "RampTool" "24"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

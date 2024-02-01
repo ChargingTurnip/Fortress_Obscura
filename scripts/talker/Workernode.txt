@@ -1,0 +1,841 @@
+//--------------------------------------------------------------------------------------------------------------
+// Workernode Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Criterion "WorkerNodeIsNotStillonFire" "WorkerNodeOnFire" "!=1" "required" weight 0
+Criterion "WorkerNodeIsStillonFire" "WorkerNodeOnFire" "1" "required" weight 0
+Criterion "WorkerNodeNotKillSpeech" "WorkerNodeKillSpeech" "!=1" "required" weight 0
+Criterion "WorkerNodeNotKillSpeechMelee" "WorkerNodeKillSpeechMelee" "!=1" "required" weight 0
+Criterion "WorkerNodeNotSaidHealThanks" "WorkerNodeSaidHealThanks" "!=1" "required"
+Criterion "IsHelpCapWorkerNode" "WorkerNodeHelpCap" "1" "required" weight 0
+
+
+Response PlayerCloakedSpyDemomanWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify05.vcd" 
+}
+Rule PlayerCloakedSpyDemomanWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnDemoman
+	Response PlayerCloakedSpyDemomanWorkerNode
+}
+
+Response PlayerCloakedSpyWorkerNodeWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify08.vcd" 
+}
+Rule PlayerCloakedSpyWorkerNodeWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnWorkerNode
+	Response PlayerCloakedSpyWorkerNodeWorkerNode
+}
+
+Response PlayerCloakedSpyHeavyWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify03.vcd" 
+}
+Rule PlayerCloakedSpyHeavyWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnHeavy
+	Response PlayerCloakedSpyHeavyWorkerNode
+}
+
+Response PlayerCloakedSpyMedicWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify07.vcd" 
+}
+Rule PlayerCloakedSpyMedicWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnMedic
+	Response PlayerCloakedSpyMedicWorkerNode
+}
+
+Response PlayerCloakedSpyPyroWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify04.vcd" 
+}
+Rule PlayerCloakedSpyPyroWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnPyro
+	Response PlayerCloakedSpyPyroWorkerNode
+}
+
+Response PlayerCloakedSpySniperWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify09.vcd" 
+}
+Rule PlayerCloakedSpySniperWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnSniper
+	Response PlayerCloakedSpySniperWorkerNode
+}
+
+Response PlayerCloakedSpySoldierWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify02.vcd" 
+}
+Rule PlayerCloakedSpySoldierWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnSoldier
+	Response PlayerCloakedSpySoldierWorkerNode
+}
+
+Response PlayerCloakedSpySpyWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify06.vcd" 
+	//scene "scenes/Player/Workernode/low/CloakedSpyIdentify10.vcd" 
+}
+Rule PlayerCloakedSpySpyWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode IsOnSpy
+	Response PlayerCloakedSpySpyWorkerNode
+}
+
+Response PlayerDispenserDownWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoDestroyedDispenser01.vcd" 
+}
+Rule PlayerDispenserDownWorkerNode
+{
+	criteria ConceptLostObject IsDispenser IsWorkerNode
+	Response PlayerDispenserDownWorkerNode
+}
+
+Response PlayerSentryDownWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoDestroyedSentry01.vcd" 
+}
+Rule PlayerSentryDownWorkerNode
+{
+	criteria ConceptLostObject IsSentryGun IsWorkerNode
+	Response PlayerSentryDownWorkerNode
+}
+
+Response PlayerTeleporterDownWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoDestroyedTeleporter01.vcd" 
+}
+Rule PlayerTeleporterDownWorkerNode
+{
+	criteria ConceptLostObject IsTeleporterEntrance IsWorkerNode
+	Response PlayerTeleporterDownWorkerNode
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/ThanksForTheHeal01.vcd" 
+	//scene "scenes/Player/Workernode/low/ThanksForTheHeal02.vcd" 
+}
+Rule HealThanksWorkerNode
+{
+	criteria ConceptMedicChargeStopped IsWorkerNode SuperHighHealthContext WorkerNodeNotSaidHealThanks 50PercentChance
+	ApplyContext "WorkerNodeSaidHealThanks:1:20"
+	Response HealThanksWorkerNode
+}
+
+Response PlayerRoundStartWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/BattleCry01.vcd" predelay "1.0, 5.0"
+	//scene "scenes/Player/Workernode/low/BattleCry03.vcd" predelay "1.0, 5.0"
+	//scene "scenes/Player/Workernode/low/BattleCry04.vcd" predelay "1.0, 5.0"
+	//scene "scenes/Player/Workernode/low/BattleCry05.vcd" predelay "1.0, 5.0"
+	//scene "scenes/Player/Workernode/low/BattleCry06.vcd" predelay "1.0, 5.0"
+	//scene "scenes/Player/Workernode/low/BattleCry07.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartWorkerNode
+{
+	criteria ConceptPlayerRoundStart IsWorkerNode
+	Response PlayerRoundStartWorkerNode
+}
+
+Response PlayerCappedIntelligenceWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoCappedIntelligence01.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoCappedIntelligence02.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoCappedIntelligence03.vcd" 
+}
+Rule PlayerCappedIntelligenceWorkerNode
+{
+	criteria ConceptPlayerCapturedIntelligence IsWorkerNode
+	Response PlayerCappedIntelligenceWorkerNode
+}
+
+Response PlayerCapturedPointWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoCappedControlPoint01.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoCappedControlPoint02.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoCappedControlPoint03.vcd" 
+}
+Rule PlayerCapturedPointWorkerNode
+{
+	criteria ConceptPlayerCapturedPoint IsWorkerNode
+	Response PlayerCapturedPointWorkerNode
+}
+
+Response PlayerSuddenDeathWorkerNode
+{
+	scene "scenes/Player/Workernode/low/Negative01.vcd" 
+	scene "scenes/Player/Workernode/low/Negative02.vcd" 
+	scene "scenes/Player/Workernode/low/Negative03.vcd" 
+	scene "scenes/Player/Workernode/low/Negative04.vcd" 
+}
+Rule PlayerSuddenDeathWorkerNode
+{
+	criteria ConceptPlayerSuddenDeathStart IsWorkerNode
+	Response PlayerSuddenDeathWorkerNode
+}
+
+Response PlayerStalemateWorkerNode
+{
+	scene "scenes/Player/Workernode/low/Negative01.vcd" 
+	scene "scenes/Player/Workernode/low/Negative02.vcd" 
+	scene "scenes/Player/Workernode/low/Negative03.vcd" 
+	scene "scenes/Player/Workernode/low/Negative04.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoDejectedTie01.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoDejectedTie02.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoDejectedTie03.vcd" 
+}
+Rule PlayerStalemateWorkerNode
+{
+	criteria ConceptPlayerStalemate IsWorkerNode
+	Response PlayerStalemateWorkerNode
+}
+
+Response PlayerTeleporterThanksWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/ThanksForTheTeleporter01.vcd" 
+	//scene "scenes/Player/Workernode/low/ThanksForTheTeleporter02.vcd" 
+}
+Rule PlayerTeleporterThanksWorkerNode
+{
+	criteria ConceptTeleported IsNotWorkerNode IsWorkerNode 30PercentChance
+	Response PlayerTeleporterThanksWorkerNode
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response KillTauntsWorkerNodeSpecial
+{
+	//scene "scenes/Player/Workernode/low/SpecialCompleted02.vcd" 
+	//scene "scenes/Player/Workernode/low/SpecialCompleted06.vcd" 
+	//scene "scenes/Player/Workernode/low/SpecialCompleted08.vcd" 
+	//scene "scenes/Player/Workernode/low/SpecialCompleted09.vcd" 
+}
+Rule KillTauntsWorkerNodeSpecial
+{
+	criteria ConceptKilledPlayer IsManyRecentKills WeaponIsSentrygun KilledPlayerDelay WorkerNodeNotKillSpeech IsWorkerNode 30PercentChance
+	ApplyContext "WorkerNodeKillSpeech:1:10"
+	applycontexttoworld
+	Response KillTauntsWorkerNodeSpecial
+}
+
+Response KilledPlayerManyWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/SpecialCompleted05.vcd" 
+	//scene "scenes/Player/Workernode/low/SpecialCompleted10.vcd" 
+	//scene "scenes/Player/Workernode/low/SpecialCompleted11.vcd" 
+}
+Rule KilledPlayerManyWorkerNode
+{
+	criteria ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponPrimary KilledPlayerDelay WorkerNodeNotKillSpeech IsWorkerNode
+	ApplyContext "WorkerNodeKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerManyWorkerNode
+}
+
+Response KilledPlayerMeleeWorkerNodeWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/SpecialCompleted07.vcd" 
+}
+Rule KilledPlayerMeleeWorkerNodeWorkerNode
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee WorkerNodeNotKillSpeechMelee IsWorkerNode WeaponIsNotSentrygun
+	ApplyContext "WorkerNodeKillSpeechMelee:1:10"
+	applycontexttoworld
+	Response KilledPlayerMeleeWorkerNodeWorkerNode
+}
+
+Response KilledPlayerVeryManyWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/SpecialCompleted01.vcd" 
+}
+Rule KilledPlayerVeryManyWorkerNode
+{
+	criteria ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance IsWeaponPrimary KilledPlayerDelay WorkerNodeNotKillSpeech IsWorkerNode
+	ApplyContext "WorkerNodeKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerVeryManyWorkerNode
+}
+
+Response PlayerKilledCapperWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/BattleCry06.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers02.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers03.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers04.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers05.vcd" 
+
+	scene "scenes/Player/Workernode/low/No01.vcd" 
+	scene "scenes/Player/Workernode/low/No02.vcd" 
+	scene "scenes/Player/Workernode/low/No03.vcd" 
+	scene "scenes/Player/Workernode/low/No04.vcd" 
+	scene "scenes/Player/Workernode/low/No05.vcd" 
+	scene "scenes/Player/Workernode/low/No06.vcd" 
+	scene "scenes/Player/Workernode/low/No07.vcd" 
+}
+Rule PlayerKilledCapperWorkerNode
+{
+	criteria ConceptCapBlocked IsWorkerNode
+	ApplyContext "WorkerNodeKillSpeech:1:10"
+	Response PlayerKilledCapperWorkerNode
+}
+
+Response PlayerKilledDominatingWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/Cheers01.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/Cheers06.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/Jeers04.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughEvil01.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughEvil02.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughEvil05.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughEvil06.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughHappy01.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughHappy02.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughHappy03.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/LaughLong01.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/SpecialCompleted03.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/Taunts02.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/Taunts04.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingWorkerNode
+{
+	criteria ConceptKilledPlayer IsWorkerNode IsDominated
+	ApplyContext "WorkerNodeKillSpeech:1:10"
+	Response PlayerKilledDominatingWorkerNode
+}
+
+Response PlayerKilledForRevengeWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/BattleCry07.vcd" predelay "2.5"
+	//scene "scenes/Player/Workernode/low/Cheers07.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeWorkerNode
+{
+	criteria ConceptKilledPlayer IsWorkerNode IsRevenge
+	ApplyContext "WorkerNodeKillSpeech:1:10"
+	Response PlayerKilledForRevengeWorkerNode
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech WorkerNode
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBuildingWallWorkerNode
+{
+	scene "scenes/Player/Workernode/low/AutoBuildingWall01.vcd" 
+	scene "scenes/Player/Workernode/low/AutoBuildingWall02.vcd" 
+	scene "scenes/Player/Workernode/low/AutoBuildingWall03.vcd" 
+}
+Rule PlayerBuildingWallWorkerNode
+{
+	criteria ConceptPlayerBuildingObject IsWall IsWorkerNode
+	Response PlayerBuildingWallWorkerNode
+}
+
+Response PlayerBuildingFortWorkerNode
+{
+	scene "scenes/Player/Workernode/low/AutoBuildingFort01.vcd" 
+}
+Rule PlayerBuildingFortWorkerNode
+{
+	criteria ConceptPlayerBuildingObject IsFort IsWorkerNode
+	Response PlayerBuildingFortWorkerNode
+}
+
+Response PlayerBuildingStairsWorkerNode
+{
+	scene "scenes/Player/Workernode/low/AutoBuildingStairs01.vcd" 
+	scene "scenes/Player/Workernode/low/AutoBuildingStairs02.vcd" 
+	scene "scenes/Player/Workernode/low/AutoBuildingStairs03.vcd" 
+	scene "scenes/Player/Workernode/low/AutoBuildingStairs04.vcd" 
+	scene "scenes/Player/Workernode/low/AutoBuildingStairs05.vcd" 
+}
+Rule PlayerBuildingStairsWorkerNode
+{
+	criteria ConceptPlayerBuildingObject IsStairs IsWorkerNode
+	Response PlayerBuildingStairsWorkerNode
+}
+
+Response PlayerBuildingRepairNodeWorkerNode
+{
+	scene "scenes/Player/Workernode/low/AutoBuildingRepairNode01.vcd" 
+	scene "scenes/Player/Workernode/low/AutoBuildingRepairNode02.vcd" 
+}
+Rule PlayerBuildingRepairNodeWorkerNode
+{
+	criteria ConceptPlayerBuildingObject IsRepairNode IsWorkerNode
+	Response PlayerBuildingRepairNodeWorkerNode
+}
+
+Response PlayerDispenserSappedWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoAttackedBySpy02.vcd" 
+}
+Rule PlayerDispenserSappedWorkerNode
+{
+	criteria ConceptSpySapping IsWorkerNode IsDispenser
+	Response PlayerDispenserSappedWorkerNode
+}
+
+Response PlayerSentrySappedWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoAttackedBySpy03.vcd" 
+}
+Rule PlayerSentrySappedWorkerNode
+{
+	criteria ConceptSpySapping IsWorkerNode IsSentryGun
+	Response PlayerSentrySappedWorkerNode
+}
+
+Response PlayerTeleporterEntranceSappedWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoAttackedBySpy01.vcd" 
+}
+Rule PlayerTeleporterEntranceSappedWorkerNode
+{
+	criteria ConceptSpySapping IsWorkerNode IsTeleporterEntrance
+	Response PlayerTeleporterEntranceSappedWorkerNode
+}
+
+Response PlayerTeleporterExitSappedWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoAttackedBySpy01.vcd" 
+}
+Rule PlayerTeleporterExitSappedWorkerNode
+{
+	criteria ConceptSpySapping IsWorkerNode IsTeleporterExit
+	Response PlayerTeleporterExitSappedWorkerNode
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainWorkerNode
+{
+	scene "scenes/Player/Workernode/low/PainSevere01.vcd" 
+	scene "scenes/Player/Workernode/low/PainSevere02.vcd" 
+	scene "scenes/Player/Workernode/low/PainSevere03.vcd" 
+	scene "scenes/Player/Workernode/low/PainSevere04.vcd" 
+	scene "scenes/Player/Workernode/low/PainSevere05.vcd" 
+	scene "scenes/Player/Workernode/low/PainSevere06.vcd" 
+	scene "scenes/Player/Workernode/low/PainSevere07.vcd" 
+}
+Rule PlayerAttackerPainWorkerNode
+{
+	criteria ConceptAttackerPain IsWorkerNode
+	Response PlayerAttackerPainWorkerNode
+}
+
+Response PlayerOnFireWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/AutoOnFire01.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoOnFire02.vcd" 
+	//scene "scenes/Player/Workernode/low/AutoOnFire03.vcd" 
+}
+Rule PlayerOnFireWorkerNode
+{
+	criteria ConceptFire IsWorkerNode WorkerNodeIsNotStillonFire
+	ApplyContext "WorkerNodeOnFire:1:7"
+	Response PlayerOnFireWorkerNode
+}
+
+Response PlayerPainWorkerNode
+{
+	scene "scenes/Player/Workernode/low/PainSharp01.vcd" 
+	scene "scenes/Player/Workernode/low/PainSharp02.vcd" 
+	scene "scenes/Player/Workernode/low/PainSharp03.vcd" 
+	scene "scenes/Player/Workernode/low/PainSharp04.vcd" 
+	scene "scenes/Player/Workernode/low/PainSharp05.vcd" 
+	scene "scenes/Player/Workernode/low/PainSharp06.vcd" 
+	scene "scenes/Player/Workernode/low/PainSharp07.vcd" 
+	scene "scenes/Player/Workernode/low/PainSharp08.vcd" 
+}
+Rule PlayerPainWorkerNode
+{
+	criteria ConceptPain IsWorkerNode
+	Response PlayerPainWorkerNode
+}
+
+Response PlayerStillOnFireWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/autoonfiresecondary01.vcd" 
+}
+Rule PlayerStillOnFireWorkerNode
+{
+	criteria ConceptFire IsWorkerNode  WorkerNodeIsStillonFire
+	ApplyContext "WorkerNodeOnFire:1:7"
+	Response PlayerStillOnFireWorkerNode
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/Go01.vcd" 
+	//scene "scenes/Player/Workernode/low/Go02.vcd" 
+	//scene "scenes/Player/Workernode/low/Go03.vcd" 
+}
+Rule PlayerGoWorkerNode
+{
+	criteria ConceptPlayerGo IsWorkerNode
+	Response PlayerGoWorkerNode
+}
+
+Response PlayerHeadLeftWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/HeadLeft01.vcd" 
+	//scene "scenes/Player/Workernode/low/HeadLeft02.vcd" 
+}
+Rule PlayerHeadLeftWorkerNode
+{
+	criteria ConceptPlayerLeft  IsWorkerNode
+	Response PlayerHeadLeftWorkerNode
+}
+
+Response PlayerHeadRightWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/HeadRight01.vcd" 
+	//scene "scenes/Player/Workernode/low/HeadRight02.vcd" 
+	//scene "scenes/Player/Workernode/low/HeadRight03.vcd" 
+}
+Rule PlayerHeadRightWorkerNode
+{
+	criteria ConceptPlayerRight  IsWorkerNode
+	Response PlayerHeadRightWorkerNode
+}
+
+Response PlayerHelpWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/HelpMe01.vcd" 
+	//scene "scenes/Player/Workernode/low/HelpMe02.vcd" 
+	//scene "scenes/Player/Workernode/low/HelpMe03.vcd" 
+}
+Rule PlayerHelpWorkerNode
+{
+	criteria ConceptPlayerHelp IsWorkerNode
+	Response PlayerHelpWorkerNode
+}
+
+Response PlayerHelpCaptureWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/HelpMeCapture01.vcd" 
+	//scene "scenes/Player/Workernode/low/HelpMeCapture02.vcd" 
+	//scene "scenes/Player/Workernode/low/HelpMeCapture03.vcd" 
+}
+Rule PlayerHelpCaptureWorkerNode
+{
+	criteria ConceptPlayerHelp IsWorkerNode IsOnCappableControlPoint
+	ApplyContext "WorkerNodeHelpCap:1:10"
+	Response PlayerHelpCaptureWorkerNode
+}
+
+Response PlayerHelpCapture2WorkerNode
+{
+	//scene "scenes/Player/Workernode/low/StandOnThePoint01.vcd" 
+	//scene "scenes/Player/Workernode/low/StandOnThePoint02.vcd" 
+}
+Rule PlayerHelpCapture2WorkerNode
+{
+	criteria ConceptPlayerHelp IsWorkerNode IsOnCappableControlPoint IsHelpCapWorkerNode
+	Response PlayerHelpCapture2WorkerNode
+}
+
+Response PlayerHelpDefendWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/HelpMeDefend01.vcd" 
+	//scene "scenes/Player/Workernode/low/HelpMeDefend02.vcd" 
+	//scene "scenes/Player/Workernode/low/HelpMeDefend03.vcd" 
+}
+Rule PlayerHelpDefendWorkerNode
+{
+	criteria ConceptPlayerHelp IsWorkerNode IsOnFriendlyControlPoint
+	Response PlayerHelpDefendWorkerNode
+}
+
+Response PlayerMedicWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/Medic01.vcd" 
+	//scene "scenes/Player/Workernode/low/Medic02.vcd" 
+	//scene "scenes/Player/Workernode/low/Medic03.vcd" 
+}
+Rule PlayerMedicWorkerNode
+{
+	criteria ConceptPlayerMedic IsWorkerNode
+	Response PlayerMedicWorkerNode
+}
+
+Response PlayerMoveUpWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/MoveUp01.vcd" 
+}
+Rule PlayerMoveUpWorkerNode
+{
+	criteria ConceptPlayerMoveUp  IsWorkerNode
+	Response PlayerMoveUpWorkerNode
+}
+
+Response PlayerNoWorkerNode
+{
+	scene "scenes/Player/Workernode/low/No01.vcd" 
+	scene "scenes/Player/Workernode/low/No02.vcd" 
+	scene "scenes/Player/Workernode/low/No03.vcd" 
+	scene "scenes/Player/Workernode/low/No04.vcd" 
+	scene "scenes/Player/Workernode/low/No05.vcd" 
+	scene "scenes/Player/Workernode/low/No06.vcd" 
+	scene "scenes/Player/Workernode/low/No07.vcd" 
+}
+Rule PlayerNoWorkerNode
+{
+	criteria ConceptPlayerNo  IsWorkerNode
+	Response PlayerNoWorkerNode
+}
+
+Response PlayerThanksWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/Thanks01.vcd" 
+}
+Rule PlayerThanksWorkerNode
+{
+	criteria ConceptPlayerThanks IsWorkerNode
+	Response PlayerThanksWorkerNode
+}
+
+Response PlayerYesWorkerNode
+{
+	scene "scenes/Player/Workernode/low/Yes01.vcd" 
+	scene "scenes/Player/Workernode/low/Yes02.vcd" 
+	scene "scenes/Player/Workernode/low/Yes03.vcd" 
+	scene "scenes/Player/Workernode/low/Yes04.vcd" 
+}
+Rule PlayerYesWorkerNode
+{
+	criteria ConceptPlayerYes  IsWorkerNode
+	Response PlayerYesWorkerNode
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/ActivateCharge01.vcd" 
+	//scene "scenes/Player/Workernode/low/ActivateCharge02.vcd" 
+	//scene "scenes/Player/Workernode/low/ActivateCharge03.vcd" 
+}
+Rule PlayerActivateChargeWorkerNode
+{
+	criteria ConceptPlayerActivateCharge IsWorkerNode
+	Response PlayerActivateChargeWorkerNode
+}
+
+Response PlayerCloakedSpyWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/CloakedSpy01.vcd" 
+	//scene "scenes/Player/Workernode/low/CloakedSpy02.vcd" 
+	//scene "scenes/Player/Workernode/low/CloakedSpy03.vcd" 
+}
+Rule PlayerCloakedSpyWorkerNode
+{
+	criteria ConceptPlayerCloakedSpy IsWorkerNode
+	Response PlayerCloakedSpyWorkerNode
+}
+
+Response PlayerDispenserHereWorkerNode
+{
+	scene "scenes/Player/Workernode/low/NeedDispenser01.vcd" 
+	scene "scenes/Player/Workernode/low/NeedDispenser02.vcd" 
+	scene "scenes/Player/Workernode/low/NeedDispenser03.vcd" 
+}
+Rule PlayerDispenserHereWorkerNode
+{
+	criteria ConceptPlayerDispenserHere IsWorkerNode
+	Response PlayerDispenserHereWorkerNode
+}
+
+Response PlayerIncomingWorkerNode
+{
+	scene "scenes/Player/Workernode/low/Incoming01.vcd" 
+	scene "scenes/Player/Workernode/low/Incoming02.vcd" 
+	scene "scenes/Player/Workernode/low/Incoming03.vcd" 
+	scene "scenes/Player/Workernode/low/Incoming04.vcd" 
+	scene "scenes/Player/Workernode/low/Incoming05.vcd" 
+}
+Rule PlayerIncomingWorkerNode
+{
+	criteria ConceptPlayerIncoming IsWorkerNode
+	Response PlayerIncomingWorkerNode
+}
+
+Response PlayerSentryAheadWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/SentryAhead01.vcd" 
+	//scene "scenes/Player/Workernode/low/SentryAhead02.vcd" 
+}
+Rule PlayerSentryAheadWorkerNode
+{
+	criteria ConceptPlayerSentryAhead IsWorkerNode
+	Response PlayerSentryAheadWorkerNode
+}
+
+Response PlayerSentryHereWorkerNode
+{
+	scene "scenes/Player/Workernode/low/NeedSentry01.vcd" 
+}
+Rule PlayerSentryHereWorkerNode
+{
+	criteria ConceptPlayerSentryHere IsWorkerNode
+	Response PlayerSentryHereWorkerNode
+}
+
+Response PlayerTeleporterHereWorkerNode
+{
+	scene "scenes/Player/Workernode/low/NeedTeleporter01.vcd" 
+	scene "scenes/Player/Workernode/low/NeedTeleporter02.vcd" 
+}
+Rule PlayerTeleporterHereWorkerNode
+{
+	criteria ConceptPlayerTeleporterHere IsWorkerNode
+	Response PlayerTeleporterHereWorkerNode
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/BattleCry01.vcd" 
+	//scene "scenes/Player/Workernode/low/BattleCry03.vcd" 
+	//scene "scenes/Player/Workernode/low/BattleCry04.vcd" 
+	//scene "scenes/Player/Workernode/low/BattleCry05.vcd" 
+	//scene "scenes/Player/Workernode/low/BattleCry06.vcd" 
+	//scene "scenes/Player/Workernode/low/BattleCry07.vcd" 
+}
+Rule PlayerBattleCryWorkerNode
+{
+	criteria ConceptPlayerBattleCry IsWorkerNode
+	Response PlayerBattleCryWorkerNode
+}
+
+Response PlayerCheersWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/Cheers01.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers02.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers03.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers04.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers05.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers06.vcd" 
+	//scene "scenes/Player/Workernode/low/Cheers07.vcd" 
+}
+Rule PlayerCheersWorkerNode
+{
+	criteria ConceptPlayerCheers IsWorkerNode
+	Response PlayerCheersWorkerNode
+}
+
+Response PlayerGoodJobWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/GoodJob01.vcd" 
+	//scene "scenes/Player/Workernode/low/GoodJob02.vcd" 
+	//scene "scenes/Player/Workernode/low/GoodJob03.vcd" 
+}
+Rule PlayerGoodJobWorkerNode
+{
+	criteria ConceptPlayerGoodJob IsWorkerNode
+	Response PlayerGoodJobWorkerNode
+}
+
+Response PlayerJeersWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/Jeers01.vcd" 
+	//scene "scenes/Player/Workernode/low/Jeers02.vcd" 
+	//scene "scenes/Player/Workernode/low/Jeers03.vcd" 
+	//scene "scenes/Player/Workernode/low/Jeers04.vcd" 
+}
+Rule PlayerJeersWorkerNode
+{
+	criteria ConceptPlayerJeers IsWorkerNode
+	Response PlayerJeersWorkerNode
+}
+
+Response PlayerLostPointWorkerNode
+{
+	scene "scenes/Player/Workernode/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Workernode/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Workernode/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/Workernode/low/NegativeVocalization04.vcd" 
+}
+Rule PlayerLostPointWorkerNode
+{
+	criteria ConceptPlayerLostPoint IsWorkerNode
+	Response PlayerLostPointWorkerNode
+}
+
+Response PlayerNegativeWorkerNode
+{
+	scene "scenes/Player/Workernode/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/Workernode/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/Workernode/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/Workernode/low/NegativeVocalization04.vcd" 
+}
+Rule PlayerNegativeWorkerNode
+{
+	criteria ConceptPlayerNegative IsWorkerNode
+	Response PlayerNegativeWorkerNode
+}
+
+Response PlayerNiceShotWorkerNode
+{
+	scene "scenes/Player/Workernode/low/NiceShot01.vcd" 
+}
+Rule PlayerNiceShotWorkerNode
+{
+	criteria ConceptPlayerNiceShot IsWorkerNode
+	Response PlayerNiceShotWorkerNode
+}
+
+Response PlayerPositiveWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/PositiveVocalization01.vcd" 
+}
+Rule PlayerPositiveWorkerNode
+{
+	criteria ConceptPlayerPositive IsWorkerNode
+	Response PlayerPositiveWorkerNode
+}
+
+Response PlayerTauntsWorkerNode
+{
+	//scene "scenes/Player/Workernode/low/LaughEvil03.vcd" 
+	//scene "scenes/Player/Workernode/low/LaughEvil04.vcd" 
+	//scene "scenes/Player/Workernode/low/LaughShort01.vcd" 
+	//scene "scenes/Player/Workernode/low/LaughShort02.vcd" 
+	//scene "scenes/Player/Workernode/low/LaughShort03.vcd" 
+	//scene "scenes/Player/Workernode/low/LaughShort04.vcd" 
+}
+Rule PlayerTauntsWorkerNode
+{
+	criteria ConceptPlayerTaunts IsWorkerNode
+	Response PlayerTauntsWorkerNode
+}
+

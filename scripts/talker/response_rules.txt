@@ -215,6 +215,10 @@ criterion "IsWeaponSecondary" "weaponmode" "secondary" required
 criterion "IsWeaponMelee" "weaponmode" "melee" required
 criterion "IsWeaponBuilding" "weaponmode" "building" required
 criterion "IsWeaponPda" "weaponmode" "pda" required
+criterion "IsWall" "objtype" "wall" required
+criterion "IsFort" "objtype" "fort" required
+criterion "IsStairs" "objtype" "stairs" required
+criterion "IsRepairNode" "objtype" "repairnode" required
 
 
 criterion "IsOnScout" "crosshair_on" "Scout" "required"
@@ -229,6 +233,8 @@ criterion "IsOnEngineer" "crosshair_on" "Engineer" "required"
 criterion "IsOnSentronic" "crosshair_on" "Sentronic" "required"
 criterion "IsOnDismatic" "crosshair_on" "Dismatic" "required"
 criterion "IsOnTelecon" "crosshair_on" "Telecon" "required"
+criterion "IsOnSaptrap" "crosshair_on" "Saptrap" "required"
+criterion "IsOnWorkerNode" "crosshair_on" "Workernode" "required"
 
 criterion "IsDominated" "domination" "dominated" "required" 
 criterion "IsRevenge" "domination" "revenge" "required" 
@@ -250,6 +256,8 @@ criterion "IsEngineer" "playerclass" "Engineer" "required"
 criterion "IsSentronic" "playerclass" "Sentronic" "required"
 criterion "IsDismatic" "playerclass" "Dismatic" "required"
 criterion "IsTelecon" "playerclass" "Telecon" "required"
+criterion "IsSaptrap" "playerclass" "Saptrap" "required"
+criterion "IsWorkerNode" "playerclass" "Workernode" "required"
 
 criterion "IsNotScout" "playerclass" "!=Scout" "required" 
 criterion "IsNotSniper" "playerclass" "!=Sniper" "required"
@@ -263,6 +271,8 @@ criterion "IsNotEngineer" "playerclass" "!=Engineer" "required"
 criterion "IsNotSentronic" "playerclass" "!=Sentronic" "required"
 criterion "IsNotDismatic" "playerclass" "!=Dismatic" "required"
 criterion "IsNotTelecon" "playerclass" "!=Telecon" "required"
+criterion "IsNotSaptrap" "playerclass" "!=Saptrap" "required"
+criterion "IsNotWorkerNode" "playerclass" "!=Workernode" "required"
 
 criterion "IsVictimScout" "victimclass" "Scout" "required" weight 0
 criterion "IsVictimSniper" "victimclass" "Sniper" "required" weight 0
@@ -276,6 +286,8 @@ criterion "IsVictimEngineer" "victimclass" "Engineer" "required"  weight 0
 criterion "IsVictimSentronic" "victimclass" "Sentronic" "required"  weight 0
 criterion "IsVictimDismatic" "victimclass" "Dismatic" "required"  weight 0
 criterion "IsVictimTelecon" "victimclass" "Telecon" "required"  weight 0
+criterion "IsVictimSaptrap" "victimclass" "Saptrap" "required"  weight 0
+criterion "IsVictimWorkerNode" "victimclass" "Workernode" "required"  weight 0
 
 criterion "IsNotVictimScout" "victimclass" "!=Scout" "required" weight 0
 criterion "IsNotVictimSniper" "victimclass" "!=Sniper" "required" weight 0
@@ -289,6 +301,8 @@ criterion "IsNotVictimEngineer" "victimclass" "!=Engineer" "required" weight 0
 criterion "IsNotVictimSentronic" "victimclass" "!=Sentronic" "required" weight 0
 criterion "IsNotVictimDismatic" "victimclass" "!=Dismatic" "required" weight 0    
 criterion "IsNotVictimTelecon" "victimclass" "!=Telecon" "required" weight 0    
+criterion "IsNotVictimSaptrap" "victimclass" "!=Saptrap" "required" weight 0    
+criterion "IsNotVictimWorkerNode" "victimclass" "!=Workernode" "required" weight 0   
 
 
 criterion "10PercentChance"  "randomnum"               ">90"   required
@@ -368,3 +382,5 @@ criterion "ConceptFireMinigunTalk" "Concept" "TLK_MINIGUN_FIREWEAPON" "required"
 #include "talker/Sentronic.txt"
 #include "talker/Dismatic.txt"
 #include "talker/Telecon.txt"
+#include "talker/Workernode.txt"
+#include "talker/Saptrap.txt"

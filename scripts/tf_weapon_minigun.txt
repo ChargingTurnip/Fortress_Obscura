@@ -11,7 +11,7 @@ WeaponData
 	"Damage"		"8"
 	"Range"			"8192"
 	"BulletsPerShot"	"8"
-	"Spread"		"0.07"
+	"Spread"		"0.025"
 	"TimeFireDelay"	"0.25"
 	"UseRapidFireCrits"	"1"
 	"ProjectileType"	"projectile_bullet"

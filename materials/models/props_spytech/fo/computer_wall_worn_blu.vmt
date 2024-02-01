@@ -1,0 +1,8 @@
+"patch"
+{
+	include "materials/Models/props_spytech/fo/computer_wall_worn.vmt"
+    insert
+	{
+		"$color2"		"{ 58 83 89 }"
+	}
+}
