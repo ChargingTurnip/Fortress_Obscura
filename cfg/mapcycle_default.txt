@@ -4,11 +4,13 @@ gd_powerbreak
 tc_hydro
 ditr_abscond
 arena_strategic
+dom_gravelpit
 gd_bomba
 ctf_turbine
 dom_towtown
 gd_hardware
 ctp_duoload
+cp_gravelpit
 gd_filtrate
 cp_patchwork
 ctf_3fort

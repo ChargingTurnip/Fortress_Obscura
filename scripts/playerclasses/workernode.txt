@@ -20,7 +20,7 @@ PlayerClass
 
 	// Weapons.
 	"weapon1"		"FO_WEAPON_NODEGUN"
-	"weapon2"		"TF_WEAPON_NONE"
+	"weapon2"		"FO_WEAPON_DIPPERGUN"
 	"weapon3"		"FO_WEAPON_HAMMER"
 	//"weapon4"		"FO_WEAPON_PDA_WORKERNODE_BUILD"
 	//"weapon5"		"FO_WEAPON_PDA_WORKERNODE_DESTROY"
@@ -37,7 +37,7 @@ PlayerClass
 	AmmoMax
 	{
 		"tf_ammo_primary"	"96"
-		"tf_ammo_secondary"	"96"
+		"tf_ammo_secondary"	"1"
 		"tf_ammo_metal"		"200"
 		"tf_ammo_grenades1"	"3"
 		"tf_ammo_grenades2"	"0"

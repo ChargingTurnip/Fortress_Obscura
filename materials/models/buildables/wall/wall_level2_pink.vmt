@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	
+
+	"$basetexture"	"models\buildables\wall\wall_level2_pink"
+	"$phong" "1"
+	"$phongboost" "0"
+	"$phongexponent" "25"
+	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+	"$phongfresnelranges"	"[.5 1.5 10]"
+	
+	"$basemapalphaphongmask" "1"
+
+	"$detail" "models\buildables\wall\wall_level2_pink"	
+	"$detailscale" "1"
+	"$detailblendmode" "5"
+	"$detailblendfactor" "0.5"
+
+	"$rimlight" "1"		
+	"$rimlightexponent" "4"				
+	"$rimlightboost" "1.5"
+	
+
+}

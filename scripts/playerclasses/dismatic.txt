@@ -22,7 +22,7 @@ PlayerClass
 	"weapon1"		"TF_WEAPON_MINIGUN"
 	"weapon2"		"TF_WEAPON_SHOTGUN_HWG"
 	"weapon3"		"TF_WEAPON_WRENCH"
-	"weapon4"		"TF_WEAPON_PDA_ENGINEER_BUILD"
+	"weapon4"		""
 	"weapon5"		"TF_WEAPON_PDA_ENGINEER_DESTROY"
 
 	"buildable1"	"OBJ_DISPENSER"

@@ -3286,3 +3286,55 @@
 	"volume"	"1.0"
 	"wave"		")weapons/shotlinggun_crit.wav"
 }
+
+// ------------------------------------------------------------------------------------ //
+// NODE GUN
+// ------------------------------------------------------------------------------------ //
+"Weapon_NodeGun.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"	")weapons/nodegun_shoot1.wav"
+		"wave"	")weapons/nodegun_shoot2.wav"
+		"wave"	")weapons/nodegun_shoot3.wav"
+	}
+}
+
+"Weapon_NodeGun.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"	")weapons/nodegun_shoot_crit1.wav"
+		"wave"	")weapons/nodegun_shoot_crit2.wav"
+		"wave"	")weapons/nodegun_shoot_crit3.wav"
+	}
+}
+
+// ------------------------------------------------------------------------------------ //
+// DIPPER GUN
+// ------------------------------------------------------------------------------------ //
+"Weapon_DipperGun.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+
+	"wave"	")weapons/dippergun_shoot.wav"
+}
+
+"Weapon_DipperGun.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+
+	"wave"	")weapons/dippergun_shoot_crit.wav"
+}

@@ -47,8 +47,8 @@ WeaponData
 	{
 		"reload"		"Weapon_SMG.WorldReload"
 		"empty"			"Weapon_SMG.ClipEmpty"	
-		"single_shot"		"Weapon_SMG.Single"
-		"burst"			"Weapon_SMG.SingleCrit"
+		"single_shot"		"Weapon_NodeGun.Single"
+		"burst"			"Weapon_NodeGun.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -57,8 +57,8 @@ WeaponData
 		"weapon"
 		{
 				"file"		"sprites/bucket_nodegun"
-				"x"		"0"
-				"y"		"0"
+				"x"		"-5"
+				"y"		"3"
 				"width"		"200"
 				"height"		"128"
 		}

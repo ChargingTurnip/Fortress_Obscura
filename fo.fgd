@@ -1618,7 +1618,43 @@
 		1 : "Yes"
 	]
 
-	AllowTeleporters(choices) : "Allow Teleporters" : 0 : "Teleporters are allowed to be built in this volume" =
+	AllowTeleporters(choices) : "Allow Teleporters" : 0 : "Teleporters are allowed to be built in this volume. OVERRIDES ENTRANCE AND EXIT VALUES IF FALSE" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	AllowTeleporterEntrances(choices) : "Allow Teleporter Entrances" : 0 : "Teleporter entrances are allowed to be built in this volume" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	AllowTeleporterExits(choices) : "Allow Teleporter Exits" : 0 : "Teleporter exits are allowed to be built in this volume" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	AllowForts(choices) : "Allow Forts" : 0 : "Forts are allowed to be built in this volume" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	AllowWalls(choices) : "Allow Walls" : 0 : "Walls are allowed to be built in this volume" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	AllowStairs(choices) : "Allow Stairs" : 0 : "Stairs are allowed to be built in this volume" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	AllowRepairNodes(choices) : "Allow Repair Nodes" : 0 : "Repair Nodes are allowed to be built in this volume" =
 	[
 		0 : "No"
 		1 : "Yes"

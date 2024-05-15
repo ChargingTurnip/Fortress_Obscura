@@ -3,6 +3,11 @@
 	"$basetexture" "models\player\courier\courier_bomb"
 	"$basemapalphaphongmask" "1"
 
+	"$envmap" "environment maps/rg"
+	"$envmapsphere" "1"
+	"$envmaptint" "[0.35 0.35 0.35]"
+	"$envmapfresnel" "-0.5"
+
 	"$selfillum" "1"
 	"$selfillummask" "models\player\courier\courier_bomb_emissive"
 
@@ -21,14 +26,14 @@
 	"$phong" "1"
 	"$phongexponent" "20"
 	"$phongboost" ".3"	
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$lightwarptexture" "models/player/shared/robot_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "0"
 
 	// Rim lighting parameters
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	"$rimlightboost" "2.5"										// Boost for ambient cube component of rim lighting
 	// Cloaking
 	"$cloakPassEnabled" "1"
 

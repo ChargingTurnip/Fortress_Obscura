@@ -10,6 +10,7 @@
 //King of the Hill - Music.Class_Menu5
 //Diamond in the Rough - Music.Class_Menu6
 //Arena - Music.Class_Menu7
+//Capture the Point - Music.Class_Menu8
 
 //By ChargingTurnip
 "Music.Class_Menu1"
@@ -73,6 +74,15 @@
 	"soundlevel"		"SNDLVL_NONE"
 	"volume"		"0.55"
 	"wave"			"#*music/class_menu7.wav"
+}
+
+//By ChargingTurnip
+"Music.Class_Menu8"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"			"#*music/class_menu8.wav"
 }
 
 "music.class_menu_01"

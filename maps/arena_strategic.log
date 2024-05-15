@@ -4,13 +4,129 @@
 materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
 Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.vmf
 fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-4390.00 -1360.00 332.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 7680.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3584.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 6656.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 5632.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4608.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5632.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6144.0 7680.0 832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6144.0 6656.0 832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 982 detail faces...done (1)
+Merging details...done (0)
 FixTjuncs...
 PruneNodes...
 WriteBSP...
-done (0)
-writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.prt...Building visibility clusters...
 done (0)
 *** Error: Skybox vtf files for skybox/sky_granary_01 weren't compiled with the same size texture and/or same flags!
 Can't load skybox file skybox/sky_granary_01 to build the default cubemap!
@@ -19,122 +135,400 @@ Can't load skybox file skybox/sky_granary_01 to build the default cubemap!
 Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
 Building Physics collision data...
-done (0) (223116 bytes)
+done (1) (859443 bytes)
+Static prop models/props_skybox/horizon_facade001.mdl outside the map (-5414.00, 256.00, 348.00)
+Static prop models/props_skybox/horizon_facade001.mdl outside the map (-3174.00, 0.00, 356.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 256.00, 340.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, -256.00, 356.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 768.00, 372.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, -768.00, 340.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 1280.00, 404.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-4854.00, -448.00, 362.00)
+Static prop models/props_skybox/farm_windmill.mdl outside the map (-5286.00, 1056.00, 420.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-3790.00, -224.00, 332.00)
+Static prop models/props_skybox/farm_silo.mdl outside the map (-3782.00, -184.00, 332.00)
+Static prop models/props_skybox/farm_house.mdl outside the map (-3958.00, 1168.00, 372.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-3718.00, 480.00, 336.00)
+Static prop models/props_coalmines/foliage_clump1.mdl outside the map (-3782.00, 232.00, 332.00)
+Static prop models/props_coalmines/foliage_clump3.mdl outside the map (-3782.00, -88.00, 332.00)
+Static prop models/props_coalmines/foliage_single1.mdl outside the map (-3782.00, -256.00, 332.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3926.00, -352.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3846.00, 32.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3862.00, 64.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3878.00, 288.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-4710.00, -384.00, 336.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-4822.00, -128.00, 342.00)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
 Compacting texture/material tables...
-Reduced 807 texinfos to 556
-Reduced 15 texdatas to 15 (372 bytes to 372)
+Reduced 1255 texinfos to 986
+Reduced 90 texdatas to 83 (1910 bytes to 1677)
 Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.bsp
-ZIP Output overshot buffer estimate: Estimated 0, actual 54
-1 second elapsed
+Wrote ZIP buffer, estimated size 869, actual size 655
+10 seconds elapsed
 
 
 
 8 threads
 reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
 reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.prt
- 833 portalclusters
-2228 numportals
-0...1...2...3...4...5...6...7...8...9...10Optimized: 18048 visible clusters (3.34%)
-Total clusters visible: 539879
-Average clusters visible: 648
-Building PAS...
-Average clusters audible: 716
-visdatasize:178361  compressed from 186592
-writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-ZIP Output overshot buffer estimate: Estimated 0, actual 54
-0 seconds elapsed
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.prt
 
 
 
-[Reading texlights from 'lights.rad']
-[34 texlights parsed from 'lights.rad']
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-4390.00 -1360.00 332.00) leaked!
 
-Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-3307 faces
-1151140 square feet [165764224.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3307 patches before subdivision
-90261 patches after subdivision
-40 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8750823, max 508
-transfer lists:  66.8 megs
-0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(704493, 509611, 391402)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(141327, 94401, 72078)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35037, 22577, 17638)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(9928, 6329, 5026)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3090, 1948, 1550)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1023, 635, 500)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(355, 215, 166)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(127, 75, 56)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(47, 26, 19)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 10, 7)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 4, 2)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 1, 1)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
-Build Patch/Sample Hash Table(s).....Done<0.0236 sec>
-0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
-0 of 0 (0% of) surface lights went in leaf ambient cubes.
-0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
-Ready to Finish
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 7680.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
 
-Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
-------------       ---------------  ---------------  -------- 
-models                  11/1024          528/49152    ( 1.1%) 
-brushes                629/8192         7548/98304    ( 7.7%) 
-brushsides            3882/65536       31056/524288   ( 5.9%) 
-planes                 940/65536       18800/1310720  ( 1.4%) 
-vertexes              5072/65536       60864/786432   ( 7.7%) 
-nodes                 1878/65536       60096/2097152  ( 2.9%) 
-texinfos               556/12288       40032/884736   ( 4.5%) 
-texdata                 15/2048          480/65536    ( 0.7%) 
-dispinfos                0/0               0/0        ( 0.0%) 
-disp_verts               0/0               0/0        ( 0.0%) 
-disp_tris                0/0               0/0        ( 0.0%) 
-disp_lmsamples           0/0               0/0        ( 0.0%) 
-faces                 3307/65536      185192/3670016  ( 5.0%) 
-hdr faces                0/65536           0/3670016  ( 0.0%) 
-origfaces             1929/65536      108024/3670016  ( 2.9%) 
-leaves                1890/65536       60480/2097152  ( 2.9%) 
-leaffaces             3757/65536        7514/131072   ( 5.7%) 
-leafbrushes           1132/65536        2264/131072   ( 1.7%) 
-areas                    3/256            24/2048     ( 1.2%) 
-surfedges            23938/512000      95752/2048000  ( 4.7%) 
-edges                13985/256000      55940/1024000  ( 5.5%) 
-LDR worldlights         40/8192         3520/720896   ( 0.5%) 
-HDR worldlights          0/8192            0/720896   ( 0.0%) 
-leafwaterdata            0/32768           0/393216   ( 0.0%) 
-waterstrips            312/32768        3120/327680   ( 1.0%) 
-waterverts               0/65536           0/786432   ( 0.0%) 
-waterindices          5283/65536       10566/131072   ( 8.1%) 
-cubemapsamples           0/1024            0/16384    ( 0.0%) 
-overlays                 0/512             0/180224   ( 0.0%) 
-LDR lightdata         [variable]     3094904/0        ( 0.0%) 
-HDR lightdata         [variable]           0/0        ( 0.0%) 
-visdata               [variable]      178361/16777216 ( 1.1%) 
-entdata               [variable]       34666/393216   ( 8.8%) 
-LDR ambient table     1890/65536        7560/262144   ( 2.9%) 
-HDR ambient table     1890/65536        7560/262144   ( 2.9%) 
-LDR leaf ambient      9337/65536      261436/1835008  (14.2%) 
-HDR leaf ambient      1890/65536       52920/1835008  ( 2.9%) 
-occluders                0/0               0/0        ( 0.0%) 
-occluder polygons        0/0               0/0        ( 0.0%) 
-occluder vert ind        0/0               0/0        ( 0.0%) 
-detail props          [variable]           1/12       ( 8.3%) 
-static props          [variable]           1/8078     ( 0.0%) 
-pakfile               [variable]          54/0        ( 0.0%) 
-physics               [variable]      223116/4194304  ( 5.3%) 
-physics terrain       [variable]           2/1048576  ( 0.0%) 
 
-Level flags = 0
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3584.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
 
-Total triangle count: 9633
-Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-ZIP Output overshot buffer estimate: Estimated 0, actual 54
-21 seconds elapsed
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 6656.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 5632.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4608.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5632.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6144.0 7680.0 832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6144.0 6656.0 832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 982 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_granary_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_granary_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_granary_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_granary_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Building Physics collision data...
+done (1) (859443 bytes)
+Static prop models/props_skybox/horizon_facade001.mdl outside the map (-5414.00, 256.00, 348.00)
+Static prop models/props_skybox/horizon_facade001.mdl outside the map (-3174.00, 0.00, 356.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 256.00, 340.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, -256.00, 356.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 768.00, 372.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, -768.00, 340.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 1280.00, 404.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-4854.00, -448.00, 362.00)
+Static prop models/props_skybox/farm_windmill.mdl outside the map (-5286.00, 1056.00, 420.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-3790.00, -224.00, 332.00)
+Static prop models/props_skybox/farm_silo.mdl outside the map (-3782.00, -184.00, 332.00)
+Static prop models/props_skybox/farm_house.mdl outside the map (-3958.00, 1168.00, 372.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-3718.00, 480.00, 336.00)
+Static prop models/props_coalmines/foliage_clump1.mdl outside the map (-3782.00, 232.00, 332.00)
+Static prop models/props_coalmines/foliage_clump3.mdl outside the map (-3782.00, -88.00, 332.00)
+Static prop models/props_coalmines/foliage_single1.mdl outside the map (-3782.00, -256.00, 332.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3926.00, -352.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3846.00, 32.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3862.00, 64.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3878.00, 288.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-4710.00, -384.00, 336.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-4822.00, -128.00, 342.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1255 texinfos to 986
+Reduced 90 texdatas to 83 (1910 bytes to 1677)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.bsp
+Wrote ZIP buffer, estimated size 869, actual size 655
+8 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.prt
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-4390.00 -1360.00 332.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 7680.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3584.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 6656.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3072.0 5632.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4608.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5632.0 8192.0 832.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6144.0 7680.0 832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6144.0 6656.0 832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 982 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_granary_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_granary_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_granary_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_granary_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Building Physics collision data...
+done (0) (859443 bytes)
+Static prop models/props_skybox/horizon_facade001.mdl outside the map (-5414.00, 256.00, 348.00)
+Static prop models/props_skybox/horizon_facade001.mdl outside the map (-3174.00, 0.00, 356.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 256.00, 340.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, -256.00, 356.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 768.00, 372.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, -768.00, 340.00)
+Static prop models/props_farm/powertower02_skybox.mdl outside the map (-5222.00, 1280.00, 404.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-4854.00, -448.00, 362.00)
+Static prop models/props_skybox/farm_windmill.mdl outside the map (-5286.00, 1056.00, 420.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-3790.00, -224.00, 332.00)
+Static prop models/props_skybox/farm_silo.mdl outside the map (-3782.00, -184.00, 332.00)
+Static prop models/props_skybox/farm_house.mdl outside the map (-3958.00, 1168.00, 372.00)
+Static prop models/props_skybox/farm_barn.mdl outside the map (-3718.00, 480.00, 336.00)
+Static prop models/props_coalmines/foliage_clump1.mdl outside the map (-3782.00, 232.00, 332.00)
+Static prop models/props_coalmines/foliage_clump3.mdl outside the map (-3782.00, -88.00, 332.00)
+Static prop models/props_coalmines/foliage_single1.mdl outside the map (-3782.00, -256.00, 332.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3926.00, -352.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3846.00, 32.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3862.00, 64.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-3878.00, 288.00, 334.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-4710.00, -384.00, 336.00)
+Static prop models/props_granary/hay_bale_round_skybox.mdl outside the map (-4822.00, -128.00, 342.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1255 texinfos to 986
+Reduced 90 texdatas to 83 (1910 bytes to 1677)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.bsp
+Wrote ZIP buffer, estimated size 869, actual size 655
+9 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.prt
+LoadPortals: couldn't read d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.prt
 
 
 
@@ -142,10 +536,49 @@ materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura
 Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.vmf
 fixing up env_cubemap materials on brush sides...
 0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
+Building Faces...error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+error: material DEV/REFLECTIVITY_40 doesn't have a $bottommaterial
+done (0)
 Chop Details...done (0)
-Find Visible Detail Sides...done (0)
-Merging details...done (0)
+Find Visible Detail Sides...
+Merged 982 detail faces...done (0)
+Merging details...done (1)
 FixTjuncs...
 PruneNodes...
 WriteBSP...
@@ -159,32 +592,33 @@ Can't load skybox file skybox/sky_granary_01 to build the default cubemap!
 Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
 Building Physics collision data...
-done (1) (240099 bytes)
+done (1) (861211 bytes)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
 Compacting texture/material tables...
-Reduced 815 texinfos to 557
-Reduced 16 texdatas to 16 (388 bytes to 388)
+Reduced 1255 texinfos to 981
+Reduced 90 texdatas to 83 (1910 bytes to 1677)
 Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\arena_strategic.bsp
-ZIP Output overshot buffer estimate: Estimated 0, actual 54
-1 second elapsed
+Wrote ZIP buffer, estimated size 869, actual size 655
+8 seconds elapsed
 
 
 
 8 threads
 reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
 reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.prt
- 833 portalclusters
-2228 numportals
-0...1...2...3...4...5...6...7...8...9...10Optimized: 18048 visible clusters (3.34%)
-Total clusters visible: 539879
-Average clusters visible: 648
+1464 portalclusters
+4664 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 48795 visible clusters (2.55%)
+Total clusters visible: 1912553
+Average clusters visible: 1306
 Building PAS...
-Average clusters audible: 716
-visdatasize:178361  compressed from 186592
+Average clusters audible: 1453
+visdatasize:541290  compressed from 538752
 writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-ZIP Output overshot buffer estimate: Estimated 0, actual 54
-0 seconds elapsed
+1 second elapsed
 
 
 
@@ -192,30 +626,30 @@ ZIP Output overshot buffer estimate: Estimated 0, actual 54
 [34 texlights parsed from 'lights.rad']
 
 Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-3307 faces
-1151140 square feet [165764224.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3307 patches before subdivision
-90261 patches after subdivision
-40 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8750823, max 508
-transfer lists:  66.8 megs
-0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(704497, 509614, 391404)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(141327, 94401, 72078)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35037, 22577, 17638)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(9928, 6329, 5026)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3090, 1948, 1550)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1023, 635, 500)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(355, 215, 166)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(127, 75, 56)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(47, 26, 19)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 10, 7)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 4, 2)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 1, 1)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
-Build Patch/Sample Hash Table(s).....Done<0.0280 sec>
+10526 faces
+3 degenerate faces
+4510492 square feet [649510848.00 square inches]
+119 Displacements
+74038 Square Feet [10661588.00 Square Inches]
+10523 patches before subdivision
+235519 patches after subdivision
+67 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 29351064, max 1612
+transfer lists: 223.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1479514, 913153, 527716)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(711966, 350727, 119486)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(66409, 25263, 7970)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(39571, 11985, 1892)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4029, 1015, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2425, 469, 48)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(296, 53, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(165, 22, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(13, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0845 sec>
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
@@ -223,145 +657,54 @@ Ready to Finish
 
 Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
 ------------       ---------------  ---------------  -------- 
-models                  11/1024          528/49152    ( 1.1%) 
-brushes                650/8192         7800/98304    ( 7.9%) 
-brushsides            4010/65536       32080/524288   ( 6.1%) 
-planes                 940/65536       18800/1310720  ( 1.4%) 
-vertexes              5072/65536       60864/786432   ( 7.7%) 
-nodes                 1878/65536       60096/2097152  ( 2.9%) 
-texinfos               557/12288       40104/884736   ( 4.5%) 
-texdata                 16/2048          512/65536    ( 0.8%) 
-dispinfos                0/0               0/0        ( 0.0%) 
-disp_verts               0/0               0/0        ( 0.0%) 
-disp_tris                0/0               0/0        ( 0.0%) 
-disp_lmsamples           0/0               0/0        ( 0.0%) 
-faces                 3307/65536      185192/3670016  ( 5.0%) 
+models                  46/1024         2208/49152    ( 4.5%) 
+brushes               2218/8192        26616/98304    (27.1%) 
+brushsides           15270/65536      122160/524288   (23.3%) 
+planes                5846/65536      116920/1310720  ( 8.9%) 
+vertexes             16683/65536      200196/786432   (25.5%) 
+nodes                 3584/65536      114688/2097152  ( 5.5%) 
+texinfos               981/12288       70632/884736   ( 8.0%) 
+texdata                 83/2048         2656/65536    ( 4.1%) 
+dispinfos              119/0           20944/0        ( 0.0%) 
+disp_verts            3199/0           63980/0        ( 0.0%) 
+disp_tris             4192/0            8384/0        ( 0.0%) 
+disp_lmsamples      445448/0          445448/0        ( 0.0%) 
+faces                10526/65536      589456/3670016  (16.1%) 
 hdr faces                0/65536           0/3670016  ( 0.0%) 
-origfaces             1929/65536      108024/3670016  ( 2.9%) 
-leaves                1890/65536       60480/2097152  ( 2.9%) 
-leaffaces             3757/65536        7514/131072   ( 5.7%) 
-leafbrushes           1192/65536        2384/131072   ( 1.8%) 
-areas                    3/256            24/2048     ( 1.2%) 
-surfedges            23938/512000      95752/2048000  ( 4.7%) 
-edges                13985/256000      55940/1024000  ( 5.5%) 
-LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+origfaces             7290/65536      408240/3670016  (11.1%) 
+leaves                3631/65536      116192/2097152  ( 5.5%) 
+leaffaces            13765/65536       27530/131072   (21.0%) 
+leafbrushes           4730/65536        9460/131072   ( 7.2%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            84129/512000     336516/2048000  (16.4%) 
+edges                52072/256000     208288/1024000  (20.3%) 
+LDR worldlights         66/8192         5808/720896   ( 0.8%) 
 HDR worldlights          0/8192            0/720896   ( 0.0%) 
-leafwaterdata            0/32768           0/393216   ( 0.0%) 
-waterstrips            312/32768        3120/327680   ( 1.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1275/32768       12750/327680   ( 3.9%) 
 waterverts               0/65536           0/786432   ( 0.0%) 
-waterindices          5283/65536       10566/131072   ( 8.1%) 
+waterindices         28530/65536       57060/131072   (43.5%) 
 cubemapsamples           0/1024            0/16384    ( 0.0%) 
-overlays                 0/512             0/180224   ( 0.0%) 
-LDR lightdata         [variable]     3094904/0        ( 0.0%) 
+overlays                92/512         32384/180224   (18.0%) 
+LDR lightdata         [variable]    11227752/0        ( 0.0%) 
 HDR lightdata         [variable]           0/0        ( 0.0%) 
-visdata               [variable]      178361/16777216 ( 1.1%) 
-entdata               [variable]       34666/393216   ( 8.8%) 
-LDR ambient table     1890/65536        7560/262144   ( 2.9%) 
-HDR ambient table     1890/65536        7560/262144   ( 2.9%) 
-LDR leaf ambient      9337/65536      261436/1835008  (14.2%) 
-HDR leaf ambient      1890/65536       52920/1835008  ( 2.9%) 
+visdata               [variable]      541290/16777216 ( 3.2%) 
+entdata               [variable]       65323/393216   (16.6%) 
+LDR ambient table     3631/65536       14524/262144   ( 5.5%) 
+HDR ambient table     3631/65536       14524/262144   ( 5.5%) 
+LDR leaf ambient     21174/65536      592872/1835008  (32.3%) 
+HDR leaf ambient      3631/65536      101668/1835008  ( 5.5%) 
 occluders                0/0               0/0        ( 0.0%) 
 occluder polygons        0/0               0/0        ( 0.0%) 
 occluder vert ind        0/0               0/0        ( 0.0%) 
 detail props          [variable]           1/12       ( 8.3%) 
-static props          [variable]           1/8078     ( 0.0%) 
-pakfile               [variable]          54/0        ( 0.0%) 
-physics               [variable]      240099/4194304  ( 5.7%) 
-physics terrain       [variable]           2/1048576  ( 0.0%) 
+static props          [variable]           1/38006    ( 0.0%) 
+pakfile               [variable]         655/0        ( 0.0%) 
+physics               [variable]      861211/4194304  (20.5%) 
+physics terrain       [variable]       15689/1048576  ( 1.5%) 
 
 Level flags = 0
 
-Total triangle count: 9633
+Total triangle count: 33238
 Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-ZIP Output overshot buffer estimate: Estimated 0, actual 54
-22 seconds elapsed
-
-
-
-[Reading texlights from 'lights.rad']
-[34 texlights parsed from 'lights.rad']
-
-Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-3307 faces
-1151140 square feet [165764224.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3307 patches before subdivision
-90261 patches after subdivision
-40 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8750823, max 508
-transfer lists:  66.8 megs
-0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(704497, 509614, 391404)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(141327, 94401, 72078)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35037, 22577, 17638)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(9928, 6329, 5026)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3090, 1948, 1550)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1023, 635, 500)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(355, 215, 166)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(127, 75, 56)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(47, 26, 19)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 10, 7)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 4, 2)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 1, 1)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
-0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
-Build Patch/Sample Hash Table(s).....Done<0.0262 sec>
-0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
-0 of 0 (0% of) surface lights went in leaf ambient cubes.
-0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
-Ready to Finish
-
-Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
-------------       ---------------  ---------------  -------- 
-models                  11/1024          528/49152    ( 1.1%) 
-brushes                650/8192         7800/98304    ( 7.9%) 
-brushsides            4010/65536       32080/524288   ( 6.1%) 
-planes                 940/65536       18800/1310720  ( 1.4%) 
-vertexes              5072/65536       60864/786432   ( 7.7%) 
-nodes                 1878/65536       60096/2097152  ( 2.9%) 
-texinfos               557/12288       40104/884736   ( 4.5%) 
-texdata                 16/2048          512/65536    ( 0.8%) 
-dispinfos                0/0               0/0        ( 0.0%) 
-disp_verts               0/0               0/0        ( 0.0%) 
-disp_tris                0/0               0/0        ( 0.0%) 
-disp_lmsamples           0/0               0/0        ( 0.0%) 
-faces                 3307/65536      185192/3670016  ( 5.0%) 
-hdr faces             3307/65536      185192/3670016  ( 5.0%) 
-origfaces             1929/65536      108024/3670016  ( 2.9%) 
-leaves                1890/65536       60480/2097152  ( 2.9%) 
-leaffaces             3757/65536        7514/131072   ( 5.7%) 
-leafbrushes           1192/65536        2384/131072   ( 1.8%) 
-areas                    3/256            24/2048     ( 1.2%) 
-surfedges            23938/512000      95752/2048000  ( 4.7%) 
-edges                13985/256000      55940/1024000  ( 5.5%) 
-LDR worldlights         40/8192         3520/720896   ( 0.5%) 
-HDR worldlights         40/8192         3520/720896   ( 0.5%) 
-leafwaterdata            0/32768           0/393216   ( 0.0%) 
-waterstrips            312/32768        3120/327680   ( 1.0%) 
-waterverts               0/65536           0/786432   ( 0.0%) 
-waterindices          5283/65536       10566/131072   ( 8.1%) 
-cubemapsamples           0/1024            0/16384    ( 0.0%) 
-overlays                 0/512             0/180224   ( 0.0%) 
-LDR lightdata         [variable]     3094904/0        ( 0.0%) 
-HDR lightdata         [variable]     3094904/0        ( 0.0%) 
-visdata               [variable]      178361/16777216 ( 1.1%) 
-entdata               [variable]       34666/393216   ( 8.8%) 
-LDR ambient table     1890/65536        7560/262144   ( 2.9%) 
-HDR ambient table     1890/65536        7560/262144   ( 2.9%) 
-LDR leaf ambient      9337/65536      261436/1835008  (14.2%) 
-HDR leaf ambient      9337/65536      261436/1835008  (14.2%) 
-occluders                0/0               0/0        ( 0.0%) 
-occluder polygons        0/0               0/0        ( 0.0%) 
-occluder vert ind        0/0               0/0        ( 0.0%) 
-detail props          [variable]           1/12       ( 8.3%) 
-static props          [variable]           1/8078     ( 0.0%) 
-pakfile               [variable]          54/0        ( 0.0%) 
-physics               [variable]      240099/4194304  ( 5.7%) 
-physics terrain       [variable]           2/1048576  ( 0.0%) 
-
-Level flags = 0
-
-Total triangle count: 9633
-Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\arena_strategic.bsp
-ZIP Output overshot buffer estimate: Estimated 0, actual 54
-20 seconds elapsed
+2 minutes, 3 seconds elapsed

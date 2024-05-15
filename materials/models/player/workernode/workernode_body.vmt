@@ -3,8 +3,15 @@
 	"$basetexture" "models\player\workernode\workernode_body"
 	"$basemapalphaphongmask" "1"
 
+	"$frame" "0"
+
 	//"$selfillum" "1"
 	//"$selfillummask" "models\player\workernode\workernode_body_emissive"
+
+	"$envmap" "environment maps/rg"
+	"$envmapsphere" "1"
+	"$envmaptint" "[0.35 0.35 0.35]"
+	"$envmapfresnel" "-0.5"
 
 	"$detail" "models\player\workernode\workernode_body_emissive"	
 	"$detailscale" "1"
@@ -27,18 +34,20 @@
 	"$phong" "1"
 	"$phongexponent" "20"
 	"$phongboost" ".3"	
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$lightwarptexture" "models/player/shared/robot_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "0"
 
 	// Rim lighting parameters
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	"$rimlightboost" "2.5"										// Boost for ambient cube component of rim lighting
 	// Cloaking
 	"$cloakPassEnabled" "1"
 
 	"360?$color2" "[ 0.9 0.8 0.8 ]"
+
+	"$lighting" "0.5"
 
 	"Proxies"
 	{
@@ -50,6 +59,25 @@
 			"animatedtexturevar" "$detail"
 			"animatedtextureframenumvar" "$detailframe"
 			"animatedtextureframerate" 30
+		}
+		"Pupil"
+		{
+			"TextureVar" "$basetexture"
+			"TextureFrameNumVar" "$frame"
+			"PupilCloseRate" "0.1"
+			"PupilOpenRate" "0.1"
+		}
+		"Equals"
+		{
+			"srcVar1" "$lighting"
+			"resultVar" "$envmaptint"
+		}
+		"Clamp"
+		{
+			"min" "0.1"
+			"max" "0.35"
+			"srcVar1" "$envmaptint"
+			"resultVar" "$envmaptint"
 		}
 		//"BurnLevel"
 		//{

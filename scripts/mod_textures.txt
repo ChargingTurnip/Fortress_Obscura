@@ -268,6 +268,30 @@
 				"width"		"200"
 				"height"	"128"
 		}
+		"obj_dispenser"
+		{
+				"file"		"sprites/bucket_dispenser"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"	"128"
+		}
+		"obj_sentrygun"
+		{
+				"file"		"sprites/bucket_sentrygun"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"	"128"
+		}
+		"obj_beartrap"
+		{
+				"file"		"sprites/bucket_beartrap"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"	"128"
+		}
 		
 		"d_obj_sentrygun"
 		{
@@ -583,6 +607,70 @@
 				"width"		"32"
 				"height"	"32"
 		}
+		"d_greendefend"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"194"
+				"y"		"64"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_greencapture"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"194"
+				"y"		"96"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_yellowdefend"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"226"
+				"y"		"64"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_yellowcapture"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"226"
+				"y"		"96"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_purpledefend"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"194"
+				"y"		"128"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_purplecapture"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"194"
+				"y"		"160"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_pinkdefend"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"226"
+				"y"		"128"
+				"width"		"32"
+				"height"	"32"
+		}
+		"d_pinkcapture"
+		{
+				"file"	"HUD/d_images"		
+				"x"		"226"
+				"y"		"160"
+				"width"		"32"
+				"height"	"32"
+		}
 		"d_obj_attachment_sapper"
 		{
 				"file"	"HUD/d_images"		
@@ -872,6 +960,70 @@
 				"width"		"32"
 				"height"	"32"
 		}
+		"dneg_greendefend"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"194"
+				"y"		"64"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_greencapture"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"194"
+				"y"		"96"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_yellowdefend"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"226"
+				"y"		"64"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_yellowcapture"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"226"
+				"y"		"96"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_purpledefend"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"194"
+				"y"		"128"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_purplecapture"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"194"
+				"y"		"160"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_pinkdefend"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"226"
+				"y"		"128"
+				"width"		"32"
+				"height"	"32"
+		}
+		"dneg_pinkcapture"
+		{
+				"file"	"HUD/dneg_images"		
+				"x"		"226"
+				"y"		"160"
+				"width"		"32"
+				"height"	"32"
+		}
 		"dneg_obj_attachment_sapper"
 		{
 				"file"	"HUD/dneg_images"		
@@ -1113,6 +1265,42 @@
 			"height"	"128"
 		}	
 
+		"dispenser_meter_bg_green"
+		{
+			"file"		"vgui/dispenser_meter_bg_green"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}
+
+		"dispenser_meter_bg_yellow"
+		{
+			"file"		"vgui/dispenser_meter_bg_yellow"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}
+
+		"dispenser_meter_bg_purple"
+		{
+			"file"		"vgui/dispenser_meter_bg_purple"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}
+
+		"dispenser_meter_bg_pink"
+		{
+			"file"		"vgui/dispenser_meter_bg_pink"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}
+
 		"leaderboard_dominated"
 		{
 			"file"		"hud/leaderboard_dominated"
@@ -1348,6 +1536,42 @@
 		"hud_menu_tele_exit_build"
 		{
 			"file"		"hud/eng_build_tele_exit_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"hud_menu_fort_build"
+		{
+			"file"		"hud/wnode_build_fort_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"hud_menu_wall_build"
+		{
+			"file"		"hud/wnode_build_wall_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"hud_menu_stairs_build"
+		{
+			"file"		"hud/wnode_build_stairs_blueprint"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"hud_menu_repairnode_build"
+		{
+			"file"		"hud/wnode_build_repairnode_blueprint"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

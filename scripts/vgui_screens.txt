@@ -81,4 +81,40 @@
 		"acceptsinput"	0
 		"resfile"		"scripts/screens/obj_dispenser_blue.res"
 	}
+
+	"screen_obj_dispenser_green"
+	{
+		"type"			"screen_obj_dispenser_green"
+		"pixelswide"	480
+		"pixelshigh"	240
+		"acceptsinput"	0
+		"resfile"		"scripts/screens/obj_dispenser_green.res"
+	}
+
+	"screen_obj_dispenser_yellow"
+	{
+		"type"			"screen_obj_dispenser_yellow"
+		"pixelswide"	480
+		"pixelshigh"	240
+		"acceptsinput"	0
+		"resfile"		"scripts/screens/obj_dispenser_yellow.res"
+	}
+
+	"screen_obj_dispenser_purple"
+	{
+		"type"			"screen_obj_dispenser_purple"
+		"pixelswide"	480
+		"pixelshigh"	240
+		"acceptsinput"	0
+		"resfile"		"scripts/screens/obj_dispenser_purple.res"
+	}
+
+	"screen_obj_dispenser_pink"
+	{
+		"type"			"screen_obj_dispenser_pink"
+		"pixelswide"	480
+		"pixelshigh"	240
+		"acceptsinput"	0
+		"resfile"		"scripts/screens/obj_dispenser_pink.res"
+	}
 }
