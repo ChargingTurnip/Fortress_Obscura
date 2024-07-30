@@ -11,7 +11,7 @@ PlayerClass
 	"speed_max"		"300"
 //	"health_max"		"90"
 //	"armor_max"		"100"
-	"health_max"		"125"
+	"health_max"		"90"
 	"armor_max"		"0"
 
 	// Grenades.
@@ -19,13 +19,15 @@ PlayerClass
 //	"grenade2"		"TF_WEAPON_GRENADE_SMOKE_BOMB"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_PISTOL"
+	"weapon1"		"FO_WEAPON_HANDS"
 	"weapon2"		""
-	"weapon3"		"TF_WEAPON_FISTS"
+	"weapon3"		"TF_WEAPON_KNIFE"
+	"weapon4"		""
+	"weapon5"		"TF_WEAPON_INVIS"
 	
 	// Buildables
 	"buildable1"	"OBJ_ATTACHMENT_SAPPER"
-	//"buildable2"	"OBJ_BEARTRAP"
+	"buildable2"	"OBJ_BEARTRAP"
 
 	AmmoMax
 	{

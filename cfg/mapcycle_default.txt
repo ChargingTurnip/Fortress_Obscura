@@ -6,6 +6,7 @@ ditr_abscond
 arena_strategic
 dom_gravelpit
 gd_bomba
+fw_fauxfort
 ctf_turbine
 dom_towtown
 gd_hardware

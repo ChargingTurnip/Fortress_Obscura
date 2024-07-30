@@ -8,7 +8,7 @@ PlayerClass
 	"model"			"models/player/telecon.mdl"
 	"model_hwm"		"models/player/telecon.mdl"
 	"localize_name"		"FO_Class_Name_Telecon"
-	"speed_max"		"450"
+	"speed_max"		"400"
 //	"health_max"		"50"
 //	"armor_max"		"100"
 	"health_max"		"110"

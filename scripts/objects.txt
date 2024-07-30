@@ -126,10 +126,10 @@ objects
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
-		BuilderWeaponName	"Beartrap"
+		BuilderWeaponName	"Bear Trap"
 		BuilderPlacementString	"Place on ground"
-		SelectionSlot		1
-		SelectionPosition	1
+		SelectionSlot		3
+		SelectionPosition	0
 		SapperAttachTime	0.0
 		IconActive			obj_beartrap
 		IconInactive		obj_beartrap

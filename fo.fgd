@@ -294,6 +294,7 @@
 		"fo_gamemode_dom"
 		"fo_gamemode_ctp"
 		"fo_gamemode_ditr"
+		"fo_gamemode_fw"
 		"tf_gamerules"
 		"tf_logic_arena"
 		"fo_logic_patchwork"
@@ -690,6 +691,10 @@
 	output OnLimitYellow(void) : "Point limit was hit for the Yellow team."
 	output OnLimitPurple(void) : "Point limit was hit for the Purple team."
 	output OnLimitPink(void) : "Point limit was hit for the Pink team."
+]
+
+@PointClass base(Targetname) = fo_gamemode_fw : "Forces classes to Nodes"
+[		
 ]
 
 @PointClass base(Targetname) = fo_gamemode_ctp : "Capture that singular enemy point baby"
