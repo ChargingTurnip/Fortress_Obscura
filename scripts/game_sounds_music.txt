@@ -11,6 +11,7 @@
 //Diamond in the Rough - Music.Class_Menu6
 //Arena - Music.Class_Menu7
 //Capture the Point - Music.Class_Menu8
+//The Great Setup - Music.Setup
 
 //By ChargingTurnip
 "Music.Class_Menu1"
@@ -155,4 +156,12 @@
 	"soundlevel"		"SNDLVL_NONE"
 	"volume"		"0.55"
 	"wave"		"#*music/class_menu_09.wav"
+}
+
+"Music.Setup"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"			"#*music/setup.wav"
 }

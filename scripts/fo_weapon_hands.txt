@@ -9,7 +9,7 @@ WeaponData
 	
 	// Primary Attributes
 	"Damage"				"4"
-	"Range"					"450"
+	"Range"					"225"
 	"TimeFireDelay"			"0.5"
 	"TimeIdle"				"5.0"
 	"TimeIdleEmpty"			"0.25"
