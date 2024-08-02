@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "2"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2086,7 +2086,7 @@ world
 	}
 	solid
 	{
-		"id" "1581"
+		"id" "3714"
 		side
 		{
 			"id" "496"
@@ -2197,7 +2197,7 @@ world
 		}
 		editor
 		{
-			"color" "0 217 206"
+			"color" "0 215 116"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2205,7 +2205,7 @@ world
 	}
 	solid
 	{
-		"id" "1579"
+		"id" "3712"
 		side
 		{
 			"id" "502"
@@ -2316,7 +2316,7 @@ world
 		}
 		editor
 		{
-			"color" "0 217 206"
+			"color" "0 215 116"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2324,7 +2324,7 @@ world
 	}
 	solid
 	{
-		"id" "1577"
+		"id" "3710"
 		side
 		{
 			"id" "508"
@@ -2435,7 +2435,7 @@ world
 		}
 		editor
 		{
-			"color" "0 217 206"
+			"color" "0 215 116"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2443,7 +2443,7 @@ world
 	}
 	solid
 	{
-		"id" "1575"
+		"id" "3708"
 		side
 		{
 			"id" "514"
@@ -2554,7 +2554,7 @@ world
 		}
 		editor
 		{
-			"color" "0 217 206"
+			"color" "0 215 116"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2562,7 +2562,7 @@ world
 	}
 	solid
 	{
-		"id" "1573"
+		"id" "3706"
 		side
 		{
 			"id" "520"
@@ -2673,7 +2673,7 @@ world
 		}
 		editor
 		{
-			"color" "0 217 206"
+			"color" "0 215 116"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2681,7 +2681,7 @@ world
 	}
 	solid
 	{
-		"id" "1571"
+		"id" "3704"
 		side
 		{
 			"id" "526"
@@ -2792,7 +2792,7 @@ world
 		}
 		editor
 		{
-			"color" "0 217 206"
+			"color" "0 215 116"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -3485,7 +3485,7 @@ entity
 {
 	"id" "26"
 	"classname" "env_shake"
-	"amplitude" "8"
+	"amplitude" "13"
 	"duration" "4"
 	"frequency" "2.5"
 	"radius" "4744"
@@ -5677,6 +5677,28 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3694"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMultiNewRound" "rules,SetBlueTeamRespawnWaveTime,0,0,-1"
+		"OnMultiNewRound" "rules,SetRedTeamRespawnWaveTime,0,0,-1"
+		"OnMultiNewRound" "rules,SetRedTeamGoalString,You have four minutes to prepare your defenses. Storm the enemy base to score points! Going deeper in means more points!,0,-1"
+		"OnMultiNewRound" "rules,SetBlueTeamGoalString,You have four minutes to prepare your defenses. Storm the enemy base to score points! Going deeper in means more points!,0,-1"
+		"OnMultiNewRound" "dom_logic,UpdatePoints,,0,-1"
+	}
+	"origin" "576 -448 -2688"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
 	}
 }
 cameras
