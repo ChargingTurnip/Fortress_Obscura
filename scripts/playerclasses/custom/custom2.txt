@@ -1,0 +1,45 @@
+//
+// Fortress Obscura -  Custom2 Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"custom2"
+	"model"			"error.mdl"
+	"model_hwm"		"error.mdl"
+	"localize_name"		"FO_Class_Name_Custom2"
+	"speed_max"		"0"
+	"health_max"		"1"
+	"armor_max"		"0"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_NONE"
+	"grenade2"		"TF_WEAPON_NONE"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_NONE"
+	"weapon2"		"TF_WEAPON_NONE"
+	"weapon3"		"TF_WEAPON_NONE"
+	"weapon4"		""
+	"weapon5"		""
+
+	"buildable1"	""
+	
+	"DontDoAirwalk"	"0"
+	"DontDoNewJump"	"0"
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"20"
+		"tf_ammo_secondary"	"96"
+		"tf_ammo_metal"		"200"
+		"tf_ammo_grenades1"	"3"
+		"tf_ammo_grenades2"	"0"
+	}	
+
+	// Death Sounds
+	"sound_death"				"sentronic_painsharp01"
+	"sound_crit_death"			"sentronic_painsharp01"
+	"sound_melee_death"			"sentronic_painsharp01"
+	"sound_explosion_death"			"sentronic_painsharp01"	
+}
