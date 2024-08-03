@@ -35,8 +35,8 @@ WeaponData
 	"TracerEffect"		"bullet_pistol_tracer01"
 
 	// Animation.
-	"viewmodel"		"models/weapons/v_models/v_nodegun.mdl"
-	"playermodel"	"models/weapons/w_models/w_nodegun.mdl"
+	"viewmodel"		"models/weapons/v_models/v_custom5.mdl"
+	"playermodel"	"models/weapons/w_models/w_custom5.mdl"
 	"anim_prefix"	"ac"
 
 	"MuzzleFlashParticleEffect" "muzzle_smg"

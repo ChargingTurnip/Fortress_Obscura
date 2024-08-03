@@ -5,8 +5,8 @@ PlayerClass
 {
 	// Attributes.
 	"name"			"custom3"
-	"model"			"error.mdl"
-	"model_hwm"		"error.mdl"
+	"model"			"models/player/custom3.mdl"
+	"model_hwm"		"models/player/custom3.mdl"
 	"localize_name"		"FO_Class_Name_Custom3"
 	"speed_max"		"1"
 	"health_max"		"1"
