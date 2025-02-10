@@ -1,0 +1,602 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8864"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "79 72 93 15"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d14_a"
+	"origin" "0 -80 0.000244141"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "76 69 88 11"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d15_a"
+	"origin" "0 -96 0.000244141"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "113 109 144 63"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d1_a"
+	"origin" "0.000244141 128 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "110 107 140 60"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d2_a"
+	"origin" "0.000244141 112 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "108 104 135 56"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d3_a"
+	"origin" "0.000244141 96 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "105 101 132 46"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d4_a"
+	"origin" "0.000244141 80 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "102 98 127 49"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d5_a"
+	"origin" "0.000244141 64 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "23"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "97 92 120 41"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d7_a"
+	"origin" "0.000244141 32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "26"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "99 95 124 45"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d6_a"
+	"origin" "0.000244141 48 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "94 89 116 48"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d8_a"
+	"origin" "0.000244141 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "92 86 111 34"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d9_a"
+	"origin" "0.000244141 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "35"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "87 81 104 26"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d11_a"
+	"origin" "0.000244141 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "38"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "89 84 108 30"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d10_a"
+	"origin" "0.000244141 -16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "41"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "84 78 100 20"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d12_a"
+	"origin" "0.000244141 -48 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "44"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "68 61 76 1"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d18_a"
+	"origin" "0 -144 0.000244141"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "47"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "73 66 84 7"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d16_a"
+	"origin" "0 -112 0.000244141"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "50"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "71 63 80 4"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d17_a"
+	"origin" "0 -128 0.000244141"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "53"
+	"classname" "env_projectedtexture"
+	"angles" "-2.50448e-06 -90 -90"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "116 113 149 67"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d_a"
+	"origin" "0 144 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "56"
+	"classname" "env_projectedtexture"
+	"angles" "-5.00896e-06 -90 -180"
+	"cameraspace" "0"
+	"enableshadows" "0"
+	"farz" "900000"
+	"lightcolor" "81 75 97 18"
+	"lightfov" "200"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"linearatten" "90000"
+	"nearz" "4.0"
+	"shadowquality" "0"
+	"spawnflags" "0"
+	"target" "sun_center"
+	"targetname" "the_sun_d13_a"
+	"origin" "0.000244141 -64 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

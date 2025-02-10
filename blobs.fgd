@@ -1,0 +1,32 @@
+@include "base.fgd"
+
+@PointClass base(Targetname, Parentname) size(-4 -4 -4, 4 4 4) wirebox("0 0 0", bounds)  = point_blob_container : ""
+[
+	
+	resolution(integer) : "Resolution" : 10 : ""
+	attraction(float) : "Attraction" : 1 : "How much each blob attracts eachother."
+	bounds(vector) : "Bounds" : "50 50 50" : ""
+	color(color255) : "Color" : "100 100 100" : "If no material specified, it uses color."
+	ambientcolor(color255) : "Ambient Color" : "88 88 88" : ""
+	brightness(float) : "Ambient Brightness" : "1" : "Brighness of the ambient"
+	materialpath(material) : "Material Path" : "" : "If no material specified, it uses color. Material must be UnlitGeneric"
+]
+
+@PointClass base(Targetname, Parentname) sphere(radius)  = point_blob_element : ""
+[
+	
+	radius(float) : "Radius" : "10" : ""
+	collide(choices) : "Collision" : "0" : "Allow players to collide with blob." =
+	[
+		0 : "None"
+		1 : "32"
+		2 : "64"
+	]
+	destroy(choices) : "Damage" : "0" : "Allow players to damage the blob." =
+	[
+		0 : "No"
+		1 : "Yes"
+		2 : "Melee"
+	]
+	health(integer) : "Health" : 10 : ""
+]

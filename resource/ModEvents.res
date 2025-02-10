@@ -244,7 +244,8 @@
 	{
 		"cp"		"byte"			// index of the point that was captured
 		"cpname"	"string"		// name of the point
-		"team"		"byte"			// which team capped
+		"team"		"byte"			// which team currently owns the point
+		"capteam"	"byte"			// which team is capping
 		"cappers"	"string"		// string where each character is a player index of someone that capped
 	}
 
@@ -254,6 +255,13 @@
 		"cpname"	"string"		// name of the point
 		"team"		"byte"			// which team capped
 		"cappers"	"string"		// string where each character is a player index of someone that capped
+	}
+
+	"teamplay_capture_broken"
+	{
+		"cp"		"byte"
+		"cpname"	"string"
+		"time_remaining" "float"
 	}
 
 	"teamplay_capture_blocked"

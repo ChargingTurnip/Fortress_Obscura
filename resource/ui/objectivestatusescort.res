@@ -102,6 +102,26 @@
 		{
 			"image"			"../hud/cart_home_red"
 		}
+
+		"if_team_green"
+		{
+			"image"			"../hud/cart_home_green"
+		}
+
+		"if_team_yellow"
+		{
+			"image"			"../hud/cart_home_yellow"
+		}
+
+		"if_team_purple"
+		{
+			"image"			"../hud/cart_home_purple"
+		}
+
+		"if_team_pink"
+		{
+			"image"			"../hud/cart_home_pink"
+		}
 		
 		"if_single_with_hills_blue"
 		{
@@ -112,6 +132,26 @@
 		{
 			"image"			"../hud/cart_home_red_opaque"
 		}		
+
+		"if_single_with_hills_green"
+		{
+			"image"			"../hud/cart_home_green_opaque"
+		}
+
+		"if_single_with_hills_yellow"
+		{
+			"image"			"../hud/cart_home_yellow_opaque"
+		}
+
+		"if_single_with_hills_purple"
+		{
+			"image"			"../hud/cart_home_purple_opaque"
+		}
+
+		"if_single_with_hills_pink"
+		{
+			"image"			"../hud/cart_home_pink_opaque"
+		}
 		
 		"if_multiple_trains"
 		{
@@ -140,6 +180,26 @@
 		"if_multiple_trains_blue"
 		{
 			"image"			"../hud/cart_home_blue_square"
+		}
+
+		"if_multiple_trains_green"
+		{
+			"image"			"../hud/cart_home_green_square"
+		}
+
+		"if_multiple_trains_yellow"
+		{
+			"image"			"../hud/cart_home_yellow_square"
+		}
+
+		"if_multiple_trains_purple"
+		{
+			"image"			"../hud/cart_home_purple_square"
+		}
+
+		"if_multiple_trains_pink"
+		{
+			"image"			"../hud/cart_home_pink_square"
 		}
 	}
 	
@@ -272,6 +332,26 @@
 			{
 				"image"			"../hud/cart_red"
 			}
+
+			"if_team_green"
+			{
+				"image"			"../hud/cart_green"
+			}
+
+			"if_team_yellow"
+			{
+				"image"			"../hud/cart_yellow"
+			}
+
+			"if_team_purple"
+			{
+				"image"			"../hud/cart_purple"
+			}
+
+			"if_team_pink"
+			{
+				"image"			"../hud/cart_pink"
+			}
 			
 			"if_multiple_trains"
 			{
@@ -308,6 +388,26 @@
 			"if_team_red"
 			{
 				"image"			"../hud/cart_red_bottom"
+			}
+
+			"if_team_green"
+			{
+				"image"			"../hud/cart_green_bottom"
+			}
+
+			"if_team_yellow"
+			{
+				"image"			"../hud/cart_yellow_bottom"
+			}
+
+			"if_team_purple"
+			{
+				"image"			"../hud/cart_purple_bottom"
+			}
+
+			"if_team_pink"
+			{
+				"image"			"../hud/cart_pink_bottom"
 			}
 			
 			"if_multiple_trains"

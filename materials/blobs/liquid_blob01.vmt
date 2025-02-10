@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	//"$basetexture" "dev/tfwater_normal"
+	"$surfaceprop" "water"
+	$alpha 0.3
+
+	"$envmap" "effects/blob_surface_envmap"
+}

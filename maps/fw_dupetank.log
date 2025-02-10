@@ -1,0 +1,393 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Bad surface extents point: 9712.000000 -2583.732422 432.000000
+Bad surface extents point: 7053.773438 -3296.001953 432.000000
+Bad surface extents point: 5819.714844 1309.542969 432.000000
+Bad surface extents point: 8477.948242 2021.813721 432.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/ROCKGROUND006 around point (7765.9 -637.1 432.0)
+	(dimension: 1, 137>126)
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Bad surface extents point: 9712.000000 -2583.732422 432.000000
+Bad surface extents point: 7053.773438 -3296.001953 432.000000
+Bad surface extents point: 5819.714844 1309.542969 432.000000
+Bad surface extents point: 8477.948242 2021.813721 432.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/ROCKGROUND006 around point (7765.9 -637.1 432.0)
+	(dimension: 1, 137>126)
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Bad surface extents point: 9712.000000 -2583.732422 432.000000
+Bad surface extents point: 7053.773438 -3296.001953 432.000000
+Bad surface extents point: 5819.714844 1309.542969 432.000000
+Bad surface extents point: 8477.948242 2021.813721 432.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/ROCKGROUND006 around point (7765.9 -637.1 432.0)
+	(dimension: 1, 137>126)
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Overlay touching too many faces (touching 196, max 64)
+Overlay overlays/concrete_track_overlay001 at 0.0 -1056.0 -576.0
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Bad surface extents point: 9712.000000 -2583.732422 432.000000
+Bad surface extents point: 7053.773438 -3296.001953 432.000000
+Bad surface extents point: 5819.714844 1309.542969 432.000000
+Bad surface extents point: 8477.948242 2021.813721 432.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/ROCKGROUND006 around point (7765.9 -637.1 432.0)
+	(dimension: 1, 137>126)
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Bad surface extents point: 9712.000000 -2583.732422 432.000000
+Bad surface extents point: 7053.773438 -3296.001953 432.000000
+Bad surface extents point: 5819.714844 1309.542969 432.000000
+Bad surface extents point: 8477.948242 2021.813721 432.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/ROCKGROUND006 around point (7765.9 -637.1 432.0)
+	(dimension: 1, 137>126)
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Overlay touching too many faces (touching 196, max 64)
+Overlay overlays/concrete_track_overlay001 at 0.0 -1056.0 -576.0
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Overlay touching too many faces (touching 196, max 64)
+Overlay overlays/concrete_track_overlay001 at 0.0 -1056.0 -576.0
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Overlay touching too many faces (touching 126, max 64)
+Overlay overlays/concrete_track_overlay001 at -2560.0 2272.0 -576.0
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (292823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2122 texinfos to 1180
+Reduced 58 texdatas to 56 (1180 bytes to 1107)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\fw_dupetank.bsp
+Wrote ZIP buffer, estimated size 428, actual size 348
+4 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\fw_dupetank.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\fw_dupetank.prt
+1642 portalclusters
+4666 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 24019 visible clusters (0.98%)
+Total clusters visible: 2454193
+Average clusters visible: 1494
+Building PAS...
+Average clusters audible: 1635
+visdatasize:680517  compressed from 683072
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\fw_dupetank.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\fw_dupetank.bsp
+Error! Invalid VTX file checksum: -1729635385, expected 1732534578 "models/props_forest/wood_pile_short.dx80.vtx"
+5659 faces
+6511834 square feet [937704064.00 square inches]
+405 Displacements
+5209615 Square Feet [750184640.00 Square Inches]
+5659 patches before subdivision
+207709 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9375435, max 1213
+transfer lists:  71.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(285635, 151672, 92919)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(28839, 16393, 10744)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7071, 4347, 2973)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2756, 1767, 1174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1350, 831, 514)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(710, 408, 231)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(385, 203, 105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(211, 101, 48)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(116, 51, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(64, 25, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(35, 13, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(11, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1884 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                787/8192         9444/98304    ( 9.6%) 
+brushsides            4905/65536       39240/524288   ( 7.5%) 
+planes                2110/65536       42200/1310720  ( 3.2%) 
+vertexes              8697/65536      104364/786432   (13.3%) 
+nodes                 3786/65536      121152/2097152  ( 5.8%) 
+texinfos              1180/12288       84960/884736   ( 9.6%) 
+texdata                 56/2048         1792/65536    ( 2.7%) 
+dispinfos              405/0           71280/0        ( 0.0%) 
+disp_verts           32525/0          650500/0        ( 0.0%) 
+disp_tris            51360/0          102720/0        ( 0.0%) 
+disp_lmsamples     5991312/0         5991312/0        ( 0.0%) 
+faces                 5659/65536      316904/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2531/65536      141736/3670016  ( 3.9%) 
+leaves                3802/65536      121664/2097152  ( 5.8%) 
+leaffaces             5930/65536       11860/131072   ( 9.0%) 
+leafbrushes           3441/65536        6882/131072   ( 5.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            35904/512000     143616/2048000  ( 7.0%) 
+edges                20741/256000      82964/1024000  ( 8.1%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            323/32768        3230/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5625/65536       11250/131072   ( 8.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                39/512         13728/180224   ( 7.6%) 
+LDR lightdata         [variable]    27611588/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      680517/16777216 ( 4.1%) 
+entdata               [variable]       81039/393216   (20.6%) 
+LDR ambient table     3802/65536       15208/262144   ( 5.8%) 
+HDR ambient table     3802/65536       15208/262144   ( 5.8%) 
+LDR leaf ambient     20140/65536      563920/1835008  (30.7%) 
+HDR leaf ambient      3802/65536      106456/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/35458    ( 0.0%) 
+pakfile               [variable]         348/0        ( 0.0%) 
+physics               [variable]      292823/4194304  ( 7.0%) 
+physics terrain       [variable]      278311/1048576  (26.5%) 
+
+Level flags = 0
+
+Total triangle count: 14465
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\fw_dupetank.bsp
+1 minute, 36 seconds elapsed

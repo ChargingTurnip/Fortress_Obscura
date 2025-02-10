@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/darkedge"
+	"$translucent" 1
+	"$decal" 1
+	$vertexalpha 1
+	"%CompileNonSolid"	"1"
+	"%CompileNoLight"	"1"
+	"%CompileNoShadows"	"1" // <---- mapper has to be using slammin or mapbase compilers. i (turnip) am, so thats fine, but everybody else has to aswell for this to properly work
+	"%CompilePassBullets"	"1"
+}

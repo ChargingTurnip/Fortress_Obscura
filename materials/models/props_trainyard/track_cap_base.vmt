@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_trainyard/track_cap_base"
+	$selfillum 1
+
+}

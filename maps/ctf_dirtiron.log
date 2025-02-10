@@ -1,0 +1,412 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Overlay touching too many faces (touching 280, max 64)
+Overlay signs/arrow_dn_red at -1264.0 1104.0 -0.0
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Overlay touching too many faces (touching 280, max 64)
+Overlay signs/arrow_dn_red at -1264.0 1104.0 -0.0
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (95733 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 283 texinfos to 217
+Reduced 9 texdatas to 9 (227 bytes to 227)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.bsp
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+1 second elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.prt
+ 576 portalclusters
+1898 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (95733 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 283 texinfos to 217
+Reduced 9 texdatas to 9 (227 bytes to 227)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.bsp
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+1 second elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.prt
+ 576 portalclusters
+1898 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7418 visible clusters (2.60%)
+Total clusters visible: 285394
+Average clusters visible: 495
+Building PAS...
+Average clusters audible: 576
+visdatasize:86976  compressed from 82944
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+2071 faces
+1295181 square feet [186506192.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2071 patches before subdivision
+2071 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264798, max 721
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42774, 23920, 19109)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5981, 3100, 2335)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1067, 503, 365)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(204, 95, 69)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(42, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(9, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0179 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                249/8192         2988/98304    ( 3.0%) 
+brushsides            1729/65536       13832/524288   ( 2.6%) 
+planes                1134/65536       22680/1310720  ( 1.7%) 
+vertexes              2787/65536       33444/786432   ( 4.3%) 
+nodes                 1076/65536       34432/2097152  ( 1.6%) 
+texinfos               217/12288       15624/884736   ( 1.8%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2071/65536      115976/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              974/65536       54544/3670016  ( 1.5%) 
+leaves                1082/65536       34624/2097152  ( 1.7%) 
+leaffaces             2287/65536        4574/131072   ( 3.5%) 
+leafbrushes            644/65536        1288/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13732/512000      54928/2048000  ( 2.7%) 
+edges                 7517/256000      30068/1024000  ( 2.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3099/65536        6198/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1874188/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       86976/16777216 ( 0.5%) 
+entdata               [variable]       24941/393216   ( 6.3%) 
+LDR ambient table     1082/65536        4328/262144   ( 1.7%) 
+HDR ambient table     1082/65536        4328/262144   ( 1.7%) 
+LDR leaf ambient      6082/65536      170296/1835008  ( 9.3%) 
+HDR leaf ambient      1082/65536       30296/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6480     ( 0.0%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       95733/4194304  ( 2.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5666
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+6 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (126869 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 328 texinfos to 236
+Reduced 10 texdatas to 10 (258 bytes to 258)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.bsp
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+1 second elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.prt
+ 773 portalclusters
+2670 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 14125 visible clusters (2.60%)
+Total clusters visible: 543040
+Average clusters visible: 702
+Building PAS...
+Average clusters audible: 765
+visdatasize:155399  compressed from 160784
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+2437 faces
+821384 square feet [118279376.00 square inches]
+9 Displacements
+45754 Square Feet [6588672.00 Square Inches]
+2437 patches before subdivision
+2437 patches after subdivision
+2 direct lights
+0...1...2...3...4...5..
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (126869 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 330 texinfos to 241
+Reduced 10 texdatas to 10 (258 bytes to 258)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\ctf_dirtiron.bsp
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+1 second elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.prt
+1083 portalclusters
+3288 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 17217 visible clusters (2.03%)
+Total clusters visible: 847866
+Average clusters visible: 782
+Building PAS...
+Average clusters audible: 1074
+visdatasize:295422  compressed from 294576
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+5512 faces
+6490220 square feet [934591744.00 square inches]
+9 Displacements
+45754 Square Feet [6588672.00 Square Inches]
+5512 patches before subdivision
+5512 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2084135, max 1970
+transfer lists:  15.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(60706, 32151, 22388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7787, 4274, 2730)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1415, 731, 425)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(287, 149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(62, 31, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(14, 7, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1142 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                327/8192         3924/98304    ( 4.0%) 
+brushsides            2343/65536       18744/524288   ( 3.6%) 
+planes                1618/65536       32360/1310720  ( 2.5%) 
+vertexes              6631/65536       79572/786432   (10.1%) 
+nodes                 2206/65536       70592/2097152  ( 3.4%) 
+texinfos               241/12288       17352/884736   ( 2.0%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                9/0            1584/0        ( 0.0%) 
+disp_verts             729/0           14580/0        ( 0.0%) 
+disp_tris             1152/0            2304/0        ( 0.0%) 
+disp_lmsamples      110244/0          110244/0        ( 0.0%) 
+faces                 5512/65536      308672/3670016  ( 8.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1292/65536       72352/3670016  ( 2.0%) 
+leaves                2212/65536       70784/2097152  ( 3.4%) 
+leaffaces             5957/65536       11914/131072   ( 9.1%) 
+leafbrushes           1313/65536        2626/131072   ( 2.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            29489/512000     117956/2048000  ( 5.8%) 
+edges                15653/256000      62612/1024000  ( 6.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            201/32768        2010/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3381/65536        6762/131072   ( 5.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]    15277720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      295422/16777216 ( 1.8%) 
+entdata               [variable]       36548/393216   ( 9.3%) 
+LDR ambient table     2212/65536        8848/262144   ( 3.4%) 
+HDR ambient table     2212/65536        8848/262144   ( 3.4%) 
+LDR leaf ambient     12552/65536      351456/1835008  (19.2%) 
+HDR leaf ambient      2212/65536       61936/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7966     ( 0.0%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]      126869/4194304  ( 3.0%) 
+physics terrain       [variable]        1739/1048576  ( 0.2%) 
+
+Level flags = 0
+
+Total triangle count: 13225
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\ctf_dirtiron.bsp
+15 seconds elapsed

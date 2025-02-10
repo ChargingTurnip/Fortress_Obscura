@@ -1,0 +1,56 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\please_eyes.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_teamspawn (-216.00 256.00 65.00) leaked!
+--- MAP LEAKED ---
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\please_eyes.bsp
+Error opening d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\please_eyes.bsp
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\please_eyes.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\please_eyes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3247 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 6
+Reduced 2 texdatas to 2 (37 bytes to 37)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\please_eyes.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\please_eyes.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\please_eyes.prt
+  12 portalclusters
+  19 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 112
+Average clusters visible: 9
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\please_eyes.bsp
+0 seconds elapsed

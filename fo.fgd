@@ -2199,6 +2199,90 @@
 	input CaptureCurrentCP(string) : "If we're being capped, forces the current point to capture."
 ]
 
+@SolidClass base(Targetname, EnableDisable, Parentname) = trigger_velocity_check : "Velocity Check"
+[
+
+	lvel(integer) : "Target Overall Velocity" : 0 : "CHANGING THIS OVERRIDES THE X, Y, AND Z VALUES. Target overall velocity required to activate the trigger."
+	xvel(integer) : "Target X Velocity" : 0 : "Target X velocity required to activate the trigger."
+	yvel(integer) : "Target Y Velocity" : 0 : "Target Y velocity required to activate the trigger."
+	zvel(integer) : "Target Z Velocity" : 0 : "Target Z velocity required to activate the trigger."
+
+	lmustthres(choices) : "Must overall velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	xmustthres(choices) : "Must X velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	ymustthres(choices) : "Must Y velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	zmustthres(choices) : "Must Z velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	lthres(integer) : "Overall Velocity Threshold" : 0 : "Only used when 'Must overall velocity fall within threshold?' is checked. Overall velocity threshold required for the trigger to activate."
+	xthres(integer) : "X Velocity Threshold" : 0 : "Only used when 'Must X velocity fall within threshold?' is checked. X velocity threshold required for the trigger to activate."
+	ythres(integer) : "Y Velocity Threshold" : 0 : "Only used when 'Must Y velocity fall within threshold?' is checked. Y velocity threshold required for the trigger to activate."
+	zthres(integer) : "Z Velocity Threshold" : 0 : "Only used when 'Must Z velocity fall within threshold?' is checked. Z velocity threshold required for the trigger to activate."
+
+	veltransc(choices) : "Velocity must transition to new velocity" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	veltransmaxs(float) : "Transition Time" : 0 : "Only used when 'Velocity must transition to new velocity' is checked. The time period that the velocity is required to accelerate to the new velocity before it resets."
+
+	newlvel(integer) : "New Target Overall Velocity" : 0 : "CHANGING THIS OVERRIDES THE X, Y, AND Z VALUES. New target overall velocity required to activate the trigger."
+	newxvel(integer) : "New Target X Velocity" : 0 : "New target X velocity required to activate the trigger."
+	newyvel(integer) : "New Target Y Velocity" : 0 : "New target Y velocity required to activate the trigger."
+	newzvel(integer) : "New Target Z Velocity" : 0 : "New target Z velocity required to activate the trigger."
+
+	newlmustthres(choices) : "Must new overall velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	newxmustthres(choices) : "Must new X velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	newymustthres(choices) : "Must new Y velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	newzmustthres(choices) : "Must new Z velocity fall within threshold?" : 0 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+
+	newlthres(integer) : "New Overall Velocity Threshold" : 0 : "Only used when 'Must new overall velocity fall within threshold?' is checked. New overall velocity threshold required for the trigger to activate."
+	newxthres(integer) : "New X Velocity Threshold" : 0 : "Only used when 'Must new X velocity fall within threshold?' is checked. New X velocity threshold required for the trigger to activate."
+	newythres(integer) : "New Y Velocity Threshold" : 0 : "Only used when 'Must new Y velocity fall within threshold?' is checked. New Y velocity threshold required for the trigger to activate."
+	newzthres(integer) : "New Z Velocity Threshold" : 0 : "Only used when 'Must new Z velocity fall within threshold?' is checked. New Z velocity threshold required for the trigger to activate."
+
+	output OnVelocityTransitionFail(void) : "Sent velocity transition fails."
+	output OnVelocityTransitionStart(void) : "Sent velocity is met to start the velocity transition."
+	output OnVelocity(void)   : "Sent when the desired velocity is met."
+]
+
 @PointClass base(Targetname, TeamNum, EnableDisable) = team_train_watcher :
 	"Entity that tracks the train progress through train escort maps"
 [
@@ -2294,6 +2378,10 @@
 	[
 		2 : "Red"
 		3 : "Blue"
+		4 : "Green"
+		5 : "Yellow"
+		6 : "Purple"
+		7 : "Pink"
 	]
 	
 	// invuln
@@ -2451,6 +2539,15 @@
 	input SetYellowEliminated(void) : "Disable respawning for YELLOW."
 	input SetPurpleEliminated(void) : "Disable respawning for PURPLE."
 	input SetPinkEliminated(void) : "Disable respawning for PINK."
+]
+
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = skybox_swapper : 
+    "Precaches and replaces the current 2D skybox material with another. Functionally equivalent to sv_skyname, even using the command in its functionality." 
+[
+    SkyboxName(string) : "Skybox Material Name" : "sky_day01_01"
+    
+    // Inputs
+    input Trigger(void) : "Triggers the skybox change."
 ]
 
 @PointClass base(Targetname,EnableDisable) = tf_logic_hunted : 	"Escort Entity. This is used to detect an escort map and set countless parameters to define the mode."

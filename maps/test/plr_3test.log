@@ -1,0 +1,620 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10601 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 26
+Reduced 6 texdatas to 6 (114 bytes to 114)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.bsp
+Wrote ZIP buffer, estimated size 105881, actual size 105667
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.prt
+  22 portalclusters
+  52 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.21%)
+Total clusters visible: 469
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 22
+visdatasize:312  compressed from 352
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+144 faces
+160835 square feet [23160302.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+144 patches before subdivision
+144 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 858, max 26
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             133/65536        1064/524288   ( 0.2%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               219/65536        2628/786432   ( 0.3%) 
+nodes                  168/65536        5376/2097152  ( 0.3%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 183/65536        5856/2097152  ( 0.3%) 
+leaffaces              154/65536         308/131072   ( 0.2%) 
+leafbrushes            166/65536         332/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              904/512000       3616/2048000  ( 0.2%) 
+edges                  470/256000       1880/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       80276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         312/16777216 ( 0.0%) 
+entdata               [variable]       23873/393216   ( 6.1%) 
+LDR ambient table      183/65536         732/262144   ( 0.3%) 
+HDR ambient table      183/65536         732/262144   ( 0.3%) 
+LDR leaf ambient       100/65536        2800/1835008  ( 0.2%) 
+HDR leaf ambient       183/65536        5124/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       10601/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 300
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10601 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 26
+Reduced 6 texdatas to 6 (114 bytes to 114)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.bsp
+Wrote ZIP buffer, estimated size 105881, actual size 105667
+1 second elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.prt
+  22 portalclusters
+  52 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.21%)
+Total clusters visible: 469
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 22
+visdatasize:312  compressed from 352
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+144 faces
+160835 square feet [23160302.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+144 patches before subdivision
+144 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 858, max 26
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             133/65536        1064/524288   ( 0.2%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               219/65536        2628/786432   ( 0.3%) 
+nodes                  168/65536        5376/2097152  ( 0.3%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 183/65536        5856/2097152  ( 0.3%) 
+leaffaces              154/65536         308/131072   ( 0.2%) 
+leafbrushes            166/65536         332/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              904/512000       3616/2048000  ( 0.2%) 
+edges                  470/256000       1880/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       80276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         312/16777216 ( 0.0%) 
+entdata               [variable]       23891/393216   ( 6.1%) 
+LDR ambient table      183/65536         732/262144   ( 0.3%) 
+HDR ambient table      183/65536         732/262144   ( 0.3%) 
+LDR leaf ambient       100/65536        2800/1835008  ( 0.2%) 
+HDR leaf ambient       183/65536        5124/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       10601/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 300
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10601 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 26
+Reduced 6 texdatas to 6 (114 bytes to 114)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.bsp
+Wrote ZIP buffer, estimated size 105881, actual size 105667
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.prt
+  22 portalclusters
+  52 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.21%)
+Total clusters visible: 469
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 22
+visdatasize:312  compressed from 352
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+144 faces
+160835 square feet [23160302.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+144 patches before subdivision
+144 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 858, max 26
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0012 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             133/65536        1064/524288   ( 0.2%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               219/65536        2628/786432   ( 0.3%) 
+nodes                  168/65536        5376/2097152  ( 0.3%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 183/65536        5856/2097152  ( 0.3%) 
+leaffaces              154/65536         308/131072   ( 0.2%) 
+leafbrushes            166/65536         332/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              904/512000       3616/2048000  ( 0.2%) 
+edges                  470/256000       1880/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       80276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         312/16777216 ( 0.0%) 
+entdata               [variable]       23943/393216   ( 6.1%) 
+LDR ambient table      183/65536         732/262144   ( 0.3%) 
+HDR ambient table      183/65536         732/262144   ( 0.3%) 
+LDR leaf ambient       100/65536        2800/1835008  ( 0.2%) 
+HDR leaf ambient       183/65536        5124/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       10601/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 300
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10601 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 26
+Reduced 6 texdatas to 6 (114 bytes to 114)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.bsp
+Wrote ZIP buffer, estimated size 105881, actual size 105667
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.prt
+  22 portalclusters
+  52 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.21%)
+Total clusters visible: 469
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 22
+visdatasize:312  compressed from 352
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+144 faces
+160835 square feet [23160302.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+144 patches before subdivision
+144 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 858, max 26
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             133/65536        1064/524288   ( 0.2%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               219/65536        2628/786432   ( 0.3%) 
+nodes                  168/65536        5376/2097152  ( 0.3%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 183/65536        5856/2097152  ( 0.3%) 
+leaffaces              154/65536         308/131072   ( 0.2%) 
+leafbrushes            166/65536         332/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              904/512000       3616/2048000  ( 0.2%) 
+edges                  470/256000       1880/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       80276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         312/16777216 ( 0.0%) 
+entdata               [variable]       23943/393216   ( 6.1%) 
+LDR ambient table      183/65536         732/262144   ( 0.3%) 
+HDR ambient table      183/65536         732/262144   ( 0.3%) 
+LDR leaf ambient       100/65536        2800/1835008  ( 0.2%) 
+HDR leaf ambient       183/65536        5124/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       10601/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 300
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\materials
+Loading D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10601 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 26
+Reduced 6 texdatas to 6 (114 bytes to 114)
+Writing D:\Program Files (x86)\Steam\steamapps\sourcemods\Fortress_Obscura\maps\test\plr_3test.bsp
+Wrote ZIP buffer, estimated size 105881, actual size 105667
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+reading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.prt
+  22 portalclusters
+  52 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.21%)
+Total clusters visible: 469
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 22
+visdatasize:312  compressed from 352
+writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+144 faces
+160835 square feet [23160302.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+144 patches before subdivision
+144 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 858, max 26
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             133/65536        1064/524288   ( 0.2%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               219/65536        2628/786432   ( 0.3%) 
+nodes                  168/65536        5376/2097152  ( 0.3%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 183/65536        5856/2097152  ( 0.3%) 
+leaffaces              154/65536         308/131072   ( 0.2%) 
+leafbrushes            166/65536         332/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              904/512000       3616/2048000  ( 0.2%) 
+edges                  470/256000       1880/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       80276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         312/16777216 ( 0.0%) 
+entdata               [variable]       23943/393216   ( 6.1%) 
+LDR ambient table      183/65536         732/262144   ( 0.3%) 
+HDR ambient table      183/65536         732/262144   ( 0.3%) 
+LDR leaf ambient       100/65536        2800/1835008  ( 0.2%) 
+HDR leaf ambient       183/65536        5124/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       10601/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 300
+Writing d:\program files (x86)\steam\steamapps\sourcemods\fortress_obscura\maps\test\plr_3test.bsp
+0 seconds elapsed
